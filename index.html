@@ -243,6 +243,14 @@ body.has-bottomnav footer{padding-bottom:calc(96px + var(--safe-b))}
 .rsub{padding:10px 0 0;padding-inline-start:40px}
 .ltr{direction:ltr;unicode-bidi:isolate;text-align:left}
 .content-auto{unicode-bidi:plaintext;text-align:start}
+.savecard{display:flex;flex-wrap:wrap;align-items:center;gap:12px 16px;padding:14px 16px}
+.savecard .savehead{display:flex;align-items:center;gap:12px;flex:1 1 240px;min-width:0}
+.savecard .saveic{font-size:1.5rem;line-height:1}
+.savecard .saveacts{gap:8px;flex-wrap:wrap}
+.savecard.due{border-color:#d9a441;background:#fff8ea}
+.codebox{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.15rem;font-weight:700;letter-spacing:.06em;line-height:1.8;padding:12px 14px;border-radius:12px;background:var(--lav-2);color:var(--plum);text-align:center;user-select:all;-webkit-user-select:all}
+.codebox .cg{display:inline-block;white-space:nowrap}
+.codein{width:100%;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.05rem;letter-spacing:.05em;padding:10px;border-radius:10px;border:1px solid var(--line);text-transform:uppercase}
 .trbox{direction:rtl;text-align:right;unicode-bidi:isolate;background:var(--lav-2);border-inline-start:4px solid var(--plum);border-radius:10px;padding:10px 14px;margin:0 0 10px;font-family:"Noto Naskh Arabic","Segoe UI","Tahoma",system-ui,sans-serif;line-height:1.9;color:var(--plum)}
 .cx{unicode-bidi:isolate;text-align:start}
 .verdict .ansline{display:block;margin-top:4px}
@@ -405,7 +413,7 @@ const I18N = {
     // history
     "h.eyebrow": "Your progress (this browser only)", "h.h1": "Progress", "h.allAnswers": "All recorded answers", "h.correctOf": "{c} correct of {n} answers", "h.noAnswers": "No answers recorded yet.",
     "h.weakEmpty": "Concepts appear here once answered at least twice with under 70% accuracy.", "h.sessions": "Completed sessions", "h.pctOf": "{p}% of {n} answered", "h.view": "View", "h.noSessions": "No completed sessions yet.",
-    "code.btn": "Get backup code", "code.restBtn": "Restore from code", "code.T": "Your backup code", "code.B": "Copy this code and keep it somewhere safe (for example, send it to yourself on WhatsApp). Paste it on any device with “Restore from code” to get your progress back. Pen drawings are not included in the code — use the backup file for those.", "code.copy": "Copy code", "code.share": "Share", "code.copied": "Code copied.", "code.copyFail": "Couldn't copy automatically — select the code and copy it.", "code.restT": "Restore from code", "code.restB": "Paste your backup code below.", "code.ph": "Paste the code here", "code.restGo": "Restore", "code.bad": "This code isn't valid or is incomplete. Make sure you copied all of it.", "code.making": "Preparing…", "rem.T": "Protect your progress", "rem.B": "You haven't saved a backup in a while. If this browser's data is cleared, your progress is lost. It takes a few seconds.", "rem.B0": "Your progress lives only in this browser. Save a backup code so you never lose it.", "rem.go": "Save a backup", "rem.later": "Later", "a2hs.T": "Tip for iPhone", "a2hs.B": "Add MedQ to your Home Screen (Share ⬆️ → Add to Home Screen) so Safari is less likely to clear your progress. The Home Screen icon keeps its own data, so open it once and use “Restore from code” to move your progress there.", "a2hs.ok": "Got it", "h.backT": "Back up or move your progress", "h.backSub": "Your progress is saved automatically on this device. Download a backup file to keep it safe, or to open it on another phone or computer. The file contains only your answers, notes and results, with no name or account.", "h.backBtn": "Download backup file", "h.restBtn": "Restore from backup file", "h.backDone": "Backup file downloaded.", "h.restT": "Restore this backup?", "h.restB": "Your current progress on this device will be replaced by the progress in the file ({n} answered questions, {s} finished sessions).", "h.restOk": "Restore", "h.restDone": "Progress restored.", "h.restBad": "This file is not a MedQ backup, or it is damaged.", "h.backFail": "The download was blocked here. Open the site directly in the browser and try again.",
+    "sc.T": "Save your progress", "sc.none": "Studied on another device? Restore your progress with your code.", "sc.never": "Your progress is only on this device. Get a short code so you never lose it.", "sc.today": "Last saved: today", "sc.days": "Last saved: {d} days ago", "sc.due": "Last saved {d} days ago — save a new code", "sc.get": "Get my code", "sc.rest": "I have a code", "sc.dlgB": "Write this code down or send it to yourself. Enter it on any device to continue where you stopped.", "sc.inc": "Saves: right/wrong for every question, flags, favourites and language. Exam history, notes and drawings are only in the full backup file (Progress page).", "sc.restB": "Type or paste your code. Spaces, dashes and small letters are fine.", "sc.restOk": "Restore", "sc.restConf": "This will replace the answers, flags and favourites on this device with the ones in the code ({n} answered questions). Exam history and notes on this device are kept.", "sc.old": "This code was made for a different version of the question bank.", "sc.typo": "This code has a typo. Check it and try again.", "sc.len": "{n} characters", "code.btn": "Get backup code", "code.restBtn": "Restore from code", "code.T": "Your backup code", "code.B": "Copy this code and keep it somewhere safe (for example, send it to yourself on WhatsApp). Paste it on any device with “Restore from code” to get your progress back. Pen drawings are not included in the code — use the backup file for those.", "code.copy": "Copy code", "code.share": "Share", "code.copied": "Code copied.", "code.copyFail": "Couldn't copy automatically — select the code and copy it.", "code.restT": "Restore from code", "code.restB": "Paste your backup code below.", "code.ph": "Paste the code here", "code.restGo": "Restore", "code.bad": "This code isn't valid or is incomplete. Make sure you copied all of it.", "code.making": "Preparing…", "rem.T": "Protect your progress", "rem.B": "You haven't saved a backup in a while. If this browser's data is cleared, your progress is lost. It takes a few seconds.", "rem.B0": "Your progress lives only in this browser. Save a backup code so you never lose it.", "rem.go": "Save a backup", "rem.later": "Later", "a2hs.T": "Tip for iPhone", "a2hs.B": "Add MedQ to your Home Screen (Share ⬆️ → Add to Home Screen) so Safari is less likely to clear your progress. The Home Screen icon keeps its own data, so open it once and use “Restore from code” to move your progress there.", "a2hs.ok": "Got it", "h.backT": "Back up or move your progress", "h.backSub": "Your progress is saved automatically on this device. Download a backup file to keep it safe, or to open it on another phone or computer. The file contains only your answers, notes and results, with no name or account.", "h.backBtn": "Download backup file", "h.restBtn": "Restore from backup file", "h.backDone": "Backup file downloaded.", "h.restT": "Restore this backup?", "h.restB": "Your current progress on this device will be replaced by the progress in the file ({n} answered questions, {s} finished sessions).", "h.restOk": "Restore", "h.restDone": "Progress restored.", "h.restBad": "This file is not a MedQ backup, or it is damaged.", "h.backFail": "The download was blocked here. Open the site directly in the browser and try again.",
     "h.data": "Your data", "h.dataSub": "Answers, flags, favourites, notes, drawings and results are stored only in this browser. Nothing is uploaded.", "h.wipe": "Delete all my data in this browser",
     "h.wipeT": "Delete all data?", "h.wipeB": "This permanently removes your answers, flags, favourites, notes, drawings, results and any unfinished session from this browser. Your language choice is kept.", "h.wipeBtn": "Delete everything", "h.wiped": "All data deleted.",
     // bank
@@ -497,7 +505,7 @@ const I18N = {
     "rt.time": "الوقت المستغرق: {t}", "rt.of": " من أصل {t}", "rt.byTopic": "حسب الموضوع:", "rt.questions": "الأسئلة:", "rt.answer": "الإجابة", "rt.you": "إجابتك",
     "h.eyebrow": "تقدّمك (في هذا المتصفح فقط)", "h.h1": "التقدّم", "h.allAnswers": "كل الإجابات المسجّلة", "h.correctOf": "{c} صحيحة من {n} إجابة", "h.noAnswers": "لا توجد إجابات مسجّلة بعد.",
     "h.weakEmpty": "تظهر هنا الأجزاء التي أجبت عنها مرتين على الأقل بنسبة صواب أقل من 70%.", "h.sessions": "الجلسات المكتملة", "h.pctOf": "{p}% من {n} تمت إجابتها", "h.view": "عرض", "h.noSessions": "لا توجد جلسات مكتملة بعد.",
-    "code.btn": "خد كود الحفظ", "code.restBtn": "استرجع من كود", "code.T": "كود الحفظ بتاعك", "code.B": "انسخ الكود ده واحتفظ بيه في مكان آمن (مثلًا ابعته لنفسك على واتساب). الصقه على أي جهاز من «استرجع من كود» وهيرجع تقدمك كله. رسومات القلم مش داخلة في الكود، ولو عايزها استخدم ملف النسخة الاحتياطية.", "code.copy": "انسخ الكود", "code.share": "مشاركة", "code.copied": "تم نسخ الكود.", "code.copyFail": "مقدرتش أنسخه تلقائيًا — حدّد الكود وانسخه بنفسك.", "code.restT": "استرجع من كود", "code.restB": "الصق كود الحفظ هنا.", "code.ph": "الصق الكود هنا", "code.restGo": "استرجع", "code.bad": "الكود ده مش صحيح أو ناقص. اتأكد إنك نسخته كله.", "code.making": "بيتجهز…", "rem.T": "احمِ تقدمك", "rem.B": "بقالك فترة ما حفظتش نسخة. لو بيانات المتصفح اتمسحت، تقدمك هيضيع. الحفظ بياخد ثواني.", "rem.B0": "تقدمك محفوظ في المتصفح ده بس. خد كود حفظ عشان ما يضيعش أبدًا.", "rem.go": "احفظ نسخة", "rem.later": "بعدين", "a2hs.T": "نصيحة لمستخدمي iPhone", "a2hs.B": "ضيف MedQ للشاشة الرئيسية (مشاركة ⬆️ ← إضافة إلى الشاشة الرئيسية) عشان Safari ما يمسحش تقدمك. الأيقونة دي ليها بيانات منفصلة، فافتحها مرة واستخدم «استرجع من كود» عشان تنقل تقدمك ليها.", "a2hs.ok": "تمام", "h.backT": "احفظ تقدمك أو انقله لجهاز تاني", "h.backSub": "تقدمك بيتحفظ تلقائيًا على الجهاز ده. نزّل ملف نسخة احتياطية عشان تحافظ عليه، أو تفتحه على موبايل أو كمبيوتر تاني. الملف فيه إجاباتك وملاحظاتك ونتايجك بس، من غير أي اسم أو حساب.", "h.backBtn": "نزّل ملف النسخة الاحتياطية", "h.restBtn": "استرجع من ملف نسخة احتياطية", "h.backDone": "تم تنزيل ملف النسخة الاحتياطية.", "h.restT": "استرجاع النسخة دي؟", "h.restB": "التقدم الحالي على الجهاز ده هيتبدل بالتقدم اللي في الملف ({n} سؤال متجاوب، {s} جلسة مكتملة).", "h.restOk": "استرجع", "h.restDone": "تم استرجاع تقدمك.", "h.restBad": "الملف ده مش نسخة احتياطية من MedQ، أو بايظ.", "h.backFail": "التنزيل اتمنع هنا. افتح الموقع مباشرةً في المتصفح وجرّب تاني.",
+    "sc.T": "احفظ تقدمك", "sc.none": "ذاكرت قبل كده على جهاز تاني؟ رجّع تقدمك بالكود بتاعك.", "sc.never": "تقدمك محفوظ على الجهاز ده بس. خد كود قصير عشان ما يضيعش.", "sc.today": "آخر حفظ: النهارده", "sc.days": "آخر حفظ: من {d} يوم", "sc.due": "آخر حفظ من {d} يوم — خد كود جديد", "sc.get": "خد الكود", "sc.rest": "عندي كود", "sc.dlgB": "اكتب الكود ده في ورقة أو ابعته لنفسك. دخّله على أي جهاز وكمّل من مكان ما وقفت.", "sc.inc": "بيحفظ: صح ولا غلط في كل سؤال، والعلامات، والمفضلة، واللغة. سجل الامتحانات والملاحظات والرسومات موجودين في ملف النسخة الكاملة بس (صفحة التقدّم).", "sc.restB": "اكتب الكود أو الصقه. المسافات والشرط والحروف الصغيرة مش مشكلة.", "sc.restOk": "استرجع", "sc.restConf": "ده هيستبدل الإجابات والعلامات والمفضلة على الجهاز ده باللي في الكود ({n} سؤال متجاوب). سجل الامتحانات والملاحظات اللي على الجهاز ده هيفضلوا.", "sc.old": "الكود ده معمول لنسخة تانية من بنك الأسئلة.", "sc.typo": "فيه غلطة في كتابة الكود. راجعه وجرب تاني.", "sc.len": "{n} حرف", "code.btn": "خد كود الحفظ", "code.restBtn": "استرجع من كود", "code.T": "كود الحفظ بتاعك", "code.B": "انسخ الكود ده واحتفظ بيه في مكان آمن (مثلًا ابعته لنفسك على واتساب). الصقه على أي جهاز من «استرجع من كود» وهيرجع تقدمك كله. رسومات القلم مش داخلة في الكود، ولو عايزها استخدم ملف النسخة الاحتياطية.", "code.copy": "انسخ الكود", "code.share": "مشاركة", "code.copied": "تم نسخ الكود.", "code.copyFail": "مقدرتش أنسخه تلقائيًا — حدّد الكود وانسخه بنفسك.", "code.restT": "استرجع من كود", "code.restB": "الصق كود الحفظ هنا.", "code.ph": "الصق الكود هنا", "code.restGo": "استرجع", "code.bad": "الكود ده مش صحيح أو ناقص. اتأكد إنك نسخته كله.", "code.making": "بيتجهز…", "rem.T": "احمِ تقدمك", "rem.B": "بقالك فترة ما حفظتش نسخة. لو بيانات المتصفح اتمسحت، تقدمك هيضيع. الحفظ بياخد ثواني.", "rem.B0": "تقدمك محفوظ في المتصفح ده بس. خد كود حفظ عشان ما يضيعش أبدًا.", "rem.go": "احفظ نسخة", "rem.later": "بعدين", "a2hs.T": "نصيحة لمستخدمي iPhone", "a2hs.B": "ضيف MedQ للشاشة الرئيسية (مشاركة ⬆️ ← إضافة إلى الشاشة الرئيسية) عشان Safari ما يمسحش تقدمك. الأيقونة دي ليها بيانات منفصلة، فافتحها مرة واستخدم «استرجع من كود» عشان تنقل تقدمك ليها.", "a2hs.ok": "تمام", "h.backT": "احفظ تقدمك أو انقله لجهاز تاني", "h.backSub": "تقدمك بيتحفظ تلقائيًا على الجهاز ده. نزّل ملف نسخة احتياطية عشان تحافظ عليه، أو تفتحه على موبايل أو كمبيوتر تاني. الملف فيه إجاباتك وملاحظاتك ونتايجك بس، من غير أي اسم أو حساب.", "h.backBtn": "نزّل ملف النسخة الاحتياطية", "h.restBtn": "استرجع من ملف نسخة احتياطية", "h.backDone": "تم تنزيل ملف النسخة الاحتياطية.", "h.restT": "استرجاع النسخة دي؟", "h.restB": "التقدم الحالي على الجهاز ده هيتبدل بالتقدم اللي في الملف ({n} سؤال متجاوب، {s} جلسة مكتملة).", "h.restOk": "استرجع", "h.restDone": "تم استرجاع تقدمك.", "h.restBad": "الملف ده مش نسخة احتياطية من MedQ، أو بايظ.", "h.backFail": "التنزيل اتمنع هنا. افتح الموقع مباشرةً في المتصفح وجرّب تاني.",
     "h.data": "بياناتك", "h.dataSub": "الإجابات والعلامات والمفضلة والملاحظات والرسومات والنتائج محفوظة في هذا المتصفح فقط، ولا يُرفع أي شيء.", "h.wipe": "احذف كل بياناتي من هذا المتصفح",
     "h.wipeT": "حذف كل البيانات؟", "h.wipeB": "سيتم الحذف النهائي لإجاباتك وعلاماتك ومفضلتك وملاحظاتك ورسوماتك ونتائجك وأي جلسة لم تكتمل من هذا المتصفح. اختيار اللغة سيبقى.", "h.wipeBtn": "احذف كل شيء", "h.wiped": "تم حذف كل البيانات.",
     "b.fromFile": " · محمّل من ملفك", "b.h1": "الأسئلة", "b.search": "بحث", "b.searchPh": "كلمات من السؤال أو الاختيارات أو الشرح أو الرقم", "b.topic": "الموضوع", "b.allTopics": "كل المواضيع",
@@ -1015,10 +1023,10 @@ function viewHome(app) {
   const rq = revisionQueue(50).length;
   app.innerHTML = `<div class="wrap stack">
     ${storageNotice()}
-    ${backupReminder(answered)}
     ${a2hsTip(answered)}
     <section class="hero"><p class="eyebrow">${t("home.eyebrow")}</p><h1>${t("home.h1")}</h1>
       <p class="muted" id="herosub">${t("home.sub", {q: qn(Bank.questions.length), t: Bank.topics.length})}</p></section>
+    ${saveCard(answered)}
     ${ex ? `<div class="card row" style="border-color:#cdb6ea"><div><strong>${t("home.unfinishedExam")}</strong><div class="muted small">${t("home.unfinishedExamSub", {a: Object.keys(ex.answers).length, n: ex.qids.length, left: `<span id="resume-left">${fmtTime(ex.endsAt - now())}</span>`})}</div></div><span class="spacer"></span><button class="btn btn-pri" id="resume-exam">${t("home.resumeExam")}</button></div>` : ""}
     ${tr ? `<div class="card row"><div><strong>${t(tr.mode === "revise" ? "home.unfinishedRevise" : "home.unfinishedTrain")}</strong><div class="muted small">${t("home.answeredOf", {a: Object.keys(tr.answers).length, n: tr.qids.length})}</div></div><span class="spacer"></span><button class="btn btn-sec" id="resume-train">${t("common.continue")}</button></div>` : ""}
     <div class="grid g3">
@@ -1395,34 +1403,93 @@ async function applyBackup(obj) {
   await loadBank(); toast(t("h.restDone")); render();
   return true;
 }
+// ---- short code (hand-copyable) ----
+const B32 = "0123456789ABCDEFGHJKMNPQRSTVWXYZ";
+function b32enc(u8) { let bits = 0, val = 0, out = ""; for (let i = 0; i < u8.length; i++) { val = (val << 8) | u8[i]; bits += 8; while (bits >= 5) { out += B32[(val >> (bits - 5)) & 31]; bits -= 5; } val &= (1 << bits) - 1; } if (bits > 0) out += B32[(val << (5 - bits)) & 31]; return out; }
+function b32dec(str) { let bits = 0, val = 0; const out = []; for (const ch of str) { const i = B32.indexOf(ch); if (i < 0) throw new Error("char"); val = (val << 5) | i; bits += 5; if (bits >= 8) { out.push((val >> (bits - 8)) & 255); bits -= 8; } val &= (1 << bits) - 1; } return new Uint8Array(out); }
+function crc8(u8) { let c = 0; for (let i = 0; i < u8.length; i++) { c ^= u8[i]; for (let k = 0; k < 8; k++) c = (c & 0x80) ? ((c << 1) ^ 0x07) & 255 : (c << 1) & 255; } return c; }
+function bankHash() { let h = 7; Bank.questions.forEach(q => { for (let i = 0; i < q.id.length; i++) h = (h * 31 + q.id.charCodeAt(i)) >>> 0; }); return h & 255; }
+function pushVar(arr, n) { while (n >= 128) { arr.push((n & 127) | 128); n = Math.floor(n / 128); } arr.push(n); }
+function readVar(u8, pos) { let n = 0, m = 1, b; do { if (pos.i >= u8.length) throw new Error("eof"); b = u8[pos.i++]; n += (b & 127) * m; m *= 128; } while (b & 128); return n; }
+function sparse(arr, idx) { const ix = arr.map(id => idx[id]).filter(x => x != null).sort((a, b) => a - b); const out = []; pushVar(out, ix.length); let prev = -1; ix.forEach(x => { pushVar(out, x - prev - 1); prev = x; }); return out; }
+function unsparse(u8, pos) { const n = readVar(u8, pos), out = []; let prev = -1; for (let k = 0; k < n; k++) { prev = prev + 1 + readVar(u8, pos); out.push(prev); } return out; }
+async function makeShortCode() {
+  const qs = Bank.questions, idx = {}; qs.forEach((q, i) => idx[q.id] = i);
+  const p = User.progress(), N = qs.length, st = new Uint8Array(Math.ceil(N / 4));
+  qs.forEach((q, i) => { const r = p[q.id]; if (!r || !r.last) return; const v = !r.last.ok ? 3 : (r.last.conf === "unsure" || r.last.conf === "guess") ? 2 : 1; st[i >> 2] |= v << ((i & 3) * 2); });
+  const body = [LANG === "ar" ? 1 : 0].concat(Array.from(st), sparse(Store.get("flags", []), idx), sparse(Store.get("favs", []), idx));
+  let mode = 0, payload = new Uint8Array(body);
+  if (typeof CompressionStream === "function") { try { const z = await pipeBytes(payload, new CompressionStream("deflate-raw")); if (z.length < payload.length) { mode = 1; payload = z; } } catch(e) {} }
+  const content = new Uint8Array(3 + payload.length); content[0] = 2; content[1] = bankHash(); content[2] = mode; content.set(payload, 3);
+  const all = new Uint8Array(content.length + 1); all.set(content); all[content.length] = crc8(content);
+  return b32enc(all);
+}
+function prettyCode(c) { return (c.match(/.{1,4}/g) || []).join("-"); }
+function normCode(s) { return String(s || "").toUpperCase().replace(/[\s\-_.–—]/g, "").replace(/O/g, "0").replace(/[IL]/g, "1").replace(/U/g, "V"); }
+async function readShortCode(input) {
+  const raw = String(input || "").trim();
+  if (/^MQ1[zj]\./.test(raw.replace(/\s+/g, ""))) return {legacy: await readBackupCode(raw)};
+  let c = normCode(raw); if (c.indexOf("MQ") === 0 && (c.length - 2) % 8 !== 1) c = c.slice(2);
+  let all; try { all = b32dec(c); } catch(e) { throw new Error("typo"); }
+  if (all.length < 5) throw new Error("typo");
+  const content = all.subarray(0, all.length - 1);
+  if (crc8(content) !== all[all.length - 1] || content[0] !== 2) throw new Error("typo");
+  if (content[1] !== bankHash()) throw new Error("old");
+  let body = content.subarray(3);
+  if (content[2] === 1) body = await pipeBytes(body, new DecompressionStream("deflate-raw"));
+  const N = Bank.questions.length, nst = Math.ceil(N / 4);
+  if (body.length < 1 + nst) throw new Error("typo");
+  const lang = body[0] === 1 ? "ar" : "en", states = [];
+  for (let i = 0; i < N; i++) states.push((body[1 + (i >> 2)] >> ((i & 3) * 2)) & 3);
+  const pos = {i: 1 + nst}; const flags = unsparse(body, pos), favs = unsparse(body, pos);
+  return {lang, states, flags, favs};
+}
+async function applyShortCode(d) {
+  const qs = Bank.questions, n = d.states.filter(v => v).length;
+  if (!(await confirmDialog(t("h.restT"), `<p>${t("sc.restConf", {n})}</p>`, t("sc.restOk")))) return false;
+  const prog = {}, at = now();
+  d.states.forEach((v, i) => { if (!v) return; const ok = v !== 3; prog[qs[i].id] = {n: 1, c: ok ? 1 : 0, last: {ok, conf: v === 2 ? "unsure" : null, at, mode: "restore"}}; });
+  Store.set("progress", prog);
+  Store.set("flags", d.flags.map(i => qs[i] && qs[i].id).filter(Boolean));
+  Store.set("favs", d.favs.map(i => qs[i] && qs[i].id).filter(Boolean));
+  Store.set("lastBackup", Date.now());
+  if (d.lang !== LANG) setLang(d.lang, false);
+  toast(t("h.restDone")); render(); return true;
+}
 async function showBackupCode() {
   const body = document.createElement("div"); body.className = "stack";
-  body.innerHTML = `<p>${t("code.B")}</p><textarea id="bkcode" dir="ltr" readonly rows="6" style="width:100%;font-family:ui-monospace,Menlo,monospace;font-size:12px;word-break:break-all;padding:10px;border-radius:10px;border:1px solid var(--line)">${t("code.making")}</textarea>`;
+  body.innerHTML = `<p>${t("sc.dlgB")}</p>
+    <div id="bkcode" dir="ltr" class="codebox" aria-live="polite">${t("code.making")}</div>
+    <p class="muted small" id="bklen" dir="auto"></p>
+    <p class="muted small">${t("sc.inc")}</p>`;
+  let code = "";
   const acts = [{label: t("common.close"), cls: "btn-ghost", value: "close"}];
-  if (navigator.share) acts.push({label: t("code.share"), cls: "btn-sec", onClick: () => { const v = $("#bkcode").value; navigator.share({text: v}).then(() => Store.set("lastBackup", Date.now())).catch(() => {}); return false; }});
-  acts.push({label: t("code.copy"), cls: "btn-pri", onClick: () => { const ta = $("#bkcode"); const v = ta.value;
+  if (navigator.share) acts.push({label: t("code.share"), cls: "btn-sec", onClick: () => { if (code) navigator.share({text: "MedQ: " + prettyCode(code)}).then(() => Store.set("lastBackup", Date.now())).catch(() => {}); return false; }});
+  acts.push({label: t("code.copy"), cls: "btn-pri", onClick: () => { if (!code) return false; const v = prettyCode(code);
     const done = () => { Store.set("lastBackup", Date.now()); toast(t("code.copied")); };
-    const fallback = () => { try { ta.focus(); ta.select(); ta.setSelectionRange(0, v.length); if (document.execCommand("copy")) { done(); return; } } catch(e) {} toast(t("code.copyFail")); };
+    const fallback = () => { try { const r = document.createRange(); r.selectNodeContents($("#bkcode")); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); if (document.execCommand("copy")) { done(); return; } } catch(e) {} toast(t("code.copyFail")); };
     if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(v).then(done, fallback); else fallback(); return false; }});
   openDialog({title: t("code.T"), body, actions: acts});
-  try { const code = await makeBackupCode(); const ta = $("#bkcode"); if (ta) { ta.value = code; ta.focus(); ta.select(); } } catch(e) { const ta = $("#bkcode"); if (ta) ta.value = ""; toast(t("h.backFail")); }
+  try { code = await makeShortCode(); const el = $("#bkcode"); if (el) { const g = code.match(/.{1,4}/g) || []; el.innerHTML = g.map((x, i) => `<span class="cg">${x}${i < g.length - 1 ? "-" : ""}</span>`).join(""); } const l = $("#bklen"); if (l) l.textContent = t("sc.len", {n: code.length}); Store.set("lastBackup", Date.now()); }
+  catch(e) { const el = $("#bkcode"); if (el) el.textContent = ""; toast(t("h.backFail")); }
 }
 function askRestoreCode() {
   const body = document.createElement("div"); body.className = "stack";
-  body.innerHTML = `<p>${t("code.restB")}</p><textarea id="rscode" dir="ltr" rows="6" placeholder="${t("code.ph")}" style="width:100%;font-family:ui-monospace,Menlo,monospace;font-size:12px;word-break:break-all;padding:10px;border-radius:10px;border:1px solid var(--line)"></textarea>`;
+  body.innerHTML = `<p>${t("sc.restB")}</p><textarea id="rscode" dir="ltr" rows="3" autocapitalize="characters" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="${t("code.ph")}" class="codein"></textarea>`;
   const d = openDialog({title: t("code.restT"), body, actions: [
     {label: t("common.cancel"), cls: "btn-ghost", value: "close"},
     {label: t("code.restGo"), cls: "btn-pri", onClick: () => { const v = $("#rscode").value;
-      (async () => { let obj = null; try { obj = await readBackupCode(v); } catch(e) { obj = null; }
-        if (!validBackup(obj)) { toast(t("code.bad")); return; }
-        d.close("ok"); await applyBackup(obj); })(); return false; }}]});
+      (async () => { let r = null, err = "typo"; try { r = await readShortCode(v); } catch(e) { err = e && e.message === "old" ? "old" : "typo"; }
+        if (!r) { toast(t(err === "old" ? "sc.old" : "sc.typo")); return; }
+        if (r.legacy) { if (!validBackup(r.legacy)) { toast(t("code.bad")); return; } d.close("ok"); await applyBackup(r.legacy); return; }
+        d.close("ok"); await applyShortCode(r); })(); return false; }}]});
 }
-function backupReminder(answered) {
-  if (answered < 10 || !Store.persistent) return "";
-  const last = Store.get("lastBackup", 0), snooze = Store.get("remSnooze", 0), nowT = Date.now();
-  if (snooze > nowT) return "";
-  if (last && nowT - last < 7 * 864e5) return "";
-  return `<div class="card row" id="remcard" style="border-color:#cdb6ea"><div><strong>${t("rem.T")}</strong><div class="muted small">${t(last ? "rem.B" : "rem.B0")}</div></div><span class="spacer"></span><button class="btn btn-ghost btn-sm" id="remlater">${t("rem.later")}</button><button class="btn btn-pri btn-sm" id="remgo">${t("rem.go")}</button></div>`;
+function saveCard(answered) {
+  const last = Store.get("lastBackup", 0), days = last ? Math.floor((Date.now() - last) / 864e5) : -1;
+  const due = answered >= 10 && (!last || days >= 7);
+  const sub = !answered && !last ? t("sc.none") : !last ? t("sc.never") : days >= 7 ? t("sc.due", {d: days}) : days === 0 ? t("sc.today") : t("sc.days", {d: days});
+  return `<div class="card savecard${due ? " due" : ""}" id="savecard"><div class="savehead"><span class="saveic" aria-hidden="true">💾</span><div><strong>${t("sc.T")}</strong><div class="muted small">${sub}</div></div></div>
+    <div class="row saveacts"><button class="btn ${answered ? "btn-pri" : "btn-sec"} btn-sm" id="hsave" ${answered ? "" : "disabled"}>${t("sc.get")}</button><button class="btn ${answered ? "btn-sec" : "btn-pri"} btn-sm" id="hrest">${t("sc.rest")}</button></div></div>`;
 }
 function isIOSBrowserTab() {
   const ua = navigator.userAgent || ""; const ios = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
@@ -1434,8 +1501,8 @@ function a2hsTip(answered) {
   return `<div class="notice row" id="a2hs"><div><strong>${t("a2hs.T")}</strong><div class="small">${t("a2hs.B")}</div></div><span class="spacer"></span><button class="btn btn-sec btn-sm" id="a2hsok">${t("a2hs.ok")}</button></div>`;
 }
 function bindHomeProtect() {
-  const g = $("#remgo"); if (g) g.onclick = () => showBackupCode();
-  const l = $("#remlater"); if (l) l.onclick = () => { Store.set("remSnooze", Date.now() + 3 * 864e5); const c = $("#remcard"); if (c) c.remove(); };
+  const g = $("#hsave"); if (g) g.onclick = () => showBackupCode();
+  const r = $("#hrest"); if (r) r.onclick = () => askRestoreCode();
   const a = $("#a2hsok"); if (a) a.onclick = () => { Store.set("a2hsSeen", true); const c = $("#a2hs"); if (c) c.remove(); };
 }
 
