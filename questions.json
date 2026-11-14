@@ -2,6 +2,99 @@
  "bankVersion": 2,
  "title": "Anatomy & Histology — Previous Exams",
  "credit": "Questions compiled by Fighter 1st",
+ "mindmaps": [
+  {
+   "subject": "Anatomy",
+   "items": [
+    {
+     "id": "anat-1",
+     "n": 1,
+     "title": "Anatomical Terminology",
+     "src": "maps/anat-1.webp",
+     "thumb": "maps/anat-1-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    },
+    {
+     "id": "anat-2",
+     "n": 2,
+     "title": "Skeletal System",
+     "src": "maps/anat-2.webp",
+     "thumb": "maps/anat-2-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    },
+    {
+     "id": "anat-3",
+     "n": 3,
+     "title": "Scalp",
+     "src": "maps/anat-3.webp",
+     "thumb": "maps/anat-3-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    },
+    {
+     "id": "anat-4",
+     "n": 4,
+     "title": "Skin",
+     "src": "maps/anat-4.webp",
+     "thumb": "maps/anat-4-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    },
+    {
+     "id": "anat-5",
+     "n": 5,
+     "title": "Lymphatic System",
+     "src": "maps/anat-5.webp",
+     "thumb": "maps/anat-5-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    }
+   ]
+  },
+  {
+   "subject": "Embryology",
+   "items": [
+    {
+     "id": "embryo-1",
+     "n": 1,
+     "title": "Reproductive Cycle",
+     "src": "maps/embryo-1.webp",
+     "thumb": "maps/embryo-1-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    },
+    {
+     "id": "embryo-2",
+     "n": 2,
+     "title": "Gametogenesis",
+     "src": "maps/embryo-2.webp",
+     "thumb": "maps/embryo-2-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    },
+    {
+     "id": "embryo-3",
+     "n": 3,
+     "title": "Fertilization & Cleavage",
+     "src": "maps/embryo-3.webp",
+     "thumb": "maps/embryo-3-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    },
+    {
+     "id": "embryo-4",
+     "n": 4,
+     "title": "Implantation & 2nd Week",
+     "src": "maps/embryo-4.webp",
+     "thumb": "maps/embryo-4-thumb.webp",
+     "w": 2339,
+     "h": 1653
+    }
+   ]
+  }
+ ],
  "note": "Questions and answer keys from the Fighter Anatomy & Histology midterm booklet. Two exams without a key were solved separately and are flagged.",
  "topics": [
   {
