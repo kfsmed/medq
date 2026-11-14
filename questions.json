@@ -741,16 +741,16 @@
     "40 days"
    ],
    "answer": 0,
-   "explanation": "ملزمة الدكتور (Embryology، Spermatogenesis) بتقول المدة \"takes about two months\". رقم 64 يوم مش مكتوب في المصدر، بس هو إجابة ملزمة الأسئلة وهو الأقرب لشهرين.",
+   "explanation": "الـ spermatogenesis بتاخد حوالي شهرين (about two months). أما رقم 64 يوم بالتحديد فهو إجابة ملزمة الأسئلة.",
    "memoryTrick": "Spermatogenesis ≈ شهرين.",
    "stemAr": "الوقت اللي بياخده الـ spermatogonium عشان يبقى spermatozoon ناضج تقريبًا:",
    "whyWrong": [
     null,
-    "المصدر بيقول \"حوالي شهرين\" من غير رقم محدد، فالـ 60 يوم كمان قريبة. الإجابة المطلوبة حسب ملزمة الأسئلة 64.",
-    "24 يوم أقل بكتير من الشهرين اللي في المصدر.",
-    "40 يوم أقل من الشهرين اللي في المصدر."
+    "\"حوالي شهرين\" ممكن تتفهم 60 يوم كمان. الإجابة المطلوبة حسب ملزمة الأسئلة 64. راجع الدكتور.",
+    "24 يوم أقل بكتير من الشهرين.",
+    "40 يوم أقل من الشهرين."
    ],
-   "note": "⚠️ ملزمة الدكتور بتقول \"about two months\" من غير رقم بالأيام. سبنا إجابة ملزمة الأسئلة (64 يوم)."
+   "note": "⚠️ المدة المعروفة \"حوالي شهرين\" من غير رقم محدد بالأيام. سبنا إجابة ملزمة الأسئلة (64 يوم). راجع الدكتور."
   },
   {
    "id": "EM2019B-07",
@@ -1138,12 +1138,12 @@
    "memoryTrick": "Acrosome = Enzymes / Nucleus = DNA.",
    "stemAr": "بخصوص تشريح الـ sperm، أنهي واحدة من دول غلط؟",
    "whyWrong": [
-    "المصدر بيقول طول الـ sperm حوالي 60 µm، فالجملة دي كمان مش مطابقة للمصدر. بس الإجابة المطلوبة D لأنها غلط واضح.",
-    "صح حسب المصدر: الـ sperm مقسّم 4 أجزاء: head و neck و body و tail.",
-    "المصدر بيقول الـ head فيه الـ nucleus ومغطى من قدام بالـ acrosome. الـ actin مش مذكور في المصدر.",
+    "طول الـ sperm حوالي 60 µm، فالجملة دي كمان مش دقيقة. بس الإجابة المطلوبة D لأنها غلط واضح. راجع الدكتور.",
+    "صح: الـ sperm مقسّم 4 أجزاء: head و neck و body و tail.",
+    "الـ head فيه الـ nucleus ومغطى من قدام بالـ acrosome. أما الـ actin فراجع الدكتور فيه.",
     null
    ],
-   "note": "⚠️ حسب ملزمة الدكتور (Embryology، Mature sperm) طول الـ sperm حوالي 60 µm، فالاختيار A (50 µm) كمان مش مطابق للمصدر. سبنا إجابة ملزمة الأسئلة D لأن الـ acrosome أكيد مش فيه المادة الوراثية."
+   "note": "⚠️ طول الـ sperm حوالي 60 µm، فالاختيار A (50 µm) كمان مش دقيق. سبنا إجابة ملزمة الأسئلة D لأن الـ acrosome أكيد مش فيه المادة الوراثية. راجع الدكتور."
   },
   {
    "id": "ES2019R2-03",
@@ -1415,13 +1415,13 @@
     "Cell transport."
    ],
    "answer": 3,
-   "explanation": "حسب Cytology ص136: وظايف الـ cell coat هي Cell immunity و Cell adhesion و Cell protection و Cell recognition (cell identity). الـ transport مش من وظايفه، ده شغل الغشا نفسه (diffusion و channels و active transport).",
+   "explanation": "وظايف الـ cell coat هي Cell immunity و Cell adhesion و Cell protection و Cell recognition (cell identity). الـ transport مش من وظايفه، ده شغل الغشا نفسه (diffusion و channels و active transport).",
    "memoryTrick": "Cell coat = I A P R (Immunity, Adhesion, Protection, Recognition).",
    "stemAr": "وظايف الـ cell coat كلها ما عدا:",
    "whyWrong": [
-    "الـ cell adhesion مذكورة في المصدر من وظايف الـ cell coat، والسؤال عن اللي مش من وظايفه.",
-    "المصدر بيذكر Cell immunity من وظايف الـ cell coat، والـ allergy قريبة منها (رد فعل مناعي). يعني دي مش الاستثناء.",
-    "الـ cell recognition (cell identity) مذكورة في المصدر من وظايفه.",
+    "الـ cell adhesion من وظايف الـ cell coat، والسؤال عن اللي مش من وظايفه.",
+    "الـ cell immunity من وظايف الـ cell coat، والـ allergy قريبة منها (رد فعل مناعي)، فدي مش الاستثناء.",
+    "الـ cell recognition (cell identity) من وظايفه.",
     null
    ]
   },
@@ -2583,13 +2583,13 @@
    ],
    "answer": 3,
    "repeatOf": "ES2020-05",
-   "explanation": "حسب Cytology ص136: وظايف الـ cell coat هي Cell immunity و Cell adhesion و Cell protection و Cell recognition (cell identity). الـ transport مش من وظايفه، ده شغل الغشا نفسه (diffusion و channels و active transport).",
+   "explanation": "وظايف الـ cell coat هي Cell immunity و Cell adhesion و Cell protection و Cell recognition (cell identity). الـ transport مش من وظايفه، ده شغل الغشا نفسه (diffusion و channels و active transport).",
    "memoryTrick": "Cell coat = I A P R (Immunity, Adhesion, Protection, Recognition).",
    "stemAr": "وظايف الـ cell coat كلها ما عدا:",
    "whyWrong": [
-    "الـ cell adhesion مذكورة في المصدر من وظايف الـ cell coat، والسؤال عن اللي مش من وظايفه.",
-    "المصدر بيذكر Cell immunity من وظايف الـ cell coat، والـ allergy قريبة منها (رد فعل مناعي). يعني دي مش الاستثناء.",
-    "الـ cell recognition (cell identity) مذكورة في المصدر من وظايفه.",
+    "الـ cell adhesion من وظايف الـ cell coat، والسؤال عن اللي مش من وظايفه.",
+    "الـ cell immunity من وظايف الـ cell coat، والـ allergy قريبة منها (رد فعل مناعي)، فدي مش الاستثناء.",
+    "الـ cell recognition (cell identity) من وظايفه.",
     null
    ]
   },
@@ -5906,14 +5906,14 @@
     "Can be found in the male genital system"
    ],
    "answer": 2,
-   "explanation": "حسب Cytology ص138: الـ cilia بتحرك الإفرازات أو الجزيئات على السطح في اتجاه واحد (one direction)، زي في الـ respiratory والـ female genital system. الـ basal body = 27 MT (9 triplets)، والـ shaft = 20 MT، والـ rootlets = 9 MT.",
+   "explanation": "الـ cilia بتحرك الإفرازات أو الجزيئات على السطح في اتجاه واحد (one direction)، زي في الـ respiratory والـ female genital system. الـ basal body = 27 MT (9 triplets)، والـ shaft = 20 MT، والـ rootlets = 9 MT.",
    "memoryTrick": "Cilia = حركة في اتجاه واحد (زي المجداف).",
    "stemAr": "الـ cilia ممكن توصف بأنهي واحدة من دول؟",
    "whyWrong": [
-    "المصدر: الـ basal body هو centriole واحد من 27 microtubule (9 triplets) مش 9.",
-    "المصدر: الـ rootlets بتتكون من نمو الـ MT C في كل triplet، يعني 9 microtubules مش 27.",
+    "الـ basal body هو centriole واحد من 27 microtubule (9 triplets) مش 9.",
+    "الـ rootlets بتتكون من نمو الـ MT C في كل triplet، يعني 9 microtubules مش 27.",
     null,
-    "المصدر (Cytology ص138) بيقول الـ cilia بتحرك الإفرازات في اتجاه واحد زي في الـ respiratory والـ female genital system. الـ male genital system مش مذكور في المصدر مع الـ cilia."
+    "الـ cilia موجودة في الـ respiratory والـ female genital system. أما الـ male genital system مع الـ cilia فراجع الدكتور فيه."
    ]
   },
   {
@@ -6942,14 +6942,14 @@
     "Can be found in the male genital system"
    ],
    "answer": 2,
-   "explanation": "حسب Cytology ص138: الـ cilia بتحرك الإفرازات أو الجزيئات على السطح في اتجاه واحد (one direction)، زي في الـ respiratory والـ female genital system. الـ basal body = 27 MT (9 triplets)، والـ shaft = 20 MT، والـ rootlets = 9 MT.",
+   "explanation": "الـ cilia بتحرك الإفرازات أو الجزيئات على السطح في اتجاه واحد (one direction)، زي في الـ respiratory والـ female genital system. الـ basal body = 27 MT (9 triplets)، والـ shaft = 20 MT، والـ rootlets = 9 MT.",
    "memoryTrick": "اتجاه واحد.",
    "stemAr": "الـ cilia ممكن توصف بأنهي واحدة من دول؟",
    "whyWrong": [
-    "المصدر: الـ basal body هو centriole واحد من 27 microtubule (9 triplets) مش 9.",
-    "المصدر: الـ rootlets بتتكون من نمو الـ MT C في كل triplet، يعني 9 microtubules مش 27.",
+    "الـ basal body هو centriole واحد من 27 microtubule (9 triplets) مش 9.",
+    "الـ rootlets بتتكون من نمو الـ MT C في كل triplet، يعني 9 microtubules مش 27.",
     null,
-    "المصدر (Cytology ص138) بيقول الـ cilia بتحرك الإفرازات في اتجاه واحد زي في الـ respiratory والـ female genital system. الـ male genital system مش مذكور في المصدر مع الـ cilia."
+    "الـ cilia موجودة في الـ respiratory والـ female genital system. أما الـ male genital system مع الـ cilia فراجع الدكتور فيه."
    ]
   },
   {
@@ -7617,16 +7617,16 @@
     "Translocation"
    ],
    "answer": 2,
-   "explanation": "حسب Cytogenetics ص165: الـ Duplication (Addition) هو إضافة جزء مقطوع من chromosome كقطعة زيادة للـ homologous chromosome، وبيحصل غالبًا بسبب unequal crossing over، والنتيجة وجود نسختين من نفس الـ genes على نفس الـ chromosome (double dose of genes).",
+   "explanation": "الـ Duplication (Addition) هو إضافة جزء مقطوع من chromosome كقطعة زيادة للـ homologous chromosome، وبيحصل غالبًا بسبب unequal crossing over. النتيجة وجود نسختين من نفس الـ genes على نفس الـ chromosome (double dose of genes).",
    "memoryTrick": "Addition = Duplication = نفس الجين مرتين على نفس الـ chromosome.",
    "stemAr": "في أنهي chromosomal aberration من دول ممكن نلاقي نسختين من نفس الـ gene على نفس الـ chromosome؟",
    "whyWrong": [
-    "الـ isochromosome (ص165) معناه إن الـ chromosome بينقسم بالعرض عند الـ centromere، فيطلع واحد بذراعين طوال وواحد بذراعين قصار. المصدر وصف \"نسختين من نفس الـ genes على نفس الـ chromosome\" تحت الـ Duplication مش الـ isochromosome.",
-    "الـ ring chromosome (ص164) = كسرين وفقد أجزاء والتحام في شكل حلقة، يعني نقص مش تكرار.",
+    "الـ isochromosome معناه إن الـ chromosome بينقسم بالعرض عند الـ centromere، فيطلع واحد بذراعين طوال وواحد بذراعين قصار. ده مش \"نسختين من نفس الـ genes على نفس الـ chromosome\"، اللي هو تعريف الـ Duplication.",
+    "الـ ring chromosome = كسرين وفقد أجزاء والتحام في شكل حلقة، يعني نقص مش تكرار.",
     null,
-    "الـ translocation (ص165) = نقل جزء لـ chromosome تاني non-homologous، مش تكرار على نفس الـ chromosome."
+    "الـ translocation = نقل جزء لـ chromosome تاني non-homologous، مش تكرار على نفس الـ chromosome."
    ],
-   "note": "إجابة ملزمة الأسئلة كانت A) Isochromosome، والإجابة اتعدلت لـ C) Addition حسب ملزمة الدكتور (Cytogenetics ص165)."
+   "note": "إجابة ملزمة الأسئلة كانت A) Isochromosome، والإجابة اتصححت لـ C) Addition."
   },
   {
    "id": "ES2026G1-12",
@@ -8356,16 +8356,16 @@
     "Submetacentric"
    ],
    "answer": 3,
-   "explanation": "حسب Cytogenetics ص165: الـ isochromosome بيحصل لما الـ chromosome ينقسم بالعرض (transversely) عند الـ centromere بدل الطول أثناء الـ anaphase، و\"This type occurs mostly in submetacentric chromosomes\".",
+   "explanation": "الـ isochromosome بيحصل لما الـ chromosome ينقسم بالعرض (transversely) عند الـ centromere بدل الطول أثناء الـ anaphase، والنوع ده بيحصل غالبًا في الـ submetacentric chromosomes.",
    "memoryTrick": "Iso ➜ Sub (Isochromosome غالبًا في الـ Submetacentric).",
    "stemAr": "الـ isochromosome بيحصل غالبًا في أنهي نوع من الـ chromosomes؟",
    "whyWrong": [
-    "المصدر (ص165) بيقول الـ isochromosome غالبًا في الـ submetacentric. الـ acrocentric اتذكر في المصدر مع الـ Robertsonian translocation (زي 21 و 14).",
-    "الـ metacentric (ص160) الـ centromere في النص والذراعين متساويين، والمصدر مقالش إن الـ isochromosome بيحصل فيه غالبًا.",
-    "الـ telocentric (ص160) مش موجود في الإنسان أصلًا.",
+    "الـ isochromosome بيحصل غالبًا في الـ submetacentric. أما الـ acrocentric (زي 21 و 14) فبيتذكر مع الـ Robertsonian translocation.",
+    "الـ metacentric الـ centromere في النص والذراعين متساويين، ومش هو النوع اللي بيحصل فيه الـ isochromosome غالبًا.",
+    "الـ telocentric مش موجود في الإنسان أصلًا.",
     null
    ],
-   "note": "إجابة ملزمة الأسئلة كانت A) Acrocentric، والإجابة اتعدلت لـ D) Submetacentric حسب ملزمة الدكتور (Cytogenetics ص165)."
+   "note": "إجابة ملزمة الأسئلة كانت A) Acrocentric، والإجابة اتصححت لـ D) Submetacentric."
   },
   {
    "id": "EM2026P-01",
@@ -8863,16 +8863,16 @@
     "May result from exposure to toxins and anemia"
    ],
    "answer": 2,
-   "explanation": "حسب Cytogenetics ص149: الـ apoptosis هو \"active programmed cell death which occurs normally at the end-of-life span of the cell\". الخلايا مبتنتفخش، بالعكس حجمها بيصغر، والنواة بيحصلها pyknosis ثم karyorrhexis ثم karyolysis، والـ cytoplasm بيتكسر لـ vesicles كبيرة تبلعها الـ macrophages.",
+   "explanation": "الـ apoptosis هو active programmed cell death بيحصل normally في آخر عمر الخلية (end-of-life span). الخلايا مبتنتفخش، بالعكس حجمها بيصغر، والنواة بيحصلها pyknosis ثم karyorrhexis ثم karyolysis، والـ cytoplasm بيتكسر لـ vesicles كبيرة تبلعها الـ macrophages.",
    "memoryTrick": "Apoptosis = موت مبرمج في آخر عمر الخلية 🍂 / Necrosis = مرضي وبتنفجر 💥.",
    "stemAr": "الـ apoptosis، أنهي واحدة من دول بتوصفه؟",
    "whyWrong": [
-    "كلمة physiological مش مكتوبة في المصدر. المصدر بيوصف الـ necrosis بإنه pathological condition، والـ apoptosis بإنه programmed وبيحصل normally في آخر عمر الخلية، وده نص الاختيار C.",
+    "الـ necrosis هو اللي بيتوصف إنه pathological condition. أما الـ apoptosis فوصفه الأدق إنه programmed وبيحصل normally في آخر عمر الخلية، وده نص الاختيار C.",
     "في الـ apoptosis الخلايا حجمها بيصغر (decrease in size)، والنواة بتتكسر وتختفي. مفيش إضافة organelles.",
     null,
-    "الـ toxins والـ anoxia سبب للـ necrosis حسب المصدر (pathological condition)، مش الـ apoptosis."
+    "الـ toxins والـ anoxia سبب للـ necrosis (pathological condition)، مش الـ apoptosis."
    ],
-   "note": "إجابة ملزمة الأسئلة كانت A) physiological condition، والإجابة اتعدلت لـ C لأنها نفس جملة ملزمة الدكتور بالحرف (Cytogenetics ص149)."
+   "note": "إجابة ملزمة الأسئلة كانت A) physiological condition، والإجابة اتصححت لـ C."
   },
   {
    "id": "EM2026P-23",
@@ -8910,16 +8910,16 @@
     "The daughter cell contains 92 chromosomes in the G0 phase"
    ],
    "answer": 2,
-   "explanation": "حسب Cytogenetics ص145: الـ interphase هي الفترة بين انقسامين، بتاخد حوالي 20 ساعة، و\"the changes cannot be detected with the microscope\". اللي \"changes are visible with the microscope\" ومدتها قصيرة (حوالي ساعة) هي الـ mitosis. وفي الـ G1 الخلية فيها 46 single chromosomes.",
+   "explanation": "الـ interphase هي الفترة بين انقسامين، بتاخد حوالي 20 ساعة، والتغيرات اللي بتحصل فيها cannot be detected with the microscope. اللي التغيرات فيه visible with the microscope ومدته قصيرة (حوالي ساعة) هو الـ mitosis. وفي الـ G1 الخلية فيها 46 single chromosomes.",
    "memoryTrick": "Interphase = 20 ساعة ومش باينة 👀❌ / Mitosis = ساعة وباينة 👀✅.",
    "stemAr": "إيه وصف النواة في الـ interphase في الـ cell cycle؟",
    "whyWrong": [
-    "المصدر (ص145): الـ interphase \"lasts for a longer period, about 20 hours\". المدة القصيرة (حوالي ساعة) صفة الـ mitosis.",
-    "المصدر (ص145): في الـ G1 النواة فيها 46 single chromosomes مش 92.",
+    "الـ interphase مدتها طويلة (حوالي 20 ساعة). المدة القصيرة (حوالي ساعة) صفة الـ mitosis.",
+    "في الـ G1 النواة فيها 46 single chromosomes مش 92.",
     null,
-    "الـ G0 (ص146) خلايا خرجت من الـ cycle (resting stage)، والمصدر مقالش إن فيها 92."
+    "الـ G0 خلايا خرجت من الـ cycle (resting stage)، ومفيهاش 92 chromosome."
    ],
-   "note": "⚠️ السؤال ده فيه مشكلة: حسب ملزمة الدكتور (Cytogenetics ص145) مفيش ولا اختيار صح. الاختيار C (إجابة ملزمة الأسئلة) بيوصف الـ mitosis مش الـ interphase. سبنا إجابة ملزمة الأسئلة زي ما هي، واسأل الدكتور فيه."
+   "note": "⚠️ السؤال ده فيه مشكلة: مفيش ولا اختيار صح. الاختيار C (إجابة ملزمة الأسئلة) بيوصف الـ mitosis مش الـ interphase. سبنا الإجابة زي ما هي. راجع الدكتور."
   },
   {
    "id": "EM2026P-25",
@@ -12031,13 +12031,13 @@
    "memoryTrick": "Phalanges = Long.",
    "stemAr": "أمثلة لتقسيم العظام حسب شكلها، واحد فيهم غلط:",
    "whyWrong": [
-    "صح: الـ humerus والـ femur من أمثلة الـ long bones في المصدر.",
-    "المصدر بيقول الـ carpal والـ tarsal bones من الـ short bones، فالجملة دي كمان غلط. بس ملزمة الأسئلة اعتبرت E هو الغلط.",
-    "صح: الـ scapula من أمثلة الـ flat bones في المصدر.",
+    "صح: الـ femur من أمثلة الـ long bones.",
+    "الـ carpal والـ tarsal bones من الـ short bones، فالجملة دي كمان غلط. بس ملزمة الأسئلة اعتبرت E هو الغلط. راجع الدكتور.",
+    "صح: الـ scapula من أمثلة الـ flat bones.",
     "صح: الـ patella sesamoid bone (في وتر العضلة لتقليل الاحتكاك).",
     null
    ],
-   "note": "⚠️ حسب ملزمة الدكتور (Anatomy، Short bones) الـ tarsal bones من الـ short bones مش irregular، فالاختيار B كمان غلط. سبنا إجابة ملزمة الأسئلة E."
+   "note": "⚠️ الـ tarsal bones من الـ short bones مش irregular، فالاختيار B كمان غلط. سبنا إجابة ملزمة الأسئلة E. راجع الدكتور."
   },
   {
    "id": "RASHAD-39",
@@ -13213,5 +13213,5 @@
    ]
   }
  ],
- "disclaimer": "الإجابات من ملزمة الأسئلة، وممكن يكون فيها أخطاء. اتصلحت الإجابات اللي بتخالف ملازم الدكاترة ومكتوب عليها ملاحظة. المرجع النهائي هو ملازم الدكاترة."
+ "disclaimer": "الإجابات من ملزمة الأسئلة، وممكن يكون فيها أخطاء. لو شاكك في إجابة، راجع الدكتور."
 }
