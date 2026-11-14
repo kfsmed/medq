@@ -3923,16 +3923,17 @@
     "Embryo is closed inside zona pellucida during cleavage",
     "Cleavage continues after implantation"
    ],
-   "answer": 3,
-   "explanation": "الغلط D: الـ cleavage بيخلص قبل الـ implantation (بيحصل والـ embryo لسه في الـ tube جوه الـ zona pellucida، والـ DNA بيزيد مع كل انقسام).",
-   "memoryTrick": "Cleavage بيخلص قبل ما يزرع.",
+   "answer": 1,
+   "explanation": "الإجابة المعتمدة B. الـ cleavage = انقسامات mitotic سريعة بتحصل والـ embryo ماشي في الـ fallopian tube، وهو لسه جوه الـ zona pellucida، وبعدها بيتكون الـ morula ثم الـ blastocyst اللي بيعمل implantation.",
+   "memoryTrick": null,
    "stemAr": "كل الجمل دي عن الـ cleavage صح ما عدا واحدة. أنهي؟",
    "whyWrong": [
-    "صح: الـ cleavage بيحصل في الـ tube.",
-    "صح: الـ DNA بيتضاعف مع كل انقسام.",
-    "صح: جوه الـ zona. الغلط D، لأن الـ cleavage بيخلص قبل الـ implantation.",
-    null
-   ]
+    "جملة صح: الـ cleavage بيحصل والـ embryo ماشي في الـ fallopian tube. والسؤال عن الغلط.",
+    null,
+    "جملة صح: الـ blastomeres بتفضل جوه الـ zona pellucida طول الـ cleavage.",
+    "الـ cleavage بيحصل قبل الـ implantation (الـ implantation بيبدأ في مرحلة الـ blastocyst)، فالجملة دي كمان مش دقيقة. راجع الدكتور."
+   ],
+   "note": "⚠️ الإجابة اتعدلت لـ B بناءً على تصحيح. الاختيار D كمان مش دقيق، فيفضل مراجعة الإجابة مع الدكتور."
   },
   {
    "id": "EM2023-28",
