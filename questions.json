@@ -3923,17 +3923,16 @@
     "Embryo is closed inside zona pellucida during cleavage",
     "Cleavage continues after implantation"
    ],
-   "answer": 1,
-   "explanation": "الإجابة المعتمدة B. الـ cleavage = انقسامات mitotic سريعة بتحصل والـ embryo ماشي في الـ fallopian tube، وهو لسه جوه الـ zona pellucida، وبعدها بيتكون الـ morula ثم الـ blastocyst اللي بيعمل implantation.",
-   "memoryTrick": null,
+   "answer": 3,
+   "explanation": "الغلط D: الـ cleavage = انقسامات mitotic سريعة بتحصل في الـ fallopian tube والـ embryo جوه الـ zona pellucida. بعدها الـ morula بتوصل الرحم حوالي يوم 4، وبعدين الـ blastocyst هو اللي بيعمل implantation حوالي يوم 6. يعني الـ cleavage بيخلص قبل الـ implantation.",
+   "memoryTrick": "Cleavage في الـ tube ➜ Morula ➜ Blastocyst ➜ Implantation.",
    "stemAr": "كل الجمل دي عن الـ cleavage صح ما عدا واحدة. أنهي؟",
    "whyWrong": [
-    "جملة صح: الـ cleavage بيحصل والـ embryo ماشي في الـ fallopian tube. والسؤال عن الغلط.",
-    null,
-    "جملة صح: الـ blastomeres بتفضل جوه الـ zona pellucida طول الـ cleavage.",
-    "الـ cleavage بيحصل قبل الـ implantation (الـ implantation بيبدأ في مرحلة الـ blastocyst)، فالجملة دي كمان مش دقيقة. راجع الدكتور."
-   ],
-   "note": "⚠️ الإجابة اتعدلت لـ B بناءً على تصحيح. الاختيار D كمان مش دقيق، فيفضل مراجعة الإجابة مع الدكتور."
+    "جملة صح: الـ cleavage بيحصل في الـ fallopian tube والـ zygote رايح ناحية الرحم. والسؤال عن الغلط.",
+    "جملة صح: كل خلية بتفضل 2N، وعدد الخلايا (blastomeres) بيزيد مع كل انقسام، فإجمالي الـ DNA في الـ embryo بيزيد. اللي مش بيزيد هو الحجم (not accompanied by growth).",
+    "جملة صح: الـ blastomeres بتفضل جوه الـ zona pellucida، وحتى الـ morula لسه محاطة بيها.",
+    null
+   ]
   },
   {
    "id": "EM2023-28",
@@ -4701,13 +4700,13 @@
     "Cleavage continues after implantation"
    ],
    "answer": 3,
-   "explanation": "الـ cleavage مش بيكمل بعد الـ implantation.",
-   "memoryTrick": "Cleavage قبل الـ implantation.",
+   "explanation": "الغلط D: الـ cleavage = انقسامات mitotic سريعة بتحصل في الـ fallopian tube والـ embryo جوه الـ zona pellucida. بعدها الـ morula بتوصل الرحم حوالي يوم 4، وبعدين الـ blastocyst هو اللي بيعمل implantation حوالي يوم 6. يعني الـ cleavage بيخلص قبل الـ implantation.",
+   "memoryTrick": "Cleavage في الـ tube ➜ Morula ➜ Blastocyst ➜ Implantation.",
    "stemAr": "كل الجمل دي عن الـ cleavage صح ما عدا واحدة:",
    "whyWrong": [
-    "صح.",
-    "صح.",
-    "صح. الـ cleavage مش بيستمر بعد الـ implantation.",
+    "جملة صح: الـ cleavage بيحصل في الـ fallopian tube والـ zygote رايح ناحية الرحم. والسؤال عن الغلط.",
+    "جملة صح: كل خلية بتفضل 2N، وعدد الخلايا (blastomeres) بيزيد مع كل انقسام، فإجمالي الـ DNA في الـ embryo بيزيد. اللي مش بيزيد هو الحجم (not accompanied by growth).",
+    "جملة صح: الـ blastomeres بتفضل جوه الـ zona pellucida، وحتى الـ morula لسه محاطة بيها.",
     null
    ]
   },
