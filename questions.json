@@ -3863,9 +3863,9 @@
     "Flexion",
     "Extension"
    ],
-   "answer": 1,
-   "explanation": "حسب الملزمة الإجابة abduction (الحركة بعيد). ملاحظة: التعريف الأدق للـ abduction إنه بعيد عن الـ median plane.",
-   "memoryTrick": "Abduction = Away (بعيد).",
+   "answer": 3,
+   "explanation": "الـ extension هو فرد المفصل، فالجزء البعيد (distal segment) بيبعد عن الجزء القريب (proximal segment) والزاوية بينهم بتكبر. الـ flexion العكس: الجزئين بيقربوا من بعض.",
+   "memoryTrick": "Extension = فرد ➜ البعيد يبعد / Flexion = ثني ➜ يقرب.",
    "stemAr": "تحريك الجزء البعيد (distal segment) بعيد عن الجزء القريب (proximal segment) اسمه إيه؟"
   },
   {
@@ -4613,10 +4613,10 @@
     "flexion.",
     "extension."
    ],
-   "answer": 1,
+   "answer": 3,
    "repeatOf": "EM2025A-04",
-   "explanation": "حسب الملزمة الإجابة abduction (الحركة بعيد). ملاحظة: التعريف الأدق للـ abduction إنه بعيد عن الـ median plane.",
-   "memoryTrick": "Abduction = Away (بعيد).",
+   "explanation": "الـ extension هو فرد المفصل، فالجزء البعيد (distal segment) بيبعد عن الجزء القريب (proximal segment) والزاوية بينهم بتكبر. الـ flexion العكس: الجزئين بيقربوا من بعض.",
+   "memoryTrick": "Extension = فرد ➜ البعيد يبعد / Flexion = ثني ➜ يقرب.",
    "stemAr": "تحريك الجزء البعيد (distal segment) بعيد عن الجزء القريب (proximal segment) اسمه إيه؟"
   },
   {
@@ -5765,9 +5765,9 @@
     "Sudan II",
     "Orcein"
    ],
-   "answer": 1,
-   "explanation": "الـ osmic acid (osmium tetroxide) بيتفاعل مع الـ lipids فبيوضّح الـ plasma membrane.",
-   "memoryTrick": "Osmic = Membrane lipids.",
+   "answer": 0,
+   "explanation": "الـ PAS بيصبغ الـ carbohydrates، وبالتالي بيبيّن الـ cell coat (glycocalyx) اللي على سطح الـ plasma membrane، فالـ membrane بتظهر كخط أحمر (magenta) على حدود الخلية.",
+   "memoryTrick": "PAS = Pink surface (Glycocalyx).",
    "stemAr": "أنهي stain من دول يقدر يبيّن الـ plasma membrane؟"
   },
   {
