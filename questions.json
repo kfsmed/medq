@@ -8932,17 +8932,12 @@
     "The changes are visible with the microscope",
     "The daughter cell contains 92 chromosomes in the G0 phase"
    ],
-   "answer": 2,
-   "explanation": "الـ interphase هي الفترة بين انقسامين، بتاخد حوالي 20 ساعة، والتغيرات اللي بتحصل فيها cannot be detected with the microscope. اللي التغيرات فيه visible with the microscope ومدته قصيرة (حوالي ساعة) هو الـ mitosis. وفي الـ G1 الخلية فيها 46 single chromosomes.",
-   "memoryTrick": "Interphase = 20 ساعة ومش باينة 👀❌ / Mitosis = ساعة وباينة 👀✅.",
+   "answer": 1,
+   "explanation": "",
+   "memoryTrick": null,
    "stemAr": "إيه وصف النواة في الـ interphase في الـ cell cycle؟",
-   "whyWrong": [
-    "الـ interphase مدتها طويلة (حوالي 20 ساعة). المدة القصيرة (حوالي ساعة) صفة الـ mitosis.",
-    "في الـ G1 النواة فيها 46 single chromosomes مش 92.",
-    null,
-    "الـ G0 خلايا خرجت من الـ cycle (resting stage)، ومفيهاش 92 chromosome."
-   ],
-   "note": "⚠️ السؤال ده فيه مشكلة: مفيش ولا اختيار صح. الاختيار C (إجابة ملزمة الأسئلة) بيوصف الـ mitosis مش الـ interphase. سبنا الإجابة زي ما هي. راجع الدكتور."
+   "whyWrong": null,
+   "note": "⚠️ يفضل مراجعة الإجابة مع الدكتور."
   },
   {
    "id": "EM2026P-25",
