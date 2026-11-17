@@ -255,12 +255,20 @@ button.rowcard:disabled{cursor:default;opacity:.7}
 .dk-pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
 .dk-pill[aria-pressed="true"] .dk-n{color:inherit;opacity:.85}
 .dk-n{font:500 .78rem/1.2 var(--font);color:var(--text-secondary);white-space:nowrap}
-.dk-rows{display:flex;flex-direction:column;gap:8px}
-.dk-row{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;padding:10px 14px;border-radius:var(--radius-md);border:1px solid var(--border);background:var(--surface);color:var(--text);font:600 .9rem/1.3 var(--font);text-align:start;cursor:pointer;width:100%}
-.dk-row[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:var(--accent-soft)}
-.dk-row.all{background:transparent;border-style:dashed}
-.dk-row.all[aria-pressed="true"]{background:var(--accent-soft)}
-.dk-row.off{opacity:.5;cursor:default}
+.dk-drop{border:1px solid var(--border);border-radius:var(--radius-md);background:var(--surface)}
+.dk-drop summary{display:flex;align-items:center;gap:10px;min-height:50px;padding:10px 14px;cursor:pointer;list-style:none;font:600 .9rem/1.3 var(--font);color:var(--text)}
+.dk-drop summary::-webkit-details-marker{display:none}
+.dk-sum{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:start}
+.dk-chev{flex:none;color:var(--text-secondary);transition:transform var(--duration-fast)}
+.dk-drop[open] .dk-chev{transform:rotate(180deg)}
+.dk-drop[open] summary{border-bottom:1px solid var(--border)}
+.dk-list{display:flex;flex-direction:column;padding:6px}
+.dk-opt{display:flex;align-items:center;gap:12px;min-height:46px;padding:8px 10px;border-radius:var(--radius-sm);font:600 .9rem/1.3 var(--font);cursor:pointer}
+.dk-opt:hover{background:var(--surface-sunken)}
+.dk-opt input{width:20px;height:20px;accent-color:var(--accent);flex:none;margin:0}
+.dk-opt>span:nth-child(2){flex:1}
+.dk-opt.off{opacity:.5;cursor:default}
+.dk-box{width:20px;height:20px;border:1.5px solid var(--border);border-radius:4px;flex:none}
 .deckchip{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0 0}
 .seg button{flex:1 0 auto;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:6px 14px;border:0;border-radius:var(--radius-sm);background:transparent;color:var(--text-secondary);font:600 .875rem/1.2 var(--font);white-space:nowrap;transition:background-color var(--duration-fast),color var(--duration-fast)}
 .seg button[data-subject]::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--subj)}
@@ -750,7 +758,7 @@ const I18N = {
     "theme.toDark": "التحويل للوضع الداكن", "theme.toLight": "التحويل للوضع الفاتح", "title.module": "موديول — MedQore",
     "home.modules": "الموديولات", "home.progressH": "تقدّمك", "home.seeAll": "عرض الكل", "home.statAccS": "نسبة الصواب", "home.statAnsS": "إجابات", "home.statSessS": "جلسات", "home.resume": "استكمل",
     "mod.soon": "قريبًا", "mod.soonSub": "بنك الأسئلة قيد التجهيز.", "mod.open": "افتح {name}", "mod.back": "كل الموديولات", "mod.eyebrow": "موديول", "mod.all": "كل المواد", "mod.choose": "ذاكر مادة واحدة أو الموديول كله — كل اللي تحت بيمشي على اختيارك.",
-    "mod.subjMeta": "{q} · {p}% صح", "mod.subjNew": "{q} · لسه ما بدأتش", "mod.subjSel": "اختار المادة", "mod.study": "ذاكر {s}", "dk.h": "بنوك الأسئلة", "dk.src": "المصدر", "dk.doc": "بنك الدكتور", "dk.ch": "الشابتر", "dk.all": "كل الشابترات", "dk.none": "مش موجود في المصدر ده", "dk.empty": "مفيش أسئلة من البنك ده في المصدر اللي اخترته.", "dk.clear": "عرض الكل", "mod.browse": "تصفّح الأسئلة", "mod.browseSub": "ابحث وصفّي واقرا الأسئلة بإجاباتها", "mod.maps": "الخرائط الذهنية", "mod.mapsSub": "{n} خريطة للمحاضرات",
+    "mod.subjMeta": "{q} · {p}% صح", "mod.subjNew": "{q} · لسه ما بدأتش", "mod.subjSel": "اختار المادة", "mod.study": "ذاكر {s}", "dk.h": "بنوك الأسئلة", "dk.src": "المصدر", "dk.doc": "بنك الدكتور", "dk.ch": "الشابتر", "dk.all": "All chapters", "dk.none": "مش موجود في المصدر ده", "dk.empty": "مفيش أسئلة من البنك ده في المصدر اللي اخترته.", "dk.clear": "عرض الكل", "mod.browse": "تصفّح الأسئلة", "mod.browseSub": "ابحث وصفّي واقرا الأسئلة بإجاباتها", "mod.maps": "الخرائط الذهنية", "mod.mapsSub": "{n} خريطة للمحاضرات",
     "mod.revSub": "{q} من الإجابات الغلط وغير المتأكدة والمعلَّمة", "mod.revNone": "مفيش حاجة تراجعها هنا لسه",
     "qx.T": "امتحان سريع", "qx.sub": "أسئلة عشوائية بوقت محدد ومن غير تكرار — بضغطة واحدة.", "qx.n": "عدد الأسئلة", "qx.m": "الدقائق", "qx.go": "ابدأ الامتحان السريع", "qx.scope": "من: {s}", "qx.all": "كل المواد المتاحة", "qx.less": "أقل", "qx.more": "أكتر",
     "app.title": "MedQore — بنك الأسئلة الطبية", "skip": "انتقل إلى المحتوى", "brand.home": "الصفحة الرئيسية لـ MedQore",
@@ -1464,38 +1472,52 @@ function moduleList() {
 // question banks of each doctor, split into chapters (ids match q.decks in questions.json)
 const DECKS = [
   {id: "A", name: "Dr Abdullah Question Bank", chapters: [["A-pro", "Protein"], ["A-enz1", "Enzymes (1)"], ["A-enz2", "Enzymes (2)"], ["A-gen1", "Genetics (1)"], ["A-gen2", "Genetics (2)"]]},
-  {id: "W", name: "Dr Marwa Questions", chapters: [["W-q1", "Questions (1)"], ["W-q2", "Questions (2)"], ["W-q3", "Questions (3) · Quiz 1"]]},
-  {id: "K", name: "Midterm KNU 2027", chapters: [["K-knu", "Midterm KNU 2027"]]}
+  {id: "W", name: "Dr Marwa Questions", chapters: []},
+  {id: "K", name: "Midterm KNU 2027", chapters: []}
 ];
+// d: a doctor id ("A"), or one or more chapter ids of one doctor joined by "+" ("A-pro+A-enz1")
 function deckLabel(d) {
-  for (const g of DECKS) { if (g.id === d) return g.name; const c = g.chapters.find(x => x[0] === d); if (c) return g.chapters.length > 1 ? g.name + " › " + c[1] : g.name; }
+  const ids = String(d || "").split("+").filter(Boolean); if (!ids.length) return "";
+  for (const g of DECKS) {
+    if (ids.length === 1 && g.id === ids[0]) return g.name;
+    const names = ids.map(id => (g.chapters.find(x => x[0] === id) || [])[1]);
+    if (names.every(Boolean)) return g.name + " › " + names.join(", ");
+  }
   return "";
 }
-// d: a doctor id ("A") or a chapter id ("A-pro"); src: one bank id or "" for all banks
+// src: one bank id or "" for all banks
 function inDeck(q, d, src) {
   if (!d) return true;
-  const lists = src ? [q.decks[src] || []] : Object.values(q.decks);
-  return lists.some(l => l.some(x => x === d || x.indexOf(d + "-") === 0));
+  const want = d.split("+"), lists = src ? [q.decks[src] || []] : Object.values(q.decks);
+  return lists.some(l => l.some(x => want.some(w => x === w || x.indexOf(w + "-") === 0)));
 }
 const hasDecks = tids => Bank.questions.some(q => tids.indexOf(q.topic) >= 0 && Object.keys(q.decks).length);
 const MODDECK = {};
 function deckPanelHTML(m, tids) {
-  const st = MODDECK[m.id] || (MODDECK[m.id] = {src: "", doc: "A", ch: ""});
+  const st = MODDECK[m.id];
   const pool = Bank.questions.filter(q => tids.indexOf(q.topic) >= 0 && inSrc(q, st.src));
   const cnt = d => pool.filter(q => inDeck(q, d, st.src)).length;
   const srcs = sourcesFor(tids);
   const g = DECKS.find(x => x.id === st.doc) || DECKS[0];
   const pillBtn = (attr, v, on, label, n) => `<button type="button" class="dk-pill" ${attr}="${esc(v)}" aria-pressed="${on}" dir="ltr">${esc(label)}${n != null ? ` <span class="dk-n">${n}</span>` : ""}</button>`;
   const total = cnt(g.id);
-  const rows = g.chapters.length > 1 ? g.chapters.map(([id, name]) => { const n = cnt(id);
-    return n ? `<button type="button" class="dk-row" data-dch="${esc(id)}" aria-pressed="${st.ch === id}"><span dir="ltr">${esc(name)}</span><span class="dk-n">${qn(n)}</span></button>`
-      : `<div class="dk-row off"><span dir="ltr">${esc(name)}</span><span class="dk-n">${t("dk.none")}</span></div>`; }).join("") +
-    (total ? `<button type="button" class="dk-row all" data-dch="" aria-pressed="${!st.ch}"><span>${t("dk.all")}</span><span class="dk-n">${qn(total)}</span></button>` : "") : "";
+  let chooser = "";
+  if (g.chapters.length && total) {
+    const avail = g.chapters.filter(([id]) => cnt(id));
+    const picked = st.ch.filter(id => avail.some(x => x[0] === id));
+    const sumLabel = picked.length ? picked.map(id => g.chapters.find(x => x[0] === id)[1]).join(", ") : t("dk.all");
+    const sumN = picked.length ? cnt(picked.join("+")) : total;
+    const item = (id, name, on, n, off) => off ? `<div class="dk-opt off"><span class="dk-box" aria-hidden="true"></span><span dir="ltr">${esc(name)}</span><span class="dk-n">${t("dk.none")}</span></div>`
+      : `<label class="dk-opt"><input type="checkbox" data-dch="${esc(id)}" ${on ? "checked" : ""}><span dir="ltr">${esc(name)}</span><span class="dk-n">${qn(n)}</span></label>`;
+    chooser = `<div><p class="dk-lbl">${t("dk.ch")}</p>
+      <details class="dk-drop" id="dkdrop"${st.open ? " open" : ""}><summary><span class="dk-sum" dir="ltr">${esc(sumLabel)}</span><span class="dk-n">${qn(sumN)}</span><svg class="dk-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+      <div class="dk-list">${item("", t("dk.all"), !picked.length, total)}${g.chapters.map(([id, name]) => { const n = cnt(id); return item(id, name, picked.indexOf(id) >= 0, n, !n); }).join("")}</div></details></div>`;
+  }
   return `<section class="card stack deckpanel">
     <div class="sechead"><h2>${t("dk.h")}</h2></div>
     <div><p class="dk-lbl">${t("dk.src")}</p><div class="dk-pills">${pillBtn("data-dsrc", "", !st.src, srcs.length === 2 ? srcs[0].name + " + " + srcs[1].name : t("setup.allSources"))}${srcs.map(x => pillBtn("data-dsrc", x.id, st.src === x.id, x.name)).join("")}</div></div>
     <div><p class="dk-lbl">${t("dk.doc")}</p><div class="dk-pills">${DECKS.map(x => { const n = cnt(x.id); return n ? pillBtn("data-ddoc", x.id, st.doc === x.id, x.name, n) : ""; }).join("")}</div></div>
-    ${rows ? `<div><p class="dk-lbl">${t("dk.ch")}</p><div class="dk-rows">${rows}</div></div>` : ""}
+    ${chooser}
     ${total ? "" : `<p class="muted small">${t("dk.empty")}</p>`}
   </section>`;
 }
@@ -1588,8 +1610,9 @@ function viewModule(app) {
   const maps = allMaps().filter(x => tids.some(id => subjName(id).toLowerCase() === String(x.subject).toLowerCase()));
   const scopeName = sel === "all" ? esc(m.name) : esc(subjName(sel));
   const decks = hasDecks(tids);
-  const ds = decks ? (MODDECK[m.id] || (MODDECK[m.id] = {src: "", doc: "A", ch: ""})) : null;
-  const route = tids.join(",") + (ds ? "@" + (ds.ch || ds.doc) + "@" + ds.src : "");
+  const ds = decks ? (MODDECK[m.id] || (MODDECK[m.id] = {src: "", doc: "A", ch: [], open: false})) : null;
+  if (ds) { const g = DECKS.find(x => x.id === ds.doc); ds.ch = ds.ch.filter(id => g && g.chapters.some(x => x[0] === id) && Bank.questions.some(q => tids.indexOf(q.topic) >= 0 && inSrc(q, ds.src) && inDeck(q, id, ds.src))); }
+  const route = tids.join(",") + (ds ? "@" + (ds.ch.length ? ds.ch.join("+") : ds.doc) + "@" + ds.src : "");
   app.innerHTML = `<div class="wrap stack">
     <div><button class="btn btn-link btn-sm backlink" data-go="home">${ICON.left.replace("<svg", '<svg class="flipx" width="18" height="18"')}${t("mod.back")}</button></div>
     <div class="pagehead"><p class="eyebrow">${t("mod.eyebrow")}</p><h1 dir="ltr" class="ltrhead">${esc(m.name)}</h1>${m.credit ? `<p class="muted small ltrhead" dir="ltr" style="margin:4px 0 8px">${esc(m.credit)}</p>` : ""}<p class="muted">${t("mod.choose")}</p></div>
@@ -1610,8 +1633,11 @@ function viewModule(app) {
   $$("[data-sel]", app).forEach(b => b.onclick = () => { const v = b.dataset.sel; MODSEL[m.id] = (v === sel && v !== "all") ? "all" : v; viewModule(app); });
   const keep = () => { const y = window.scrollY; viewModule(app); try { window.scrollTo(0, y); } catch(e) {} };
   $$("[data-dsrc]", app).forEach(b => b.onclick = () => { ds.src = b.dataset.dsrc; keep(); });
-  $$("[data-ddoc]", app).forEach(b => b.onclick = () => { ds.doc = b.dataset.ddoc; ds.ch = ""; keep(); });
-  $$("[data-dch]", app).forEach(b => b.onclick = () => { ds.ch = b.dataset.dch; keep(); });
+  $$("[data-ddoc]", app).forEach(b => b.onclick = () => { ds.doc = b.dataset.ddoc; ds.ch = []; ds.open = false; keep(); });
+  const dd = $("#dkdrop", app); if (dd) dd.addEventListener("toggle", () => { ds.open = dd.open; });
+  $$("[data-dch]", app).forEach(b => b.onchange = () => { const id = b.dataset.dch;
+    if (!id) ds.ch = []; else if (b.checked) ds.ch = ds.ch.concat(id); else ds.ch = ds.ch.filter(x => x !== id);
+    ds.open = true; keep(); });
   const mr = $("#modrev"); if (mr) mr.onclick = () => startSession("revise", revisionQueue(20, tids), {feedback: true});
   bindQuick(tids);
 }
