@@ -1437,12 +1437,12 @@ const glyphHTML = (tid, sm) => `<span class="glyph${sm ? " sm" : ""}"${subjAttr(
 const subjPill = tid => `<span class="pill"${subjAttr(tid)}>${L(subjName(tid))}</span>`;
 const MODULES = [
   {id: "aeh", name: "Anatomy, Embryology & Histology", topics: ["anat", "embryo", "histo"]},
-  {id: "bg", name: "Biochemistry & Genetics", topics: ["biochem", "genetics"]}
+  {id: "bg", name: "Biochemistry & Genetics", topics: ["biochem", "genetics"], credit: "Source from: MedZone & Fighter"}
 ];
 function moduleList() {
   const known = new Set();
   const out = MODULES.map(m => { const tps = m.topics.filter(id => Bank.topicName[id] != null); tps.forEach(x => known.add(x));
-    return {id: m.id, name: m.name, topics: tps.length ? tps : m.topics, available: tps.length > 0}; });
+    return {id: m.id, name: m.name, credit: m.credit || "", topics: tps.length ? tps : m.topics, available: tps.length > 0}; });
   const rest = Bank.topics.map(x => x.id).filter(id => !known.has(id));
   if (rest.length) out.push({id: "other", name: Bank.title || "Other subjects", topics: rest, available: true});
   return out;
@@ -1538,7 +1538,7 @@ function viewModule(app) {
   const route = tids.join(",");
   app.innerHTML = `<div class="wrap stack">
     <div><button class="btn btn-link btn-sm backlink" data-go="home">${ICON.left.replace("<svg", '<svg class="flipx" width="18" height="18"')}${t("mod.back")}</button></div>
-    <div class="pagehead"><p class="eyebrow">${t("mod.eyebrow")}</p><h1 dir="ltr" class="ltrhead">${esc(m.name)}</h1><p class="muted">${t("mod.choose")}</p></div>
+    <div class="pagehead"><p class="eyebrow">${t("mod.eyebrow")}</p><h1 dir="ltr" class="ltrhead">${esc(m.name)}</h1>${m.credit ? `<p class="muted small ltrhead" dir="ltr" style="margin:4px 0 8px">${esc(m.credit)}</p>` : ""}<p class="muted">${t("mod.choose")}</p></div>
     <div class="seg" role="group" aria-label="${t("mod.subjSel")}"><button type="button" data-sel="all" aria-pressed="${sel === "all"}">${t("mod.all")}</button>${m.topics.map(id => `<button type="button" data-sel="${esc(id)}"${subjAttr(id)} aria-pressed="${sel === id}" dir="ltr">${esc(subjName(id))}</button>`).join("")}</div>
     <div class="subjects">${m.topics.map(id => { const s2 = topicStats([id]);
       return `<button class="subj" data-sel="${esc(id)}"${subjAttr(id)} aria-pressed="${sel === id}">${glyphHTML(id)}<span class="sb"><span class="sn" dir="ltr">${esc(subjName(id))}</span><span class="sm">${s2.n ? t("mod.subjMeta", {q: qn(s2.total), p: pct(s2.c, s2.n)}) : t("mod.subjNew", {q: qn(s2.total)})}</span><span class="progress" aria-hidden="true"${subjAttr(id)}><i style="width:${pct(s2.seen, s2.total)}%"></i></span></span></button>`; }).join("")}</div>
