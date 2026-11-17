@@ -13278,7 +13278,15 @@
     "They are consumed during catalysis",
     "They always require ATP"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-002",
@@ -13296,7 +13304,15 @@
     "Ribozyme",
     "Maltase"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-003",
@@ -13314,7 +13330,15 @@
     "The nonprotein component of an enzyme",
     "A substance that always inhibits an enzyme"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-004",
@@ -13332,7 +13356,15 @@
     "Enzymes become part of each product",
     "Enzymes shift equilibrium toward products"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-005",
@@ -13352,7 +13384,12 @@
    "answer": 1,
    "where": [
     "Enzymes MCQ 1"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-006",
@@ -13370,7 +13407,15 @@
     "Absolute specificity",
     "Broad substrate specificity"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-007",
@@ -13388,7 +13433,15 @@
     "Covalent catalysis",
     "Cooperativity"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-008",
@@ -13406,7 +13459,15 @@
     "Apoenzyme",
     "Substrate"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-009",
@@ -13424,7 +13485,15 @@
     "Product",
     "Zymogen"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-010",
@@ -13442,7 +13511,15 @@
     "Competitive inhibition",
     "Absolute specificity"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-011",
@@ -13460,7 +13537,15 @@
     "Oxidoreductase",
     "Isomerase"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-012",
@@ -13478,7 +13563,15 @@
     "Hydrolase",
     "Isomerase"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-013",
@@ -13496,7 +13589,15 @@
     "Isomerase",
     "Oxidoreductase"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-014",
@@ -13514,7 +13615,15 @@
     "Mutase",
     "Oxidase"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-015",
@@ -13532,7 +13641,15 @@
     "Ligase",
     "Oxidoreductase"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-016",
@@ -13550,7 +13667,15 @@
     "Protein scaffold",
     "Signal peptide"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-017",
@@ -13568,7 +13693,15 @@
     "Removing all solvent from the cell",
     "Changing the reaction equilibrium"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-018",
@@ -13588,7 +13721,12 @@
    "answer": 0,
    "where": [
     "Enzymes MCQ 1"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-019",
@@ -13606,7 +13744,15 @@
     "Optical specificity",
     "Competitive inhibition"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-020",
@@ -13626,7 +13772,15 @@
    ],
    "answer": 0,
    "explanation": "الـ strain catalysis: الإنزيم بيشد ويلوي (stretches / distorts) الـ bond المستهدفة فتضعف وتتكسر بسهولة، وده شائع في الـ hydrolases والـ lysozymes (الكتاب ص 60).\nالـ allosteric activation تنظيم من موقع تاني، والـ substrate inhibition والـ enzyme induction مالهمش علاقة بشد الـ bond.",
-   "memoryTrick": "Strain = شد الـ bond لحد ما تتقطع ← hydrolases و lysozyme."
+   "memoryTrick": "Strain = شد الـ bond لحد ما تتقطع ← hydrolases و lysozyme.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-021",
@@ -13644,7 +13798,15 @@
     "Twice Vmax",
     "Zero"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-022",
@@ -13662,7 +13824,15 @@
     "Higher enzyme concentration",
     "Lower Vmax"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-023",
@@ -13681,7 +13851,15 @@
     "Fall to zero"
    ],
    "answer": 2,
-   "explanation": "الـ rate بتتناسب طرديًا (directly proportional) مع تركيز الإنزيم طالما الـ substrate كفاية. لو الإنزيم اتقسم نصين، الـ V₀ والـ Vmax الاتنين بيبقوا النص (الكتاب ص 61).\nالـ Vmax بتعتمد على عدد الـ active sites الموجودة، فمش ممكن تفضل ثابتة ولا تزيد."
+   "explanation": "الـ rate بتتناسب طرديًا (directly proportional) مع تركيز الإنزيم طالما الـ substrate كفاية. لو الإنزيم اتقسم نصين، الـ V₀ والـ Vmax الاتنين بيبقوا النص (الكتاب ص 61).\nالـ Vmax بتعتمد على عدد الـ active sites الموجودة، فمش ممكن تفضل ثابتة ولا تزيد.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-024",
@@ -13699,7 +13877,15 @@
     "The substrate becomes an inhibitor",
     "Km becomes zero"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-025",
@@ -13719,7 +13905,15 @@
    ],
    "answer": 1,
    "explanation": "الـ Km هو تركيز الـ substrate اللي بيوصل الـ velocity لـ ½ Vmax. إنزيم A وصل للنص عند 2 mM يعني Km أصغر، وإنزيم B محتاج 10 mM يعني Km أكبر.\nالـ Small Km = high affinity، والـ Large Km = low affinity (الكتاب ص 62). والسؤال قال إن الـ Vmax متساوية، فمفيش إنزيم Vmax بتاعه أعلى.",
-   "memoryTrick": "Km صغير = بيحب الـ substrate أكتر (affinity عالية)."
+   "memoryTrick": "Km صغير = بيحب الـ substrate أكتر (affinity عالية).",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-026",
@@ -13737,7 +13931,15 @@
     "35–40 C",
     "65–80 C"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-027",
@@ -13755,7 +13957,15 @@
     "9",
     "12"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-028",
@@ -13774,7 +13984,15 @@
     "Unchanged protein conformation"
    ],
    "answer": 1,
-   "explanation": "الـ pH بيأثر على الـ protonation بتاع الـ NH₂ groups في الـ active site، والـ extremes of pH بتعمل denaturation للإنزيم (الكتاب ص 62). عشان كده النشاط بيقل.\nالـ pH المتطرف مش بيزوّد الـ affinity ولا بيزوّد تصنيع الإنزيم، وأكيد بيغيّر الـ conformation."
+   "explanation": "الـ pH بيأثر على الـ protonation بتاع الـ NH₂ groups في الـ active site، والـ extremes of pH بتعمل denaturation للإنزيم (الكتاب ص 62). عشان كده النشاط بيقل.\nالـ pH المتطرف مش بيزوّد الـ affinity ولا بيزوّد تصنيع الإنزيم، وأكيد بيغيّر الـ conformation.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-029",
@@ -13792,7 +14010,15 @@
     "Unchanged Km, increased Vmax",
     "Decreased Km and Vmax"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-030",
@@ -13810,7 +14036,15 @@
     "The enzyme produces more cofactors",
     "The inhibitor binds only the ES complex"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-031",
@@ -13831,7 +14065,12 @@
    "where": [
     "Enzymes MCQ 1"
    ],
-   "explanation": "الـ Malonate شبه الـ succinate في التركيب (structural similarity)، فبيتنافس معاه على الـ active site بتاع الـ succinate dehydrogenase. ده تعريف الـ competitive inhibitor بالظبط، وبيتلغي تأثيره لو زودنا الـ substrate (الكتاب ص 63).\nالـ uncompetitive بيرتبط بالـ ES complex بس، ومالوش شبه بالـ substrate."
+   "explanation": "الـ Malonate شبه الـ succinate في التركيب (structural similarity)، فبيتنافس معاه على الـ active site بتاع الـ succinate dehydrogenase. ده تعريف الـ competitive inhibitor بالظبط، وبيتلغي تأثيره لو زودنا الـ substrate (الكتاب ص 63).\nالـ uncompetitive بيرتبط بالـ ES complex بس، ومالوش شبه بالـ substrate.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-032",
@@ -13851,7 +14090,15 @@
    ],
    "answer": 1,
    "explanation": "قاعدة الكتاب (ص 64): الـ non-competitive inhibitor بيقلل الـ Vmax والـ Km مش بيتغير، لأنه بيرتبط بمكان غير الـ active site فمش بيأثر على الـ affinity.\nالـ competitive عكسه: Km بيزيد والـ Vmax ثابتة.",
-   "memoryTrick": "Non-competitive = Vmax ↓ / Km ثابت.\nCompetitive = Km ↑ / Vmax ثابت."
+   "memoryTrick": "Non-competitive = Vmax ↓ / Km ثابت.\nCompetitive = Km ↑ / Vmax ثابت.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-033",
@@ -13873,7 +14120,12 @@
     "Enzymes MCQ 1"
    ],
    "explanation": "الـ uncompetitive inhibitor بيرتبط بس بالـ ES complex (بعد ما الـ substrate يرتبط بالإنزيم)، والـ Lineweaver-Burk plot بيدّي خط parallel للخط الأصلي (الكتاب ص 64).\nالـ competitive بيرتبط بالإنزيم الحر في الـ active site، والـ homotropic activator ده substrate بيشتغل كـ effector.",
-   "memoryTrick": "Uncompetitive = مستني الـ ES complex يتكوّن الأول."
+   "memoryTrick": "Uncompetitive = مستني الـ ES complex يتكوّن الأول.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-034",
@@ -13891,7 +14143,15 @@
     "Irreversible",
     "Noncompetitive"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-035",
@@ -13909,7 +14169,15 @@
     "They never bind substrate",
     "They lack regulatory sites"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-036",
@@ -13930,7 +14198,12 @@
    "where": [
     "Enzymes MCQ 1"
    ],
-   "explanation": "لما الـ final product يرجع يثبط أول إنزيم في الـ pathway، ده اسمه feedback inhibition. ولأن الـ effector هنا مختلف عن الـ substrate، يبقى heterotropic، ولأنه بيثبط يبقى negative effector (الكتاب ص 66).\nالـ homotropic معناه إن الـ substrate نفسه هو الـ effector."
+   "explanation": "لما الـ final product يرجع يثبط أول إنزيم في الـ pathway، ده اسمه feedback inhibition. ولأن الـ effector هنا مختلف عن الـ substrate، يبقى heterotropic، ولأنه بيثبط يبقى negative effector (الكتاب ص 66).\nالـ homotropic معناه إن الـ substrate نفسه هو الـ effector.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-037",
@@ -13948,7 +14221,15 @@
     "CK-MB",
     "LDH-1"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-038",
@@ -13967,7 +14248,15 @@
     "LDH-1"
    ],
    "answer": 0,
-   "explanation": "الـ CK-MB هو الـ cardiac isoenzyme، وبيوصل لأعلى مستوى (peak) بعد حوالي 24 ساعة من الـ myocardial infarction. عشان كده مفيد في التشخيص بدري.\nالـ LDH بيطلع متأخر عنه (peak بعد 2–4 أيام)، والـ CK-BB في المخ."
+   "explanation": "الـ CK-MB هو الـ cardiac isoenzyme، وبيوصل لأعلى مستوى (peak) بعد حوالي 24 ساعة من الـ myocardial infarction. عشان كده مفيد في التشخيص بدري.\nالـ LDH بيطلع متأخر عنه (peak بعد 2–4 أيام)، والـ CK-BB في المخ.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-039",
@@ -13985,7 +14274,15 @@
     "Reduced substrate concentration",
     "Allosteric enzyme inhibition"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-040",
@@ -14005,7 +14302,15 @@
    ],
    "answer": 1,
    "explanation": "التوقيت ده بتاع الـ LDH: بيبدأ يزيد بعد 12–24 ساعة من الـ MI، يوصل للـ peak في 2–4 أيام، ويرجع طبيعي بعد 8–14 يوم. عشان كده بيفيد في المريض اللي جاي متأخر.\nالـ CK-MB أسرع بكتير: peak حوالي 24 ساعة ويرجع طبيعي في يومين تلاتة.",
-   "memoryTrick": "CK-MB = بدري وبيمشي بدري.\nLDH = متأخر وبيقعد أكتر (لحد أسبوعين)."
+   "memoryTrick": "CK-MB = بدري وبيمشي بدري.\nLDH = متأخر وبيقعد أكتر (لحد أسبوعين).",
+   "decks": {
+    "FIGHTER": [
+     "A-enz1"
+    ],
+    "MEDZONE": [
+     "A-enz1"
+    ]
+   }
   },
   {
    "id": "BG-041",
@@ -14023,7 +14328,15 @@
     "Pure noncompetitive",
     "Allosteric activation"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-042",
@@ -14041,7 +14354,15 @@
     "Km increases; Vmax unchanged",
     "Both Km and Vmax decrease"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-043",
@@ -14059,7 +14380,15 @@
     "Irreversible enzyme poisoning",
     "Pure noncompetitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-044",
@@ -14077,7 +14406,15 @@
     "Uncompetitive",
     "Substrate activation"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-045",
@@ -14095,7 +14432,15 @@
     "Only at the catalytic active site",
     "Only to product molecules"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-046",
@@ -14113,7 +14458,15 @@
     "It is always overcome by more substrate",
     "It always increases Km"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-047",
@@ -14131,7 +14484,15 @@
     "Proteolytic digestion",
     "Enzyme degradation"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-048",
@@ -14149,7 +14510,15 @@
     "Irreversible",
     "Competitive"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-049",
@@ -14167,7 +14536,15 @@
     "Uncompetitive",
     "Irreversible"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-050",
@@ -14185,7 +14562,15 @@
     "Hydrolysis",
     "Irreversible inhibition"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-051",
@@ -14203,7 +14588,15 @@
     "Always hyperbolic",
     "Flat"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-052",
@@ -14222,7 +14615,15 @@
     "Immediate substrate binding"
    ],
    "answer": 2,
-   "explanation": "الكتاب (ص 65) بيقسم الـ regulation لـ:\n• Short-term: الـ allosteric regulation والـ covalent modification (phosphorylation / dephosphorylation).\n• Long-term: الـ repression أو induction للـ genetic biosynthesis بتاع الإنزيم.\nفالـ induction of enzyme synthesis هو الـ long-term، والباقي كله short-term."
+   "explanation": "الكتاب (ص 65) بيقسم الـ regulation لـ:\n• Short-term: الـ allosteric regulation والـ covalent modification (phosphorylation / dephosphorylation).\n• Long-term: الـ repression أو induction للـ genetic biosynthesis بتاع الإنزيم.\nفالـ induction of enzyme synthesis هو الـ long-term، والباقي كله short-term.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-053",
@@ -14240,7 +14641,15 @@
     "ALT released from damaged liver",
     "CK-MB after myocardial injury"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-054",
@@ -14258,7 +14667,15 @@
     "Plasma becomes their normal site of action",
     "All enzymes become functional in plasma"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-055",
@@ -14276,7 +14693,15 @@
     "Catalyze completely unrelated reactions",
     "Are always present only in plasma"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-056",
@@ -14294,7 +14719,15 @@
     "α and β only",
     "M and B"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-057",
@@ -14314,7 +14747,15 @@
    ],
    "answer": 0,
    "explanation": "الـ LDH عبارة عن tetramer من 4 سلاسل، كل سلسلة يا H (heart) يا M (muscle) (الكتاب ص 67). الـ LDH1 = H4 وده بتاع القلب، والـ LDH5 = M4 وده بتاع العضلات والكبد.",
-   "memoryTrick": "LDH1 = H4 = Heart.\nLDH5 = M4 = Muscle/Liver."
+   "memoryTrick": "LDH1 = H4 = Heart.\nLDH5 = M4 = Muscle/Liver.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-058",
@@ -14332,7 +14773,15 @@
     "30–60 minutes",
     "Several months"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-059",
@@ -14350,7 +14799,15 @@
     "CK-MB",
     "LDH5"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-060",
@@ -14369,7 +14826,15 @@
     "CK-MB cannot be detected until day 14"
    ],
    "answer": 1,
-   "explanation": "بعد 24 ساعة من ألم الصدر، الـ CK-MB بيكون في الـ peak بتاعه. الاختيارات التانية كلها مواعيد غلط: الـ CK-MB بيظهر في أول ساعات، ومش بيفضل عالي شهور ولا بيستنى أسبوعين."
+   "explanation": "بعد 24 ساعة من ألم الصدر، الـ CK-MB بيكون في الـ peak بتاعه. الاختيارات التانية كلها مواعيد غلط: الـ CK-MB بيظهر في أول ساعات، ومش بيفضل عالي شهور ولا بيستنى أسبوعين.",
+   "decks": {
+    "FIGHTER": [
+     "A-enz2"
+    ],
+    "MEDZONE": [
+     "A-enz2"
+    ]
+   }
   },
   {
    "id": "BG-061",
@@ -14387,7 +14852,15 @@
     "Nucleotides",
     "Fatty acids"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-062",
@@ -14405,7 +14878,15 @@
     "Ester bonds",
     "Peptide bonds"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-063",
@@ -14423,7 +14904,15 @@
     "6%",
     "16%"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-064",
@@ -14441,7 +14930,15 @@
     "Ferritin",
     "Keratin"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-065",
@@ -14459,7 +14956,15 @@
     "Iron storage",
     "Blood coagulation"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-066",
@@ -14477,7 +14982,15 @@
     "Skin structure",
     "Iron storage"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-067",
@@ -14495,7 +15008,15 @@
     "Transcription factors",
     "Structural collagen"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-068",
@@ -14513,7 +15034,15 @@
     "Antibody",
     "Hemoglobin"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-069",
@@ -14533,7 +15062,12 @@
    "answer": 1,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-070",
@@ -14551,7 +15085,15 @@
     "All enzymes are nucleic acids",
     "Enzymes never contain protein"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-071",
@@ -14569,7 +15111,15 @@
     "Amino group",
     "Aldehyde group"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-072",
@@ -14587,7 +15137,15 @@
     "Alanine",
     "Proline"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-073",
@@ -14605,7 +15163,15 @@
     "Side-chain carbon only",
     "α-Carbon"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-074",
@@ -14623,7 +15189,15 @@
     "Aliphatic",
     "Heterocyclic"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-075",
@@ -14641,7 +15215,15 @@
     "Proline",
     "Alanine"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-076",
@@ -14659,7 +15241,15 @@
     "Leucine",
     "Valine"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-077",
@@ -14677,7 +15267,15 @@
     "An additional carboxyl group",
     "A nonpolar side chain"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-078",
@@ -14695,7 +15293,15 @@
     "Only phosphorus",
     "Only sulfur"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-079",
@@ -14713,7 +15319,15 @@
     "Lysine and arginine",
     "Leucine and lysine"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-080",
@@ -14731,7 +15345,15 @@
     "Serine and threonine",
     "Lysine and arginine"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-081",
@@ -14749,7 +15371,15 @@
     "Arginine",
     "Glutamate"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-082",
@@ -14767,7 +15397,15 @@
     "Pure ketogenic",
     "Basic"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-083",
@@ -14785,7 +15423,15 @@
     "Leucine and lysine",
     "Lysine, arginine and histidine"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-084",
@@ -14805,7 +15451,12 @@
    "answer": 0,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-085",
@@ -14825,7 +15476,12 @@
    "answer": 1,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-086",
@@ -14845,7 +15501,12 @@
    "answer": 1,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-087",
@@ -14865,7 +15526,12 @@
    "answer": 2,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-088",
@@ -14885,7 +15551,12 @@
    "answer": 3,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-089",
@@ -14903,7 +15574,15 @@
     "Cannot be synthesized by the body and must be obtained from the diet",
     "Always has an acidic side chain"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-090",
@@ -14921,7 +15600,15 @@
     "Cannot be used for protein synthesis",
     "Contain no nitrogen"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-091",
@@ -14939,7 +15626,15 @@
     "Nonessential amino acids",
     "Essential amino acids"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-092",
@@ -14959,7 +15654,12 @@
    "answer": 0,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-093",
@@ -14977,7 +15677,15 @@
     "Asparagine",
     "Phenylalanine"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-094",
@@ -14997,7 +15705,12 @@
    "answer": 3,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-095",
@@ -15017,7 +15730,12 @@
    "answer": 0,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-096",
@@ -15035,7 +15753,15 @@
     "Proline",
     "Serine"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-097",
@@ -15053,7 +15779,15 @@
     "Leucine",
     "Alanine"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-098",
@@ -15071,7 +15805,15 @@
     "Four different attached groups",
     "Two identical side chains"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-099",
@@ -15089,7 +15831,15 @@
     "D only",
     "L"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-100",
@@ -15107,7 +15857,15 @@
     "Certain antibiotics and plant or bacterial cell walls",
     "Only collagen"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-101",
@@ -15125,7 +15883,15 @@
     "Donate or accept protons",
     "Form only hydrogen bonds"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-102",
@@ -15143,7 +15909,15 @@
     "Only a positive charge",
     "No ionizable groups"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-103",
@@ -15161,7 +15935,15 @@
     "Break peptide bonds",
     "Show no net migration"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-104",
@@ -15179,7 +15961,15 @@
     "Positive charge",
     "Permanent positive charge"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-105",
@@ -15197,7 +15987,15 @@
     "Zero charge under all conditions",
     "Positive charge"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-106",
@@ -15215,7 +16013,15 @@
     "Peptide bonds are hydrolyzed",
     "Greater protonation of the amino group creates a net positive charge"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-107",
@@ -15233,7 +16039,15 @@
     "Its net electrophoretic migration is minimal",
     "Its primary structure is lost"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-108",
@@ -15253,7 +16067,15 @@
    ],
    "answer": 3,
    "explanation": "فوق الـ I.E.P الـ amino acid بيشيل negative charge (الـ COOH بيدّي البروتون بتاعه)، وتحت الـ I.E.P بيشيل positive charge (الـ amino group بتاخد بروتون) (الكتاب ص 45). فالعينتين على جنبين الـ pI لازم يكون شحنتهم عكس بعض.",
-   "memoryTrick": "فوق الـ pI = سالب.\nتحت الـ pI = موجب."
+   "memoryTrick": "فوق الـ pI = سالب.\nتحت الـ pI = موجب.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-109",
@@ -15271,7 +16093,15 @@
     "No ionizable functional groups",
     "Only a negatively charged amino group"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-110",
@@ -15290,7 +16120,15 @@
     "Peptide-bond dissociation point"
    ],
    "answer": 0,
-   "explanation": "عند الـ I.E.P الـ amino acid بيبقى zwitterion: شحنة موجبة وسالبة في نفس الوقت والـ net charge = صفر. عشان كده في الـ electric field مش بيروح لا للـ cathode ولا للـ anode (الكتاب ص 45). أقل حركة في الـ electrophoresis معناها إننا قريبين من الـ pI."
+   "explanation": "عند الـ I.E.P الـ amino acid بيبقى zwitterion: شحنة موجبة وسالبة في نفس الوقت والـ net charge = صفر. عشان كده في الـ electric field مش بيروح لا للـ cathode ولا للـ anode (الكتاب ص 45). أقل حركة في الـ electrophoresis معناها إننا قريبين من الـ pI.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-111",
@@ -15308,7 +16146,15 @@
     "The carboxyl group of one amino acid and the amino group of another",
     "Two α-carbon atoms directly"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-112",
@@ -15326,7 +16172,15 @@
     "Phosphorylation reaction",
     "Redox reaction"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-113",
@@ -15344,7 +16198,15 @@
     "Hydrophobic interaction maintaining tertiary folding",
     "Hydrogen bond maintaining an α-helix"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-114",
@@ -15362,7 +16224,15 @@
     "Extent of denaturation",
     "Sequence of its amino acids"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-115",
@@ -15380,7 +16250,15 @@
     "From any internal residue outward",
     "Either direction with no indication"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-116",
@@ -15398,7 +16276,15 @@
     "Phosphate group",
     "Carboxyl group"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-117",
@@ -15416,7 +16302,15 @@
     "C-Terminus toward N-terminus",
     "N-Terminus toward C-terminus"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-118",
@@ -15434,7 +16328,15 @@
     "The protein's final solubility only",
     "Ambient temperature alone"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-119",
@@ -15452,7 +16354,15 @@
     "Creutzfeldt–Jakob disease",
     "Parkinson disease"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-120",
@@ -15471,7 +16381,15 @@
     "Quaternary structure only"
    ],
    "answer": 2,
-   "explanation": "الـ primary structure هي عدد ونوع وترتيب (sequence) الـ amino acids. تغيير residue واحد حتى لو الطول ثابت معناه إن الـ sequence اتغير، يعني الـ primary structure هي اللي اتغيرت مباشرة. ده اللي بيحصل في الـ sickle-cell anemia (الكتاب ص 47).\nممكن الـ levels التانية تتأثر بعد كده، بس التغيير المباشر في الـ primary."
+   "explanation": "الـ primary structure هي عدد ونوع وترتيب (sequence) الـ amino acids. تغيير residue واحد حتى لو الطول ثابت معناه إن الـ sequence اتغير، يعني الـ primary structure هي اللي اتغيرت مباشرة. ده اللي بيحصل في الـ sickle-cell anemia (الكتاب ص 47).\nممكن الـ levels التانية تتأثر بعد كده، بس التغيير المباشر في الـ primary.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-121",
@@ -15489,7 +16407,15 @@
     "Amyloid and ferritin",
     "Apolipoprotein and collagen"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-122",
@@ -15507,7 +16433,15 @@
     "Disulfide cross-links between different proteins",
     "Metal ion bridges only"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-123",
@@ -15525,7 +16459,15 @@
     "Immediately adjacent residue only",
     "Second residue below"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-124",
@@ -15543,7 +16485,15 @@
     "Uncoiled",
     "Right-handed"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-125",
@@ -15561,7 +16511,15 @@
     "3.6",
     "5.5"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-126",
@@ -15579,7 +16537,15 @@
     "Into the peptide-bond plane exclusively",
     "Outward from the helix"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-127",
@@ -15597,7 +16563,15 @@
     "β-Pleated sheet",
     "Quaternary tetramer"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-128",
@@ -15615,7 +16589,15 @@
     "Run in opposite directions",
     "Have no peptide bonds"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-129",
@@ -15633,7 +16615,15 @@
     "Right-handed",
     "Antiparallel"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-130",
@@ -15652,7 +16642,15 @@
     "They do not occur in fibrous proteins"
    ],
    "answer": 0,
-   "explanation": "الكتاب (ص 48) بيقول إن الـ β-pleated sheet ممكن يتكون من سلسلتين أو أكتر منفصلين أو من أجزاء من نفس السلسلة. وممكن يبقى parallel (نفس الاتجاه) أو antiparallel (عكس بعض)، وموجود في الـ fibrous proteins زي الـ keratin.\nعشان كده كل الاختيارات التانية غلط."
+   "explanation": "الكتاب (ص 48) بيقول إن الـ β-pleated sheet ممكن يتكون من سلسلتين أو أكتر منفصلين أو من أجزاء من نفس السلسلة. وممكن يبقى parallel (نفس الاتجاه) أو antiparallel (عكس بعض)، وموجود في الـ fibrous proteins زي الـ keratin.\nعشان كده كل الاختيارات التانية غلط.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-131",
@@ -15670,7 +16668,15 @@
     "α-Helix",
     "Unfolded primary chain"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-132",
@@ -15689,7 +16695,15 @@
     "No possible conformational effect"
    ],
    "answer": 0,
-   "explanation": "الـ Proline هو imino acid (الـ amino group بتاعه secondary)، وبيقطع (interrupts) الـ α-helix في الـ globular proteins (الكتاب ص 45). فإدخاله في نص الـ helix بيكسرها أو بيوقفها."
+   "explanation": "الـ Proline هو imino acid (الـ amino group بتاعه secondary)، وبيقطع (interrupts) الـ α-helix في الـ globular proteins (الكتاب ص 45). فإدخاله في نص الـ helix بيكسرها أو بيوقفها.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-133",
@@ -15707,7 +16721,15 @@
     "The association of at least two different molecules of DNA",
     "The compact three-dimensional folding of one polypeptide chain"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-134",
@@ -15725,7 +16747,15 @@
     "Only phosphodiester bonds",
     "Only DNA base pairing"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-135",
@@ -15743,7 +16773,15 @@
     "Hydrogen bonds and ionic interactions",
     "Phosphodiester and ester bonds"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-136",
@@ -15761,7 +16799,15 @@
     "Disulfide bond",
     "Nucleotide linkage"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-137",
@@ -15779,7 +16825,15 @@
     "Only a single unfolded polypeptide",
     "Two or more polypeptide subunits"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-138",
@@ -15797,7 +16851,15 @@
     "Only peptide-bond structure with no folding",
     "Only quaternary structure"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-139",
@@ -15815,7 +16877,15 @@
     "Amphoteric character",
     "Primary structure"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-140",
@@ -15834,7 +16904,15 @@
     "Quaternary"
    ],
    "answer": 1,
-   "explanation": "الـ tertiary structure هي folding لسلسلة واحدة (single chain) عشان تعمل compact 3D structure زي الـ globular proteins. اتثبتت بأربع روابط: hydrogen، disulphide، ionic، hydrophobic (الكتاب ص 48–49).\nالـ quaternary محتاجة أكتر من سلسلة، والسؤال قال single chain."
+   "explanation": "الـ tertiary structure هي folding لسلسلة واحدة (single chain) عشان تعمل compact 3D structure زي الـ globular proteins. اتثبتت بأربع روابط: hydrogen، disulphide، ionic، hydrophobic (الكتاب ص 48–49).\nالـ quaternary محتاجة أكتر من سلسلة، والسؤال قال single chain.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-141",
@@ -15853,7 +16931,15 @@
     "Primary structure"
    ],
    "answer": 3,
-   "explanation": "الـ unfolding (denaturation) بيكسر الروابط اللي ماسكة الـ secondary والـ tertiary والـ quaternary، لكن الـ peptide bonds مش بتتكسر (الكتاب ص 46 و52). فالـ sequence ثابت، يعني الـ primary structure هي الوحيدة اللي لازم تفضل زي ما هي."
+   "explanation": "الـ unfolding (denaturation) بيكسر الروابط اللي ماسكة الـ secondary والـ tertiary والـ quaternary، لكن الـ peptide bonds مش بتتكسر (الكتاب ص 46 و52). فالـ sequence ثابت، يعني الـ primary structure هي الوحيدة اللي لازم تفضل زي ما هي.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-142",
@@ -15872,7 +16958,15 @@
     "Tertiary has no stabilizing forces; quaternary is maintained only by peptide bonds"
    ],
    "answer": 1,
-   "explanation": "• الـ tertiary: folding جوه سلسلة واحدة.\n• الـ quaternary: تجمّع أكتر من سلسلة (subunits)، وكل subunit ليها primary و secondary و tertiary خاصة بيها (الكتاب ص 48–49).\nالـ sequence هو الـ primary، والـ α-helix هو secondary."
+   "explanation": "• الـ tertiary: folding جوه سلسلة واحدة.\n• الـ quaternary: تجمّع أكتر من سلسلة (subunits)، وكل subunit ليها primary و secondary و tertiary خاصة بيها (الكتاب ص 48–49).\nالـ sequence هو الـ primary، والـ α-helix هو secondary.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-143",
@@ -15890,7 +16984,15 @@
     "Promote efficient folding and prevent protein aggregation",
     "Synthesize DNA"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-144",
@@ -15908,7 +17010,15 @@
     "Only sickle-cell anemia",
     "Alzheimer and Parkinson diseases"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-145",
@@ -15926,7 +17036,15 @@
     "Ferritin",
     "Collagen"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-146",
@@ -15944,7 +17062,15 @@
     "α-Helices only",
     "Single-stranded DNA"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-147",
@@ -15962,7 +17088,15 @@
     "Proline",
     "Tau protein"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-148",
@@ -15980,7 +17114,15 @@
     "Progressive memory loss, disorientation, and impaired intellectual function",
     "Immediate loss of clotting factors only"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-149",
@@ -16000,7 +17142,12 @@
    "answer": 3,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-150",
@@ -16018,7 +17165,15 @@
     "Tau",
     "Amyloid precursor only"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-151",
@@ -16038,7 +17193,15 @@
    ],
    "answer": 0,
    "explanation": "مفيش فرق في الـ primary structure بين الـ PrPC (الطبيعي) والـ PrPSc (المُعدي). الفرق في الـ 3D conformation: عدد من الـ α-helices في الـ PrPC بيتحولوا لـ β-sheets في الـ PrPSc، فيبقى resistant للـ proteolysis وبيعمل insoluble aggregates (الكتاب ص 51).",
-   "memoryTrick": "Prion: نفس الـ sequence، شكل مختلف (α-helix ← β-sheet)."
+   "memoryTrick": "Prion: نفس الـ sequence، شكل مختلف (α-helix ← β-sheet).",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-152",
@@ -16057,7 +17220,15 @@
     "Exclusive failure of iron transport"
    ],
    "answer": 2,
-   "explanation": "مرض بينتشر عن طريق بروتين متطوي غلط من غير أي تغيير في الـ primary sequence هو بالظبط وصف الـ prion disease. الـ PrPC الطبيعي بيتحول conformation لـ PrPSc، وده اللي بيعمل الـ infectivity (الكتاب ص 51)."
+   "explanation": "مرض بينتشر عن طريق بروتين متطوي غلط من غير أي تغيير في الـ primary sequence هو بالظبط وصف الـ prion disease. الـ PrPC الطبيعي بيتحول conformation لـ PrPSc، وده اللي بيعمل الـ infectivity (الكتاب ص 51).",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-153",
@@ -16075,7 +17246,15 @@
     "Secondary, tertiary, and quaternary",
     "Only the peptide-bond sequence"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-154",
@@ -16093,7 +17272,15 @@
     "Amino acid sequence reading",
     "Glucose alone"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-155",
@@ -16111,7 +17298,15 @@
     "Urea",
     "Normal saline in every context"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-156",
@@ -16131,7 +17326,12 @@
    "answer": 1,
    "where": [
     "Protein Bank Dr Abdullah"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-157",
@@ -16149,7 +17349,15 @@
     "Removal of all amino acids",
     "Creation of a new DNA sequence"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-158",
@@ -16167,7 +17375,15 @@
     "Denaturation makes all proteins entirely soluble",
     "Denaturation creates new amino acids"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-159",
@@ -16186,7 +17402,15 @@
     "It has been converted into DNA"
    ],
    "answer": 1,
-   "explanation": "الـ peptide bonds سليمة، يعني الـ primary structure ثابتة. لكن فقد الـ activity وزيادة الـ viscosity من الـ effects of denaturation، اللي بيكسر الـ secondary والـ tertiary والـ quaternary (الكتاب ص 52)."
+   "explanation": "الـ peptide bonds سليمة، يعني الـ primary structure ثابتة. لكن فقد الـ activity وزيادة الـ viscosity من الـ effects of denaturation، اللي بيكسر الـ secondary والـ tertiary والـ quaternary (الكتاب ص 52).",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-160",
@@ -16205,7 +17429,15 @@
     "Formation of new essential amino acids and increased gene transcription"
    ],
    "answer": 0,
-   "explanation": "الـ effects of denaturation في الكتاب (ص 52):\n• فقد الـ secondary والـ tertiary والـ quaternary structure.\n• Increased viscosity.\n• Decreased solubility (عشان الـ hydrophobic groups بتتكشف).\n• Increased digestibility.\n• Loss of biologic activity و loss of antigenic property.\nالاختيار A هو اللي بيجمعهم صح."
+   "explanation": "الـ effects of denaturation في الكتاب (ص 52):\n• فقد الـ secondary والـ tertiary والـ quaternary structure.\n• Increased viscosity.\n• Decreased solubility (عشان الـ hydrophobic groups بتتكشف).\n• Increased digestibility.\n• Loss of biologic activity و loss of antigenic property.\nالاختيار A هو اللي بيجمعهم صح.",
+   "decks": {
+    "FIGHTER": [
+     "A-pro"
+    ],
+    "MEDZONE": [
+     "A-pro"
+    ]
+   }
   },
   {
    "id": "BG-161",
@@ -16226,7 +17458,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الجسم مش بيقدر يصنع الـ methionine، فلازم يجي من الأكل، وده تعريف الـ essential amino acid. والـ methionine من ضمن الـ essential في الكتاب (ص 44).\nالـ methionine sulfur-containing، مش acidic ولا aromatic."
+   "explanation": "الجسم مش بيقدر يصنع الـ methionine، فلازم يجي من الأكل، وده تعريف الـ essential amino acid. والـ methionine من ضمن الـ essential في الكتاب (ص 44).\nالـ methionine sulfur-containing، مش acidic ولا aromatic.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-162",
@@ -16247,7 +17484,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الـ Phenylalanine فيه benzene ring، فهو aromatic، وده المثال اللي في الكتاب نفسه (ص 43).\nالـ heterocyclic مثالها الـ tryptophan، والـ sulfur-containing هو الـ methionine."
+   "explanation": "الـ Phenylalanine فيه benzene ring، فهو aromatic، وده المثال اللي في الكتاب نفسه (ص 43).\nالـ heterocyclic مثالها الـ tryptophan، والـ sulfur-containing هو الـ methionine.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-163",
@@ -16268,7 +17510,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الـ heterocyclic معناه ring فيها ذرة غير الـ carbon (زي N). الـ Histidine فيه imidazole ring، فهو heterocyclic.\nالكتاب (ص 43) مثّل بالـ tryptophan، بس هو مش في الاختيارات. الـ phenylalanine فيه benzene ring بس (aromatic)، والـ glycine والـ valine من غير ring خالص."
+   "explanation": "الـ heterocyclic معناه ring فيها ذرة غير الـ carbon (زي N). الـ Histidine فيه imidazole ring، فهو heterocyclic.\nالكتاب (ص 43) مثّل بالـ tryptophan، بس هو مش في الاختيارات. الـ phenylalanine فيه benzene ring بس (aromatic)، والـ glycine والـ valine من غير ring خالص.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-164",
@@ -16290,7 +17537,13 @@
     "Midterm KNU 2027 (1st Round)",
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الـ Amino acids هي amphoteric: بتدّي أو بتاخد بروتون على حسب الـ pH. في الـ alkalosis الـ pH عالي (فوق الـ I.E.P)، فالـ carboxyl group بيدّي البروتون بتاعه. يعني الـ amino acids بتشتغل كـ acids وبتطلع H⁺ تعادل القلوية (الكتاب ص 45)."
+   "explanation": "الـ Amino acids هي amphoteric: بتدّي أو بتاخد بروتون على حسب الـ pH. في الـ alkalosis الـ pH عالي (فوق الـ I.E.P)، فالـ carboxyl group بيدّي البروتون بتاعه. يعني الـ amino acids بتشتغل كـ acids وبتطلع H⁺ تعادل القلوية (الكتاب ص 45).",
+   "decks": {
+    "MEDZONE": [
+     "K-knu",
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-165",
@@ -16312,7 +17565,13 @@
     "Midterm KNU 2027 (1st Round)",
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "تحت الـ I.E.P الوسط غني بالـ H⁺، فالـ amino acid بياخد بروتونات وبيبقى positive. والـ carboxyl group بيفضل protonated (-COOH) ومش بيتأين (الكتاب ص 46، شكل cation عند low pH)."
+   "explanation": "تحت الـ I.E.P الوسط غني بالـ H⁺، فالـ amino acid بياخد بروتونات وبيبقى positive. والـ carboxyl group بيفضل protonated (-COOH) ومش بيتأين (الكتاب ص 46، شكل cation عند low pH).",
+   "decks": {
+    "MEDZONE": [
+     "K-knu",
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-166",
@@ -16334,7 +17593,13 @@
     "Midterm KNU 2027 (1st Round)",
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الـ Serine من الـ polar uncharged (فيه -OH)، والـ Valine من الـ nonpolar aliphatic. فده التبديل المطلوب.\n• Aspartate ← Glutamate: الاتنين acidic.\n• Lysine ← Arginine: الاتنين basic.\n• Phenylalanine ← Tyrosine: الاتنين aromatic."
+   "explanation": "الـ Serine من الـ polar uncharged (فيه -OH)، والـ Valine من الـ nonpolar aliphatic. فده التبديل المطلوب.\n• Aspartate ← Glutamate: الاتنين acidic.\n• Lysine ← Arginine: الاتنين basic.\n• Phenylalanine ← Tyrosine: الاتنين aromatic.",
+   "decks": {
+    "MEDZONE": [
+     "K-knu",
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-167",
@@ -16356,7 +17621,12 @@
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
    "explanation": "الـ Lysine من الـ essential amino acids (الكتاب ص 44)، فلازم يكون في الأكل. الـ Alanine والـ Aspartate والـ Glutamate كلهم non-essential والجسم بيصنعهم.",
-   "memoryTrick": "Essential: Leucine, Isoleucine, Valine, Histidine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan."
+   "memoryTrick": "Essential: Leucine, Isoleucine, Valine, Histidine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-168",
@@ -16376,7 +17646,12 @@
    "answer": 1,
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-169",
@@ -16397,7 +17672,13 @@
    "where": [
     "Midterm KNU 2027 (1st Round)",
     "Dr Marwa Questions On Bio & Genetics (2)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu",
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-170",
@@ -16417,7 +17698,12 @@
    "answer": 2,
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-171",
@@ -16437,7 +17723,12 @@
    "answer": 2,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-172",
@@ -16457,7 +17748,12 @@
    "answer": 2,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-173",
@@ -16478,7 +17774,12 @@
    "where": [
     "Midterm KNU 2027 (1st Round)"
    ],
-   "explanation": "الـ simple protein بيتكون من amino acids بس. الـ Albumin مثال كلاسيكي.\nالـ conjugated proteins فيها جزء غير بروتيني:\n• Hemoglobin: فيه heme.\n• Casein: phosphoprotein.\n• Lipoprotein: فيه lipid."
+   "explanation": "الـ simple protein بيتكون من amino acids بس. الـ Albumin مثال كلاسيكي.\nالـ conjugated proteins فيها جزء غير بروتيني:\n• Hemoglobin: فيه heme.\n• Casein: phosphoprotein.\n• Lipoprotein: فيه lipid.",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-174",
@@ -16498,7 +17799,12 @@
    "answer": 3,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-175",
@@ -16518,7 +17824,12 @@
    "answer": 2,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-176",
@@ -16538,7 +17849,12 @@
    "answer": 2,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-177",
@@ -16558,7 +17874,12 @@
    "answer": 1,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-178",
@@ -16578,7 +17899,12 @@
    "answer": 1,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-179",
@@ -16598,7 +17924,12 @@
    "answer": 3,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-180",
@@ -16618,7 +17949,12 @@
    "answer": 1,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-181",
@@ -16640,7 +17976,12 @@
     "Midterm KNU 2027 (1st Round)"
    ],
    "explanation": "الـ pH (7.4) أعلى من الـ I.P (6.5)، وفوق الـ I.P البروتين بيشيل negative charge (الكتاب ص 45).\nالـ zwitterion (net charge = صفر) بيبقى عند الـ I.P بالظبط.",
-   "memoryTrick": "pH > pI ← سالب.\npH < pI ← موجب."
+   "memoryTrick": "pH > pI ← سالب.\npH < pI ← موجب.",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-182",
@@ -16661,7 +18002,12 @@
    "where": [
     "Midterm KNU 2027 (1st Round)"
    ],
-   "explanation": "الدوا اللي بيرتبط بالـ active site نفسه بيتنافس مع الـ substrate على نفس المكان، وده الـ competitive inhibition (الكتاب ص 63). والـ ACE inhibitors (captopril، enalapril، lisinopril) مذكورة في الكتاب كأدوية بتثبط إنزيم (ص 65).\nالـ non-competitive بيرتبط بمكان غير الـ active site."
+   "explanation": "الدوا اللي بيرتبط بالـ active site نفسه بيتنافس مع الـ substrate على نفس المكان، وده الـ competitive inhibition (الكتاب ص 63). والـ ACE inhibitors (captopril، enalapril، lisinopril) مذكورة في الكتاب كأدوية بتثبط إنزيم (ص 65).\nالـ non-competitive بيرتبط بمكان غير الـ active site.",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-183",
@@ -16682,7 +18028,12 @@
    "where": [
     "Midterm KNU 2027 (1st Round)"
    ],
-   "explanation": "الـ non-competitive inhibitor بيرتبط بمكان غير الـ active site، فبيكوّن Enz/I و Enz/I/S. يعني بيرتبط بالإنزيم الحر أو بالـ ES complex (الكتاب ص 64).\nمالوش شبه بالـ substrate، ومش بيرتبط بالـ active site، وزيادة الـ substrate مش بتلغي تأثيره (Vmax بتقل)."
+   "explanation": "الـ non-competitive inhibitor بيرتبط بمكان غير الـ active site، فبيكوّن Enz/I و Enz/I/S. يعني بيرتبط بالإنزيم الحر أو بالـ ES complex (الكتاب ص 64).\nمالوش شبه بالـ substrate، ومش بيرتبط بالـ active site، وزيادة الـ substrate مش بتلغي تأثيره (Vmax بتقل).",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-184",
@@ -16702,7 +18053,12 @@
    "answer": 3,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-185",
@@ -16723,7 +18079,12 @@
    "where": [
     "Midterm KNU 2027 (1st Round)"
    ],
-   "explanation": "في الـ competitive inhibition الـ inhibitor والـ substrate بيتنافسوا على نفس الـ active site، فلو زودنا الـ substrate بنغلب الـ inhibitor ونوصل لنفس الـ Vmax. عشان كده الـ Vmax ثابتة والـ Km بيزيد (الكتاب ص 63)."
+   "explanation": "في الـ competitive inhibition الـ inhibitor والـ substrate بيتنافسوا على نفس الـ active site، فلو زودنا الـ substrate بنغلب الـ inhibitor ونوصل لنفس الـ Vmax. عشان كده الـ Vmax ثابتة والـ Km بيزيد (الكتاب ص 63).",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-186",
@@ -16743,7 +18104,12 @@
    "answer": 1,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-187",
@@ -16763,7 +18129,12 @@
    "answer": 1,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-188",
@@ -16783,7 +18154,12 @@
    "answer": 1,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-189",
@@ -16803,7 +18179,12 @@
    "answer": 0,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-190",
@@ -16825,7 +18206,12 @@
     "Midterm KNU 2027 (1st Round)"
    ],
    "explanation": "من الـ Michaelis-Menten: V₀ = Vmax[S] / (Km + [S]). لما [S] = Km تبقى V₀ = Vmax/2 = 80/2 = 40 µmol/min. وده تعريف الـ Km أصلًا: التركيز اللي بيدّي half Vmax (الكتاب ص 62).",
-   "memoryTrick": "[S] = Km ← V = ½ Vmax."
+   "memoryTrick": "[S] = Km ← V = ½ Vmax.",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-191",
@@ -16846,7 +18232,12 @@
    "where": [
     "Midterm KNU 2027 (1st Round)"
    ],
-   "explanation": "الـ Trypsinogen هو zymogen (inactive form)، وبيتنشّط بإزالة جزء من الـ polypeptide chain (part removal). ده اللي اسمه limited proteolysis، زي ما الـ pepsinogen بيتحول لـ pepsin بالـ HCl (الكتاب ص 63). فلو الـ activation peptide مااتشالش يبقى ده اللي فشل."
+   "explanation": "الـ Trypsinogen هو zymogen (inactive form)، وبيتنشّط بإزالة جزء من الـ polypeptide chain (part removal). ده اللي اسمه limited proteolysis، زي ما الـ pepsinogen بيتحول لـ pepsin بالـ HCl (الكتاب ص 63). فلو الـ activation peptide مااتشالش يبقى ده اللي فشل.",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-192",
@@ -16866,7 +18257,12 @@
    "answer": 1,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-193",
@@ -16887,7 +18283,12 @@
    "where": [
     "Midterm KNU 2027 (1st Round)"
    ],
-   "explanation": "الـ LDH1 (H4) هو الموجود في القلب، والـ LDH5 (M4) في العضلات والكبد. وكمان الـ RBCs غنية بالـ LDH1، عشان كده الـ hemolysis بيرفع الـ LDH وبيعمل نتيجة غلط في التحليل."
+   "explanation": "الـ LDH1 (H4) هو الموجود في القلب، والـ LDH5 (M4) في العضلات والكبد. وكمان الـ RBCs غنية بالـ LDH1، عشان كده الـ hemolysis بيرفع الـ LDH وبيعمل نتيجة غلط في التحليل.",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-194",
@@ -16908,7 +18309,12 @@
    "where": [
     "Midterm KNU 2027 (1st Round)"
    ],
-   "explanation": "إضافة phosphate بالـ kinase (phosphorylation) أو شيلها (dephosphorylation) اسمها covalent modification، وهي من الـ short-term regulation (الكتاب ص 65).\nالـ limited proteolysis ده تنشيط الـ zymogens، والـ transcriptional induction ده long-term."
+   "explanation": "إضافة phosphate بالـ kinase (phosphorylation) أو شيلها (dephosphorylation) اسمها covalent modification، وهي من الـ short-term regulation (الكتاب ص 65).\nالـ limited proteolysis ده تنشيط الـ zymogens، والـ transcriptional induction ده long-term.",
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-195",
@@ -16928,7 +18334,12 @@
    "answer": 3,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-196",
@@ -16948,7 +18359,12 @@
    "answer": 1,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-197",
@@ -16966,7 +18382,15 @@
     "It becomes zero",
     "It decreases"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-198",
@@ -16984,7 +18408,15 @@
     "Temperature of DNA synthesis",
     "Temperature at which RNA is destroyed"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-199",
@@ -17002,7 +18434,15 @@
     "A shorter AT-rich sample",
     "An AT-rich sample"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-200",
@@ -17020,7 +18460,15 @@
     "DNA loses its phosphate groups",
     "Unstacking of bases increases UV absorption"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-201",
@@ -17038,7 +18486,15 @@
     "Number of chromosomes",
     "Melting temperature"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-202",
@@ -17056,7 +18512,15 @@
     "Formation of ribosomes",
     "Complete loss of all bases"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-203",
@@ -17074,7 +18538,15 @@
     "Only adenine residues",
     "Inverted complementary repeats across the strands"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-204",
@@ -17092,7 +18564,16 @@
     "Hairpin",
     "Nucleosome"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-205",
@@ -17110,7 +18591,15 @@
     "Spliceosome",
     "Telomerase"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-206",
@@ -17128,7 +18617,15 @@
     "Replacement of DNA with protein",
     "Random peptide formation"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-207",
@@ -17148,7 +18645,12 @@
    "answer": 2,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-208",
@@ -17168,7 +18670,12 @@
    "answer": 2,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-209",
@@ -17188,7 +18695,12 @@
    "answer": 3,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-210",
@@ -17208,7 +18720,12 @@
    "answer": 1,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-211",
@@ -17228,7 +18745,12 @@
    "answer": 0,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-212",
@@ -17248,7 +18770,12 @@
    "answer": 2,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-213",
@@ -17268,7 +18795,12 @@
    "answer": 3,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-214",
@@ -17288,7 +18820,12 @@
    "answer": 0,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-215",
@@ -17308,7 +18845,12 @@
    "answer": 1,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-216",
@@ -17328,7 +18870,12 @@
    "answer": 3,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-217",
@@ -17346,7 +18893,15 @@
     "DNA polymerase I",
     "RNA polymerase"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-218",
@@ -17364,7 +18919,15 @@
     "3' to 5'",
     "5' to 3'"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-219",
@@ -17382,7 +18945,15 @@
     "3' to 3'",
     "3' to 5'"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-220",
@@ -17400,7 +18971,15 @@
     "DNA polymerase III",
     "Telomerase"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-221",
@@ -17418,7 +18997,15 @@
     "5' to 5' exonuclease",
     "3' to 5' polymerase"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-222",
@@ -17436,7 +19023,16 @@
     "3' to 5' exonuclease",
     "5' to 3' polymerase only"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-223",
@@ -17454,7 +19050,15 @@
     "5' to 3' ligase",
     "3' to 5' polymerase"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-224",
@@ -17472,7 +19076,15 @@
     "Endonuclease acts only on RNA",
     "Exonuclease removes nucleotides from an end"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-225",
@@ -17490,7 +19102,15 @@
     "Endonuclease",
     "Helicase"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-226",
@@ -17508,7 +19128,15 @@
     "Endonuclease",
     "Exonuclease"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-227",
@@ -17526,7 +19154,15 @@
     "At the origin of every bacterial plasmid",
     "Inside ribosomes"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-228",
@@ -17546,7 +19182,12 @@
    "answer": 1,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-229",
@@ -17564,7 +19205,15 @@
     "Join Okazaki fragments",
     "Destroy RNA primers in bacteria"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-230",
@@ -17582,7 +19231,15 @@
     "A glucose molecule",
     "An RNA template"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-231",
@@ -17600,7 +19257,16 @@
     "Reverse transcriptase",
     "Protease"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-232",
@@ -17618,7 +19284,15 @@
     "Mature erythrocytes",
     "Germ cells"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-233",
@@ -17636,7 +19310,15 @@
     "It prevents all mutations",
     "It limits telomere shortening"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-234",
@@ -17654,7 +19336,15 @@
     "Telomerase",
     "Amylase"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-235",
@@ -17672,7 +19362,15 @@
     "Water alone",
     "Sodium chloride at normal concentration"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-236",
@@ -17690,7 +19388,15 @@
     "Visible green light only",
     "Ultraviolet radiation"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-237",
@@ -17708,7 +19414,16 @@
     "Conversion of all DNA to RNA",
     "Formation of peptide bonds"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-238",
@@ -17726,7 +19441,15 @@
     "An RNA codon",
     "A site containing two purines"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-239",
@@ -17744,7 +19467,15 @@
     "Only RNA splicing",
     "Increased histone translation"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-240",
@@ -17762,7 +19493,15 @@
     "Production of glucose",
     "Acceleration of ribosomal translation"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-241",
@@ -17780,7 +19519,15 @@
     "Normal base pairing",
     "DNA crosslinking"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-242",
@@ -17798,7 +19545,15 @@
     "Correct replication errors escaping proofreading",
     "Repair only UV dimers"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-243",
@@ -17816,7 +19571,15 @@
     "Pepsin and trypsin",
     "CK-MM and CK-MB"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-244",
@@ -17834,7 +19597,16 @@
     "By ribosome binding",
     "By its ATP content"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-245",
@@ -17852,7 +19624,15 @@
     "DNA ligase",
     "DNA helicase"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-246",
@@ -17870,7 +19650,16 @@
     "Scurvy",
     "Rickets"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-247",
@@ -17888,7 +19677,15 @@
     "Glycolysis",
     "Mismatch repair"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-248",
@@ -17906,7 +19703,15 @@
     "Telomere elongation",
     "Base excision repair"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-249",
@@ -17924,7 +19729,16 @@
     "DNA ligase",
     "Telomerase"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-250",
@@ -17942,7 +19756,15 @@
     "An AP site",
     "A telomere"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-251",
@@ -17960,7 +19782,15 @@
     "RNA polymerase",
     "Telomerase"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-252",
@@ -17978,7 +19808,15 @@
     "RNA polymerase",
     "DNA ligase alone"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-253",
@@ -17996,7 +19834,15 @@
     "Glycosylase → AP endonuclease → polymerase → ligase",
     "Polymerase → ligase → glycosylase → helicase"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-254",
@@ -18014,7 +19860,15 @@
     "A missing telomere only",
     "A normal matched A–T pair"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-255",
@@ -18032,7 +19886,15 @@
     "RNase H",
     "AP endonuclease only"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-256",
@@ -18050,7 +19912,15 @@
     "1000 nucleotides",
     "1 nucleotide"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-257",
@@ -18068,7 +19938,15 @@
     "DNA polymerase I and DNA ligase",
     "DNA helicase alone"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-258",
@@ -18086,7 +19964,16 @@
     "Pompe disease",
     "Xeroderma pigmentosum"
    ],
-   "answer": 3
+   "answer": 3,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-259",
@@ -18104,7 +19991,15 @@
     "Telomere replication only",
     "Glycolysis"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-260",
@@ -18122,7 +20017,15 @@
     "Nonhomologous end joining",
     "Base excision repair"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-261",
@@ -18140,7 +20043,15 @@
     "Homologous recombination",
     "Nonhomologous end joining"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-262",
@@ -18159,7 +20070,15 @@
     "Nonhomologous end joining"
    ],
    "answer": 3,
-   "explanation": "الـ Nonhomologous end joining (NHEJ) بيلزق طرفين الـ double-strand break في بعض مباشرة من غير template، فممكن يضيع جزء صغير (small deletion). يعني فيه loss of genetic information.\nالـ homologous recombination بياخد نسخة من الـ sister chromatid فبيبقى دقيق ومفيش فيه deletion."
+   "explanation": "الـ Nonhomologous end joining (NHEJ) بيلزق طرفين الـ double-strand break في بعض مباشرة من غير template، فممكن يضيع جزء صغير (small deletion). يعني فيه loss of genetic information.\nالـ homologous recombination بياخد نسخة من الـ sister chromatid فبيبقى دقيق ومفيش فيه deletion.",
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-263",
@@ -18177,7 +20096,15 @@
     "It removes all chromosomes",
     "It does not involve DNA"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ],
+    "MEDZONE": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-264",
@@ -18197,7 +20124,12 @@
    "answer": 3,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-265",
@@ -18217,7 +20149,12 @@
    "answer": 1,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-266",
@@ -18237,7 +20174,12 @@
    "answer": 1,
    "where": [
     "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
-   ]
+   ],
+   "decks": {
+    "FIGHTER": [
+     "A-gen2"
+    ]
+   }
   },
   {
    "id": "BG-267",
@@ -18255,7 +20197,16 @@
     "Phosphate group",
     "Glycosidic bond"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-268",
@@ -18273,7 +20224,15 @@
     "Nucleosides always contain phosphate",
     "Nucleotides do not contain nitrogenous bases"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-269",
@@ -18291,7 +20250,15 @@
     "Adenine and uracil",
     "Guanine and cytosine"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-270",
@@ -18309,7 +20276,15 @@
     "One ring with four nitrogen atoms",
     "A pyrimidine ring fused to a sugar ring"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-271",
@@ -18327,7 +20302,15 @@
     "Pyrimidines absorb only at 500 nm",
     "Purines absorb less strongly than pyrimidines"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-272",
@@ -18345,7 +20328,15 @@
     "Intermediates in purine catabolism toward uric acid",
     "Structural histones"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-273",
@@ -18363,7 +20354,16 @@
     "Guanine",
     "Adenine"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-274",
@@ -18381,7 +20381,15 @@
     "Complete prevention of DNA replication",
     "Replacement of all major bases"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-275",
@@ -18399,7 +20407,15 @@
     "Glucose",
     "Fructose"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-276",
@@ -18417,7 +20433,15 @@
     "The presence of peptide bonds",
     "The hydrophobicity of the backbone"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-277",
@@ -18435,7 +20459,15 @@
     "Hydrogen bonds between identical bases",
     "Disulfide bonds"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-278",
@@ -18453,7 +20485,16 @@
     "Hydroxyl group",
     "Carboxyl group"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-279",
@@ -18471,7 +20512,15 @@
     "Ligases",
     "Histones"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-280",
@@ -18491,7 +20540,16 @@
    ],
    "answer": 1,
    "explanation": "حسب Chargaff: A = T و G = C (الكتاب ص 76).\nG = 18% ← C = 18% ← G + C = 36%.\nالباقي A + T = 64%، فـ A = 32%.",
-   "memoryTrick": "اطرح الـ GC من 100 واقسم على 2."
+   "memoryTrick": "اطرح الـ GC من 100 واقسم على 2.",
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-281",
@@ -18510,7 +20568,15 @@
     "74%"
    ],
    "answer": 2,
-   "explanation": "حسب Chargaff في الـ dsDNA: Purines % = Pyrimidines % (الكتاب ص 76). يعني الـ purines (A + G) دايمًا 50% أيًا كانت نسبة الـ T.\nللتأكيد: T = 26% ← A = 26%، والباقي G + C = 48% ← G = 24%. فالـ purines = 26 + 24 = 50%."
+   "explanation": "حسب Chargaff في الـ dsDNA: Purines % = Pyrimidines % (الكتاب ص 76). يعني الـ purines (A + G) دايمًا 50% أيًا كانت نسبة الـ T.\nللتأكيد: T = 26% ← A = 26%، والباقي G + C = 48% ← G = 24%. فالـ purines = 26 + 24 = 50%.",
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-282",
@@ -18528,7 +20594,15 @@
     "Antiparallel but not paired",
     "Linked by peptide bonds"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-283",
@@ -18546,7 +20620,16 @@
     "Only guanine residues",
     "Histone cores"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-284",
@@ -18564,7 +20647,15 @@
     "Attachment of ribosomes",
     "Formation of peptide bonds"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-285",
@@ -18582,7 +20673,15 @@
     "Histone core",
     "Replication terminus"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-286",
@@ -18600,7 +20699,15 @@
     "Three",
     "Four"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-287",
@@ -18618,7 +20725,15 @@
     "Disulfide linkages",
     "Only ionic attachment to histone H1"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-288",
@@ -18638,7 +20753,16 @@
    ],
    "answer": 1,
    "explanation": "الـ complement لـ A هو T، ولـ G هو C. الـ complement لـ AGTC هو TCAG.\nولأن الـ strands antiparallel، الـ strand التاني بيتكتب 3'-TCAG-5' تحت الـ 5'-AGTC-3'.\nلو اتكتب من 5' لـ 3' يبقى 5'-GACT-3'. والاختيار A غلط لأن TCAG مكتوبة من 5' بالاتجاه الغلط.",
-   "memoryTrick": "اكتب الـ complement حرف بحرف، واقلب الاتجاه (5' ↔ 3')."
+   "memoryTrick": "اكتب الـ complement حرف بحرف، واقلب الاتجاه (5' ↔ 3').",
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-289",
@@ -18656,7 +20780,16 @@
     "Z-DNA",
     "Single-stranded DNA"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-290",
@@ -18674,7 +20807,16 @@
     "Z-DNA",
     "Both A- and B-DNA"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-291",
@@ -18692,7 +20834,16 @@
     "RNA",
     "Histone octamers"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-292",
@@ -18710,7 +20861,15 @@
     "Only A-DNA",
     "No helical form"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-293",
@@ -18728,7 +20887,15 @@
     "Synthesis of RNA primers",
     "Formation of histone octamers"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-294",
@@ -18746,7 +20913,16 @@
     "DNA conversion into protein",
     "Phosphate loss from all nucleotides"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-295",
@@ -18764,7 +20940,15 @@
     "Every phosphate bond breaks",
     "RNA transcription stops permanently"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-296",
@@ -18782,7 +20966,15 @@
     "No measurable UV absorbance",
     "The same Tm regardless of sequence"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-297",
@@ -18800,7 +20992,16 @@
     "Peptide helices",
     "Only Okazaki fragments"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-298",
@@ -18818,7 +21019,15 @@
     "One complete chromosome",
     "1000 amino acids"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-299",
@@ -18836,7 +21045,15 @@
     "Replication fork",
     "Telomere"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-300",
@@ -18854,7 +21071,16 @@
     "H3",
     "H4"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-301",
@@ -18872,7 +21098,15 @@
     "One molecule each of H1 through H4",
     "DNA polymerase III and ligase"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-302",
@@ -18890,7 +21124,16 @@
     "Glycine and alanine",
     "Phenylalanine and tryptophan"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-303",
@@ -18908,7 +21151,16 @@
     "Conversion of DNA to ribose",
     "The number of chromosome pairs"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-304",
@@ -18926,7 +21178,16 @@
     "One parental and one newly synthesized strand",
     "Only an RNA strand"
    ],
-   "answer": 2
+   "answer": 2,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-305",
@@ -18944,7 +21205,16 @@
     "G2",
     "M"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-306",
@@ -18962,7 +21232,15 @@
     "AMP, GMP, CMP, UMP",
     "Amino acids and ribose"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-307",
@@ -18980,7 +21258,16 @@
     "Must add nucleotides to a free 5' phosphate",
     "Cannot use deoxynucleotides"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-308",
@@ -18998,7 +21285,15 @@
     "G-C pairs lack hydrogen bonds",
     "AT-rich regions have no sugar-phosphate backbone"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-309",
@@ -19016,7 +21311,16 @@
     "Only one origin in the entire genome",
     "Only RNA replication origins"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-310",
@@ -19034,7 +21338,15 @@
     "It consists exclusively of GC pairs",
     "It is a eukaryotic telomere"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-311",
@@ -19052,7 +21364,15 @@
     "DNA polymerase",
     "Histone"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-312",
@@ -19070,7 +21390,16 @@
     "Join Okazaki fragments",
     "Recognize Tus-Ter complexes"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-313",
@@ -19088,7 +21417,15 @@
     "Absence of thymine",
     "Histone translation"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-314",
@@ -19106,7 +21443,15 @@
     "Both simultaneously on one strand",
     "Without a defined direction"
    ],
-   "answer": 1
+   "answer": 1,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-315",
@@ -19124,7 +21469,15 @@
     "Extended only 3'->5'",
     "Never proofread"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1"
+    ]
+   }
   },
   {
    "id": "BG-316",
@@ -19142,7 +21495,16 @@
     "DnaB helicase",
     "Histone H1"
    ],
-   "answer": 0
+   "answer": 0,
+   "decks": {
+    "FIGHTER": [
+     "A-gen1"
+    ],
+    "MEDZONE": [
+     "A-gen1",
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-317",
@@ -19161,7 +21523,15 @@
     "A peptide bond"
    ],
    "answer": 2,
-   "explanation": "الرابطة بين الـ base والـ pentose sugar هي N-glycosidic bond: الـ N-9 في الـ purines أو الـ N-1 في الـ pyrimidines بيرتبط بالـ C-1' بتاع السكر (الكتاب ص 70 و73).\n• Phosphodiester: بين النيوكليوتيدات وبعضها.\n• Hydrogen bonds: بين الـ bases في الـ strands المقابلة.\n• Peptide bond: في البروتين."
+   "explanation": "الرابطة بين الـ base والـ pentose sugar هي N-glycosidic bond: الـ N-9 في الـ purines أو الـ N-1 في الـ pyrimidines بيرتبط بالـ C-1' بتاع السكر (الكتاب ص 70 و73).\n• Phosphodiester: بين النيوكليوتيدات وبعضها.\n• Hydrogen bonds: بين الـ bases في الـ strands المقابلة.\n• Peptide bond: في البروتين.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-318",
@@ -19181,7 +21551,15 @@
    ],
    "answer": 2,
    "explanation": "حسب جدول الكتاب (ص 79):\n• الـ Z form: left-handed، أضيق قطر 18.4 Å، و12 bases per turn.\n• الـ A form: 25.5 Å و11 bases (right-handed).\n• الـ B form: 23.7 Å و10 bases (right-handed).\nالـ cruciform شكل بيتكون من الـ palindromes، مش DNA form.",
-   "memoryTrick": "Z = Zigzag = الوحيد left-handed و12 bases."
+   "memoryTrick": "Z = Zigzag = الوحيد left-handed و12 bases.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-319",
@@ -19200,7 +21578,15 @@
     "H1: Binds to the linker DNA chain"
    ],
    "answer": 3,
-   "explanation": "الـ Histone H1 بيرتبط بالـ linker DNA اللي بين الـ nucleosome beads. الـ core نفسه (octamer) بيتكون من 2 من كل واحد: H2A و H2B و H3 و H4 (الكتاب ص 84).\nالـ H1 مش جزء من الـ core، والـ H2A في الـ core مش في الـ linker، والـ H4 ليه دور أساسي في الـ packaging."
+   "explanation": "الـ Histone H1 بيرتبط بالـ linker DNA اللي بين الـ nucleosome beads. الـ core نفسه (octamer) بيتكون من 2 من كل واحد: H2A و H2B و H3 و H4 (الكتاب ص 84).\nالـ H1 مش جزء من الـ core، والـ H2A في الـ core مش في الـ linker، والـ H4 ليه دور أساسي في الـ packaging.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-320",
@@ -19219,7 +21605,15 @@
     "DNA ligase"
    ],
    "answer": 1,
-   "explanation": "الـ DNA polymerase III هو الإنزيم الـ highly processive اللي بيعمل 5'→3' synthesis للـ leading strand وللـ Okazaki fragments (الكتاب ص 92 و94).\n• Pol I: بيشيل الـ primers ويحط DNA مكانها.\n• Primase: بيعمل الـ RNA primer.\n• Ligase: بتقفل الـ nicks."
+   "explanation": "الـ DNA polymerase III هو الإنزيم الـ highly processive اللي بيعمل 5'→3' synthesis للـ leading strand وللـ Okazaki fragments (الكتاب ص 92 و94).\n• Pol I: بيشيل الـ primers ويحط DNA مكانها.\n• Primase: بيعمل الـ RNA primer.\n• Ligase: بتقفل الـ nicks.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-321",
@@ -19238,7 +21632,15 @@
     "Inability to relieve supercoiling stress."
    ],
    "answer": 3,
-   "explanation": "الـ unwinding بتاع الـ DNA بيعمل topological stress (supercoils) قدام الـ replication fork، والـ topoisomerases هي اللي بتفكه (الكتاب ص 91). فلو اتثبطت، الـ supercoiling stress مش هيتفك.\nالـ primers بيعملها الـ primase، والـ Okazaki fragments بتلزقها الـ ligase، والـ origin بيتعرف عليه الـ DnaA."
+   "explanation": "الـ unwinding بتاع الـ DNA بيعمل topological stress (supercoils) قدام الـ replication fork، والـ topoisomerases هي اللي بتفكه (الكتاب ص 91). فلو اتثبطت، الـ supercoiling stress مش هيتفك.\nالـ primers بيعملها الـ primase، والـ Okazaki fragments بتلزقها الـ ligase، والـ origin بيتعرف عليه الـ DnaA.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-322",
@@ -19257,7 +21659,15 @@
     "It causes the dissociation of DNA polymerase III."
    ],
    "answer": 2,
-   "explanation": "الـ DnaA-ATP بيرتبط بالـ 9-bp repeats في الـ oriC، وده بيعمل unwinding للـ 13-bp repeats الغنية بالـ AT في الـ DUE. بعدها بيجيب الـ DnaB helicase (الكتاب ص 90).\nالـ DnaA مش بيعمل primers (ده الـ primase)، والـ DnaA نفسه هو اللي بيفك بعد تحميل الـ Pol III، مش العكس."
+   "explanation": "الـ DnaA-ATP بيرتبط بالـ 9-bp repeats في الـ oriC، وده بيعمل unwinding للـ 13-bp repeats الغنية بالـ AT في الـ DUE. بعدها بيجيب الـ DnaB helicase (الكتاب ص 90).\nالـ DnaA مش بيعمل primers (ده الـ primase)، والـ DnaA نفسه هو اللي بيفك بعد تحميل الـ Pol III، مش العكس.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-323",
@@ -19276,7 +21686,15 @@
     "AP Endonuclease"
    ],
    "answer": 1,
-   "explanation": "خلايا الـ cancer غالبًا فيها telomerase activity عالية، فالـ telomeres مش بتقصر، وده بيساهم في الـ immortality (الكتاب ص 95). الخلايا العادية من غيره بتقصر الـ telomeres بتاعتها مع كل replication لحد ما توصل للـ senescence."
+   "explanation": "خلايا الـ cancer غالبًا فيها telomerase activity عالية، فالـ telomeres مش بتقصر، وده بيساهم في الـ immortality (الكتاب ص 95). الخلايا العادية من غيره بتقصر الـ telomeres بتاعتها مع كل replication لحد ما توصل للـ senescence.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-324",
@@ -19295,7 +21713,15 @@
     "The proofreading of the newly synthesized DNA."
    ],
    "answer": 1,
-   "explanation": "الـ DNA polymerase I ليه 5'→3' exonuclease activity بتشيل الـ RNA primers، و5'→3' polymerase activity بتحط DNA مكانها (الكتاب ص 93–94). فتثبيطه يأثر مباشرة على شيل الـ primers.\nالـ leading strand بيعمله الـ Pol III، والـ unwinding بيعمله الـ helicase. والـ proofreading موجود في الـ Pol III كمان، فمش هو اللي هيتأثر مباشرة."
+   "explanation": "الـ DNA polymerase I ليه 5'→3' exonuclease activity بتشيل الـ RNA primers، و5'→3' polymerase activity بتحط DNA مكانها (الكتاب ص 93–94). فتثبيطه يأثر مباشرة على شيل الـ primers.\nالـ leading strand بيعمله الـ Pol III، والـ unwinding بيعمله الـ helicase. والـ proofreading موجود في الـ Pol III كمان، فمش هو اللي هيتأثر مباشرة.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-325",
@@ -19314,7 +21740,15 @@
     "DNA ligase"
    ],
    "answer": 2,
-   "explanation": "الـ DnaG هو الـ primase، اللي بيعمل الـ RNA primers القصيرة (10–60 nucleotides) اللي الـ DNA synthesis بيبدأ منها. الـ Pol III مايقدرش يبدأ من غير primer (الكتاب ص 91–92)."
+   "explanation": "الـ DnaG هو الـ primase، اللي بيعمل الـ RNA primers القصيرة (10–60 nucleotides) اللي الـ DNA synthesis بيبدأ منها. الـ Pol III مايقدرش يبدأ من غير primer (الكتاب ص 91–92).",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-326",
@@ -19333,7 +21767,15 @@
     "Dam methylase"
    ],
    "answer": 0,
-   "explanation": "الـ SSB (single-stranded DNA-binding proteins) بتلزق على الـ strands اللي اتفصلت عند الـ fork وبتثبتها عشان مايرجعوش يلزقوا في بعض (الكتاب ص 91).\n• Tus: في الـ termination.\n• DnaA: في الـ initiation.\n• Dam methylase: بتعمل methylation للـ GATC."
+   "explanation": "الـ SSB (single-stranded DNA-binding proteins) بتلزق على الـ strands اللي اتفصلت عند الـ fork وبتثبتها عشان مايرجعوش يلزقوا في بعض (الكتاب ص 91).\n• Tus: في الـ termination.\n• DnaA: في الـ initiation.\n• Dam methylase: بتعمل methylation للـ GATC.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-327",
@@ -19352,7 +21794,15 @@
     "A double-strand break"
    ],
    "answer": 0,
-   "explanation": "الـ UV بيعمل covalent links بين 2 thymines جنب بعض على نفس الـ strand، وده اسمه thymine dimer (نوع من الـ pyrimidine dimers). بيتصلح بالـ nucleotide excision repair.\nالـ mismatch غلطة في الـ pairing، والـ apurinic site يعني base ناقصة."
+   "explanation": "الـ UV بيعمل covalent links بين 2 thymines جنب بعض على نفس الـ strand، وده اسمه thymine dimer (نوع من الـ pyrimidine dimers). بيتصلح بالـ nucleotide excision repair.\nالـ mismatch غلطة في الـ pairing، والـ apurinic site يعني base ناقصة.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-328",
@@ -19372,7 +21822,15 @@
    ],
    "answer": 2,
    "explanation": "في الـ base excision repair أول إنزيم هو الـ DNA glycosylase. ده بيقطع الـ N-glycosidic bond بين الـ base الغلط (هنا uracil) والسكر، فيعمل AP site.\nبعده الـ AP endonuclease بيقطع الـ backbone، والـ polymerase بيملا الفراغ، والـ ligase بتقفل.",
-   "memoryTrick": "BER بالترتيب: Glycosylase ← AP endonuclease ← Polymerase ← Ligase."
+   "memoryTrick": "BER بالترتيب: Glycosylase ← AP endonuclease ← Polymerase ← Ligase.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-329",
@@ -19391,7 +21849,15 @@
     "Only the leading strand requires an RNA primer"
    ],
    "answer": 1,
-   "explanation": "الـ DNA polymerase بيبني 5'→3' بس. ولأن الـ parental strands antiparallel، strand واحد (الـ leading) بيتبني continuous في اتجاه الـ fork. التاني (الـ lagging) لازم يتبني في الاتجاه العكسي كـ Okazaki fragments (الكتاب ص 92–93).\n• مفيش strand بيكبر 3'→5'.\n• الـ strands الأصلية antiparallel مش parallel.\n• الاتنين محتاجين primer."
+   "explanation": "الـ DNA polymerase بيبني 5'→3' بس. ولأن الـ parental strands antiparallel، strand واحد (الـ leading) بيتبني continuous في اتجاه الـ fork. التاني (الـ lagging) لازم يتبني في الاتجاه العكسي كـ Okazaki fragments (الكتاب ص 92–93).\n• مفيش strand بيكبر 3'→5'.\n• الـ strands الأصلية antiparallel مش parallel.\n• الاتنين محتاجين primer.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-330",
@@ -19410,7 +21876,15 @@
     "Non-homologous End Joining"
    ],
    "answer": 2,
-   "explanation": "الـ AP site اتكوّن من فقد base واحدة، ودي single-base alteration بيصلحها الـ base excision repair: الـ AP endonuclease بيقطع، والـ polymerase بيملا، والـ ligase بتقفل.\n• NER: للـ bulky lesions زي الـ thymine dimers.\n• Mismatch repair: لأخطاء الـ replication.\n• NHEJ: للـ double-strand breaks."
+   "explanation": "الـ AP site اتكوّن من فقد base واحدة، ودي single-base alteration بيصلحها الـ base excision repair: الـ AP endonuclease بيقطع، والـ polymerase بيملا، والـ ligase بتقفل.\n• NER: للـ bulky lesions زي الـ thymine dimers.\n• Mismatch repair: لأخطاء الـ replication.\n• NHEJ: للـ double-strand breaks.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-331",
@@ -19429,7 +21903,15 @@
     "Synthesis of primers by primase"
    ],
    "answer": 1,
-   "explanation": "الـ fragments اتملت صح والـ primers اتشالت، بس الـ nicks لسه في الـ backbone. يعني اللي ناقص هو تكوين الـ phosphodiester bond بين الـ fragments، وده شغل الـ DNA ligase (الكتاب ص 93).\nالـ helicase والـ Pol I والـ primase اشتغلوا خلاص، بدليل إن الـ primers اتشالت."
+   "explanation": "الـ fragments اتملت صح والـ primers اتشالت، بس الـ nicks لسه في الـ backbone. يعني اللي ناقص هو تكوين الـ phosphodiester bond بين الـ fragments، وده شغل الـ DNA ligase (الكتاب ص 93).\nالـ helicase والـ Pol I والـ primase اشتغلوا خلاص، بدليل إن الـ primers اتشالت.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-332",
@@ -19449,7 +21931,15 @@
    ],
    "answer": 1,
    "explanation": "الـ AT pairs فيها 2 hydrogen bonds، والـ GC فيها 3. فالـ DNA الغني بالـ AT أسهل في الفصل والـ Tm بتاعه أقل. والـ high GC content بيرفع الـ Tm (الكتاب ص 81).",
-   "memoryTrick": "GC = 3 روابط = أصعب في الفصل = Tm أعلى."
+   "memoryTrick": "GC = 3 روابط = أصعب في الفصل = Tm أعلى.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-333",
@@ -19468,7 +21958,15 @@
     "GC base pairs prevent the formation of phosphodiester bonds"
    ],
    "answer": 1,
-   "explanation": "الـ origin بيتفتح عند الـ DUE الغنية بالـ AT لأن الـ A=T بينهم 2 hydrogen bonds بس، فبيتفصلوا بسهولة. لو اتبدلت بـ GC، فيه 3 hydrogen bonds، فالفصل محتاج energy أكتر (الكتاب ص 77 و89).\nالـ GC-rich DNA عادي ينفع template، وفيه phosphodiester bonds عادي."
+   "explanation": "الـ origin بيتفتح عند الـ DUE الغنية بالـ AT لأن الـ A=T بينهم 2 hydrogen bonds بس، فبيتفصلوا بسهولة. لو اتبدلت بـ GC، فيه 3 hydrogen bonds، فالفصل محتاج energy أكتر (الكتاب ص 77 و89).\nالـ GC-rich DNA عادي ينفع template، وفيه phosphodiester bonds عادي.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-334",
@@ -19487,7 +21985,15 @@
     "C:G to G:C"
    ],
    "answer": 0,
-   "explanation": "الـ C اتحول لـ U، والـ U بيتزاوج مع A في الـ replication الأولى، فالـ strand الجديد فيه A بدل G. في الـ replication التانية الـ A ده بيتزاوج مع T، فيطلع T:A مكان الـ C:G الأصلي. يعني الطفرة C:G ← T:A (transition)."
+   "explanation": "الـ C اتحول لـ U، والـ U بيتزاوج مع A في الـ replication الأولى، فالـ strand الجديد فيه A بدل G. في الـ replication التانية الـ A ده بيتزاوج مع T، فيطلع T:A مكان الـ C:G الأصلي. يعني الطفرة C:G ← T:A (transition).",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-335",
@@ -19506,7 +22012,15 @@
     "Homologous Recombination (HR)"
    ],
    "answer": 0,
-   "explanation": "الـ HNPCC (Lynch syndrome) سببه defect وراثي في جينات الـ mismatch repair. الأخطاء اللي بتفلت من الـ proofreading بتتراكم وبتعمل colorectal cancer.\nالـ NER defect بيعمل xeroderma pigmentosum."
+   "explanation": "الـ HNPCC (Lynch syndrome) سببه defect وراثي في جينات الـ mismatch repair. الأخطاء اللي بتفلت من الـ proofreading بتتراكم وبتعمل colorectal cancer.\nالـ NER defect بيعمل xeroderma pigmentosum.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-336",
@@ -19526,7 +22040,15 @@
    ],
    "answer": 1,
    "explanation": "في الـ methyl-directed mismatch repair، الـ parental strand متعلم بـ methyl على الـ GATC (بالـ Dam methylase). الـ strand الجديد لسه unmethylated. فالـ repair system بيعرف إن الغلطة في الـ strand الجديد ويشيلها منه (الكتاب ص 91).",
-   "memoryTrick": "الـ methyl = علامة الـ strand الأصلي، فالتصليح يكون في الـ strand اللي من غير methyl."
+   "memoryTrick": "الـ methyl = علامة الـ strand الأصلي، فالتصليح يكون في الـ strand اللي من غير methyl.",
+   "decks": {
+    "FIGHTER": [
+     "W-q3"
+    ],
+    "MEDZONE": [
+     "W-q3"
+    ]
+   }
   },
   {
    "id": "BG-337",
@@ -19546,7 +22068,12 @@
    "answer": 1,
    "where": [
     "Dr Marwa Questions On Genetics (1)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "W-q1"
+    ]
+   }
   },
   {
    "id": "BG-338",
@@ -19567,7 +22094,12 @@
    "where": [
     "Dr Marwa Questions On Genetics (1)"
    ],
-   "explanation": "الـ polymerase بيضيف كل nucleotide جديد على الـ free 3'-OH بتاع اللي قبله (الكتاب ص 75 و92). الـ AZT مكان الـ 3'-OH فيه azido group، فبعد ما يدخل في السلسلة مفيش 3'-OH يتربط فيه اللي بعده، فالسلسلة بتقف (chain terminator)."
+   "explanation": "الـ polymerase بيضيف كل nucleotide جديد على الـ free 3'-OH بتاع اللي قبله (الكتاب ص 75 و92). الـ AZT مكان الـ 3'-OH فيه azido group، فبعد ما يدخل في السلسلة مفيش 3'-OH يتربط فيه اللي بعده، فالسلسلة بتقف (chain terminator).",
+   "decks": {
+    "MEDZONE": [
+     "W-q1"
+    ]
+   }
   },
   {
    "id": "BG-339",
@@ -19588,7 +22120,12 @@
    "where": [
     "Dr Marwa Questions On Genetics (1)"
    ],
-   "explanation": "الكتاب (ص 76) بيقول إن الـ Actinomycin D بيتفاعل جوه الـ minor groove، فبيثبط الـ DNA و RNA synthesis.\nالـ major و minor grooves أماكن ارتباط الـ regulatory proteins. الـ backbone والـ histone core مش هما مكان الدوا ده."
+   "explanation": "الكتاب (ص 76) بيقول إن الـ Actinomycin D بيتفاعل جوه الـ minor groove، فبيثبط الـ DNA و RNA synthesis.\nالـ major و minor grooves أماكن ارتباط الـ regulatory proteins. الـ backbone والـ histone core مش هما مكان الدوا ده.",
+   "decks": {
+    "MEDZONE": [
+     "W-q1"
+    ]
+   }
   },
   {
    "id": "BG-340",
@@ -19609,7 +22146,12 @@
    "where": [
     "Dr Marwa Questions On Genetics (1)"
    ],
-   "explanation": "الـ GC pairs فيها 3 hydrogen bonds مقابل 2 في الـ AT، فالـ DNA الغني بالـ GC أثبت والـ Tm بتاعه أعلى (الكتاب ص 77 و81). عشان كده الـ annealing temperature في الـ PCR لازم تزيد مع الـ high GC.\nالاختيارات C و D غلط لأنهم بيقولوا عدد روابط غلط أو اتجاه غلط."
+   "explanation": "الـ GC pairs فيها 3 hydrogen bonds مقابل 2 في الـ AT، فالـ DNA الغني بالـ GC أثبت والـ Tm بتاعه أعلى (الكتاب ص 77 و81). عشان كده الـ annealing temperature في الـ PCR لازم تزيد مع الـ high GC.\nالاختيارات C و D غلط لأنهم بيقولوا عدد روابط غلط أو اتجاه غلط.",
+   "decks": {
+    "MEDZONE": [
+     "W-q1"
+    ]
+   }
   },
   {
    "id": "BG-341",
@@ -19630,7 +22172,12 @@
    "where": [
     "Dr Marwa Questions On Genetics (1)"
    ],
-   "explanation": "الـ base بيرتبط بالـ C-1' بتاع السكر بـ N-glycosidic bond (N-9 للـ purines و N-1 للـ pyrimidines). أما الـ phosphate فبيرتبط عند الـ C-5' (الكتاب ص 72–73).\nالـ 3'-OH هو اللي بيعمل الـ phosphodiester bond مع النيوكليوتيد اللي بعده."
+   "explanation": "الـ base بيرتبط بالـ C-1' بتاع السكر بـ N-glycosidic bond (N-9 للـ purines و N-1 للـ pyrimidines). أما الـ phosphate فبيرتبط عند الـ C-5' (الكتاب ص 72–73).\nالـ 3'-OH هو اللي بيعمل الـ phosphodiester bond مع النيوكليوتيد اللي بعده.",
+   "decks": {
+    "MEDZONE": [
+     "W-q1"
+    ]
+   }
   },
   {
    "id": "BG-342",
@@ -19651,7 +22198,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "تسخين الـ DNA لـ 95°C بيعمل denaturation، يعني الـ hydrogen bonds بين الـ complementary bases بتتكسر والـ 2 strands بيتفصلوا (الكتاب ص 80).\nالـ phosphodiester bonds والـ N-glycosidic bonds covalent ومش بتتكسر بالتسخين ده."
+   "explanation": "تسخين الـ DNA لـ 95°C بيعمل denaturation، يعني الـ hydrogen bonds بين الـ complementary bases بتتكسر والـ 2 strands بيتفصلوا (الكتاب ص 80).\nالـ phosphodiester bonds والـ N-glycosidic bonds covalent ومش بتتكسر بالتسخين ده.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-343",
@@ -19673,7 +22225,12 @@
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
    "explanation": "الـ palindrome: الـ sequence على strand بيتقرا زي الـ strand المقابل (5'→3')، يعني inverted repeat ليه twofold symmetry. الـ sequence ده بالظبط هو المثال اللي في الكتاب (ص 81).\nطريقة الحل: الـ complement لـ TTAGCACGTGCTAA هو AATCGTGCACGATT، ولو قريته بالعكس هيطلع نفس الـ sequence الأصلي.",
-   "memoryTrick": "اقلب الـ complement، لو طلع نفس الـ sequence يبقى palindrome."
+   "memoryTrick": "اقلب الـ complement، لو طلع نفس الـ sequence يبقى palindrome.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-344",
@@ -19694,7 +22251,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "علشان تعرف لو الـ sequence palindrome: اكتب الـ complement واقلبه.\nATTGCAAT ← complement: TAACGTTA ← بالعكس: ATTGCAAT، نفسه، فهو palindrome.\nB و C لما تقلبهم مش بيطلعوا نفس الـ sequence، والـ GAAC قصير ومش متماثل."
+   "explanation": "علشان تعرف لو الـ sequence palindrome: اكتب الـ complement واقلبه.\nATTGCAAT ← complement: TAACGTTA ← بالعكس: ATTGCAAT، نفسه، فهو palindrome.\nB و C لما تقلبهم مش بيطلعوا نفس الـ sequence، والـ GAAC قصير ومش متماثل.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-345",
@@ -19715,7 +22277,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الـ hairpin والـ cruciform بيتكونوا من palindromic (self-complementary) sequences.\n• GAATTC: palindrome (EcoRI).\n• GGATCC: palindrome (BamHI).\n• TTAGCACGTGCTAA: palindrome (مثال الكتاب).\n• AGTCGA: الـ complement المقلوب بتاعه TCGACT، مختلف عنه، فمش palindrome وده الأقل احتمالًا."
+   "explanation": "الـ hairpin والـ cruciform بيتكونوا من palindromic (self-complementary) sequences.\n• GAATTC: palindrome (EcoRI).\n• GGATCC: palindrome (BamHI).\n• TTAGCACGTGCTAA: palindrome (مثال الكتاب).\n• AGTCGA: الـ complement المقلوب بتاعه TCGACT، مختلف عنه، فمش palindrome وده الأقل احتمالًا.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-346",
@@ -19736,7 +22303,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الـ 30-nm fiber عبارة عن nucleosomes ملفوفة على بعض (6 nucleosomes per turn) عشان تعمل solenoid، يعني packed nucleosomes (الكتاب ص 83).\nالـ beads-on-a-string هو الـ 11 nm، والـ naked DNA هو الـ 2 nm، والـ extended form هو الـ 300 nm."
+   "explanation": "الـ 30-nm fiber عبارة عن nucleosomes ملفوفة على بعض (6 nucleosomes per turn) عشان تعمل solenoid، يعني packed nucleosomes (الكتاب ص 83).\nالـ beads-on-a-string هو الـ 11 nm، والـ naked DNA هو الـ 2 nm، والـ extended form هو الـ 300 nm.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-347",
@@ -19757,7 +22329,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الـ GAATTC: الـ complement بتاعه CTTAAG، ولو اتقرا بالعكس (5'→3') بيطلع GAATTC تاني. يعني ده palindromic inverted repeat، self-complementary، وده اللي بيخليه يقدر يعمل hairpin أو cruciform (الكتاب ص 81).\nالـ mirror repeat مش self-complementary فمابيعملش cruciform."
+   "explanation": "الـ GAATTC: الـ complement بتاعه CTTAAG، ولو اتقرا بالعكس (5'→3') بيطلع GAATTC تاني. يعني ده palindromic inverted repeat، self-complementary، وده اللي بيخليه يقدر يعمل hairpin أو cruciform (الكتاب ص 81).\nالـ mirror repeat مش self-complementary فمابيعملش cruciform.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-348",
@@ -19777,7 +22354,12 @@
    "answer": 2,
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-349",
@@ -19797,7 +22379,12 @@
    "answer": 1,
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-350",
@@ -19818,7 +22405,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الترتيب من الأقل للأكتر condensation (الكتاب ص 83):\nDNA double helix (2 nm) ← nucleosomes / beads-on-a-string (11 nm) ← 30-nm fiber ← extended chromosome / looped domains (300 nm) ← condensed chromosome (700 nm) ← mitotic chromosome (1400 nm)."
+   "explanation": "الترتيب من الأقل للأكتر condensation (الكتاب ص 83):\nDNA double helix (2 nm) ← nucleosomes / beads-on-a-string (11 nm) ← 30-nm fiber ← extended chromosome / looped domains (300 nm) ← condensed chromosome (700 nm) ← mitotic chromosome (1400 nm).",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-351",
@@ -19839,7 +22431,12 @@
    "where": [
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
-   "explanation": "الـ mirror repeat معناه إن الـ sequence متكرر بشكل معكوس على نفس الـ strand (inverted repeat on the same strand)، من غير complementarity. عشان كده مابيقدرش يعمل hairpin أو cruciform.\nالـ palindrome (inverted repeat) هو اللي self-complementary وبيعمل hairpin، فالاختيار A ده وصف الـ palindrome مش الـ mirror repeat."
+   "explanation": "الـ mirror repeat معناه إن الـ sequence متكرر بشكل معكوس على نفس الـ strand (inverted repeat on the same strand)، من غير complementarity. عشان كده مابيقدرش يعمل hairpin أو cruciform.\nالـ palindrome (inverted repeat) هو اللي self-complementary وبيعمل hairpin، فالاختيار A ده وصف الـ palindrome مش الـ mirror repeat.",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-352",
@@ -19861,7 +22458,12 @@
     "Dr Marwa Questions On Bio & Genetics (2)"
    ],
    "explanation": "الـ histones غنية بالـ lysine والـ arginine، فشحنتها positive وبتمسك الـ DNA السالب بـ ionic bonds. الـ acetylation بيحط acetyl على الـ lysine فبيلغي شحنته الموجبة، فالـ histone بيمسك الـ DNA أضعف. الـ chromatin بيبقى loose والـ transcription بيزيد (الكتاب ص 84).",
-   "memoryTrick": "Acetylation = Activation (الـ DNA بيتفك والجين يشتغل)."
+   "memoryTrick": "Acetylation = Activation (الـ DNA بيتفك والجين يشتغل).",
+   "decks": {
+    "MEDZONE": [
+     "W-q2"
+    ]
+   }
   },
   {
    "id": "BG-353",
@@ -19881,7 +22483,12 @@
    "answer": 2,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   },
   {
    "id": "BG-354",
@@ -19901,7 +22508,12 @@
    "answer": 0,
    "where": [
     "Midterm KNU 2027 (1st Round)"
-   ]
+   ],
+   "decks": {
+    "MEDZONE": [
+     "K-knu"
+    ]
+   }
   }
  ],
  "disclaimer": "الإجابات من ملزمة الأسئلة، وممكن يكون فيها أخطاء. لو شاكك في إجابة، راجع الدكتور."
