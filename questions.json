@@ -22351,7 +22351,7 @@
     "DNA polymerase I",
     "DNA ligase"
    ],
-   "answer": 1,
+   "answer": 0,
    "where": [
     "End Module 2019"
    ],
@@ -22359,7 +22359,8 @@
     "FIGHTER": [
      "P-03"
     ]
-   }
+   },
+   "note": "الكتيب مدّي الإجابة B (AP endonuclease). بس الـ depurinated site أصلًا مفيهوش القاعدة، فمش محتاج DNA glycosylase، لكن بيحتاج AP endonuclease وDNA polymerase I وligase. الإجابة الصح A."
   },
   {
    "id": "BG-387",
@@ -22401,7 +22402,7 @@
     "3'-5' polymerase activity of DNA polymerase I",
     "3'-5' exonuclease activity of DNA polymerase I"
    ],
-   "answer": 3,
+   "answer": 0,
    "where": [
     "End Module 2019"
    ],
@@ -22409,7 +22410,8 @@
     "FIGHTER": [
      "P-03"
     ]
-   }
+   },
+   "note": "الكتيب مدّي الإجابة D (3'→5' exonuclease). بس إزالة الـ RNA primer بتتم بالـ 5'→3' exonuclease activity بتاعة DNA polymerase I. الـ 3'→5' exonuclease وظيفتها proofreading. الإجابة الصح A."
   },
   {
    "id": "BG-389",
@@ -23028,7 +23030,7 @@
     "Km is decreased",
     "Concentration of active enzyme is reduced"
    ],
-   "answer": 1,
+   "answer": 3,
    "where": [
     "End Module 2022"
    ],
@@ -23036,7 +23038,8 @@
     "FIGHTER": [
      "P-05"
     ]
-   }
+   },
+   "note": "الكتيب مدّي الإجابة B (Km is increased). بس في الـ non-competitive inhibition الـ Km بتفضل ثابتة والـ Vmax بتقل، لأن تركيز الإنزيم الشغال بيقل. الإجابة الصح D."
   },
   {
    "id": "BG-414",
@@ -23078,7 +23081,7 @@
     "Removal of RNA primers during replication",
     "Replacement of RNA primers during replication"
    ],
-   "answer": 0,
+   "answer": 2,
    "where": [
     "End Module 2022"
    ],
@@ -23086,7 +23089,8 @@
     "FIGHTER": [
      "P-05"
     ]
-   }
+   },
+   "note": "الكتيب مدّي الإجابة A (proofreading). بس الـ proofreading وظيفة الـ 3'→5' exonuclease. أما الـ 5'→3' exonuclease لـ DNA polymerase I فوظيفتها إزالة الـ RNA primers. الإجابة الصح C."
   },
   {
    "id": "BG-416",
@@ -23403,7 +23407,7 @@
     "Lyases",
     "Ligases"
    ],
-   "answer": 3,
+   "answer": 0,
    "where": [
     "End Semester 2022"
    ],
@@ -23411,7 +23415,8 @@
     "FIGHTER": [
      "P-06"
     ]
-   }
+   },
+   "note": "الكتيب مدّي الإجابة D (Ligases). بس الـ DNA polymerase بينقل nucleotides للـ chain الجديدة، يعني ينتمي لـ Transferases (nucleotidyltransferase). الـ Ligases زي DNA ligase بتربط جزيئين بـ ATP. الإجابة الصح A."
   },
   {
    "id": "BG-429",
@@ -23622,7 +23627,7 @@
     "Valine",
     "Serine"
    ],
-   "answer": 0,
+   "answer": 2,
    "where": [
     "End Semester 2024",
     "End Semester 2025"
@@ -23632,7 +23637,8 @@
      "P-08",
      "P-09"
     ]
-   }
+   },
+   "note": "الكتيب مدّي الإجابة A (Aspartate). بس الـ membrane protein سطحه الملامس للـ lipid bilayer لازم يبقى hydrophobic، والـ valine هو الـ hydrophobic الوحيد بين الاختيارات. الـ Aspartate والـ lysine والـ serine قطبية، وبتوجد على سطح البروتينات اللي بتذوب في الماء. الإجابة الصح C."
   },
   {
    "id": "BG-438",
@@ -25221,7 +25227,7 @@
     "G to A",
     "U to C"
    ],
-   "answer": 2,
+   "answer": 1,
    "where": [
     "End Module 2026 (First Round)",
     "End Module 2026"
@@ -25231,7 +25237,8 @@
      "P-10",
      "P-11"
     ]
-   }
+   },
+   "note": "الكتيب مدّي الإجابة C (G to A)، بس ده مش deamination. الـ deamination الشهير هو C → U، وإنه لو ما اتصلحش الـ U بيتزاوج مع A في الـ replication فيتحول الـ G-C لـ A-T (mutation). الإجابة الصح B."
   },
   {
    "id": "BG-497",
