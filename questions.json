@@ -1,7 +1,7 @@
 {
- "bankVersion": 2,
- "title": "Anatomy & Histology — Previous Exams",
- "credit": "Questions compiled by Fighter 1st",
+ "bankVersion": 3,
+ "title": "MedQore — Previous Exams & Question Banks",
+ "credit": "Anatomy, Embryology & Histology: questions compiled by Fighter 1st · Biochemistry & Genetics: Fighter and MedZone question banks",
  "mindmaps": [
   {
    "subject": "Anatomy",
@@ -108,6 +108,14 @@
   {
    "id": "embryo",
    "name": "Embryology"
+  },
+  {
+   "id": "biochem",
+   "name": "Biochemistry"
+  },
+  {
+   "id": "genetics",
+   "name": "Genetics"
   }
  ],
  "sources": [
@@ -242,6 +250,14 @@
   {
    "id": "HIST",
    "name": "Previous exams of Histology (bank)"
+  },
+  {
+   "id": "FIGHTER",
+   "name": "Fighter"
+  },
+  {
+   "id": "MEDZONE",
+   "name": "MedZone"
   }
  ],
  "questions": [
@@ -13244,6 +13260,6647 @@
     null,
     "الـ mast cell مش من الأمثلة المذكورة للخلايا الغنية بالـ lysosomes. المذكور: macrophages و neutrophils.",
     "الـ mesenchymal cells مش من الأمثلة المذكورة للخلايا الغنية بالـ lysosomes."
+   ]
+  },
+  {
+   "id": "BG-001",
+   "topic": "biochem",
+   "concept": "Enzyme foundations",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which statement best describes the action of enzymes?",
+   "options": [
+    "They increase reaction equilibrium constants",
+    "They lower activation energy",
+    "They are consumed during catalysis",
+    "They always require ATP"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-002",
+   "topic": "biochem",
+   "concept": "Enzyme foundations",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which biological catalyst is not a protein?",
+   "options": [
+    "Pepsin",
+    "Urease",
+    "Ribozyme",
+    "Maltase"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-003",
+   "topic": "biochem",
+   "concept": "Enzyme foundations",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A substrate is best defined as:",
+   "options": [
+    "The product released from an enzyme",
+    "The reactant acted upon by an enzyme",
+    "The nonprotein component of an enzyme",
+    "A substance that always inhibits an enzyme"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-004",
+   "topic": "biochem",
+   "concept": "Enzyme foundations",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why can a small amount of enzyme catalyze many reactions?",
+   "options": [
+    "Enzymes are regenerated after each catalytic cycle",
+    "Enzymes permanently bind their products",
+    "Enzymes become part of each product",
+    "Enzymes shift equilibrium toward products"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-005",
+   "topic": "biochem",
+   "concept": "Enzyme foundations",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "An enzyme preparation speeds a reaction but does not change the final equilibrium mixture. Which principle is illustrated?",
+   "options": [
+    "Enzyme action changes reaction free energy",
+    "Enzymes change reaction rate but not equilibrium",
+    "Enzymes convert endergonic reactions to exergonic",
+    "Enzymes increase substrate concentration"
+   ],
+   "answer": 1,
+   "where": [
+    "Enzymes MCQ 1"
+   ]
+  },
+  {
+   "id": "BG-006",
+   "topic": "biochem",
+   "concept": "Specificity and structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Urease acting only on urea illustrates:",
+   "options": [
+    "Group specificity",
+    "Optical specificity",
+    "Absolute specificity",
+    "Broad substrate specificity"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-007",
+   "topic": "biochem",
+   "concept": "Specificity and structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme that distinguishes two stereoisomers demonstrates:",
+   "options": [
+    "Optical specificity",
+    "Group specificity",
+    "Covalent catalysis",
+    "Cooperativity"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-008",
+   "topic": "biochem",
+   "concept": "Specificity and structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The protein portion of a conjugated enzyme is called the:",
+   "options": [
+    "Coenzyme",
+    "Holoenzyme",
+    "Apoenzyme",
+    "Substrate"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-009",
+   "topic": "biochem",
+   "concept": "Specificity and structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An inactive apoenzyme becomes catalytically active after binding a required organic molecule. The organic molecule is a:",
+   "options": [
+    "Coenzyme",
+    "Substrate",
+    "Product",
+    "Zymogen"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-010",
+   "topic": "biochem",
+   "concept": "Specificity and structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A protein changes its active-site conformation when a substrate binds. Which model best explains this observation?",
+   "options": [
+    "Lock-and-key model",
+    "Induced-fit model",
+    "Competitive inhibition",
+    "Absolute specificity"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-011",
+   "topic": "biochem",
+   "concept": "Enzyme classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme catalyzing an oxidation-reduction reaction belongs to which class?",
+   "options": [
+    "Ligase",
+    "Hydrolase",
+    "Oxidoreductase",
+    "Isomerase"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-012",
+   "topic": "biochem",
+   "concept": "Enzyme classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A kinase transfers a phosphate group from one molecule to another. It is a:",
+   "options": [
+    "Transferase",
+    "Lyase",
+    "Hydrolase",
+    "Isomerase"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-013",
+   "topic": "biochem",
+   "concept": "Enzyme classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme breaks a peptide bond through the addition of water. Its class is:",
+   "options": [
+    "Ligase",
+    "Hydrolase",
+    "Isomerase",
+    "Oxidoreductase"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-014",
+   "topic": "biochem",
+   "concept": "Enzyme classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme joins two substrates with energy derived from ATP. It is most likely a:",
+   "options": [
+    "Lyase",
+    "Ligase",
+    "Mutase",
+    "Oxidase"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-015",
+   "topic": "biochem",
+   "concept": "Enzyme classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme converts a compound into a different isomer without changing its molecular formula. Which class fits best?",
+   "options": [
+    "Isomerase",
+    "Hydrolase",
+    "Ligase",
+    "Oxidoreductase"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-016",
+   "topic": "biochem",
+   "concept": "Catalytic mechanisms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The region of an enzyme that binds substrate and performs catalysis is the:",
+   "options": [
+    "Allosteric site",
+    "Active site",
+    "Protein scaffold",
+    "Signal peptide"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-017",
+   "topic": "biochem",
+   "concept": "Catalytic mechanisms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Catalysis by proximity increases reaction rate mainly by:",
+   "options": [
+    "Decreasing enzyme concentration",
+    "Orienting substrates close together",
+    "Removing all solvent from the cell",
+    "Changing the reaction equilibrium"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-018",
+   "topic": "biochem",
+   "concept": "Catalytic mechanisms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Acid-base catalysis involves:",
+   "options": [
+    "Transfer of protons",
+    "Transfer of electrons only",
+    "Permanent destruction of the enzyme",
+    "Joining proteins using ATP"
+   ],
+   "answer": 0,
+   "where": [
+    "Enzymes MCQ 1"
+   ]
+  },
+  {
+   "id": "BG-019",
+   "topic": "biochem",
+   "concept": "Catalytic mechanisms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme briefly forms a covalent bond with its substrate and is restored afterward. This is:",
+   "options": [
+    "Strain catalysis",
+    "Covalent catalysis",
+    "Optical specificity",
+    "Competitive inhibition"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-020",
+   "topic": "biochem",
+   "concept": "Catalytic mechanisms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A hydrolase distorts a target bond, making cleavage easier. Which mechanism is illustrated?",
+   "options": [
+    "Strain catalysis",
+    "Allosteric activation",
+    "Substrate inhibition",
+    "Enzyme induction"
+   ],
+   "answer": 0,
+   "explanation": "الـ strain catalysis: الإنزيم بيشد ويلوي (stretches / distorts) الـ bond المستهدفة فتضعف وتتكسر بسهولة، وده شائع في الـ hydrolases والـ lysozymes (الكتاب ص 60).\nالـ allosteric activation تنظيم من موقع تاني، والـ substrate inhibition والـ enzyme induction مالهمش علاقة بشد الـ bond.",
+   "memoryTrick": "Strain = شد الـ bond لحد ما تتقطع ← hydrolases و lysozyme."
+  },
+  {
+   "id": "BG-021",
+   "topic": "biochem",
+   "concept": "Enzyme kinetics",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "For a Michaelis-Menten enzyme, Km is the substrate concentration at which velocity equals:",
+   "options": [
+    "Vmax",
+    "One-half Vmax",
+    "Twice Vmax",
+    "Zero"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-022",
+   "topic": "biochem",
+   "concept": "Enzyme kinetics",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A lower Km generally indicates:",
+   "options": [
+    "Lower substrate affinity",
+    "Higher substrate affinity",
+    "Higher enzyme concentration",
+    "Lower Vmax"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-023",
+   "topic": "biochem",
+   "concept": "Enzyme kinetics",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "If enzyme concentration is halved while substrate remains sufficiently available, Vmax will:",
+   "options": [
+    "Double",
+    "Remain unchanged",
+    "Be halved",
+    "Fall to zero"
+   ],
+   "answer": 2,
+   "explanation": "الـ rate بتتناسب طرديًا (directly proportional) مع تركيز الإنزيم طالما الـ substrate كفاية. لو الإنزيم اتقسم نصين، الـ V₀ والـ Vmax الاتنين بيبقوا النص (الكتاب ص 61).\nالـ Vmax بتعتمد على عدد الـ active sites الموجودة، فمش ممكن تفضل ثابتة ولا تزيد."
+  },
+  {
+   "id": "BG-024",
+   "topic": "biochem",
+   "concept": "Enzyme kinetics",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "At very high substrate concentration, a Michaelis-Menten reaction approaches Vmax because:",
+   "options": [
+    "All active sites become saturated",
+    "Enzyme concentration increases",
+    "The substrate becomes an inhibitor",
+    "Km becomes zero"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-025",
+   "topic": "biochem",
+   "concept": "Enzyme kinetics",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Two enzymes have equal Vmax values. Enzyme A reaches half-maximal velocity at 2 mM substrate; enzyme B at 10 mM. Which conclusion is best?",
+   "options": [
+    "B has greater apparent substrate affinity",
+    "A has greater apparent substrate affinity",
+    "A must have a higher Vmax",
+    "Both have the same Km"
+   ],
+   "answer": 1,
+   "explanation": "الـ Km هو تركيز الـ substrate اللي بيوصل الـ velocity لـ ½ Vmax. إنزيم A وصل للنص عند 2 mM يعني Km أصغر، وإنزيم B محتاج 10 mM يعني Km أكبر.\nالـ Small Km = high affinity، والـ Large Km = low affinity (الكتاب ص 62). والسؤال قال إن الـ Vmax متساوية، فمفيش إنزيم Vmax بتاعه أعلى.",
+   "memoryTrick": "Km صغير = بيحب الـ substrate أكتر (affinity عالية)."
+  },
+  {
+   "id": "BG-026",
+   "topic": "biochem",
+   "concept": "Factors affecting activity",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The optimum temperature for most human enzymes in the source is approximately:",
+   "options": [
+    "0–10 C",
+    "15–20 C",
+    "35–40 C",
+    "65–80 C"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-027",
+   "topic": "biochem",
+   "concept": "Factors affecting activity",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Pepsin is most active at approximately which pH?",
+   "options": [
+    "2",
+    "7",
+    "9",
+    "12"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-028",
+   "topic": "biochem",
+   "concept": "Factors affecting activity",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme loses activity after exposure to extreme pH. The most likely explanation is:",
+   "options": [
+    "Permanent increase in substrate affinity",
+    "Denaturation or altered active-site ionization",
+    "Increased enzyme synthesis",
+    "Unchanged protein conformation"
+   ],
+   "answer": 1,
+   "explanation": "الـ pH بيأثر على الـ protonation بتاع الـ NH₂ groups في الـ active site، والـ extremes of pH بتعمل denaturation للإنزيم (الكتاب ص 62). عشان كده النشاط بيقل.\nالـ pH المتطرف مش بيزوّد الـ affinity ولا بيزوّد تصنيع الإنزيم، وأكيد بيغيّر الـ conformation."
+  },
+  {
+   "id": "BG-029",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A competitive inhibitor typically produces which kinetic change?",
+   "options": [
+    "Decreased Km, unchanged Vmax",
+    "Increased Km, unchanged Vmax",
+    "Unchanged Km, increased Vmax",
+    "Decreased Km and Vmax"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-030",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why can increased substrate concentration overcome competitive inhibition?",
+   "options": [
+    "The inhibitor is degraded",
+    "Substrate competes for the active site",
+    "The enzyme produces more cofactors",
+    "The inhibitor binds only the ES complex"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-031",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Malonate inhibits succinate dehydrogenase. According to the notes, malonate is an example of a:",
+   "options": [
+    "Competitive inhibitor",
+    "Uncompetitive inhibitor",
+    "Allosteric activator",
+    "Coenzyme"
+   ],
+   "answer": 0,
+   "where": [
+    "Enzymes MCQ 1"
+   ],
+   "explanation": "الـ Malonate شبه الـ succinate في التركيب (structural similarity)، فبيتنافس معاه على الـ active site بتاع الـ succinate dehydrogenase. ده تعريف الـ competitive inhibitor بالظبط، وبيتلغي تأثيره لو زودنا الـ substrate (الكتاب ص 63).\nالـ uncompetitive بيرتبط بالـ ES complex بس، ومالوش شبه بالـ substrate."
+  },
+  {
+   "id": "BG-032",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A drug reduces Vmax but leaves Km unchanged. Under the simplified model in the notes, this indicates:",
+   "options": [
+    "Competitive inhibition",
+    "Pure noncompetitive inhibition",
+    "Uncompetitive inhibition",
+    "Enzyme activation"
+   ],
+   "answer": 1,
+   "explanation": "قاعدة الكتاب (ص 64): الـ non-competitive inhibitor بيقلل الـ Vmax والـ Km مش بيتغير، لأنه بيرتبط بمكان غير الـ active site فمش بيأثر على الـ affinity.\nالـ competitive عكسه: Km بيزيد والـ Vmax ثابتة.",
+   "memoryTrick": "Non-competitive = Vmax ↓ / Km ثابت.\nCompetitive = Km ↑ / Vmax ثابت."
+  },
+  {
+   "id": "BG-033",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "An inhibitor binds only after the enzyme-substrate complex forms. It is classified as:",
+   "options": [
+    "Competitive",
+    "Uncompetitive",
+    "Irreversible active-site inhibitor",
+    "Homotropic activator"
+   ],
+   "answer": 1,
+   "where": [
+    "Enzymes MCQ 1"
+   ],
+   "explanation": "الـ uncompetitive inhibitor بيرتبط بس بالـ ES complex (بعد ما الـ substrate يرتبط بالإنزيم)، والـ Lineweaver-Burk plot بيدّي خط parallel للخط الأصلي (الكتاب ص 64).\nالـ competitive بيرتبط بالإنزيم الحر في الـ active site، والـ homotropic activator ده substrate بيشتغل كـ effector.",
+   "memoryTrick": "Uncompetitive = مستني الـ ES complex يتكوّن الأول."
+  },
+  {
+   "id": "BG-034",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An effector that is itself the enzyme substrate is called:",
+   "options": [
+    "Heterotropic",
+    "Homotropic",
+    "Irreversible",
+    "Noncompetitive"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-035",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why do many cooperative allosteric enzymes show sigmoidal velocity curves?",
+   "options": [
+    "They are always inactive at high substrate",
+    "Binding at one subunit influences other subunits",
+    "They never bind substrate",
+    "They lack regulatory sites"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-036",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "The final product of a pathway inhibits its first enzyme by binding to a regulatory site. This is an example of:",
+   "options": [
+    "Heterotropic negative feedback",
+    "Homotropic activation",
+    "Covalent catalysis",
+    "Substrate-level phosphorylation"
+   ],
+   "answer": 0,
+   "where": [
+    "Enzymes MCQ 1"
+   ],
+   "explanation": "لما الـ final product يرجع يثبط أول إنزيم في الـ pathway، ده اسمه feedback inhibition. ولأن الـ effector هنا مختلف عن الـ substrate، يبقى heterotropic، ولأنه بيثبط يبقى negative effector (الكتاب ص 66).\nالـ homotropic معناه إن الـ substrate نفسه هو الـ effector."
+  },
+  {
+   "id": "BG-037",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which CK isoenzyme is identified in the notes as the cardiac form?",
+   "options": [
+    "CK-BB",
+    "CK-MM",
+    "CK-MB",
+    "LDH-1"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-038",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A patient is assessed after suspected myocardial infarction. Which isoenzyme in the notes typically peaks at about 24 hours?",
+   "options": [
+    "CK-MB",
+    "LDH-5",
+    "CK-BB",
+    "LDH-1"
+   ],
+   "answer": 0,
+   "explanation": "الـ CK-MB هو الـ cardiac isoenzyme، وبيوصل لأعلى مستوى (peak) بعد حوالي 24 ساعة من الـ myocardial infarction. عشان كده مفيد في التشخيص بدري.\nالـ LDH بيطلع متأخر عنه (peak بعد 2–4 أيام)، والـ CK-BB في المخ."
+  },
+  {
+   "id": "BG-039",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An increase in circulating amylase and lipase in a pancreatic disorder is an example of:",
+   "options": [
+    "Decreased functional plasma enzymes",
+    "Nonfunctional plasma enzymes entering circulation",
+    "Reduced substrate concentration",
+    "Allosteric enzyme inhibition"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-040",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme marker rises 12–24 hours after MI, peaks over the next 2–4 days, and returns toward normal by days 8–14. Which marker best matches the notes?",
+   "options": [
+    "CK-MB",
+    "LDH",
+    "CK-BB",
+    "Alkaline phosphatase"
+   ],
+   "answer": 1,
+   "explanation": "التوقيت ده بتاع الـ LDH: بيبدأ يزيد بعد 12–24 ساعة من الـ MI، يوصل للـ peak في 2–4 أيام، ويرجع طبيعي بعد 8–14 يوم. عشان كده بيفيد في المريض اللي جاي متأخر.\nالـ CK-MB أسرع بكتير: peak حوالي 24 ساعة ويرجع طبيعي في يومين تلاتة.",
+   "memoryTrick": "CK-MB = بدري وبيمشي بدري.\nLDH = متأخر وبيقعد أكتر (لحد أسبوعين)."
+  },
+  {
+   "id": "BG-041",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A reversible inhibitor resembles the substrate and binds to the active site. Which type is described?",
+   "options": [
+    "Uncompetitive",
+    "Competitive",
+    "Pure noncompetitive",
+    "Allosteric activation"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-042",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which kinetic pattern is characteristic of competitive inhibition?",
+   "options": [
+    "Km decreases; Vmax unchanged",
+    "Km unchanged; Vmax decreases",
+    "Km increases; Vmax unchanged",
+    "Both Km and Vmax decrease"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-043",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Increasing substrate concentration is most likely to overcome which inhibition?",
+   "options": [
+    "Competitive",
+    "Uncompetitive",
+    "Irreversible enzyme poisoning",
+    "Pure noncompetitive"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-044",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An inhibitor lowers Vmax but does not change Km. Which inhibition is most consistent with this observation?",
+   "options": [
+    "Competitive",
+    "Pure noncompetitive",
+    "Uncompetitive",
+    "Substrate activation"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-045",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Where does a noncompetitive inhibitor bind, according to the chapter?",
+   "options": [
+    "Only to the substrate",
+    "At a site distinct from the active site",
+    "Only at the catalytic active site",
+    "Only to product molecules"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-046",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which statement about noncompetitive inhibition is correct?",
+   "options": [
+    "It always raises Vmax",
+    "It can be reversible or irreversible",
+    "It is always overcome by more substrate",
+    "It always increases Km"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-047",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme is regulated by binding of a molecule at a site separate from its catalytic site. This is:",
+   "options": [
+    "Allosteric regulation",
+    "Long-term gene induction",
+    "Proteolytic digestion",
+    "Enzyme degradation"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-048",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "When the substrate itself acts as an allosteric effector, it is called:",
+   "options": [
+    "Heterotropic",
+    "Homotropic",
+    "Irreversible",
+    "Competitive"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-049",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An effector increases an enzyme’s activity. It is classified as:",
+   "options": [
+    "Negative",
+    "Positive",
+    "Uncompetitive",
+    "Irreversible"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-050",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Binding of substrate to one subunit enhances catalysis at other subunits. This phenomenon is:",
+   "options": [
+    "Denaturation",
+    "Cooperativity",
+    "Hydrolysis",
+    "Irreversible inhibition"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-051",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which substrate–velocity curve is characteristic of cooperative allosteric enzymes?",
+   "options": [
+    "Linear",
+    "Sigmoidal",
+    "Always hyperbolic",
+    "Flat"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-052",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which change represents long-term rather than short-term enzyme regulation?",
+   "options": [
+    "Allosteric binding",
+    "Phosphorylation",
+    "Induction of enzyme synthesis",
+    "Immediate substrate binding"
+   ],
+   "answer": 2,
+   "explanation": "الكتاب (ص 65) بيقسم الـ regulation لـ:\n• Short-term: الـ allosteric regulation والـ covalent modification (phosphorylation / dephosphorylation).\n• Long-term: الـ repression أو induction للـ genetic biosynthesis بتاع الإنزيم.\nفالـ induction of enzyme synthesis هو الـ long-term، والباقي كله short-term."
+  },
+  {
+   "id": "BG-053",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which is an example of a functional plasma enzyme?",
+   "options": [
+    "LDH released after cell necrosis",
+    "Clotting factors",
+    "ALT released from damaged liver",
+    "CK-MB after myocardial injury"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-054",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why may nonfunctional plasma enzymes rise after myocardial infarction?",
+   "options": [
+    "They are synthesized by plasma",
+    "Cell necrosis releases intracellular enzymes",
+    "Plasma becomes their normal site of action",
+    "All enzymes become functional in plasma"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-055",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Isoenzymes are best defined as enzymes that:",
+   "options": [
+    "Have identical physical and chemical properties",
+    "Catalyze the same reaction but differ physically or chemically",
+    "Catalyze completely unrelated reactions",
+    "Are always present only in plasma"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-056",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "LDH is a tetramer composed of which two types of subunits?",
+   "options": [
+    "A and B",
+    "H and M",
+    "α and β only",
+    "M and B"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-057",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which LDH isoenzyme is composed of four H subunits?",
+   "options": [
+    "LDH1",
+    "LDH2",
+    "LDH4",
+    "LDH5"
+   ],
+   "answer": 0,
+   "explanation": "الـ LDH عبارة عن tetramer من 4 سلاسل، كل سلسلة يا H (heart) يا M (muscle) (الكتاب ص 67). الـ LDH1 = H4 وده بتاع القلب، والـ LDH5 = M4 وده بتاع العضلات والكبد.",
+   "memoryTrick": "LDH1 = H4 = Heart.\nLDH5 = M4 = Muscle/Liver."
+  },
+  {
+   "id": "BG-058",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "According to the chapter, LDH after acute myocardial infarction typically returns toward normal after:",
+   "options": [
+    "1–2 hours",
+    "8–14 days",
+    "30–60 minutes",
+    "Several months"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-059",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which creatine kinase isoenzyme is identified as the cardiac form?",
+   "options": [
+    "CK-BB",
+    "CK-MM",
+    "CK-MB",
+    "LDH5"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-060",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A patient presents 24 hours after chest pain. Which CK-MB pattern is consistent with the chapter’s time course?",
+   "options": [
+    "CK-MB first appears after 7 days",
+    "CK-MB peaks at about 24 hours",
+    "CK-MB remains elevated for 3 months",
+    "CK-MB cannot be detected until day 14"
+   ],
+   "answer": 1,
+   "explanation": "بعد 24 ساعة من ألم الصدر، الـ CK-MB بيكون في الـ peak بتاعه. الاختيارات التانية كلها مواعيد غلط: الـ CK-MB بيظهر في أول ساعات، ومش بيفضل عالي شهور ولا بيستنى أسبوعين."
+  },
+  {
+   "id": "BG-061",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Proteins are primarily composed of chains of which molecules?",
+   "options": [
+    "Monosaccharides",
+    "α-Amino acids",
+    "Nucleotides",
+    "Fatty acids"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-062",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The amino acid residues in proteins are connected by:",
+   "options": [
+    "Glycosidic bonds",
+    "Phosphodiester bonds",
+    "Ester bonds",
+    "Peptide bonds"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-063",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Approximately what percentage of a protein molecule is nitrogen, according to the provided text?",
+   "options": [
+    "10%",
+    "25%",
+    "6%",
+    "16%"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-064",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which protein is specifically mentioned as transporting oxygen?",
+   "options": [
+    "Collagen",
+    "Hemoglobin",
+    "Ferritin",
+    "Keratin"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-065",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Ferritin illustrates which biomedical function of proteins?",
+   "options": [
+    "Gene transcription",
+    "Hormonal regulation",
+    "Iron storage",
+    "Blood coagulation"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-066",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Antibodies illustrate the role of proteins in:",
+   "options": [
+    "Immune defense",
+    "Oxygen transport",
+    "Skin structure",
+    "Iron storage"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-067",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which protein group directly regulates gene transcription?",
+   "options": [
+    "Clotting factors",
+    "Ferritin",
+    "Transcription factors",
+    "Structural collagen"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-068",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which protein is an example of a structural component of skin and bone?",
+   "options": [
+    "Transcription factor",
+    "Collagen",
+    "Antibody",
+    "Hemoglobin"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-069",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "A defect in the proteins required for normal blood clot formation most directly involves:",
+   "options": [
+    "Chaperones",
+    "Clotting factors",
+    "Structural keratin",
+    "Ferritin"
+   ],
+   "answer": 1,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-070",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which statement correctly describes the nature of enzymes in the notes?",
+   "options": [
+    "Almost all enzymes are proteins",
+    "All enzymes are lipids",
+    "All enzymes are nucleic acids",
+    "Enzymes never contain protein"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-071",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A standard α-amino acid contains both a carboxyl group and a(n):",
+   "options": [
+    "Methyl ester group",
+    "Phosphate group",
+    "Amino group",
+    "Aldehyde group"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-072",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which amino acid is identified as an exception to the usual primary amino-group description?",
+   "options": [
+    "Serine",
+    "Lysine",
+    "Alanine",
+    "Proline"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-073",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "In protein-forming amino acids, the amino group is attached to the:",
+   "options": [
+    "Terminal carboxyl oxygen",
+    "Peptide-bond oxygen",
+    "Side-chain carbon only",
+    "α-Carbon"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-074",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which structural class includes alanine?",
+   "options": [
+    "Basic",
+    "Aromatic",
+    "Aliphatic",
+    "Heterocyclic"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-075",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which amino acid is the example of an aromatic amino acid containing a benzene ring?",
+   "options": [
+    "Glycine",
+    "Phenylalanine",
+    "Proline",
+    "Alanine"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-076",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which amino acid is given as an example of a heterocyclic amino acid?",
+   "options": [
+    "Tryptophan",
+    "Glutamate",
+    "Leucine",
+    "Valine"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-077",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which side-chain property best explains why an amino acid is hydrophobic?",
+   "options": [
+    "Strong affinity for water",
+    "Several charged nitrogen atoms",
+    "An additional carboxyl group",
+    "A nonpolar side chain"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-078",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Hydrophilic amino acids generally have side chains containing which atoms?",
+   "options": [
+    "Only carbon and hydrogen",
+    "Oxygen or nitrogen",
+    "Only phosphorus",
+    "Only sulfur"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-079",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which pair consists of acidic amino acids?",
+   "options": [
+    "Aspartate and glutamate",
+    "Alanine and glycine",
+    "Lysine and arginine",
+    "Leucine and lysine"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-080",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which pair contains basic amino acids?",
+   "options": [
+    "Phenylalanine and alanine",
+    "Aspartate and glutamate",
+    "Serine and threonine",
+    "Lysine and arginine"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-081",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which amino acid is cited as neutral in the classification by amino and carboxyl groups?",
+   "options": [
+    "Aspartate",
+    "Glycine",
+    "Arginine",
+    "Glutamate"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-082",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An amino acid with an additional carboxyl group in its side chain is most likely classified as:",
+   "options": [
+    "Acidic",
+    "Aromatic only",
+    "Pure ketogenic",
+    "Basic"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-083",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which group of amino acids is described as having positively charged nitrogen-containing side chains at physiological pH?",
+   "options": [
+    "Alanine and glycine",
+    "Aspartate and glutamate",
+    "Leucine and lysine",
+    "Lysine, arginine and histidine"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-084",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which amino acids are classified as purely ketogenic?",
+   "options": [
+    "Leucine and lysine",
+    "Phenylalanine and tyrosine",
+    "Alanine and glycine",
+    "Tryptophan and isoleucine"
+   ],
+   "answer": 0,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-085",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which amino acid has both glucogenic and ketogenic metabolic fates?",
+   "options": [
+    "Glycine",
+    "Phenylalanine",
+    "Leucine",
+    "Lysine"
+   ],
+   "answer": 1,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-086",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which pair consists entirely of amino acids with both glucogenic and ketogenic fates?",
+   "options": [
+    "Leucine and glycine",
+    "Tyrosine and isoleucine",
+    "Leucine and lysine",
+    "Lysine and alanine"
+   ],
+   "answer": 1,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-087",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "A student classifies leucine as both glucogenic and ketogenic. Which correction is appropriate?",
+   "options": [
+    "Leucine is neither glucogenic nor ketogenic",
+    "Leucine is purely glucogenic",
+    "Leucine is purely ketogenic",
+    "Leucine is a carbohydrate"
+   ],
+   "answer": 2,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-088",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which amino acid appears in the mixed glucogenic–ketogenic group?",
+   "options": [
+    "Glycine",
+    "Lysine",
+    "Aspartate",
+    "Tryptophan"
+   ],
+   "answer": 3,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-089",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An essential amino acid is one that:",
+   "options": [
+    "Cannot enter proteins",
+    "Is used only to form hormones",
+    "Cannot be synthesized by the body and must be obtained from the diet",
+    "Always has an acidic side chain"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-090",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Nonessential amino acids are defined in the source as amino acids that:",
+   "options": [
+    "Are all purely ketogenic",
+    "Can be synthesized by the body",
+    "Cannot be used for protein synthesis",
+    "Contain no nitrogen"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-091",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A patient is receiving a diet lacking amino acids that the body cannot synthesize. Which nutritional class is missing?",
+   "options": [
+    "Only aromatic amino acids",
+    "Basic amino acids",
+    "Nonessential amino acids",
+    "Essential amino acids"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-092",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which residues are sites of O-linked protein glycosylation according to the notes?",
+   "options": [
+    "Serine and threonine",
+    "Glycine and alanine",
+    "Lysine and arginine",
+    "Leucine and lysine"
+   ],
+   "answer": 0,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-093",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which amino acid is identified as a site of N-linked glycosylation?",
+   "options": [
+    "Valine",
+    "Proline",
+    "Asparagine",
+    "Phenylalanine"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-094",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "A carbohydrate is attached to a protein at an asparagine residue. Which type of glycosylation is described?",
+   "options": [
+    "O-linked",
+    "Neither N-linked nor O-linked",
+    "Peptide-bond formation",
+    "N-linked"
+   ],
+   "answer": 3,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-095",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Methionine contributes to the formation of which methyl-donating compound?",
+   "options": [
+    "S-Adenosylmethionine (SAM)",
+    "Hemoglobin",
+    "Amyloid",
+    "Ferritin"
+   ],
+   "answer": 0,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-096",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which amino acid is frequently described as an imino acid and can interrupt an α-helix?",
+   "options": [
+    "Tyrosine",
+    "Threonine",
+    "Proline",
+    "Serine"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-097",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which amino acid lacks optical activity because its α-carbon carries two hydrogen atoms?",
+   "options": [
+    "Aspartate",
+    "Glycine",
+    "Leucine",
+    "Alanine"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-098",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What makes the α-carbon of most amino acids optically active?",
+   "options": [
+    "Absence of an amino group",
+    "Presence of two carboxyl groups",
+    "Four different attached groups",
+    "Two identical side chains"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-099",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The amino acids incorporated into proteins normally have which configuration?",
+   "options": [
+    "Neither D nor L",
+    "D and L in equal proportions",
+    "D only",
+    "L"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-100",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "D-Amino acids are reported in which materials?",
+   "options": [
+    "Only ferritin",
+    "Only hemoglobin",
+    "Certain antibiotics and plant or bacterial cell walls",
+    "Only collagen"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-101",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The amphoteric character of amino acids arises from their ability to:",
+   "options": [
+    "Carry oxygen",
+    "Bind exclusively to metals",
+    "Donate or accept protons",
+    "Form only hydrogen bonds"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-102",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "At the isoelectric point, a typical amino acid has:",
+   "options": [
+    "Both positive and negative charges with zero net charge",
+    "Only a negative charge",
+    "Only a positive charge",
+    "No ionizable groups"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-103",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "In an electric field at its isoelectric point, an amino acid will ordinarily:",
+   "options": [
+    "Move toward the cathode",
+    "Move toward the anode",
+    "Break peptide bonds",
+    "Show no net migration"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-104",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "At a pH above its isoelectric point, an amino acid tends to have a net:",
+   "options": [
+    "Negative charge",
+    "No net charge in every case",
+    "Positive charge",
+    "Permanent positive charge"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-105",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "At a pH below its isoelectric point, an amino acid tends to have a net:",
+   "options": [
+    "Charge determined only by molecular weight",
+    "Negative charge",
+    "Zero charge under all conditions",
+    "Positive charge"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-106",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An amino acid is placed in a solution whose pH exceeds its isoelectric point. Which change is most consistent with the notes?",
+   "options": [
+    "Loss of a proton from a carboxyl group favors a net negative charge",
+    "Its side chain must become aromatic",
+    "Peptide bonds are hydrolyzed",
+    "Greater protonation of the amino group creates a net positive charge"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-107",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A solution is adjusted precisely to the isoelectric point of an amino acid. Which outcome is most likely?",
+   "options": [
+    "The amino acid is completely neutralized chemically and cannot ionize",
+    "It becomes fully cationic",
+    "Its net electrophoretic migration is minimal",
+    "Its primary structure is lost"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-108",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Two samples of the same amino acid are adjusted to pH values on opposite sides of its isoelectric point. Which statement is correct?",
+   "options": [
+    "Both necessarily carry a net negative charge",
+    "Both necessarily carry a net positive charge",
+    "The sample below the pI is more negative",
+    "The sample above the pI tends to be negative, while that below tends to be positive"
+   ],
+   "answer": 3,
+   "explanation": "فوق الـ I.E.P الـ amino acid بيشيل negative charge (الـ COOH بيدّي البروتون بتاعه)، وتحت الـ I.E.P بيشيل positive charge (الـ amino group بتاخد بروتون) (الكتاب ص 45). فالعينتين على جنبين الـ pI لازم يكون شحنتهم عكس بعض.",
+   "memoryTrick": "فوق الـ pI = سالب.\nتحت الـ pI = موجب."
+  },
+  {
+   "id": "BG-109",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The predominant form of a free amino acid at physiological pH has:",
+   "options": [
+    "An uncharged amino group and an undissociated carboxyl group",
+    "A protonated amino group and a negatively charged carboxyl group",
+    "No ionizable functional groups",
+    "Only a negatively charged amino group"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-110",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A researcher observes minimal movement of an amino acid in electrophoresis at a particular pH. The best interpretation is that this pH is close to its:",
+   "options": [
+    "Isoelectric point",
+    "Optical rotation maximum",
+    "Melting point",
+    "Peptide-bond dissociation point"
+   ],
+   "answer": 0,
+   "explanation": "عند الـ I.E.P الـ amino acid بيبقى zwitterion: شحنة موجبة وسالبة في نفس الوقت والـ net charge = صفر. عشان كده في الـ electric field مش بيروح لا للـ cathode ولا للـ anode (الكتاب ص 45). أقل حركة في الـ electrophoresis معناها إننا قريبين من الـ pI."
+  },
+  {
+   "id": "BG-111",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A peptide bond forms by reaction between which groups?",
+   "options": [
+    "Two phosphate groups",
+    "Two side-chain methyl groups",
+    "The carboxyl group of one amino acid and the amino group of another",
+    "Two α-carbon atoms directly"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-112",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Peptide-bond formation is an example of a:",
+   "options": [
+    "Condensation reaction",
+    "Hydrolysis reaction",
+    "Phosphorylation reaction",
+    "Redox reaction"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-113",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which bond remains intact under conditions that denature a protein, according to the notes?",
+   "options": [
+    "Weak ionic interaction maintaining tertiary folding",
+    "Peptide bond",
+    "Hydrophobic interaction maintaining tertiary folding",
+    "Hydrogen bond maintaining an α-helix"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-114",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The primary structure of a protein is defined by the number, type, and:",
+   "options": [
+    "Spatial arrangement of several subunits",
+    "Number of hydrogen bonds only",
+    "Extent of denaturation",
+    "Sequence of its amino acids"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-115",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The standard direction for writing a polypeptide sequence is:",
+   "options": [
+    "C-Terminus to N-terminus",
+    "N-Terminus to C-terminus",
+    "From any internal residue outward",
+    "Either direction with no indication"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-116",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The C-terminus of a polypeptide chain contains a free terminal:",
+   "options": [
+    "Methyl group",
+    "Amino group",
+    "Phosphate group",
+    "Carboxyl group"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-117",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Polypeptide synthesis proceeds in which direction, as described in the source?",
+   "options": [
+    "From side chains toward the backbone",
+    "From both ends toward the middle",
+    "C-Terminus toward N-terminus",
+    "N-Terminus toward C-terminus"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-118",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The primary structure of a protein is ultimately controlled by:",
+   "options": [
+    "Genetic information in DNA",
+    "The number of chaperones present",
+    "The protein's final solubility only",
+    "Ambient temperature alone"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-119",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A change in a single amino acid of a polypeptide chain is specifically associated with which disease in the notes?",
+   "options": [
+    "Alzheimer disease",
+    "Sickle-cell anemia",
+    "Creutzfeldt–Jakob disease",
+    "Parkinson disease"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-120",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A protein differs from its normal counterpart by just one residue but has the same chain length. Which structural level is directly altered?",
+   "options": [
+    "Tertiary structure only",
+    "Secondary structure only",
+    "Primary structure",
+    "Quaternary structure only"
+   ],
+   "answer": 2,
+   "explanation": "الـ primary structure هي عدد ونوع وترتيب (sequence) الـ amino acids. تغيير residue واحد حتى لو الطول ثابت معناه إن الـ sequence اتغير، يعني الـ primary structure هي اللي اتغيرت مباشرة. ده اللي بيحصل في الـ sickle-cell anemia (الكتاب ص 47).\nممكن الـ levels التانية تتأثر بعد كده، بس التغيير المباشر في الـ primary."
+  },
+  {
+   "id": "BG-121",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The two forms of protein secondary structure emphasized in the notes are:",
+   "options": [
+    "α-Helix and β-pleated sheet",
+    "Primary chain and tetramer",
+    "Amyloid and ferritin",
+    "Apolipoprotein and collagen"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-122",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An α-Helix is primarily stabilized by:",
+   "options": [
+    "Peptide bonds between separate subunits only",
+    "Hydrogen bonds within the polypeptide backbone",
+    "Disulfide cross-links between different proteins",
+    "Metal ion bridges only"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-123",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "In the α-helix described, a backbone carbonyl oxygen forms a hydrogen bond with the hydrogen of the:",
+   "options": [
+    "Tenth residue below",
+    "Fourth amino acid residue below",
+    "Immediately adjacent residue only",
+    "Second residue below"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-124",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The usual α-helical conformation described in the handout is:",
+   "options": [
+    "A flat ribbon",
+    "Left-handed",
+    "Uncoiled",
+    "Right-handed"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-125",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Approximately how many amino acid residues occur in one turn of an α-helix?",
+   "options": [
+    "2.0",
+    "8.0",
+    "3.6",
+    "5.5"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-126",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "In an α-helix, the amino acid side chains generally point:",
+   "options": [
+    "Toward the helix axis",
+    "Along the hydrogen bonds only",
+    "Into the peptide-bond plane exclusively",
+    "Outward from the helix"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-127",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which structural motif is exemplified by keratin in stretched hair?",
+   "options": [
+    "Globular tertiary fold",
+    "Peptide linkage alone",
+    "β-Pleated sheet",
+    "Quaternary tetramer"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-128",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A β-sheet is called antiparallel when neighboring strands:",
+   "options": [
+    "Point side chains inward",
+    "Have different amino acid compositions",
+    "Run in opposite directions",
+    "Have no peptide bonds"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-129",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "β-Sheet strands running in the same direction are called:",
+   "options": [
+    "Parallel",
+    "Amphoteric",
+    "Right-handed",
+    "Antiparallel"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-130",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which statement about β-pleated sheets is consistent with the notes?",
+   "options": [
+    "They can involve separate chains or different segments of chains",
+    "They can arise only from one continuous short segment",
+    "They require all strands to be antiparallel",
+    "They do not occur in fibrous proteins"
+   ],
+   "answer": 0,
+   "explanation": "الكتاب (ص 48) بيقول إن الـ β-pleated sheet ممكن يتكون من سلسلتين أو أكتر منفصلين أو من أجزاء من نفس السلسلة. وممكن يبقى parallel (نفس الاتجاه) أو antiparallel (عكس بعض)، وموجود في الـ fibrous proteins زي الـ keratin.\nعشان كده كل الاختيارات التانية غلط."
+  },
+  {
+   "id": "BG-131",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A protein contains a localized right-handed coil with side chains facing outward. Its structure most closely represents a(n):",
+   "options": [
+    "Quaternary assembly",
+    "β-Pleated sheet",
+    "α-Helix",
+    "Unfolded primary chain"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-132",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A substitution introduces proline into the middle of a stable α-helix. Which outcome is most plausible based on the notes?",
+   "options": [
+    "Disruption or interruption of the α-helix",
+    "Formation of a new peptide linkage to another subunit",
+    "Conversion to an essential amino acid",
+    "No possible conformational effect"
+   ],
+   "answer": 0,
+   "explanation": "الـ Proline هو imino acid (الـ amino group بتاعه secondary)، وبيقطع (interrupts) الـ α-helix في الـ globular proteins (الكتاب ص 45). فإدخاله في نص الـ helix بيكسرها أو بيوقفها."
+  },
+  {
+   "id": "BG-133",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Tertiary protein structure refers to:",
+   "options": [
+    "The linear amino acid sequence alone",
+    "The number of amino acids in a peptide only",
+    "The association of at least two different molecules of DNA",
+    "The compact three-dimensional folding of one polypeptide chain"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-134",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which is a stabilizing interaction of tertiary structure?",
+   "options": [
+    "Hydrophobic interactions",
+    "Only peptide bonds",
+    "Only phosphodiester bonds",
+    "Only DNA base pairing"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-135",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which combination includes exclusively interactions listed as stabilizing tertiary structure?",
+   "options": [
+    "DNA hydrogen bonds and base stacking",
+    "Hydrogen and glycosidic bonds",
+    "Hydrogen bonds and ionic interactions",
+    "Phosphodiester and ester bonds"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-136",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which type of covalent linkage can help stabilize the folded tertiary structure of a protein?",
+   "options": [
+    "Phosphodiester linkage",
+    "Glycosidic linkage",
+    "Disulfide bond",
+    "Nucleotide linkage"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-137",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Quaternary structure is present in proteins that contain:",
+   "options": [
+    "Exactly one amino acid",
+    "No primary structure",
+    "Only a single unfolded polypeptide",
+    "Two or more polypeptide subunits"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-138",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Before forming a quaternary assembly, each protein subunit possesses its own:",
+   "options": [
+    "Primary, secondary, and tertiary structures",
+    "Only β-pleated sheets",
+    "Only peptide-bond structure with no folding",
+    "Only quaternary structure"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-139",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A protein consists of four folded polypeptide chains that assemble into one functional unit. Their association describes the protein's:",
+   "options": [
+    "Quaternary structure",
+    "Secondary structure",
+    "Amphoteric character",
+    "Primary structure"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-140",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A single-chain globular protein is stabilized by ionic, hydrogen, hydrophobic, and disulfide interactions. Which structural level is primarily being described?",
+   "options": [
+    "Secondary only",
+    "Tertiary",
+    "Primary",
+    "Quaternary"
+   ],
+   "answer": 1,
+   "explanation": "الـ tertiary structure هي folding لسلسلة واحدة (single chain) عشان تعمل compact 3D structure زي الـ globular proteins. اتثبتت بأربع روابط: hydrogen، disulphide، ionic، hydrophobic (الكتاب ص 48–49).\nالـ quaternary محتاجة أكتر من سلسلة، والسؤال قال single chain."
+  },
+  {
+   "id": "BG-141",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A protein undergoes unfolding but its amino acid sequence remains unchanged. Which structural description must remain the same?",
+   "options": [
+    "Tertiary shape",
+    "Subunit arrangement",
+    "α-Helix content",
+    "Primary structure"
+   ],
+   "answer": 3,
+   "explanation": "الـ unfolding (denaturation) بيكسر الروابط اللي ماسكة الـ secondary والـ tertiary والـ quaternary، لكن الـ peptide bonds مش بتتكسر (الكتاب ص 46 و52). فالـ sequence ثابت، يعني الـ primary structure هي الوحيدة اللي لازم تفضل زي ما هي."
+  },
+  {
+   "id": "BG-142",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which statement correctly differentiates tertiary from quaternary structure?",
+   "options": [
+    "Tertiary is the amino acid sequence; quaternary is α-helical coiling",
+    "Tertiary describes folding within one chain; quaternary describes association of multiple chains",
+    "Tertiary applies only to collagen; quaternary applies to all proteins",
+    "Tertiary has no stabilizing forces; quaternary is maintained only by peptide bonds"
+   ],
+   "answer": 1,
+   "explanation": "• الـ tertiary: folding جوه سلسلة واحدة.\n• الـ quaternary: تجمّع أكتر من سلسلة (subunits)، وكل subunit ليها primary و secondary و tertiary خاصة بيها (الكتاب ص 48–49).\nالـ sequence هو الـ primary، والـ α-helix هو secondary."
+  },
+  {
+   "id": "BG-143",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The principal function of molecular chaperones is to:",
+   "options": [
+    "Replace all amino acids in a protein",
+    "Hydrolyze every peptide bond",
+    "Promote efficient folding and prevent protein aggregation",
+    "Synthesize DNA"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-144",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Age-related impairment of chaperone function is mentioned in relation to:",
+   "options": [
+    "Only coagulation disorders",
+    "Only iron deficiency",
+    "Only sickle-cell anemia",
+    "Alzheimer and Parkinson diseases"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-145",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which protein aggregate is emphasized in Alzheimer disease?",
+   "options": [
+    "Hemoglobin",
+    "Insoluble amyloid",
+    "Ferritin",
+    "Collagen"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-146",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The long fibrillar assemblies associated with Alzheimer disease have prominent:",
+   "options": [
+    "β-Pleated sheet structure",
+    "Lipid bilayers",
+    "α-Helices only",
+    "Single-stranded DNA"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-147",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Neurofibrillary tangles in Alzheimer disease contain abnormal forms of:",
+   "options": [
+    "Ferritin",
+    "Hemoglobin",
+    "Proline",
+    "Tau protein"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-148",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which clinical picture best matches Alzheimer disease as described in the notes?",
+   "options": [
+    "Acute mechanical injury without memory loss",
+    "Isolated increased iron stores",
+    "Progressive memory loss, disorientation, and impaired intellectual function",
+    "Immediate loss of clotting factors only"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-149",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Creutzfeldt–Jakob disease belongs to the category of:",
+   "options": [
+    "Iron-storage disorders",
+    "Blood-clotting disorders",
+    "Protein glycosylation diseases only",
+    "Prion diseases"
+   ],
+   "answer": 3,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-150",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which prion form is identified as infectious and highly resistant to proteolytic degradation?",
+   "options": [
+    "PrPᶜ",
+    "PrPˢᶜ",
+    "Tau",
+    "Amyloid precursor only"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-151",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is the key molecular difference between normal PrPᶜ and infectious PrPˢᶜ in the source?",
+   "options": [
+    "Their three-dimensional conformations differ, with more β-sheet character in PrPˢᶜ",
+    "The infectious form contains no peptide bonds",
+    "Only the normal form can aggregate",
+    "The infectious form has a different DNA-encoded amino acid sequence"
+   ],
+   "answer": 0,
+   "explanation": "مفيش فرق في الـ primary structure بين الـ PrPC (الطبيعي) والـ PrPSc (المُعدي). الفرق في الـ 3D conformation: عدد من الـ α-helices في الـ PrPC بيتحولوا لـ β-sheets في الـ PrPSc، فيبقى resistant للـ proteolysis وبيعمل insoluble aggregates (الكتاب ص 51).",
+   "memoryTrick": "Prion: نفس الـ sequence، شكل مختلف (α-helix ← β-sheet)."
+  },
+  {
+   "id": "BG-152",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A neurologic disorder spreads through an abnormally folded protein without an identified change in its primary sequence. Which mechanism best fits the handout?",
+   "options": [
+    "Loss of all L-amino acids",
+    "Conversion of peptide bonds into glycosidic bonds",
+    "Conformational conversion of cellular prion protein",
+    "Exclusive failure of iron transport"
+   ],
+   "answer": 2,
+   "explanation": "مرض بينتشر عن طريق بروتين متطوي غلط من غير أي تغيير في الـ primary sequence هو بالظبط وصف الـ prion disease. الـ PrPC الطبيعي بيتحول conformation لـ PrPSc، وده اللي بيعمل الـ infectivity (الكتاب ص 51)."
+  },
+  {
+   "id": "BG-153",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Protein denaturation primarily disrupts which structural levels?",
+   "options": [
+    "The DNA sequence coding for the protein",
+    "Primary structure only",
+    "Secondary, tertiary, and quaternary",
+    "Only the peptide-bond sequence"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-154",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which physical agent can cause protein denaturation?",
+   "options": [
+    "Oxygen transport",
+    "Heat",
+    "Amino acid sequence reading",
+    "Glucose alone"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-155",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which chemical reagent is specifically included among protein denaturants?",
+   "options": [
+    "Pure water at normal conditions",
+    "Glucose",
+    "Urea",
+    "Normal saline in every context"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-156",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Heating albumin can cause coagulation because of the formation of:",
+   "options": [
+    "Glycosidic linkages",
+    "Disulfide cross-links",
+    "Additional amino acid residues",
+    "DNA cross-links"
+   ],
+   "answer": 1,
+   "where": [
+    "Protein Bank Dr Abdullah"
+   ]
+  },
+  {
+   "id": "BG-157",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why may denaturation decrease the solubility of a protein?",
+   "options": [
+    "Exposure of nonpolar hydrophobic groups",
+    "Hydrolysis of all peptide bonds",
+    "Removal of all amino acids",
+    "Creation of a new DNA sequence"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-158",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why are some denatured proteins more readily digested by proteolytic enzymes?",
+   "options": [
+    "Proteases act only at isoelectric points",
+    "Peptide bonds become more exposed to enzyme action",
+    "Denaturation makes all proteins entirely soluble",
+    "Denaturation creates new amino acids"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-159",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A heat-treated enzyme retains its peptide bonds but loses catalytic activity and becomes more viscous. Which explanation best fits the notes?",
+   "options": [
+    "The protein has acquired a new amino acid sequence",
+    "Higher-order folding has been disrupted by denaturation",
+    "All peptide bonds have been hydrolyzed",
+    "It has been converted into DNA"
+   ],
+   "answer": 1,
+   "explanation": "الـ peptide bonds سليمة، يعني الـ primary structure ثابتة. لكن فقد الـ activity وزيادة الـ viscosity من الـ effects of denaturation، اللي بيكسر الـ secondary والـ tertiary والـ quaternary (الكتاب ص 52)."
+  },
+  {
+   "id": "BG-160",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which collection of effects is most consistent with protein denaturation as described in the handout?",
+   "options": [
+    "Increased viscosity, reduced solubility, and possible loss of biological and antigenic activity",
+    "Increased solubility, preserved tertiary folding, and guaranteed increased activity",
+    "Loss of primary sequence, reduced proteolysis, and permanent optical inactivity",
+    "Formation of new essential amino acids and increased gene transcription"
+   ],
+   "answer": 0,
+   "explanation": "الـ effects of denaturation في الكتاب (ص 52):\n• فقد الـ secondary والـ tertiary والـ quaternary structure.\n• Increased viscosity.\n• Decreased solubility (عشان الـ hydrophobic groups بتتكشف).\n• Increased digestibility.\n• Loss of biologic activity و loss of antigenic property.\nالاختيار A هو اللي بيجمعهم صح."
+  },
+  {
+   "id": "BG-161",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A 6-month-old infant is diagnosed with a rare metabolic disorder that requires a strict dietary regimen. The pediatrician notes that the infant's body cannot synthesize methionine. Which of the following classifications best describes methionine based on this clinical finding?",
+   "options": [
+    "Non-essential amino acid",
+    "Essential amino acid",
+    "Acidic amino acid",
+    "Aromatic amino acid"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الجسم مش بيقدر يصنع الـ methionine، فلازم يجي من الأكل، وده تعريف الـ essential amino acid. والـ methionine من ضمن الـ essential في الكتاب (ص 44).\nالـ methionine sulfur-containing، مش acidic ولا aromatic."
+  },
+  {
+   "id": "BG-162",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A patient with phenylketonuria (PKU) must strictly avoid phenylalanine in their diet. Based on the lecture's structural classification, to which category does phenylalanine belong?",
+   "options": [
+    "Aliphatic",
+    "Aromatic",
+    "Heterocyclic",
+    "Sulfur-containing"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ Phenylalanine فيه benzene ring، فهو aromatic، وده المثال اللي في الكتاب نفسه (ص 43).\nالـ heterocyclic مثالها الـ tryptophan، والـ sulfur-containing هو الـ methionine."
+  },
+  {
+   "id": "BG-163",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following amino acids is classified as heterocyclic based on its side-chain structure?",
+   "options": [
+    "Phenylalanine",
+    "Glycine",
+    "Histidine",
+    "Valine"
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ heterocyclic معناه ring فيها ذرة غير الـ carbon (زي N). الـ Histidine فيه imidazole ring، فهو heterocyclic.\nالكتاب (ص 43) مثّل بالـ tryptophan، بس هو مش في الاختيارات. الـ phenylalanine فيه benzene ring بس (aromatic)، والـ glycine والـ valine من غير ring خالص."
+  },
+  {
+   "id": "BG-164",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A patient is experiencing severe metabolic alkalosis, resulting in an increase in blood pH. Based on the amphoteric nature of amino acids, how will the amino acids in the patient's bloodstream respond to this alkaline medium?",
+   "options": [
+    "They will act as bases and absorb H+.",
+    "They will act as acids and release H+.",
+    "They will form zwitterions and become electrically neutral.",
+    "They will precipitate out of the blood."
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)",
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ Amino acids هي amphoteric: بتدّي أو بتاخد بروتون على حسب الـ pH. في الـ alkalosis الـ pH عالي (فوق الـ I.E.P)، فالـ carboxyl group بيدّي البروتون بتاعه. يعني الـ amino acids بتشتغل كـ acids وبتطلع H⁺ تعادل القلوية (الكتاب ص 45)."
+  },
+  {
+   "id": "BG-165",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "If an amino acid is placed in a solution with a pH significantly below its isoelectric point (IEP), what will be the state of its carboxyl group?",
+   "options": [
+    "It will be deprotonated (-COO-).",
+    "It will be protonated (-COOH).",
+    "It will form a peptide bond.",
+    "It will release a hydroxyl ion."
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)",
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "تحت الـ I.E.P الوسط غني بالـ H⁺، فالـ amino acid بياخد بروتونات وبيبقى positive. والـ carboxyl group بيفضل protonated (-COOH) ومش بيتأين (الكتاب ص 46، شكل cation عند low pH)."
+  },
+  {
+   "id": "BG-166",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A biochemist is studying a mutant enzyme where a surface amino acid has been substituted. The mutation replaces a polar, uncharged amino acid with a nonpolar, aliphatic amino acid. Which of the following pairs of amino acids could represent this specific substitution?",
+   "options": [
+    "Serine replaced by Valine",
+    "Aspartate replaced by Glutamate",
+    "Lysine replaced by Arginine",
+    "Phenylalanine replaced by Tyrosine"
+   ],
+   "answer": 0,
+   "where": [
+    "Midterm KNU 2027 (1st Round)",
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ Serine من الـ polar uncharged (فيه -OH)، والـ Valine من الـ nonpolar aliphatic. فده التبديل المطلوب.\n• Aspartate ← Glutamate: الاتنين acidic.\n• Lysine ← Arginine: الاتنين basic.\n• Phenylalanine ← Tyrosine: الاتنين aromatic."
+  },
+  {
+   "id": "BG-167",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A 3-month-old infant presents with failure to thrive and developmental delay. The pediatrician diagnoses a metabolic disorder where the infant's body cannot synthesize certain amino acids. The dietitian is consulted to formulate a diet containing all essential amino acids. Which of the following amino acids must be included in the infant's diet?",
+   "options": [
+    "Alanine",
+    "Aspartate",
+    "Glutamate",
+    "Lysine"
+   ],
+   "answer": 3,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ Lysine من الـ essential amino acids (الكتاب ص 44)، فلازم يكون في الأكل. الـ Alanine والـ Aspartate والـ Glutamate كلهم non-essential والجسم بيصنعهم.",
+   "memoryTrick": "Essential: Leucine, Isoleucine, Valine, Histidine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan."
+  },
+  {
+   "id": "BG-168",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A researcher is studying a newly discovered protein and finds that its tertiary structure is heavily stabilized by disulfide bonds. Which amino acid residues are primarily responsible for forming these covalent cross-links?",
+   "options": [
+    "Methionine",
+    "Cysteine",
+    "Serine",
+    "Threonine"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ]
+  },
+  {
+   "id": "BG-169",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "At physiological pH, which of the following amino acids is classified as a negatively charged (acidic) amino acid?",
+   "options": [
+    "Lysine",
+    "Arginine",
+    "Glutamate",
+    "Histidine"
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)",
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ]
+  },
+  {
+   "id": "BG-170",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following amino acids is an exception to the general structure of α-amino acids because it contains a secondary amino group (imino group) rather than a primary amino group?",
+   "options": [
+    "Glycine",
+    "Alanine",
+    "Proline",
+    "Histidine"
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ]
+  },
+  {
+   "id": "BG-171",
+   "topic": "biochem",
+   "concept": "Secondary structure",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following best describes the structure of an α-helix?",
+   "options": [
+    "It is maintained by hydrogen bonds between the R-groups of the amino acids.",
+    "It is an extended structure found in fibrous proteins like keratin.",
+    "It is stabilized by hydrogen bonds between (-CO) and (-NH) of the polypeptide backbone",
+    "It is formed by the interaction of two or more separate polypeptide chains."
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-172",
+   "topic": "biochem",
+   "concept": "Protein denaturation",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "When a given protein is denatured, which feature of this protein remains intact?",
+   "options": [
+    "The association of multiple subunits",
+    "The arrangement of domains",
+    "The sequence of amino acids",
+    "The pattern of β-sheets"
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-173",
+   "topic": "biochem",
+   "concept": "Protein fundamentals",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which protein is an example of a simple protein?",
+   "options": [
+    "Hemoglobin",
+    "Casein",
+    "Lipoprotein",
+    "Albumin"
+   ],
+   "answer": 3,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "الـ simple protein بيتكون من amino acids بس. الـ Albumin مثال كلاسيكي.\nالـ conjugated proteins فيها جزء غير بروتيني:\n• Hemoglobin: فيه heme.\n• Casein: phosphoprotein.\n• Lipoprotein: فيه lipid."
+  },
+  {
+   "id": "BG-174",
+   "topic": "biochem",
+   "concept": "Tertiary & quaternary structure",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which protein structure describes how the different subunits are assembled in adult hemoglobin structure?",
+   "options": [
+    "Primary",
+    "Tertiary",
+    "Secondary",
+    "Quaternary"
+   ],
+   "answer": 3,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-175",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following amino acids is involved in formation of disulfide bridges?",
+   "options": [
+    "Serine",
+    "Lysine",
+    "Cysteine",
+    "Tyrosine"
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-176",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "The isoelectric point (pI) of an amino acid is best defined by which of the following?",
+   "options": [
+    "pH at which the amino acid is fully protonated.",
+    "pH at which the amino acid is fully deprotonated.",
+    "pH at which the amino acid carries no net electrical charge.",
+    "pH at which the amino acid is most soluble in water."
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-177",
+   "topic": "biochem",
+   "concept": "Peptide bonds & primary structure",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "The formation of a peptide bond is a process that involves which of the following?",
+   "options": [
+    "The addition of water.",
+    "The removal of a water molecule.",
+    "The breaking of a hydrogen bond.",
+    "The interaction between two R-groups."
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-178",
+   "topic": "biochem",
+   "concept": "Chaperones, misfolding & prions",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following is a function of chaperone proteins?",
+   "options": [
+    "To catalyze the breakdown of old proteins.",
+    "To promote efficient protein folding.",
+    "To synthesize new polypeptide chains.",
+    "To transport proteins across the cell membrane."
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-179",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following is classified as an essential amino acid?",
+   "options": [
+    "Alanine",
+    "Glutamate",
+    "Aspartate",
+    "Lysine"
+   ],
+   "answer": 3,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-180",
+   "topic": "biochem",
+   "concept": "Amino acids: structure & classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following amino acids contains imino group?",
+   "options": [
+    "Glycine",
+    "Proline",
+    "Cysteine",
+    "Methionine"
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-181",
+   "topic": "biochem",
+   "concept": "Acid–base & optical properties",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Considering the isoelectric point (I.P), what would be the net charge of a protein with a I.P of 6.5 when placed in a solution at pH 7.4?",
+   "options": [
+    "Positive",
+    "Negative",
+    "Neutral (Zwitterion)",
+    "Cannot be determined"
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "الـ pH (7.4) أعلى من الـ I.P (6.5)، وفوق الـ I.P البروتين بيشيل negative charge (الكتاب ص 45).\nالـ zwitterion (net charge = صفر) بيبقى عند الـ I.P بالظبط.",
+   "memoryTrick": "pH > pI ← سالب.\npH < pI ← موجب."
+  },
+  {
+   "id": "BG-182",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A 55-year-old male is taking a medication for high blood pressure that works by inhibiting Angiotensin-Converting Enzyme (ACE). The binding of this drug to the enzyme's active site is an example of which of the following?",
+   "options": [
+    "Competitive inhibition",
+    "Non-competitive inhibition",
+    "Allosteric activation",
+    "Covalent modification"
+   ],
+   "answer": 0,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "الدوا اللي بيرتبط بالـ active site نفسه بيتنافس مع الـ substrate على نفس المكان، وده الـ competitive inhibition (الكتاب ص 63). والـ ACE inhibitors (captopril، enalapril، lisinopril) مذكورة في الكتاب كأدوية بتثبط إنزيم (ص 65).\nالـ non-competitive بيرتبط بمكان غير الـ active site."
+  },
+  {
+   "id": "BG-183",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following statements about non-competitive inhibition is TRUE?",
+   "options": [
+    "The inhibitor structurally resembles the substrate.",
+    "The inhibitor binds exclusively to the active site.",
+    "Increasing the substrate concentration can overcome the inhibition.",
+    "The inhibitor can bind to either the enzyme or the enzyme-substrate complex."
+   ],
+   "answer": 3,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "الـ non-competitive inhibitor بيرتبط بمكان غير الـ active site، فبيكوّن Enz/I و Enz/I/S. يعني بيرتبط بالإنزيم الحر أو بالـ ES complex (الكتاب ص 64).\nمالوش شبه بالـ substrate، ومش بيرتبط بالـ active site، وزيادة الـ substrate مش بتلغي تأثيره (Vmax بتقل)."
+  },
+  {
+   "id": "BG-184",
+   "topic": "biochem",
+   "concept": "Specificity and structure",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A biochemist discovers a new enzyme that is composed of a single polypeptide chain and has no attached non-protein groups. This enzyme is best described as which of the following?",
+   "options": [
+    "Holoenzyme",
+    "Conjugated enzyme",
+    "Apoenzyme",
+    "Simple enzyme"
+   ],
+   "answer": 3,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-185",
+   "topic": "biochem",
+   "concept": "Inhibition",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "In the presence of a competitive inhibitor, how can the original Vmax of the enzyme be achieved?",
+   "options": [
+    "By adding more inhibitor.",
+    "By increasing the enzyme concentration.",
+    "By increasing the substrate concentration.",
+    "By decreasing the temperature."
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "في الـ competitive inhibition الـ inhibitor والـ substrate بيتنافسوا على نفس الـ active site، فلو زودنا الـ substrate بنغلب الـ inhibitor ونوصل لنفس الـ Vmax. عشان كده الـ Vmax ثابتة والـ Km بيزيد (الكتاب ص 63)."
+  },
+  {
+   "id": "BG-186",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A liver disease patient has decreased levels of prothrombin, a clotting factor synthesized by the liver. This is an example of a change in a level of which of the following?",
+   "options": [
+    "A non-functional plasma enzyme.",
+    "A functional plasma enzyme.",
+    "An intracellular enzyme.",
+    "A zymogen."
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-187",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Phosphorylation is a common mechanism for regulating enzyme activity. This process is catalyzed by?",
+   "options": [
+    "Phosphatases",
+    "Kinases",
+    "Hydrolases",
+    "Ligases"
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-188",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following statements about an isoenzyme is true?",
+   "options": [
+    "They are enzymes that catalyze different reactions but are structurally identical.",
+    "They are enzymes that catalyze the same reaction but are chemically and physically distinct.",
+    "They are only found in the liver.",
+    "They are always found in the plasma in high concentration."
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-189",
+   "topic": "biochem",
+   "concept": "Specificity and structure",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which observation is consistent with induced fit theory?",
+   "options": [
+    "Substrate binding changes the conformation of the active site",
+    "Substrate binding permanently hydrolyzes the enzyme backbone",
+    "The substrate binds only after it is converted to product",
+    "The active site remains rigid throughout binding and catalysis"
+   ],
+   "answer": 0,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-190",
+   "topic": "biochem",
+   "concept": "Enzyme kinetics",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "An enzyme has a Vmax of 80 µmol/min. What is its initial velocity when the substrate concentration equals Km?",
+   "options": [
+    "20 µmol/min",
+    "80 µmol/min",
+    "40 µmol/min",
+    "60 µmol/min"
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "من الـ Michaelis-Menten: V₀ = Vmax[S] / (Km + [S]). لما [S] = Km تبقى V₀ = Vmax/2 = 80/2 = 40 µmol/min. وده تعريف الـ Km أصلًا: التركيز اللي بيدّي half Vmax (الكتاب ص 62).",
+   "memoryTrick": "[S] = Km ← V = ½ Vmax."
+  },
+  {
+   "id": "BG-191",
+   "topic": "biochem",
+   "concept": "Factors affecting activity",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A patient produces pancreatic trypsinogen normally, but its activation peptide is not removed in the intestinal lumen. Which process has failed?",
+   "options": [
+    "Zymogen activation by limited proteolysis",
+    "Activation through binding a cofactor",
+    "Enzyme activation by reversible phosphorylation",
+    "Feedback inhibition by a pathway end product"
+   ],
+   "answer": 0,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "الـ Trypsinogen هو zymogen (inactive form)، وبيتنشّط بإزالة جزء من الـ polypeptide chain (part removal). ده اللي اسمه limited proteolysis، زي ما الـ pepsinogen بيتحول لـ pepsin بالـ HCl (الكتاب ص 63). فلو الـ activation peptide مااتشالش يبقى ده اللي فشل."
+  },
+  {
+   "id": "BG-192",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which velocity-versus-substrate curve is typical of an enzyme with positive substrate cooperativity?",
+   "options": [
+    "Straight line through the origin",
+    "Sigmoidal S curve",
+    "Rectangular hyperbola",
+    "Horizontal line across all concentrations"
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-193",
+   "topic": "biochem",
+   "concept": "Clinical enzymes",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A hemolyzed blood specimen shows increased LDH activity. Heart muscle contain which LDH isoenzyme?",
+   "options": [
+    "LDH-1",
+    "LDH-5",
+    "LDH-4",
+    "LDH-2"
+   ],
+   "answer": 0,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "الـ LDH1 (H4) هو الموجود في القلب، والـ LDH5 (M4) في العضلات والكبد. وكمان الـ RBCs غنية بالـ LDH1، عشان كده الـ hemolysis بيرفع الـ LDH وبيعمل نتيجة غلط في التحليل."
+  },
+  {
+   "id": "BG-194",
+   "topic": "biochem",
+   "concept": "Allosteric regulation",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "An enzyme changes activity when a kinase adds phosphate to one of its serine residues. What type of regulation is this?",
+   "options": [
+    "Limited proteolysis",
+    "Substrate competition",
+    "Covalent modification",
+    "Transcriptional induction"
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ],
+   "explanation": "إضافة phosphate بالـ kinase (phosphorylation) أو شيلها (dephosphorylation) اسمها covalent modification، وهي من الـ short-term regulation (الكتاب ص 65).\nالـ limited proteolysis ده تنشيط الـ zymogens، والـ transcriptional induction ده long-term."
+  },
+  {
+   "id": "BG-195",
+   "topic": "biochem",
+   "concept": "Enzyme classification",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A researcher is studying a novel enzyme and finds that it catalyzes the transfer of a phosphate group from ATP to a specific protein. Based on this function, to which enzyme class does this enzyme belong?",
+   "options": [
+    "Oxidoreductase",
+    "Hydrolase",
+    "Ligase",
+    "Transferase"
+   ],
+   "answer": 3,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-196",
+   "topic": "biochem",
+   "concept": "Specificity and structure",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which term describes the protein portion of an enzyme that requires a cofactor?",
+   "options": [
+    "Holoenzyme",
+    "Apoenzyme",
+    "Prosthetic group",
+    "Coenzyme"
+   ],
+   "answer": 1,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-197",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What happens to DNA absorbance at 260 nm during denaturation?",
+   "options": [
+    "It increases",
+    "It remains constant",
+    "It becomes zero",
+    "It decreases"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-198",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What does DNA melting temperature (Tm) represent?",
+   "options": [
+    "Temperature at which all DNA is degraded",
+    "Temperature at which half the double helix is lost",
+    "Temperature of DNA synthesis",
+    "Temperature at which RNA is destroyed"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-199",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which DNA sample is expected to have the higher Tm?",
+   "options": [
+    "A sample containing only adenine",
+    "A GC-rich sample",
+    "A shorter AT-rich sample",
+    "An AT-rich sample"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-200",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why can absorbance at 260 nm indicate DNA strand separation?",
+   "options": [
+    "All nucleotides are hydrolyzed",
+    "RNA polymerase is activated",
+    "DNA loses its phosphate groups",
+    "Unstacking of bases increases UV absorption"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-201",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Two DNA samples have equal length but different GC contents. Which property best distinguishes their thermal stability?",
+   "options": [
+    "Cellular location",
+    "RNA concentration",
+    "Number of chromosomes",
+    "Melting temperature"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-202",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A laboratory heats double-stranded DNA above its Tm. What is expected?",
+   "options": [
+    "Permanent conversion to protein",
+    "A predominance of separated strands",
+    "Formation of ribosomes",
+    "Complete loss of all bases"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-203",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is the defining feature of a palindromic DNA sequence?",
+   "options": [
+    "No base pairing",
+    "A sequence that cannot fold",
+    "Only adenine residues",
+    "Inverted complementary repeats across the strands"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-204",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A single DNA strand with self-complementary inverted repeats can form which structure?",
+   "options": [
+    "Ribosome",
+    "Centromere",
+    "Hairpin",
+    "Nucleosome"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-205",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which structure may form when both strands of a palindromic region fold?",
+   "options": [
+    "Cruciform",
+    "Lysosome",
+    "Spliceosome",
+    "Telomerase"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-206",
+   "topic": "genetics",
+   "concept": "DNA denaturation and palindromes",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A sequence has inverted repeats and folds back on itself. Which feature enables this?",
+   "options": [
+    "Intramolecular complementary base pairing",
+    "Removal of all phosphates",
+    "Replacement of DNA with protein",
+    "Random peptide formation"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-207",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "At least what fraction of the human genome is repetitive?",
+   "options": [
+    "90%",
+    "1%",
+    "30%",
+    "5%"
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-208",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Where are highly repetitive tandem DNA sequences commonly clustered?",
+   "options": [
+    "Golgi apparatus",
+    "Ribosomes",
+    "Centromeres and telomeres",
+    "Mitochondrial matrix only"
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-209",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which description best fits highly repetitive sequences in the source?",
+   "options": [
+    "RNA molecules without DNA",
+    "Single unique genes only",
+    "Only protein-coding exons",
+    "5–500 bp units repeated many times in tandem"
+   ],
+   "answer": 3,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-210",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "How are moderately repetitive sequences generally distributed?",
+   "options": [
+    "Exclusively at centromeres",
+    "Interspersed with unique sequences",
+    "Only in mitochondria",
+    "Never present in chromosomes"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-211",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "What is the typical repeat-unit length of microsatellites in the source?",
+   "options": [
+    "2–6 base pairs",
+    "More than one million base pairs",
+    "1000–2000 base pairs",
+    "One entire chromosome"
+   ],
+   "answer": 0,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-212",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which repeat pair is highlighted as common in microsatellites?",
+   "options": [
+    "AA opposite GG",
+    "CC opposite CC",
+    "AC on one strand and TG on the opposite",
+    "UU opposite AA"
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-213",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "A DNA segment contains repeated AC motifs 20 times. How is it best classified?",
+   "options": [
+    "Histone octamer",
+    "Single-copy gene",
+    "Protein complex",
+    "Microsatellite"
+   ],
+   "answer": 3,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-214",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which statement about highly repetitive DNA is supported by the source?",
+   "options": [
+    "Much is transcriptionally inactive",
+    "It cannot have structural roles",
+    "It occurs only in bacteria",
+    "All of it encodes enzymes"
+   ],
+   "answer": 0,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-215",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "What is the major problem solved by eukaryotic DNA packaging?",
+   "options": [
+    "Converting DNA into glucose",
+    "Fitting extensive DNA into the nucleus",
+    "Removing all histones",
+    "Stopping replication permanently"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-216",
+   "topic": "genetics",
+   "concept": "Repetitive DNA and chromosome organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "How many chromosomes are described in a typical human somatic cell?",
+   "options": [
+    "23",
+    "92",
+    "22",
+    "46"
+   ],
+   "answer": 3,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-217",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which bacterial DNA polymerase is described as highly processive?",
+   "options": [
+    "Telomerase",
+    "DNA polymerase III",
+    "DNA polymerase I",
+    "RNA polymerase"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-218",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is the direction of DNA synthesis by DNA polymerase III?",
+   "options": [
+    "No directional preference",
+    "Both directions simultaneously",
+    "3' to 5'",
+    "5' to 3'"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-219",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is the proofreading exonuclease direction of DNA polymerase III?",
+   "options": [
+    "5' to 3'",
+    "5' to 5'",
+    "3' to 3'",
+    "3' to 5'"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-220",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which polymerase is highlighted for replacing RNA primers with DNA?",
+   "options": [
+    "DNA polymerase I",
+    "RNA polymerase",
+    "DNA polymerase III",
+    "Telomerase"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-221",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which DNA polymerase I activity removes an RNA primer?",
+   "options": [
+    "RNA ligase",
+    "5' to 3' exonuclease",
+    "5' to 5' exonuclease",
+    "3' to 5' polymerase"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-222",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A replication enzyme removes an incorrectly added nucleotide from the growing strand. Which activity is involved?",
+   "options": [
+    "Reverse transcription",
+    "DNA ligation",
+    "3' to 5' exonuclease",
+    "5' to 3' polymerase only"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-223",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which polymerase activity synthesizes DNA to replace a removed primer?",
+   "options": [
+    "5' to 3' polymerase",
+    "Endonuclease only",
+    "5' to 3' ligase",
+    "3' to 5' polymerase"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-224",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What distinguishes an exonuclease from an endonuclease?",
+   "options": [
+    "Exonuclease cuts only the middle",
+    "Both always require telomerase",
+    "Endonuclease acts only on RNA",
+    "Exonuclease removes nucleotides from an end"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-225",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme introduces a nick within an intact DNA strand. What is it?",
+   "options": [
+    "DNA ligase",
+    "Exonuclease",
+    "Endonuclease",
+    "Helicase"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-226",
+   "topic": "genetics",
+   "concept": "DNA polymerases and nucleases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An enzyme progressively removes nucleotides from a DNA terminus. What is it?",
+   "options": [
+    "DNA ligase",
+    "Histone",
+    "Endonuclease",
+    "Exonuclease"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-227",
+   "topic": "genetics",
+   "concept": "Telomeres and telomerase",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Where are telomeres located?",
+   "options": [
+    "Only at centromeres",
+    "At the ends of linear eukaryotic chromosomes",
+    "At the origin of every bacterial plasmid",
+    "Inside ribosomes"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-228",
+   "topic": "genetics",
+   "concept": "Telomeres and telomerase",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Why do telomeres shorten during repeated divisions of most normal cells?",
+   "options": [
+    "All chromosomes lose their centromeres",
+    "The ends cannot be completely replicated",
+    "RNA polymerase removes all DNA",
+    "DNA ligase destroys telomeres"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-229",
+   "topic": "genetics",
+   "concept": "Telomeres and telomerase",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is the principal function of telomerase?",
+   "options": [
+    "Maintain telomeric DNA sequences",
+    "Remove thymine dimers",
+    "Join Okazaki fragments",
+    "Destroy RNA primers in bacteria"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-230",
+   "topic": "genetics",
+   "concept": "Telomeres and telomerase",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What template is carried by telomerase?",
+   "options": [
+    "A protein template",
+    "A histone tail",
+    "A glucose molecule",
+    "An RNA template"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-231",
+   "topic": "genetics",
+   "concept": "Telomeres and telomerase",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What catalytic activity is present in telomerase?",
+   "options": [
+    "ATP synthase",
+    "Glycogen phosphorylase",
+    "Reverse transcriptase",
+    "Protease"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-232",
+   "topic": "genetics",
+   "concept": "Telomeres and telomerase",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which cell type is described as normally having telomerase activity?",
+   "options": [
+    "Most differentiated somatic cells",
+    "Dead keratinocytes",
+    "Mature erythrocytes",
+    "Germ cells"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-233",
+   "topic": "genetics",
+   "concept": "Telomeres and telomerase",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why is increased telomerase activity advantageous to many cancer cells?",
+   "options": [
+    "It blocks every cell division",
+    "It replaces mitochondria",
+    "It prevents all mutations",
+    "It limits telomere shortening"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-234",
+   "topic": "genetics",
+   "concept": "Telomeres and telomerase",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A cell line divides repeatedly without progressive telomere loss. Which activity is most likely increased?",
+   "options": [
+    "Pepsin",
+    "Lactase",
+    "Telomerase",
+    "Amylase"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-235",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which agent is identified as a cause of DNA damage?",
+   "options": [
+    "Glucose",
+    "Nitrous acid",
+    "Water alone",
+    "Sodium chloride at normal concentration"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-236",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which type of radiation is associated with thymine dimers?",
+   "options": [
+    "Infrared light only",
+    "Radio waves only",
+    "Visible green light only",
+    "Ultraviolet radiation"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-237",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is a common spontaneous single-base DNA alteration?",
+   "options": [
+    "Cytosine deamination to uracil",
+    "Joining two chromosomes by translation",
+    "Conversion of all DNA to RNA",
+    "Formation of peptide bonds"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-238",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is an apurinic site?",
+   "options": [
+    "A region without phosphates",
+    "A DNA position missing a purine base",
+    "An RNA codon",
+    "A site containing two purines"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-239",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which damage can be caused by ionizing radiation or free radicals?",
+   "options": [
+    "DNA double-strand breaks",
+    "Formation of ATP",
+    "Only RNA splicing",
+    "Increased histone translation"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-240",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is a major consequence of DNA crosslinking described in the source?",
+   "options": [
+    "Arrest of DNA replication",
+    "Conversion of thymine to protein",
+    "Production of glucose",
+    "Acceleration of ribosomal translation"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-241",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A DNA lesion involves covalent linking of bases at different positions. Which category fits?",
+   "options": [
+    "Simple base mismatch only",
+    "Telomere extension",
+    "Normal base pairing",
+    "DNA crosslinking"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-242",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is the main purpose of mismatch repair?",
+   "options": [
+    "Translate messenger RNA",
+    "Add telomere repeats",
+    "Correct replication errors escaping proofreading",
+    "Repair only UV dimers"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-243",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which proteins recognize mismatches in the bacterial repair scheme presented?",
+   "options": [
+    "MutS, MutL and MutH",
+    "Histones H2A and H2B",
+    "Pepsin and trypsin",
+    "CK-MM and CK-MB"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-244",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "How is the parental strand distinguished in the mismatch-repair description?",
+   "options": [
+    "By its protein sequence",
+    "By methylation",
+    "By ribosome binding",
+    "By its ATP content"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-245",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which enzyme seals the final nick after DNA repair?",
+   "options": [
+    "Telomerase",
+    "RNA polymerase",
+    "DNA ligase",
+    "DNA helicase"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-246",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A hereditary defect in mismatch repair is associated with which condition?",
+   "options": [
+    "Hereditary nonpolyposis colorectal cancer",
+    "Favism",
+    "Scurvy",
+    "Rickets"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-247",
+   "topic": "genetics",
+   "concept": "DNA damage and mismatch repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A mismatch remains after replication proofreading. Which pathway should correct it?",
+   "options": [
+    "Telomerase extension",
+    "Protein translation",
+    "Glycolysis",
+    "Mismatch repair"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-248",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which repair pathway handles spontaneous cytosine deamination in the source?",
+   "options": [
+    "Homologous recombination",
+    "Nonhomologous end joining",
+    "Telomere elongation",
+    "Base excision repair"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-249",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What enzyme first recognizes and removes a damaged base in base excision repair?",
+   "options": [
+    "RNA polymerase",
+    "DNA glycosylase",
+    "DNA ligase",
+    "Telomerase"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-250",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is created when DNA glycosylase removes a damaged base?",
+   "options": [
+    "A ribosome",
+    "A thymine dimer",
+    "An AP site",
+    "A telomere"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-251",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which enzyme cuts the DNA backbone near an AP site?",
+   "options": [
+    "AP endonuclease",
+    "DNA helicase only",
+    "RNA polymerase",
+    "Telomerase"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-252",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which enzyme fills the repair gap in the bacterial base excision pathway described?",
+   "options": [
+    "DNA polymerase III only",
+    "DNA polymerase I",
+    "RNA polymerase",
+    "DNA ligase alone"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-253",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "What is the correct sequence for base excision repair?",
+   "options": [
+    "Telomerase → glycosylase → ligase → primase",
+    "Ligase → glycosylase → telomerase → polymerase",
+    "Glycosylase → AP endonuclease → polymerase → ligase",
+    "Polymerase → ligase → glycosylase → helicase"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-254",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which DNA lesion is the typical target of nucleotide excision repair?",
+   "options": [
+    "A translated protein",
+    "UV-induced thymine dimers",
+    "A missing telomere only",
+    "A normal matched A–T pair"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-255",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which nuclease is named in the source for bacterial nucleotide excision repair?",
+   "options": [
+    "Telomerase",
+    "ABC excinuclease",
+    "RNase H",
+    "AP endonuclease only"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-256",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "In the source, how long is the oligonucleotide removed by ABC excinuclease?",
+   "options": [
+    "An entire chromosome",
+    "12–13 nucleotides",
+    "1000 nucleotides",
+    "1 nucleotide"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-257",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "After ABC excinuclease removes damaged DNA, which enzymes finish repair?",
+   "options": [
+    "Telomerase and pepsin",
+    "RNA polymerase and ribosome",
+    "DNA polymerase I and DNA ligase",
+    "DNA helicase alone"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-258",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A child has severe sun sensitivity and early skin cancers due to defective repair of thymine dimers. Which disorder is most likely?",
+   "options": [
+    "Sickle cell disease",
+    "Hereditary spherocytosis",
+    "Pompe disease",
+    "Xeroderma pigmentosum"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "BG-259",
+   "topic": "genetics",
+   "concept": "Base and nucleotide excision repair",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which pathway is most directly defective in xeroderma pigmentosum as presented?",
+   "options": [
+    "Nucleotide excision repair",
+    "Glycogenolysis",
+    "Telomere replication only",
+    "Glycolysis"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-260",
+   "topic": "genetics",
+   "concept": "Double-strand breaks and transcription",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which repair pathway may cause loss of genetic information at a double-strand break?",
+   "options": [
+    "Mismatch repair",
+    "Homologous recombination",
+    "Nonhomologous end joining",
+    "Base excision repair"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-261",
+   "topic": "genetics",
+   "concept": "Double-strand breaks and transcription",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which double-strand break repair mechanism uses a sister chromatid as a template?",
+   "options": [
+    "Mismatch repair",
+    "Base excision repair",
+    "Homologous recombination",
+    "Nonhomologous end joining"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-262",
+   "topic": "genetics",
+   "concept": "Double-strand breaks and transcription",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A double-strand break is repaired with a small deletion. Which mechanism best explains it?",
+   "options": [
+    "Normal transcription",
+    "High-fidelity homologous recombination",
+    "Telomerase action",
+    "Nonhomologous end joining"
+   ],
+   "answer": 3,
+   "explanation": "الـ Nonhomologous end joining (NHEJ) بيلزق طرفين الـ double-strand break في بعض مباشرة من غير template، فممكن يضيع جزء صغير (small deletion). يعني فيه loss of genetic information.\nالـ homologous recombination بياخد نسخة من الـ sister chromatid فبيبقى دقيق ومفيش فيه deletion."
+  },
+  {
+   "id": "BG-263",
+   "topic": "genetics",
+   "concept": "Double-strand breaks and transcription",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Why is homologous recombination generally more accurate than end joining?",
+   "options": [
+    "It uses a protein template only",
+    "It copies information from the sister chromatid",
+    "It removes all chromosomes",
+    "It does not involve DNA"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-264",
+   "topic": "genetics",
+   "concept": "Double-strand breaks and transcription",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "What is transcription?",
+   "options": [
+    "Synthesis of DNA from RNA in all cells",
+    "Translation of RNA into protein",
+    "Degradation of glycogen",
+    "Synthesis of RNA using a DNA template"
+   ],
+   "answer": 3,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-265",
+   "topic": "genetics",
+   "concept": "Double-strand breaks and transcription",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which RNA class is translated into a polypeptide?",
+   "options": [
+    "Transfer RNA",
+    "Messenger RNA",
+    "All noncoding RNAs",
+    "Ribosomal RNA"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-266",
+   "topic": "genetics",
+   "concept": "Double-strand breaks and transcription",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Which statement about gene expression is supported by the source?",
+   "options": [
+    "DNA never serves as a template",
+    "The final functional product may be RNA or protein",
+    "Every gene produces a protein only",
+    "All RNAs are translated"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Abdullah Question Bank Molecular Biology (70 MCQ)"
+   ]
+  },
+  {
+   "id": "BG-267",
+   "topic": "genetics",
+   "concept": "Nucleotides",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which component distinguishes a nucleotide from a nucleoside?",
+   "options": [
+    "Pentose sugar",
+    "Nitrogenous base",
+    "Phosphate group",
+    "Glycosidic bond"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-268",
+   "topic": "genetics",
+   "concept": "Nucleotides",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which statement about nucleotides is correct?",
+   "options": [
+    "Only triphosphates are nucleotides",
+    "Monophosphates, diphosphates and triphosphates can all be nucleotides",
+    "Nucleosides always contain phosphate",
+    "Nucleotides do not contain nitrogenous bases"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-269",
+   "topic": "genetics",
+   "concept": "Nitrogenous bases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which pair consists exclusively of purine bases?",
+   "options": [
+    "Adenine and guanine",
+    "Cytosine and thymine",
+    "Adenine and uracil",
+    "Guanine and cytosine"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-270",
+   "topic": "genetics",
+   "concept": "Nitrogenous bases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The purine ring system is composed of:",
+   "options": [
+    "Two fused pyrimidine rings",
+    "A pyrimidine ring fused to an imidazole ring",
+    "One ring with four nitrogen atoms",
+    "A pyrimidine ring fused to a sugar ring"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-271",
+   "topic": "genetics",
+   "concept": "Nitrogenous bases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which statement about the ultraviolet absorption of nitrogenous bases is correct?",
+   "options": [
+    "Only purines absorb at 260 nm",
+    "Purines and pyrimidines absorb at 260 nm",
+    "Pyrimidines absorb only at 500 nm",
+    "Purines absorb less strongly than pyrimidines"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-272",
+   "topic": "genetics",
+   "concept": "Nitrogenous bases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Hypoxanthine and xanthine are described as:",
+   "options": [
+    "Pentose sugars",
+    "Products of DNA replication",
+    "Intermediates in purine catabolism toward uric acid",
+    "Structural histones"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-273",
+   "topic": "genetics",
+   "concept": "Nitrogenous bases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The pyrimidine base characteristic of RNA rather than DNA is:",
+   "options": [
+    "Thymine",
+    "Uracil",
+    "Guanine",
+    "Adenine"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-274",
+   "topic": "genetics",
+   "concept": "Nitrogenous bases",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An important role of unusual or modified bases in DNA is:",
+   "options": [
+    "Elimination of the sugar-phosphate backbone",
+    "Regulation or protection of genetic information",
+    "Complete prevention of DNA replication",
+    "Replacement of all major bases"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-275",
+   "topic": "genetics",
+   "concept": "Sugars & phosphate",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which sugar is normally present in DNA?",
+   "options": [
+    "D-ribose",
+    "D-2'-deoxyribose",
+    "Glucose",
+    "Fructose"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-276",
+   "topic": "genetics",
+   "concept": "Sugars & phosphate",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The phosphate group contributes directly to which property of nucleic acids?",
+   "options": [
+    "Their net negative charge",
+    "Their nitrogenous base specificity",
+    "The presence of peptide bonds",
+    "The hydrophobicity of the backbone"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-277",
+   "topic": "genetics",
+   "concept": "Primary DNA structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Adjacent nucleotides in a DNA strand are joined by:",
+   "options": [
+    "Peptide bonds",
+    "3'-5' phosphodiester bonds",
+    "Hydrogen bonds between identical bases",
+    "Disulfide bonds"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-278",
+   "topic": "genetics",
+   "concept": "Primary DNA structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The free functional group normally found at the 3' end of a DNA strand is:",
+   "options": [
+    "Phosphate",
+    "Amino group",
+    "Hydroxyl group",
+    "Carboxyl group"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-279",
+   "topic": "genetics",
+   "concept": "Primary DNA structure",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The enzyme family responsible for hydrolytic cleavage of DNA phosphodiester bonds is:",
+   "options": [
+    "Ribonucleases",
+    "Deoxyribonucleases",
+    "Ligases",
+    "Histones"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-280",
+   "topic": "genetics",
+   "concept": "Chargaff rules",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "If guanine represents 18% of a double-stranded DNA sample, the percentage of adenine is:",
+   "options": [
+    "18%",
+    "32%",
+    "36%",
+    "64%"
+   ],
+   "answer": 1,
+   "explanation": "حسب Chargaff: A = T و G = C (الكتاب ص 76).\nG = 18% ← C = 18% ← G + C = 36%.\nالباقي A + T = 64%، فـ A = 32%.",
+   "memoryTrick": "اطرح الـ GC من 100 واقسم على 2."
+  },
+  {
+   "id": "BG-281",
+   "topic": "genetics",
+   "concept": "Chargaff rules",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A double-stranded DNA sample contains 26% thymine. What proportion of its bases are purines?",
+   "options": [
+    "26%",
+    "48%",
+    "50%",
+    "74%"
+   ],
+   "answer": 2,
+   "explanation": "حسب Chargaff في الـ dsDNA: Purines % = Pyrimidines % (الكتاب ص 76). يعني الـ purines (A + G) دايمًا 50% أيًا كانت نسبة الـ T.\nللتأكيد: T = 26% ← A = 26%، والباقي G + C = 48% ← G = 24%. فالـ purines = 26 + 24 = 50%."
+  },
+  {
+   "id": "BG-282",
+   "topic": "genetics",
+   "concept": "DNA double helix",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The two DNA strands in the Watson-Crick model are:",
+   "options": [
+    "Parallel and identical",
+    "Antiparallel and complementary",
+    "Antiparallel but not paired",
+    "Linked by peptide bonds"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-283",
+   "topic": "genetics",
+   "concept": "DNA double helix",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "In the double helix, which components predominantly face the exterior?",
+   "options": [
+    "Hydrophobic nitrogenous bases",
+    "Sugars and phosphate groups",
+    "Only guanine residues",
+    "Histone cores"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-284",
+   "topic": "genetics",
+   "concept": "DNA double helix",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The DNA double helix has major and minor grooves that provide sites for:",
+   "options": [
+    "Interaction with regulatory molecules",
+    "Hydrolysis of ATP only",
+    "Attachment of ribosomes",
+    "Formation of peptide bonds"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-285",
+   "topic": "genetics",
+   "concept": "DNA drugs",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Actinomycin D acts within the:",
+   "options": [
+    "Major groove",
+    "Minor groove",
+    "Histone core",
+    "Replication terminus"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-286",
+   "topic": "genetics",
+   "concept": "DNA base pairing",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "How many hydrogen bonds join guanine to cytosine?",
+   "options": [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-287",
+   "topic": "genetics",
+   "concept": "DNA base pairing",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which interaction stabilizes the double helix in addition to hydrogen bonds?",
+   "options": [
+    "Hydrophobic interactions between stacked bases",
+    "Peptide bonding of adjacent bases",
+    "Disulfide linkages",
+    "Only ionic attachment to histone H1"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-288",
+   "topic": "genetics",
+   "concept": "DNA sequence",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The complement of 5'-AGTC-3', written antiparallel to the original, is:",
+   "options": [
+    "5'-TCAG-3'",
+    "3'-TCAG-5'",
+    "3'-AGTC-5'",
+    "5'-AGTC-3'"
+   ],
+   "answer": 1,
+   "explanation": "الـ complement لـ A هو T، ولـ G هو C. الـ complement لـ AGTC هو TCAG.\nولأن الـ strands antiparallel، الـ strand التاني بيتكتب 3'-TCAG-5' تحت الـ 5'-AGTC-3'.\nلو اتكتب من 5' لـ 3' يبقى 5'-GACT-3'. والاختيار A غلط لأن TCAG مكتوبة من 5' بالاتجاه الغلط.",
+   "memoryTrick": "اكتب الـ complement حرف بحرف، واقلب الاتجاه (5' ↔ 3')."
+  },
+  {
+   "id": "BG-289",
+   "topic": "genetics",
+   "concept": "DNA structural forms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The principal structural form of chromosomal DNA is believed to be:",
+   "options": [
+    "A-DNA",
+    "B-DNA",
+    "Z-DNA",
+    "Single-stranded DNA"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-290",
+   "topic": "genetics",
+   "concept": "DNA structural forms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which DNA form is left-handed?",
+   "options": [
+    "A-DNA",
+    "B-DNA",
+    "Z-DNA",
+    "Both A- and B-DNA"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-291",
+   "topic": "genetics",
+   "concept": "DNA structural forms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Moderate dehydration of B-DNA favors formation of:",
+   "options": [
+    "A-DNA",
+    "Z-DNA",
+    "RNA",
+    "Histone octamers"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-292",
+   "topic": "genetics",
+   "concept": "DNA structural forms",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A region with alternating purine-pyrimidine bases is most likely to favor which DNA form?",
+   "options": [
+    "Only B-DNA",
+    "Z-DNA",
+    "Only A-DNA",
+    "No helical form"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-293",
+   "topic": "genetics",
+   "concept": "DNA denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "DNA denaturation primarily involves:",
+   "options": [
+    "Cleavage of all phosphodiester bonds",
+    "Separation of paired strands by disruption of hydrogen bonding",
+    "Synthesis of RNA primers",
+    "Formation of histone octamers"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-294",
+   "topic": "genetics",
+   "concept": "DNA denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A rise in DNA absorbance at 260 nm during heating indicates:",
+   "options": [
+    "DNA unfolding or strand separation",
+    "More intact double helices",
+    "DNA conversion into protein",
+    "Phosphate loss from all nucleotides"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-295",
+   "topic": "genetics",
+   "concept": "DNA denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Melting temperature (Tm) is the temperature at which:",
+   "options": [
+    "All nucleotides are hydrolyzed",
+    "Half of the double-helical structure is lost",
+    "Every phosphate bond breaks",
+    "RNA transcription stops permanently"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-296",
+   "topic": "genetics",
+   "concept": "DNA denaturation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Of two equal-length DNA samples, one with a higher G+C percentage is expected to have:",
+   "options": [
+    "Lower Tm",
+    "Higher Tm",
+    "No measurable UV absorbance",
+    "The same Tm regardless of sequence"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-297",
+   "topic": "genetics",
+   "concept": "Palindromes & repeats",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A DNA palindromic region with inverted repeats may form:",
+   "options": [
+    "Hairpin or cruciform structures",
+    "Only nucleosomes",
+    "Peptide helices",
+    "Only Okazaki fragments"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-298",
+   "topic": "genetics",
+   "concept": "Palindromes & repeats",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Microsatellite repeats described typically contain repeated units of:",
+   "options": [
+    "2-6 base pairs",
+    "50-500 genes",
+    "One complete chromosome",
+    "1000 amino acids"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-299",
+   "topic": "genetics",
+   "concept": "Chromatin organization",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The basic repeating structural unit formed by DNA associated with histones is the:",
+   "options": [
+    "Ribosome",
+    "Nucleosome",
+    "Replication fork",
+    "Telomere"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-300",
+   "topic": "genetics",
+   "concept": "Histones",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which histone is associated mainly with linker DNA?",
+   "options": [
+    "H1",
+    "H2A",
+    "H3",
+    "H4"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-301",
+   "topic": "genetics",
+   "concept": "Histones",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The nucleosome core contains:",
+   "options": [
+    "Two molecules each of H2A, H2B, H3 and H4",
+    "Eight molecules of H1",
+    "One molecule each of H1 through H4",
+    "DNA polymerase III and ligase"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-302",
+   "topic": "genetics",
+   "concept": "Histones",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Histones bind strongly to DNA because they are rich in:",
+   "options": [
+    "Aspartate and glutamate",
+    "Lysine and arginine",
+    "Glycine and alanine",
+    "Phenylalanine and tryptophan"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-303",
+   "topic": "genetics",
+   "concept": "Histones",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Changes in histone acetylation, methylation or phosphorylation may influence:",
+   "options": [
+    "The amino acid sequence of DNA",
+    "How tightly DNA is bound and the transcription of genes",
+    "Conversion of DNA to ribose",
+    "The number of chromosome pairs"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-304",
+   "topic": "genetics",
+   "concept": "DNA replication overview",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Semiconservative DNA replication means that each daughter DNA molecule contains:",
+   "options": [
+    "Two newly synthesized strands",
+    "Two parental strands",
+    "One parental and one newly synthesized strand",
+    "Only an RNA strand"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "BG-305",
+   "topic": "genetics",
+   "concept": "DNA replication overview",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "DNA replication normally occurs during which cell-cycle phase?",
+   "options": [
+    "G1",
+    "S",
+    "G2",
+    "M"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-306",
+   "topic": "genetics",
+   "concept": "Replication requirements",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which set provides direct nucleotide substrates for DNA synthesis?",
+   "options": [
+    "ATP, GTP, CTP, UTP",
+    "dATP, dGTP, dCTP, dTTP",
+    "AMP, GMP, CMP, UMP",
+    "Amino acids and ribose"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-307",
+   "topic": "genetics",
+   "concept": "Replication requirements",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "DNA polymerase requires a primer because it:",
+   "options": [
+    "Can elongate only from an existing free 3'-OH group",
+    "Works only on double-stranded DNA",
+    "Must add nucleotides to a free 5' phosphate",
+    "Cannot use deoxynucleotides"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-308",
+   "topic": "genetics",
+   "concept": "Replication origins",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Replication origins tend to be AT-rich because:",
+   "options": [
+    "A-T pairs have two hydrogen bonds and separate relatively easily",
+    "A-T pairs have four hydrogen bonds",
+    "G-C pairs lack hydrogen bonds",
+    "AT-rich regions have no sugar-phosphate backbone"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-309",
+   "topic": "genetics",
+   "concept": "Replication origins",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Compared with prokaryotes, eukaryotic chromosomes typically contain:",
+   "options": [
+    "No replication origins",
+    "Multiple origins of replication",
+    "Only one origin in the entire genome",
+    "Only RNA replication origins"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-310",
+   "topic": "genetics",
+   "concept": "Replication origins",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which statement about E. coli oriC is correct?",
+   "options": [
+    "It is 245 bp and contains five 9-bp DnaA-binding repeats",
+    "It is 20 bp and binds Tus",
+    "It consists exclusively of GC pairs",
+    "It is a eukaryotic telomere"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-311",
+   "topic": "genetics",
+   "concept": "Replication initiation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "DnaB functions mainly as a:",
+   "options": [
+    "DNA ligase",
+    "DNA helicase",
+    "DNA polymerase",
+    "Histone"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-312",
+   "topic": "genetics",
+   "concept": "Replication initiation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Single-stranded DNA-binding proteins primarily:",
+   "options": [
+    "Stabilize separated parental DNA strands",
+    "Synthesize RNA primers",
+    "Join Okazaki fragments",
+    "Recognize Tus-Ter complexes"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-313",
+   "topic": "genetics",
+   "concept": "Replication initiation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Topoisomerases are needed at an advancing replication fork to relieve:",
+   "options": [
+    "Lack of phosphate",
+    "Supercoiling or topological stress",
+    "Absence of thymine",
+    "Histone translation"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-314",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "DNA polymerase III extends a growing DNA chain in which direction?",
+   "options": [
+    "3'->5'",
+    "5'->3'",
+    "Both simultaneously on one strand",
+    "Without a defined direction"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "BG-315",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The lagging strand differs from the leading strand because it is:",
+   "options": [
+    "Synthesized as Okazaki fragments",
+    "Synthesized without any primer",
+    "Extended only 3'->5'",
+    "Never proofread"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-316",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "In the prokaryotic pathway described, removal and DNA replacement of RNA primers in Okazaki fragments is primarily carried out by:",
+   "options": [
+    "DNA polymerase I",
+    "DNA polymerase III only",
+    "DnaB helicase",
+    "Histone H1"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "BG-317",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A biochemist is studying the linkage between a nitrogenous base and a pentose sugar in a DNA molecule. Which of the following best describes this bond?",
+   "options": [
+    "A 3'->5' phosphodiester bond",
+    "A hydrogen bond",
+    "An N-glycosidic bond",
+    "A peptide bond"
+   ],
+   "answer": 2,
+   "explanation": "الرابطة بين الـ base والـ pentose sugar هي N-glycosidic bond: الـ N-9 في الـ purines أو الـ N-1 في الـ pyrimidines بيرتبط بالـ C-1' بتاع السكر (الكتاب ص 70 و73).\n• Phosphodiester: بين النيوكليوتيدات وبعضها.\n• Hydrogen bonds: بين الـ bases في الـ strands المقابلة.\n• Peptide bond: في البروتين."
+  },
+  {
+   "id": "BG-318",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A structural biologist is comparing different forms of DNA. They note that one form is a left-handed helix with a narrow diameter of 18.4 Å and 12 bases per turn. Which form of DNA is being described?",
+   "options": [
+    "A-form",
+    "B-form",
+    "Z-form",
+    "Cruciform"
+   ],
+   "answer": 2,
+   "explanation": "حسب جدول الكتاب (ص 79):\n• الـ Z form: left-handed، أضيق قطر 18.4 Å، و12 bases per turn.\n• الـ A form: 25.5 Å و11 bases (right-handed).\n• الـ B form: 23.7 Å و10 bases (right-handed).\nالـ cruciform شكل بيتكون من الـ palindromes، مش DNA form.",
+   "memoryTrick": "Z = Zigzag = الوحيد left-handed و12 bases."
+  },
+  {
+   "id": "BG-319",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Which of the following correctly pairs a histone protein with its function in chromatin structure?",
+   "options": [
+    "H1: Forms the core of the nucleosome",
+    "H2A: Binds to linker DNA",
+    "H4: Has no role in DNA packaging",
+    "H1: Binds to the linker DNA chain"
+   ],
+   "answer": 3,
+   "explanation": "الـ Histone H1 بيرتبط بالـ linker DNA اللي بين الـ nucleosome beads. الـ core نفسه (octamer) بيتكون من 2 من كل واحد: H2A و H2B و H3 و H4 (الكتاب ص 84).\nالـ H1 مش جزء من الـ core، والـ H2A في الـ core مش في الـ linker، والـ H4 ليه دور أساسي في الـ packaging."
+  },
+  {
+   "id": "BG-320",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "During the elongation phase of bacterial DNA replication, the leading strand is synthesized continuously. Which of the following enzymes is primarily responsible for this continuous synthesis?",
+   "options": [
+    "DNA polymerase I",
+    "DNA polymerase III",
+    "DNA primase",
+    "DNA ligase"
+   ],
+   "answer": 1,
+   "explanation": "الـ DNA polymerase III هو الإنزيم الـ highly processive اللي بيعمل 5'→3' synthesis للـ leading strand وللـ Okazaki fragments (الكتاب ص 92 و94).\n• Pol I: بيشيل الـ primers ويحط DNA مكانها.\n• Primase: بيعمل الـ RNA primer.\n• Ligase: بتقفل الـ nicks."
+  },
+  {
+   "id": "BG-321",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A newly discovered antibiotic specifically targets and inhibits the activity of DNA topoisomerase. What would be the most immediate consequence for a bacterial cell exposed to this drug?",
+   "options": [
+    "Failure to synthesize RNA primers.",
+    "Inability to join Okazaki fragments.",
+    "Inability to recognize the origin of replication.",
+    "Inability to relieve supercoiling stress."
+   ],
+   "answer": 3,
+   "explanation": "الـ unwinding بتاع الـ DNA بيعمل topological stress (supercoils) قدام الـ replication fork، والـ topoisomerases هي اللي بتفكه (الكتاب ص 91). فلو اتثبطت، الـ supercoiling stress مش هيتفك.\nالـ primers بيعملها الـ primase، والـ Okazaki fragments بتلزقها الـ ligase، والـ origin بيتعرف عليه الـ DnaA."
+  },
+  {
+   "id": "BG-322",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "The initiation of DNA replication in E. coli requires the binding of DnaA to the origin of replication (oriC). What is the immediate consequence of this binding?",
+   "options": [
+    "It directly synthesizes the RNA primer.",
+    "It recruits DNA ligase to seal the DNA strands.",
+    "It leads to the unwinding of the AT-rich region (DUE).",
+    "It causes the dissociation of DNA polymerase III."
+   ],
+   "answer": 2,
+   "explanation": "الـ DnaA-ATP بيرتبط بالـ 9-bp repeats في الـ oriC، وده بيعمل unwinding للـ 13-bp repeats الغنية بالـ AT في الـ DUE. بعدها بيجيب الـ DnaB helicase (الكتاب ص 90).\nالـ DnaA مش بيعمل primers (ده الـ primase)، والـ DnaA نفسه هو اللي بيفك بعد تحميل الـ Pol III، مش العكس."
+  },
+  {
+   "id": "BG-323",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A researcher is studying a cancer cell line and finds that the cells can grow indefinitely in culture, unlike normal somatic cells which undergo senescence. This \"immortality\" is most likely due to the reactivation of which enzyme?",
+   "options": [
+    "DNA Polymerase III",
+    "Telomerase",
+    "DNA Ligase",
+    "AP Endonuclease"
+   ],
+   "answer": 1,
+   "explanation": "خلايا الـ cancer غالبًا فيها telomerase activity عالية، فالـ telomeres مش بتقصر، وده بيساهم في الـ immortality (الكتاب ص 95). الخلايا العادية من غيره بتقصر الـ telomeres بتاعتها مع كل replication لحد ما توصل للـ senescence."
+  },
+  {
+   "id": "BG-324",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A drug inhibits the enzyme DNA polymerase I. Which of the following processes would be most directly and immediately affected?",
+   "options": [
+    "The synthesis of the leading strand.",
+    "The removal of RNA primers and their replacement with DNA.",
+    "The unwinding of the DNA double helix.",
+    "The proofreading of the newly synthesized DNA."
+   ],
+   "answer": 1,
+   "explanation": "الـ DNA polymerase I ليه 5'→3' exonuclease activity بتشيل الـ RNA primers، و5'→3' polymerase activity بتحط DNA مكانها (الكتاب ص 93–94). فتثبيطه يأثر مباشرة على شيل الـ primers.\nالـ leading strand بيعمله الـ Pol III، والـ unwinding بيعمله الـ helicase. والـ proofreading موجود في الـ Pol III كمان، فمش هو اللي هيتأثر مباشرة."
+  },
+  {
+   "id": "BG-325",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A bacterium isolated from a patient with a urinary tract infection is studied in the laboratory. An inhibitor of DnaG prevents production of the short RNA segments needed to start DNA synthesis. Which enzyme has been inhibited?",
+   "options": [
+    "DNA topoisomerase",
+    "Helicase",
+    "Primase",
+    "DNA ligase"
+   ],
+   "answer": 2,
+   "explanation": "الـ DnaG هو الـ primase، اللي بيعمل الـ RNA primers القصيرة (10–60 nucleotides) اللي الـ DNA synthesis بيبدأ منها. الـ Pol III مايقدرش يبدأ من غير primer (الكتاب ص 91–92)."
+  },
+  {
+   "id": "BG-326",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A bacterial isolate from a wound is found to have a defective protein that normally coats newly separated DNA strands. The exposed strands repeatedly reanneal during replication. Which protein is most likely defective?",
+   "options": [
+    "Single-stranded DNA-binding protein",
+    "Tus termination protein",
+    "DnaA initiation protein",
+    "Dam methylase"
+   ],
+   "answer": 0,
+   "explanation": "الـ SSB (single-stranded DNA-binding proteins) بتلزق على الـ strands اللي اتفصلت عند الـ fork وبتثبتها عشان مايرجعوش يلزقوا في بعض (الكتاب ص 91).\n• Tus: في الـ termination.\n• DnaA: في الـ initiation.\n• Dam methylase: بتعمل methylation للـ GATC."
+  },
+  {
+   "id": "BG-327",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A teenager develops sunburn after prolonged outdoor activity. Ultraviolet exposure has produced covalent links between adjacent thymine residues in DNA from skin cells. Which lesion has formed?",
+   "options": [
+    "A pyrimidine dimer",
+    "A base-pair mismatch",
+    "An apurinic site",
+    "A double-strand break"
+   ],
+   "answer": 0,
+   "explanation": "الـ UV بيعمل covalent links بين 2 thymines جنب بعض على نفس الـ strand، وده اسمه thymine dimer (نوع من الـ pyrimidine dimers). بيتصلح بالـ nucleotide excision repair.\nالـ mismatch غلطة في الـ pairing، والـ apurinic site يعني base ناقصة."
+  },
+  {
+   "id": "BG-328",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A patient's cells are being tested for their ability to remove uracil from DNA. The first enzyme in the relevant repair pathway cleaves the bond connecting the abnormal base to its sugar. Which enzyme performs this step?",
+   "options": [
+    "Replicative DNA helicase",
+    "AP endonuclease",
+    "DNA glycosylase",
+    "DNA ligase"
+   ],
+   "answer": 2,
+   "explanation": "في الـ base excision repair أول إنزيم هو الـ DNA glycosylase. ده بيقطع الـ N-glycosidic bond بين الـ base الغلط (هنا uracil) والسكر، فيعمل AP site.\nبعده الـ AP endonuclease بيقطع الـ backbone، والـ polymerase بيملا الفراغ، والـ ligase بتقفل.",
+   "memoryTrick": "BER بالترتيب: Glycosylase ← AP endonuclease ← Polymerase ← Ligase."
+  },
+  {
+   "id": "BG-329",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A bacterium recovered from a patient is examined during DNA replication. One daughter strand is synthesized continuously, whereas the other is produced as short fragments. Which statement explains this difference?",
+   "options": [
+    "The lagging strand grows 3' to 5' on its template",
+    "Both strands grow 5' to 3' on antiparallel templates",
+    "The parental strands are parallel at the replication fork",
+    "Only the leading strand requires an RNA primer"
+   ],
+   "answer": 1,
+   "explanation": "الـ DNA polymerase بيبني 5'→3' بس. ولأن الـ parental strands antiparallel، strand واحد (الـ leading) بيتبني continuous في اتجاه الـ fork. التاني (الـ lagging) لازم يتبني في الاتجاه العكسي كـ Okazaki fragments (الكتاب ص 92–93).\n• مفيش strand بيكبر 3'→5'.\n• الـ strands الأصلية antiparallel مش parallel.\n• الاتنين محتاجين primer."
+  },
+  {
+   "id": "BG-330",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "In the context of DNA repair, an \"AP site\" (apurinic/apyrimidinic site) is created by the loss of a purine or pyrimidine base. Which repair pathway is responsible for fixing this type of single-base alteration?",
+   "options": [
+    "Mismatch Repair",
+    "Nucleotide Excision Repair",
+    "Base Excision Repair",
+    "Non-homologous End Joining"
+   ],
+   "answer": 2,
+   "explanation": "الـ AP site اتكوّن من فقد base واحدة، ودي single-base alteration بيصلحها الـ base excision repair: الـ AP endonuclease بيقطع، والـ polymerase بيملا، والـ ligase بتقفل.\n• NER: للـ bulky lesions زي الـ thymine dimers.\n• Mismatch repair: لأخطاء الـ replication.\n• NHEJ: للـ double-strand breaks."
+  },
+  {
+   "id": "BG-331",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An experimental antibacterial drug leaves short DNA fragments adjacent to one another after their RNA primers have been removed and replaced by DNA. The fragments have correctly paired bases but persistent nicks in the sugar-phosphate backbone. Which activity is most directly inhibited?",
+   "options": [
+    "Separation of strands by helicase",
+    "Formation of phosphodiester bonds by DNA ligase",
+    "Removal of primers by DNA polymerase I",
+    "Synthesis of primers by primase"
+   ],
+   "answer": 1,
+   "explanation": "الـ fragments اتملت صح والـ primers اتشالت، بس الـ nicks لسه في الـ backbone. يعني اللي ناقص هو تكوين الـ phosphodiester bond بين الـ fragments، وده شغل الـ DNA ligase (الكتاب ص 93).\nالـ helicase والـ Pol I والـ primase اشتغلوا خلاص، بدليل إن الـ primers اتشالت."
+  },
+  {
+   "id": "BG-332",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A DNA sample is heated to 95°C, causing its two strands to separate. Regarding the melting temperature (Tm), if the DNA sample has a very high content of Adenine and Thymine (AT), what will happen to the Tm compared to a sample with high Guanine and Cytosine (GC) content?",
+   "options": [
+    "The Tm will be higher.",
+    "The Tm will be lower.",
+    "The Tm will remain the same.",
+    "The Tm will be completely unpredictable."
+   ],
+   "answer": 1,
+   "explanation": "الـ AT pairs فيها 2 hydrogen bonds، والـ GC فيها 3. فالـ DNA الغني بالـ AT أسهل في الفصل والـ Tm بتاعه أقل. والـ high GC content بيرفع الـ Tm (الكتاب ص 81).",
+   "memoryTrick": "GC = 3 روابط = أصعب في الفصل = Tm أعلى."
+  },
+  {
+   "id": "BG-333",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A bacterium isolated from a patient has an altered oriC sequence in which an AT-rich region is replaced by a GC-rich region. DnaA can still recognize its binding sites. Why may opening of the origin now require more energy?",
+   "options": [
+    "GC-rich DNA cannot serve as a template for DNA polymerase",
+    "GC base pairs have three hydrogen bonds",
+    "GC-rich regions eliminate the need for helicase loading",
+    "GC base pairs prevent the formation of phosphodiester bonds"
+   ],
+   "answer": 1,
+   "explanation": "الـ origin بيتفتح عند الـ DUE الغنية بالـ AT لأن الـ A=T بينهم 2 hydrogen bonds بس، فبيتفصلوا بسهولة. لو اتبدلت بـ GC، فيه 3 hydrogen bonds، فالفصل محتاج energy أكتر (الكتاب ص 77 و89).\nالـ GC-rich DNA عادي ينفع template، وفيه phosphodiester bonds عادي."
+  },
+  {
+   "id": "BG-334",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "A cytosine in a patient's DNA is deaminated to uracil. The lesion is not repaired before replication, and adenine is incorporated opposite the uracil. After another replication cycle, which permanent base-pair change can result?",
+   "options": [
+    "C:G to T:A",
+    "A:T to T:A",
+    "A:T to G:C",
+    "C:G to G:C"
+   ],
+   "answer": 0,
+   "explanation": "الـ C اتحول لـ U، والـ U بيتزاوج مع A في الـ replication الأولى، فالـ strand الجديد فيه A بدل G. في الـ replication التانية الـ A ده بيتزاوج مع T، فيطلع T:A مكان الـ C:G الأصلي. يعني الطفرة C:G ← T:A (transition)."
+  },
+  {
+   "id": "BG-335",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "Hereditary non-polyposis colon cancer (HNPCC) is a common inherited cancer syndrome. It is caused by a defect in which DNA repair mechanism?",
+   "options": [
+    "Mismatch Repair (MMR)",
+    "Base Excision Repair (BER)",
+    "Nucleotide Excision Repair (NER)",
+    "Homologous Recombination (HR)"
+   ],
+   "answer": 0,
+   "explanation": "الـ HNPCC (Lynch syndrome) سببه defect وراثي في جينات الـ mismatch repair. الأخطاء اللي بتفلت من الـ proofreading بتتراكم وبتعمل colorectal cancer.\nالـ NER defect بيعمل xeroderma pigmentosum."
+  },
+  {
+   "id": "BG-336",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER",
+    "MEDZONE"
+   ],
+   "stem": "An E. coli isolate from a patient is used to study methyl-directed mismatch repair. Immediately after replication, a mismatched base is present in the unmethylated daughter strand opposite a base in the methylated parental strand. Which strand should the repair system preferentially excise?",
+   "options": [
+    "The original methylated strand",
+    "The newly synthesized unmethylated strand",
+    "Both strands across the same segment",
+    "Neither strand until the next replication cycle"
+   ],
+   "answer": 1,
+   "explanation": "في الـ methyl-directed mismatch repair، الـ parental strand متعلم بـ methyl على الـ GATC (بالـ Dam methylase). الـ strand الجديد لسه unmethylated. فالـ repair system بيعرف إن الغلطة في الـ strand الجديد ويشيلها منه (الكتاب ص 91).",
+   "memoryTrick": "الـ methyl = علامة الـ strand الأصلي، فالتصليح يكون في الـ strand اللي من غير methyl."
+  },
+  {
+   "id": "BG-337",
+   "topic": "genetics",
+   "concept": "Nitrogenous bases",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A 55-year-old male presents to the ER with acute pain and swelling in his right big toe. He is diagnosed with gout. The physician advises him to adhere to a low-purine diet to reduce uric acid production. Which of the following nitrogenous bases are classified as purines and are therefore restricted in his diet?",
+   "options": [
+    "Cytosine and Uracil",
+    "Adenine and Guanine",
+    "Thymine and Cytosine",
+    "Uracil and Thymine"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Genetics (1)"
+   ]
+  },
+  {
+   "id": "BG-338",
+   "topic": "genetics",
+   "concept": "Primary DNA structure",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A 34-year-old patient is diagnosed with HIV and started on Zidovudine (AZT), a thymidine analog. For AZT to act as a chain terminator during viral DNA synthesis, it must be phosphorylated and incorporated into the growing chain. Why does this incorporation halt DNA synthesis?",
+   "options": [
+    "It lacks a 5'-phosphate group.",
+    "It lacks a 3'-hydroxyl group.",
+    "It contains a ribose sugar instead of deoxyribose.",
+    "It pairs with guanine instead of adenine."
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Genetics (1)"
+   ],
+   "explanation": "الـ polymerase بيضيف كل nucleotide جديد على الـ free 3'-OH بتاع اللي قبله (الكتاب ص 75 و92). الـ AZT مكان الـ 3'-OH فيه azido group، فبعد ما يدخل في السلسلة مفيش 3'-OH يتربط فيه اللي بعده، فالسلسلة بتقف (chain terminator)."
+  },
+  {
+   "id": "BG-339",
+   "topic": "genetics",
+   "concept": "DNA drugs",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A 62-year-old male is undergoing chemotherapy for a solid tumor. His oncologist prescribes Actinomycin D, a drug that intercalates into the DNA double helix. Based on the structural model of DNA, where does this drug primarily bind?",
+   "options": [
+    "The major groove",
+    "The minor groove",
+    "The sugar-phosphate backbone",
+    "The histone core"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Genetics (1)"
+   ],
+   "explanation": "الكتاب (ص 76) بيقول إن الـ Actinomycin D بيتفاعل جوه الـ minor groove، فبيثبط الـ DNA و RNA synthesis.\nالـ major و minor grooves أماكن ارتباط الـ regulatory proteins. الـ backbone والـ histone core مش هما مكان الدوا ده."
+  },
+  {
+   "id": "BG-340",
+   "topic": "genetics",
+   "concept": "DNA denaturation",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A 45-year-old male presents with fever and cough. A respiratory sample is sent for PCR testing. The target bacterial DNA sequence has a very high GC content (70%). How should the lab technician adjust the annealing temperature compared to a high AT-content template, and what is the structural reason?",
+   "options": [
+    "Decrease it, because GC pairs have 2 hydrogen bonds.",
+    "Increase it, because GC pairs have 3 hydrogen bonds.",
+    "Increase it, because GC pairs have 2 hydrogen bonds.",
+    "Decrease it, because GC pairs have 3 hydrogen bonds."
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Genetics (1)"
+   ],
+   "explanation": "الـ GC pairs فيها 3 hydrogen bonds مقابل 2 في الـ AT، فالـ DNA الغني بالـ GC أثبت والـ Tm بتاعه أعلى (الكتاب ص 77 و81). عشان كده الـ annealing temperature في الـ PCR لازم تزيد مع الـ high GC.\nالاختيارات C و D غلط لأنهم بيقولوا عدد روابط غلط أو اتجاه غلط."
+  },
+  {
+   "id": "BG-341",
+   "topic": "genetics",
+   "concept": "Nucleotides",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "The nitrogenous base in a nucleotide is attached to the pentose sugar at which position?",
+   "options": [
+    "The 1' carbon of the sugar.",
+    "The 2' carbon of the sugar.",
+    "The 3' carbon of the sugar.",
+    "The 5' carbon of the sugar."
+   ],
+   "answer": 0,
+   "where": [
+    "Dr Marwa Questions On Genetics (1)"
+   ],
+   "explanation": "الـ base بيرتبط بالـ C-1' بتاع السكر بـ N-glycosidic bond (N-9 للـ purines و N-1 للـ pyrimidines). أما الـ phosphate فبيرتبط عند الـ C-5' (الكتاب ص 72–73).\nالـ 3'-OH هو اللي بيعمل الـ phosphodiester bond مع النيوكليوتيد اللي بعده."
+  },
+  {
+   "id": "BG-342",
+   "topic": "genetics",
+   "concept": "DNA denaturation",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A research student heats a DNA sample to 95°C. What is the most likely immediate effect on the DNA structure?",
+   "options": [
+    "The phosphodiester bonds will break, fragmenting the DNA.",
+    "The N-glycosidic bonds will break, separating bases from sugars.",
+    "The hydrogen bonds between complementary bases will break.",
+    "The DNA will condense further into a more compact structure."
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "تسخين الـ DNA لـ 95°C بيعمل denaturation، يعني الـ hydrogen bonds بين الـ complementary bases بتتكسر والـ 2 strands بيتفصلوا (الكتاب ص 80).\nالـ phosphodiester bonds والـ N-glycosidic bonds covalent ومش بتتكسر بالتسخين ده."
+  },
+  {
+   "id": "BG-343",
+   "topic": "genetics",
+   "concept": "Palindromes & repeats",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A DNA sequence 5'-TTAGCACGTGCTAA-3' is best classified as which of the following?",
+   "options": [
+    "Mirror repeat",
+    "Palindrome/inverted repeat",
+    "Direct repeat",
+    "Tandem repeat"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ palindrome: الـ sequence على strand بيتقرا زي الـ strand المقابل (5'→3')، يعني inverted repeat ليه twofold symmetry. الـ sequence ده بالظبط هو المثال اللي في الكتاب (ص 81).\nطريقة الحل: الـ complement لـ TTAGCACGTGCTAA هو AATCGTGCACGATT، ولو قريته بالعكس هيطلع نفس الـ sequence الأصلي.",
+   "memoryTrick": "اقلب الـ complement، لو طلع نفس الـ sequence يبقى palindrome."
+  },
+  {
+   "id": "BG-344",
+   "topic": "genetics",
+   "concept": "Palindromes & repeats",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following will form a palindromic sequence?",
+   "options": [
+    "ATTGCAAT",
+    "AGTCCTGA",
+    "CATCCAAG",
+    "GAAC"
+   ],
+   "answer": 0,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "علشان تعرف لو الـ sequence palindrome: اكتب الـ complement واقلبه.\nATTGCAAT ← complement: TAACGTTA ← بالعكس: ATTGCAAT، نفسه، فهو palindrome.\nB و C لما تقلبهم مش بيطلعوا نفس الـ sequence، والـ GAAC قصير ومش متماثل."
+  },
+  {
+   "id": "BG-345",
+   "topic": "genetics",
+   "concept": "Palindromes & repeats",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following sequences would be least likely to form a hairpin or cruciform structure?",
+   "options": [
+    "5'-GAATTC-3'",
+    "5'-TTAGCACGTGCTAA-3'",
+    "5'-AGTCGA-3'",
+    "5'-GGATCC-3'"
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ hairpin والـ cruciform بيتكونوا من palindromic (self-complementary) sequences.\n• GAATTC: palindrome (EcoRI).\n• GGATCC: palindrome (BamHI).\n• TTAGCACGTGCTAA: palindrome (مثال الكتاب).\n• AGTCGA: الـ complement المقلوب بتاعه TCGACT، مختلف عنه، فمش palindrome وده الأقل احتمالًا."
+  },
+  {
+   "id": "BG-346",
+   "topic": "genetics",
+   "concept": "Chromatin organization",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A tumor biopsy is analyzed for its chromatin structure. The pathologist notes that the DNA is highly condensed into a 30-nm fiber, limiting the access of transcription factors. Which level of chromatin structure does the 30-nm fiber represent?",
+   "options": [
+    "Naked DNA",
+    "The \"beads-on-a-string\" form",
+    "Packed nucleosomes",
+    "The extended form of the chromosome"
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ 30-nm fiber عبارة عن nucleosomes ملفوفة على بعض (6 nucleosomes per turn) عشان تعمل solenoid، يعني packed nucleosomes (الكتاب ص 83).\nالـ beads-on-a-string هو الـ 11 nm، والـ naked DNA هو الـ 2 nm، والـ extended form هو الـ 300 nm."
+  },
+  {
+   "id": "BG-347",
+   "topic": "genetics",
+   "concept": "Palindromes & repeats",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A DNA sequence 5'-GAATTC-3' is recognized by EcoRI and can form a cruciform. What feature allows this?",
+   "options": [
+    "It is a mirror repeat with no self-complementarity",
+    "It is a palindromic inverted repeat, self-complementary.",
+    "It is a direct repeat that forms a triple helix",
+    "It is a left-handed Z-DNA sequence"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ GAATTC: الـ complement بتاعه CTTAAG، ولو اتقرا بالعكس (5'→3') بيطلع GAATTC تاني. يعني ده palindromic inverted repeat، self-complementary، وده اللي بيخليه يقدر يعمل hairpin أو cruciform (الكتاب ص 81).\nالـ mirror repeat مش self-complementary فمابيعملش cruciform."
+  },
+  {
+   "id": "BG-348",
+   "topic": "genetics",
+   "concept": "Histones",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "During eukaryotic DNA packaging, which histone is NOT part of the nucleosome core particle?",
+   "options": [
+    "H2A",
+    "H2B",
+    "H1",
+    "H4"
+   ],
+   "answer": 2,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ]
+  },
+  {
+   "id": "BG-349",
+   "topic": "genetics",
+   "concept": "Chromatin organization",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which level of chromatin organization is described as a \"beads-on-a-string\" structure with a diameter of approximately 11 nm?",
+   "options": [
+    "Naked DNA double helix",
+    "Nucleosome array",
+    "30-nm chromatin fiber",
+    "Condensed section of chromosome"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ]
+  },
+  {
+   "id": "BG-350",
+   "topic": "genetics",
+   "concept": "Chromatin organization",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following is the correct order of DNA packaging from least to most condensed?",
+   "options": [
+    "Double helix - nucleosome - 30-nm fiber - extended chromatin - condensed chromosome",
+    "Nucleosome - double helix - 30-nm fiber - condensed chromosome",
+    "Double helix - 30-nm fiber - nucleosome - condensed chromosome",
+    "Nucleosome - 30-nm fiber - double helix - condensed chromosome"
+   ],
+   "answer": 0,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الترتيب من الأقل للأكتر condensation (الكتاب ص 83):\nDNA double helix (2 nm) ← nucleosomes / beads-on-a-string (11 nm) ← 30-nm fiber ← extended chromosome / looped domains (300 nm) ← condensed chromosome (700 nm) ← mitotic chromosome (1400 nm)."
+  },
+  {
+   "id": "BG-351",
+   "topic": "genetics",
+   "concept": "Palindromes & repeats",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following best describes a mirror repeat in DNA?",
+   "options": [
+    "It is self-complementary within each strand and forms hairpins",
+    "It has inverted repeats on the same strand",
+    "It is always a left-handed Z-DNA sequence",
+    "It causes DNA to denature at lower temperature"
+   ],
+   "answer": 1,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ mirror repeat معناه إن الـ sequence متكرر بشكل معكوس على نفس الـ strand (inverted repeat on the same strand)، من غير complementarity. عشان كده مابيقدرش يعمل hairpin أو cruciform.\nالـ palindrome (inverted repeat) هو اللي self-complementary وبيعمل hairpin، فالاختيار A ده وصف الـ palindrome مش الـ mirror repeat."
+  },
+  {
+   "id": "BG-352",
+   "topic": "genetics",
+   "concept": "Histones",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A 58-year-old female is diagnosed with a malignancy characterized by overexpression of a specific oncogene. Molecular analysis reveals increased acetylation of the N-terminal tails of histones in the promoter region of this gene. What is the structural consequence of this modification?",
+   "options": [
+    "It increases the positive charge of histones, tightening DNA binding.",
+    "It causes the DNA to switch from B-form to Z-form.",
+    "It breaks the phosphodiester bonds, fragmenting the DNA.",
+    "It decreases the positive charge of histones, loosening DNA binding."
+   ],
+   "answer": 3,
+   "where": [
+    "Dr Marwa Questions On Bio & Genetics (2)"
+   ],
+   "explanation": "الـ histones غنية بالـ lysine والـ arginine، فشحنتها positive وبتمسك الـ DNA السالب بـ ionic bonds. الـ acetylation بيحط acetyl على الـ lysine فبيلغي شحنته الموجبة، فالـ histone بيمسك الـ DNA أضعف. الـ chromatin بيبقى loose والـ transcription بيزيد (الكتاب ص 84).",
+   "memoryTrick": "Acetylation = Activation (الـ DNA بيتفك والجين يشتغل)."
+  },
+  {
+   "id": "BG-353",
+   "topic": "genetics",
+   "concept": "Cell cycle",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "Which of the following is primarily assessed at the G2 checkpoint?",
+   "options": [
+    "Attachment of chromosomes to spindle fibers",
+    "Availability of growth factors before S phase",
+    "Completion of DNA replication and DNA integrity",
+    "Separation of sister chromatids"
+   ],
+   "answer": 2,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
+   ]
+  },
+  {
+   "id": "BG-354",
+   "topic": "genetics",
+   "concept": "Cell cycle",
+   "source": "MEDZONE",
+   "banks": [
+    "MEDZONE"
+   ],
+   "stem": "A cell lacks sufficient nutrients and growth factors. At which checkpoint is its progression most likely to be arrested?",
+   "options": [
+    "G1 checkpoint",
+    "G2 checkpoint",
+    "Metaphase checkpoint",
+    "Anaphase checkpoint"
+   ],
+   "answer": 0,
+   "where": [
+    "Midterm KNU 2027 (1st Round)"
    ]
   }
  ],
