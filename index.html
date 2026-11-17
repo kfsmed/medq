@@ -3,15 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f7f3">
+<meta name="apple-mobile-web-app-title" content="MedQore">
+<script>(function(){var d=document.documentElement;try{var v=JSON.parse(localStorage.getItem("medq.v1.theme")||"null");var k=v==="dark"||(v!=="light"&&window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches);d.setAttribute("data-theme",k?"dark":"light");}catch(e){d.setAttribute("data-theme","light");}})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
 <meta name="description" content="Interactive medical question bank with training, timed exam and revision modes.">
 <meta name="referrer" content="no-referrer">
-<title>MedQ — Medical Question Bank</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23302248'/%3E%3Cpath d='M16 8v16M8 16h16' stroke='%23E9DDF7' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E">
+<title>MedQore — Medical Question Bank</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='11' fill='%2314283F'/%3E%3Cpath d='M21.74 35.8A13 13 0 1 1 35.78 28.49' fill='none' stroke='%23F7F7F3' stroke-width='3.5' stroke-linecap='round'/%3E%3Cpath d='M17.5 28V17.5l6.5 7 6.5-7V28' fill='none' stroke='%23F7F7F3' stroke-width='3.25' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M24 36H37' stroke='%236FB8BE' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='11' fill='%2314283F'/%3E%3Cpath d='M21.74 35.8A13 13 0 1 1 35.78 28.49' fill='none' stroke='%23F7F7F3' stroke-width='3.5' stroke-linecap='round'/%3E%3Cpath d='M17.5 28V17.5l6.5 7 6.5-7V28' fill='none' stroke='%23F7F7F3' stroke-width='3.25' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M24 36H37' stroke='%236FB8BE' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>
+
 :root,[data-theme="light"]{
   /* MedQore tokens — Premium Academic (see design system). Light is the default theme. */
   --bg:#f7f7f3; --surface:#ffffff; --surface-sunken:#efefe9; --surface-raised:#ffffff;
@@ -61,15 +66,16 @@
   --font:var(--font-sans); --serif:var(--font-display);
   --safe-l:env(safe-area-inset-left,0px); --safe-r:env(safe-area-inset-right,0px); --safe-b:env(safe-area-inset-bottom,0px); --safe-t:env(safe-area-inset-top,0px);
 }
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 var(--font);overflow-x:hidden;-webkit-font-smoothing:antialiased}
-h1,h2,h3{font-family:var(--serif);font-weight:700;letter-spacing:-.015em;margin:0;color:var(--plum)}
-h1{font-size:clamp(1.6rem,4.5vw,2.3rem);line-height:1.15}
-h2{font-size:clamp(1.25rem,3.4vw,1.55rem);line-height:1.2}
-h3{font-size:1.08rem}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;color-scheme:light}
+html[data-theme="dark"]{color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 var(--font);overflow-x:hidden;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;transition:background-color var(--duration-base)}
+h1,h2,h3,h4{font-family:var(--serif);margin:0;color:var(--text)}
+h1{font-weight:800;font-size:clamp(1.55rem,4.4vw,2.05rem);line-height:1.15;letter-spacing:-.02em}
+h2{font-weight:700;font-size:clamp(1.2rem,3.2vw,1.35rem);line-height:1.3;letter-spacing:-.012em}
+h3{font-weight:700;font-size:1.06rem;line-height:1.4;letter-spacing:-.005em}
 p{margin:.4em 0}
-a{color:var(--plum-2)}
+a{color:var(--accent)}
 button,input,select,textarea{font:inherit;color:inherit}
 button{-webkit-appearance:none;appearance:none;touch-action:manipulation;-webkit-tap-highlight-color:transparent;cursor:pointer}
 :focus{outline:none}
@@ -77,206 +83,418 @@ button{-webkit-appearance:none;appearance:none;touch-action:manipulation;-webkit
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .hide{display:none!important}
 .wrap{max-width:1120px;margin:0 auto;padding:0 max(16px,var(--safe-r)) 0 max(16px,var(--safe-l))}
+@media (min-width:768px){.wrap{padding:0 max(28px,var(--safe-r)) 0 max(28px,var(--safe-l))}}
+.ico{display:inline-flex;width:20px;height:20px;flex:none}
+.ico svg,.icon-btn svg,.navlink svg,.btn svg{width:100%;height:100%;display:block}
+.btn svg{width:18px;height:18px;flex:none}
 
-/* buttons */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 18px;border-radius:12px;border:1.5px solid transparent;font-weight:600;font-size:.95rem;line-height:1.2;text-align:center}
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 18px;border-radius:var(--radius-md);border:1px solid transparent;font:600 .9375rem/1.25 var(--font);text-align:center;text-decoration:none;transition:background-color var(--duration-fast),border-color var(--duration-fast),color var(--duration-fast),transform var(--duration-fast)}
+.btn:active:not(:disabled){transform:translateY(1px)}
 .btn-pri{background:var(--brand);color:var(--on-brand)}
-.btn-pri:disabled{opacity:.45;cursor:default}
 .btn-sec{background:var(--accent-soft);color:var(--accent)}
-.btn-ghost{background:transparent;border-color:var(--border-strong);color:var(--text)}
-.btn-danger{background:var(--bad-bg);color:var(--bad)}
-.btn-sm{min-height:44px;padding:8px 12px;font-size:.88rem;border-radius:10px}
-.icon-btn{min-width:44px;min-height:44px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:0 12px;color:var(--plum);font-weight:600;font-size:.88rem}
-.icon-btn[aria-pressed="true"]{background:var(--lav);border-color:var(--accent)}
-.icon-btn svg{width:18px;height:18px;flex:none}
+.btn-ghost{background:var(--surface);border-color:var(--border-strong);color:var(--text)}
+.btn-danger{background:var(--error-soft);color:var(--error-text)}
+.btn-link{background:transparent;color:var(--accent);padding-inline:8px}
+.btn-sm{min-height:40px;padding:8px 14px;font-size:.875rem;border-radius:var(--radius-sm)}
+.btn-block{width:100%}
+.btn:disabled{background:var(--surface-sunken);color:var(--text-disabled);border-color:transparent;cursor:not-allowed;transform:none}
+.icon-btn{min-width:44px;min-height:44px;border-radius:var(--radius-sm);border:1px solid transparent;background:transparent;display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:0 10px;color:var(--text-secondary);font:600 .875rem/1.2 var(--font);text-decoration:none;transition:background-color var(--duration-fast),color var(--duration-fast),border-color var(--duration-fast)}
+.icon-btn svg{width:20px;height:20px;flex:none}
+.icon-btn.boxed,.inkbar .icon-btn{border-color:var(--border);background:var(--surface);color:var(--text)}
+.icon-btn[aria-pressed="true"],.icon-btn[aria-expanded="true"]{background:var(--accent-soft);color:var(--accent)}
+#flagbtn[aria-pressed="true"],[data-flag][aria-pressed="true"]{background:var(--warning-soft);color:var(--warning-text)}
+#favbtn[aria-pressed="true"],[data-fav][aria-pressed="true"]{background:var(--warning-soft);color:var(--warning-text)}
+.icon-btn:disabled{opacity:.45;cursor:default}
 @media (hover:hover) and (pointer:fine){
   .btn-pri:not(:disabled):hover{background:var(--brand-hover)}
-  .btn-sec:hover,.icon-btn:hover{border-color:var(--accent)}
+  .btn-sec:not(:disabled):hover{color:var(--accent-hover);box-shadow:inset 0 0 0 1px var(--accent)}
+  .btn-ghost:not(:disabled):hover{border-color:var(--accent)}
+  .btn-danger:not(:disabled):hover{box-shadow:inset 0 0 0 1px var(--error)}
+  .icon-btn:not(:disabled):hover{background:var(--surface-sunken);color:var(--text)}
   .opt:not(:disabled):hover{border-color:var(--accent)}
-  .navlink:hover{background:var(--lav-2)}
+  .navlink:hover{color:var(--text);background:var(--surface-sunken)}
+  .module:not(.soon):hover,.subj:hover,.maplink:hover{border-color:var(--border-strong);box-shadow:var(--shadow-2)}
 }
 
-/* app header */
-.apphead{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;padding-top:var(--safe-t)}
-.apphead .wrap{display:flex;align-items:center;gap:16px;min-height:60px}
-.brand{display:flex;align-items:center;gap:10px;min-height:44px;font-family:var(--serif);font-weight:800;letter-spacing:-.02em;font-size:1.25rem;color:var(--plum);text-decoration:none}
-.brand-mark{width:30px;height:30px;border-radius:9px;background:var(--plum);display:grid;place-items:center}
-.brand-mark svg{width:18px;height:18px}
-.topnav{display:flex;gap:4px;margin-inline-start:auto}
-.navlink{border:none;background:none;min-height:44px;padding:8px 12px;border-radius:10px;color:var(--mut);font-weight:600;font-size:.92rem}
+/* ---------- header & navigation ---------- */
+.apphead{background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:20;padding-top:var(--safe-t)}
+.apphead .wrap{display:flex;align-items:center;gap:12px;min-height:60px}
+.brand{display:inline-flex;align-items:center;gap:10px;min-height:44px;font:800 1.25rem/1 var(--font-display);letter-spacing:-.025em;color:var(--text);text-decoration:none}
+.brand-mark{width:32px;height:32px;display:inline-flex;flex:none}
+.brand-mark svg{width:100%;height:100%}
+.mq-ring,.mq-m{fill:none;stroke:var(--text);stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.mq-m{stroke-width:3.25}
+.mq-tail{stroke:var(--accent);stroke-width:3.5;stroke-linecap:round}
+.topnav{display:flex;gap:2px;margin-inline-start:auto}
+.navlink{display:inline-flex;align-items:center;gap:8px;border:none;background:none;min-height:40px;padding:8px 12px;border-radius:var(--radius-sm);color:var(--text-secondary);font:600 .875rem/1.2 var(--font);white-space:nowrap;transition:background-color var(--duration-fast),color var(--duration-fast)}
 .navlink[aria-current="page"]{color:var(--accent);background:var(--accent-soft)}
+.headtools{display:flex;align-items:center;gap:6px;margin-inline-start:8px}
+.langbtn{border:1px solid var(--border);background:var(--surface);min-height:40px;min-width:44px;padding:6px 12px;border-radius:var(--radius-sm);font-weight:700;color:var(--text);font-size:.875rem}
+.langbtn[lang="ar"]{font-family:var(--font-arabic);font-size:.95rem}
+.themebtn{border:1px solid var(--border);background:var(--surface);color:var(--text)}
 .bottomnav{display:none}
-@media (max-width:760px){
-  .apphead .langbtn{margin-inline-start:auto}
+@media (max-width:860px){
   .topnav{display:none}
-  .bottomnav{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--surface);border-top:1px solid var(--line);padding:4px max(4px,var(--safe-r)) calc(4px + var(--safe-b)) max(4px,var(--safe-l))}
-  .bottomnav .navlink{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:.72rem;padding:6px 1px;min-height:52px;min-width:0;white-space:nowrap}
+  .headtools{margin-inline-start:auto}
+  .bottomnav{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--surface);border-top:1px solid var(--border);padding:4px max(4px,var(--safe-r)) calc(4px + var(--safe-b)) max(4px,var(--safe-l))}
+  .bottomnav .navlink{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.6875rem;line-height:1.1;padding:6px 1px;min-height:54px;min-width:0;white-space:nowrap;background:none;border-radius:var(--radius-md)}
   .bottomnav .navlink span{max-width:100%;overflow:hidden;text-overflow:ellipsis}
-  .bottomnav svg{width:20px;height:20px}
-  body.has-bottomnav main{padding-bottom:calc(84px + var(--safe-b))}
+  .bottomnav svg{width:22px;height:22px;box-sizing:content-box;padding:3px 12px;border-radius:999px;transition:background-color var(--duration-base)}
+  .bottomnav .navlink[aria-current="page"]{background:none}
+  .bottomnav .navlink[aria-current="page"] svg{background:var(--accent-soft)}
+  body.has-bottomnav main{padding-bottom:calc(88px + var(--safe-b))}
 }
-
 main{padding:22px 0 48px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:20px}
-.muted{color:var(--mut)}
-.small{font-size:.86rem}
-.eyebrow{font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+@media (min-width:768px){main{padding-top:32px}}
+
+/* ---------- layout & generic ---------- */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow-1);padding:16px}
+@media (min-width:600px){.card{padding:22px}}
+.muted{color:var(--text-secondary)}
+.small{font-size:.875rem;line-height:1.45}
+.eyebrow{font:700 .75rem/1.3 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
 .grid{display:grid;gap:16px}
-.g2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-.g3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-.stack>*+*{margin-top:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}
+.stack>*+*{margin-top:16px}
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .spacer{flex:1}
-.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:600;background:var(--lav-2);color:var(--plum)}
-.pill.sage{background:var(--sage);color:var(--sage-ink)}
-.pill.bad{background:var(--bad-bg);color:var(--bad)}
-.pill.warn{background:var(--warn-bg);color:var(--warn)}
-.notice{border-radius:var(--r-sm);padding:12px 14px;background:var(--lav-2);color:var(--plum);font-size:.92rem}
-.notice.warn{background:var(--warn-bg);color:var(--warn)}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;min-height:26px;font:600 .78rem/1.2 var(--font);background:var(--surface-sunken);color:var(--text);white-space:nowrap}
+.pill[data-subject]{background:var(--subj-soft)}
+.pill[data-subject]::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--subj);flex:none}
+.pill.outline{background:transparent;box-shadow:inset 0 0 0 1px var(--border);color:var(--text-secondary)}
+.pill.sage{background:var(--success-soft);color:var(--success-text)}
+.pill.bad{background:var(--error-soft);color:var(--error-text)}
+.pill.warn{background:var(--warning-soft);color:var(--warning-text)}
+.pill.soon{background:var(--surface-sunken);color:var(--text-secondary)}
+.notice{display:block;border-radius:var(--radius-md);padding:12px 14px;background:var(--info-soft);color:var(--text);font-size:.9rem;line-height:1.5}
+.notice.warn{background:var(--warning-soft);color:var(--warning-text)}
+.notice.row{display:flex}
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 12px}
+.sechead a,.sechead .btn-link{font:600 .875rem/1.2 var(--font);text-decoration:none}
+.pagehead{display:grid;gap:6px}
+.pagehead p{margin:0;max-width:62ch}
+.backlink{margin-inline-start:-8px}
 
-/* home */
-.hero{padding:8px 0 6px}
-.hero p{max-width:640px}
+/* ---------- subject identity ---------- */
+[data-subject]{--subj:var(--accent);--subj-soft:var(--accent-soft)}
+[data-subject="anatomy"]{--subj:var(--subject-anatomy);--subj-soft:var(--subject-anatomy-soft)}
+[data-subject="histology"]{--subj:var(--subject-histology);--subj-soft:var(--subject-histology-soft)}
+[data-subject="embryology"]{--subj:var(--subject-embryology);--subj-soft:var(--subject-embryology-soft)}
+[data-subject="biochemistry"]{--subj:var(--subject-biochemistry);--subj-soft:var(--subject-biochemistry-soft)}
+[data-subject="genetics"]{--subj:var(--subject-genetics);--subj-soft:var(--subject-genetics-soft)}
+.glyph{display:inline-grid;place-items:center;flex:none;width:40px;height:40px;border-radius:var(--radius-sm);background:var(--subj-soft);color:var(--text);font:800 .9rem/1 var(--font-display);letter-spacing:-.02em;position:relative}
+.glyph::after{content:"";position:absolute;inset-inline-end:5px;bottom:5px;width:6px;height:6px;border-radius:50%;background:var(--subj)}
+.glyph.sm{width:30px;height:30px;font-size:.72rem;border-radius:var(--radius-xs)}
+.glyph.sm::after{width:4px;height:4px;inset-inline-end:3px;bottom:3px}
+
+/* ---------- home ---------- */
+.hero{display:grid;gap:6px;padding:4px 0 0}
+.hero h1{font-size:clamp(1.75rem,5.2vw,2.35rem);line-height:1.1;letter-spacing:-.025em;max-width:22ch}
+.hero p{max-width:60ch;margin:0}
+.homegrid{display:grid;gap:16px}
+@media (min-width:760px){.homegrid{grid-template-columns:1.15fr 1fr;align-items:start}}
+.homeside{display:grid;gap:16px;align-content:start}
+.quick{display:grid;gap:14px;background:var(--brand);border-color:var(--brand);color:var(--on-brand)}
+.quick h2,.quick h3{color:var(--on-brand)}
+.quick .qhead{display:flex;align-items:center;gap:12px}
+.quick .qicon{display:grid;place-items:center;width:40px;height:40px;border-radius:var(--radius-sm);background:color-mix(in srgb,var(--on-brand) 14%,transparent);flex:none}
+.quick .qicon svg{width:22px;height:22px}
+.quick .qsub{font-size:.875rem;opacity:.82;margin:2px 0 0}
+.quick .qxrow{display:flex;gap:12px;flex-wrap:wrap}
+.quick .qfield{display:grid;gap:4px;flex:1;min-width:130px}
+.quick .qfield>span{font:600 .78rem/1.2 var(--font);opacity:.82}
+.quick .stepper{background:color-mix(in srgb,var(--on-brand) 10%,transparent);border-color:color-mix(in srgb,var(--on-brand) 22%,transparent);color:var(--on-brand)}
+.quick .stepper button{color:var(--on-brand)}
+.quick .btn-pri{background:var(--on-brand);color:var(--brand)}
+.quick .btn-pri:not(:disabled):hover{background:var(--on-brand);opacity:.92}
+.quick .qnote{font-size:.8rem;opacity:.75;margin:0}
+html[data-theme="dark"] .quick:not(.inline){background:var(--surface-raised);border-color:var(--border-strong);color:var(--text)}
+html[data-theme="dark"] .quick:not(.inline) h2{color:var(--text)}
+html[data-theme="dark"] .quick:not(.inline) .qicon{background:var(--accent-soft);color:var(--accent)}
+html[data-theme="dark"] .quick:not(.inline) .stepper{background:var(--surface);border-color:var(--border-input);color:var(--text)}
+html[data-theme="dark"] .quick:not(.inline) .stepper button{color:var(--accent)}
+html[data-theme="dark"] .quick:not(.inline) .btn-pri{background:var(--brand);color:var(--on-brand)}
+.quick.inline{background:var(--surface);border-color:var(--border);color:var(--text)}
+.quick.inline h2,.quick.inline h3{color:var(--text)}
+.quick.inline .qicon{background:var(--accent-soft);color:var(--accent)}
+.quick.inline .stepper{background:var(--surface);border-color:var(--border-input);color:var(--text)}
+.quick.inline .stepper button{color:var(--accent)}
+.quick.inline .btn-pri{background:var(--brand);color:var(--on-brand)}
+.rowcard{display:flex;align-items:center;gap:14px;padding:14px 16px;text-align:start;width:100%;color:var(--text);font:inherit}
+.rowcard .rc-body{flex:1;min-width:0}
+.rowcard .rc-title{display:block;font:700 1rem/1.35 var(--font-display)}
+.rowcard .rc-sub{display:block;font-size:.875rem;line-height:1.4;color:var(--text-secondary)}
+.rowcard .rc-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:var(--radius-sm);background:var(--accent-soft);color:var(--accent);flex:none}
+.rowcard .rc-icon svg{width:22px;height:22px}
+.rowcard .rc-icon.err{background:var(--error-soft);color:var(--error-text)}
+.rowcard .rc-icon.warn{background:var(--warning-soft);color:var(--warning-text)}
+.rowcard .rc-chev{color:var(--text-secondary);display:inline-flex;width:20px;height:20px}
+[dir="rtl"] .rc-chev svg,[dir="rtl"] .module .go svg{transform:scaleX(-1)}
+button.rowcard{cursor:pointer}
+button.rowcard:disabled{cursor:default;opacity:.7}
+.modules{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.module{position:relative;display:flex;flex-direction:column;gap:14px;text-align:start;width:100%;padding:20px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow-1);color:var(--text);font:inherit;cursor:pointer;transition:border-color var(--duration-fast),box-shadow var(--duration-base),transform var(--duration-fast)}
+.module:active:not(.soon){transform:translateY(1px)}
+.module .mtop{display:flex;align-items:flex-start;gap:8px}
+.module .mglyphs{display:flex;gap:6px}
+.module .mglyphs .glyph{width:36px;height:36px;font-size:.8rem}
+.module .go{margin-inline-start:auto;color:var(--text-secondary);display:inline-flex;width:22px;height:22px}
+.module h3{font-size:1.08rem;line-height:1.35}
+.module .msubs{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.module .mfoot{display:flex;align-items:center;gap:12px;margin-top:auto}
+.module .mfoot .progress{flex:1}
+.module.soon{cursor:default;background:transparent;box-shadow:none;border-style:dashed}
+.module.soon .glyph{opacity:.75}
+.seg{display:flex;gap:4px;padding:4px;background:var(--surface-sunken);border-radius:var(--radius-md);overflow-x:auto;scrollbar-width:none}
+.seg::-webkit-scrollbar{display:none}
+.seg button{flex:1 0 auto;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:6px 14px;border:0;border-radius:var(--radius-sm);background:transparent;color:var(--text-secondary);font:600 .875rem/1.2 var(--font);white-space:nowrap;transition:background-color var(--duration-fast),color var(--duration-fast)}
+.seg button[data-subject]::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--subj)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--text);box-shadow:var(--shadow-1),0 0 0 1px var(--border)}
+.subjects{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr))}
+.subj{display:flex;align-items:center;gap:12px;min-height:76px;padding:12px 16px;text-align:start;width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);color:var(--text);font:inherit;cursor:pointer;transition:border-color var(--duration-fast),background-color var(--duration-fast)}
+.subj[aria-pressed="true"]{border-color:var(--subj);background:var(--subj-soft);box-shadow:inset 0 0 0 1px var(--subj)}
+.subj .sb{flex:1;min-width:0}
+.subj .sn{display:block;font:700 1rem/1.3 var(--font-display)}
+.subj .sm{display:block;font-size:.8125rem;line-height:1.35;color:var(--text-secondary);font-variant-numeric:tabular-nums}
+.subj .progress{margin-top:7px}
+.actgrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.stepper{display:inline-flex;align-items:center;justify-content:space-between;border:1px solid var(--border-input);border-radius:var(--radius-sm);background:var(--surface);min-height:44px}
+.stepper button{min-width:44px;min-height:42px;border:0;background:none;color:var(--accent);font:700 1.25rem/1 var(--font);border-radius:var(--radius-sm)}
+.stepper button:disabled{opacity:.35;cursor:default}
+.stepper output{min-width:56px;text-align:center;font:700 1rem/1 var(--font);font-variant-numeric:tabular-nums}
+.stats{display:grid;gap:12px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.statcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:14px 16px}
+.stat{font:700 1.75rem/1.1 var(--font-display);letter-spacing:-.02em;color:var(--text);font-variant-numeric:tabular-nums}
+.stat small{font:600 .9rem/1 var(--font);color:var(--text-secondary);letter-spacing:0}
+.statlbl{font-size:.8125rem;line-height:1.35;color:var(--text-secondary);margin-top:4px}
+@media (max-width:420px){.stats{gap:8px}.statcard{padding:12px}.stat{font-size:1.4rem}}
 .modecard{display:flex;flex-direction:column;gap:10px}
 .modecard .btn{align-self:flex-start;margin-top:auto}
-.stat{font-family:var(--serif);font-size:1.9rem;color:var(--plum);line-height:1}
-.statlbl{font-size:.82rem;color:var(--mut)}
 
-/* forms */
-fieldset{border:none;padding:0;margin:0}
-legend{font-weight:700;color:var(--plum);margin-bottom:8px;padding:0}
+/* ---------- forms ---------- */
+fieldset{border:none;padding:0;margin:0;min-width:0}
+legend{font:600 .875rem/1.3 var(--font);color:var(--text);margin-bottom:8px;padding:0}
 .checks{display:flex;flex-wrap:wrap;gap:8px}
-.check{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 14px;border:1.5px solid var(--border-strong);border-radius:12px;background:var(--surface);cursor:pointer;user-select:none}
+.check{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 14px;border:1px solid var(--border-strong);border-radius:var(--radius-md);background:var(--surface);cursor:pointer;user-select:none;font-weight:500;transition:background-color var(--duration-fast),border-color var(--duration-fast)}
 .check input{width:18px;height:18px;accent-color:var(--accent);margin:0}
 .check:has(input:checked){background:var(--accent-soft);border-color:var(--accent)}
+.check[data-subject]:has(input:checked){background:var(--subj-soft);border-color:var(--subj)}
+.check[data-subject] input{accent-color:var(--subj)}
 .field{display:flex;flex-direction:column;gap:6px}
-.field label{font-weight:600;color:var(--plum);font-size:.92rem}
-.input,select.input{min-height:44px;border:1.5px solid var(--border-input);border-radius:12px;padding:8px 12px;background:var(--surface);width:100%;font-size:16px}
-textarea.input{min-height:110px;resize:vertical;line-height:1.5}
+.field label{font:600 .875rem/1.3 var(--font);color:var(--text)}
+.input,select.input{min-height:44px;border:1px solid var(--border-input);border-radius:var(--radius-sm);padding:9px 12px;background:var(--surface);width:100%;font-size:16px;color:var(--text);transition:border-color var(--duration-fast),box-shadow var(--duration-fast)}
+.input:focus,select.input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+select.input{appearance:none;-webkit-appearance:none;padding-inline-end:36px;background-image:linear-gradient(45deg,transparent 50%,var(--text-secondary) 50%),linear-gradient(135deg,var(--text-secondary) 50%,transparent 50%);background-position:calc(100% - 18px) 50%,calc(100% - 13px) 50%;background-size:5px 5px;background-repeat:no-repeat}
+[dir="rtl"] select.input{background-position:13px 50%,18px 50%}
+input[type="file"].input{padding:8px}
+textarea.input{min-height:110px;resize:vertical;line-height:1.55}
 .switch{display:flex;align-items:center;gap:12px;min-height:44px;cursor:pointer}
-.switch input{width:44px;height:26px;appearance:none;-webkit-appearance:none;background:var(--border-input);border-radius:999px;position:relative;margin:0;flex:none;cursor:pointer;transition:background .15s}
-.switch input::after{content:"";position:absolute;top:3px;inset-inline-start:3px;width:20px;height:20px;border-radius:50%;background:var(--surface);box-shadow:0 1px 2px rgba(0,0,0,.2);transition:transform .15s}
+.switch input{width:44px;height:26px;appearance:none;-webkit-appearance:none;background:var(--border-input);border-radius:999px;position:relative;margin:0;flex:none;cursor:pointer;transition:background var(--duration-base)}
+.switch input::after{content:"";position:absolute;top:3px;inset-inline-start:3px;width:20px;height:20px;border-radius:50%;background:#ffffff;box-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform var(--duration-base)}
 .switch input:checked{background:var(--accent)}
 .switch input:checked::after{transform:translateX(18px)}
+.switch input:disabled{opacity:.5}
+.switch input:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 
-/* session */
-.sess-top{position:sticky;top:0;z-index:25;background:var(--paper);border-bottom:1px solid var(--line);padding-top:var(--safe-t)}
-.sess-top .wrap{display:flex;align-items:center;gap:10px;min-height:60px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
-.sess-title{font-weight:700;color:var(--plum)}
-.timer{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.05rem;color:var(--text);background:var(--surface-sunken);border-radius:10px;padding:6px 12px;min-height:44px;display:inline-flex;align-items:center;gap:6px}
-.timer.low{background:var(--warn-bg);color:var(--warn)}
-.timer.crit{background:var(--bad-bg);color:var(--bad)}
+/* ---------- session ---------- */
+.sess-top{position:sticky;top:0;z-index:25;background:var(--bg);border-bottom:1px solid var(--border);padding-top:var(--safe-t)}
+.sess-top .wrap{display:flex;align-items:center;gap:8px;min-height:58px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.sess-titlewrap{display:flex;flex-direction:column;min-width:0;line-height:1.25}
+.sess-title{font:700 .95rem/1.3 var(--font-display);color:var(--text)}
+#pos{font-size:.78rem;color:var(--text-secondary);font-variant-numeric:tabular-nums}
+.sess-tools{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-inline-start:auto}
+.sess-top .switch{min-height:40px;gap:8px;font-size:.85rem;font-weight:600}
+.sess-top .progress{border-radius:0;height:3px}
+#navcount{font-variant-numeric:tabular-nums}
+.timer{font-variant-numeric:tabular-nums;font:700 1rem/1 var(--font);color:var(--text);background:var(--surface-sunken);border-radius:999px;padding:6px 12px;min-height:40px;display:inline-flex;align-items:center;gap:6px}
+.timer svg{width:16px;height:16px}
+.timer.low{background:var(--warning-soft);color:var(--warning-text)}
+.timer.crit{background:var(--error-soft);color:var(--error-text)}
 .progress{height:6px;background:var(--surface-sunken);border-radius:99px;overflow:hidden}
-.progress i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s}
-.sess-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:20px;align-items:start}
-@media (max-width:960px){.sess-grid{grid-template-columns:minmax(0,1fr)}}
-.navpane{position:sticky;top:76px}
+.progress i{display:block;height:100%;background:var(--subj,var(--accent));width:0;border-radius:inherit;transition:width var(--duration-base) ease-out}
+.sess-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:24px;align-items:start;max-width:1120px}
+#qpane{max-width:800px;width:100%}
+@media (max-width:960px){.sess-grid{grid-template-columns:minmax(0,1fr)}#qpane{margin:0 auto}}
+.navpane{position:sticky;top:84px}
 @media (max-width:960px){
-  .navpane{position:fixed;inset:auto 0 0 0;top:auto;z-index:40;max-height:75vh;overflow:auto;border-radius:18px 18px 0 0;transform:translateY(105%);transition:transform .2s;padding-bottom:calc(20px + var(--safe-b))}
+  .navpane{position:fixed;inset:auto 0 0 0;top:auto;z-index:40;max-height:78vh;overflow:auto;border-radius:var(--radius-xl) var(--radius-xl) 0 0;transform:translateY(105%);transition:transform var(--duration-slow) ease-out;padding-bottom:calc(20px + var(--safe-b));background:var(--surface-raised)}
+  .navpane::before{content:"";display:block;width:36px;height:4px;margin:-4px auto 14px;border-radius:999px;background:var(--border-strong)}
   .navpane.open{transform:none;box-shadow:var(--shadow-3)}
 }
 .scrim{position:fixed;inset:0;background:var(--scrim);z-index:35}
-.qmeta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
-.qid{font-size:.8rem;color:var(--mut);font-variant-numeric:tabular-nums}
+.qcard{padding:20px 16px}
+@media (min-width:600px){.qcard{padding:28px}}
+.qmeta{display:flex;gap:8px;align-items:flex-start;margin-bottom:14px}
+.qtags{flex:1;min-width:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-top:9px}
+.qacts{display:flex;gap:2px;flex:none;margin-inline-end:-8px}
+.qnum{font:700 .8125rem/1.2 var(--font);color:var(--text-secondary);font-variant-numeric:tabular-nums}
+.qid{font-size:.78rem;color:var(--text-secondary);font-variant-numeric:tabular-nums}
+.qsrc{margin:14px 0 0;text-align:center}
 .ink-host{position:relative}
-.stem{font-size:1.1875rem;line-height:1.58;font-weight:500;margin:4px 0 16px;overflow-wrap:anywhere}
-.opts{display:flex;flex-direction:column;gap:10px}
-.opt{display:flex;gap:12px;align-items:flex-start;text-align:start;width:100%;min-height:52px;padding:12px 14px;border-radius:12px;border:1.5px solid var(--border-strong);background:var(--surface);color:var(--text);font-size:1.0625rem;line-height:1.53;overflow-wrap:anywhere}
-.opt .key{flex:none;width:28px;height:28px;border-radius:6px;display:grid;place-items:center;background:var(--surface-sunken);color:var(--text);font-weight:700;font-size:.85rem}
+.stem{font:500 1.1875rem/1.6 var(--font-sans);color:var(--text);margin:4px 0 20px;max-width:68ch;overflow-wrap:anywhere}
+.opts{display:flex;flex-direction:column;gap:12px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:start;width:100%;min-height:56px;padding:13px 16px;border-radius:var(--radius-md);border:1.5px solid var(--border-strong);background:var(--surface);color:var(--text);font:400 1.0625rem/1.53 var(--font-sans);overflow-wrap:anywhere;transition:border-color var(--duration-fast),background-color var(--duration-base),box-shadow var(--duration-fast)}
+.opt .key{flex:none;width:28px;height:28px;border-radius:var(--radius-xs);display:grid;place-items:center;background:var(--surface-sunken);color:var(--text);font:700 .875rem/1 var(--font-sans);transition:background-color var(--duration-base),color var(--duration-base)}
+.opt>span[lang]{flex:1;min-width:0;padding-top:1px}
 .opt[aria-checked="true"]{border-color:var(--accent);background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent)}
 .opt[aria-checked="true"] .key{background:var(--accent);color:var(--on-accent)}
 .opt.correct{border-color:var(--success);background:var(--success-soft);box-shadow:inset 0 0 0 1px var(--success)}
 .opt.correct .key{background:var(--success);color:var(--on-accent)}
 .opt.wrong{border-color:var(--error);background:var(--error-soft);box-shadow:inset 0 0 0 1px var(--error)}
 .opt.wrong .key{background:var(--error);color:var(--on-accent)}
-.opt:disabled{cursor:default;color:var(--ink);-webkit-text-fill-color:currentColor;opacity:1}
-.opt .tag{margin-inline-start:auto;font-size:.75rem;font-weight:700;align-self:center;white-space:nowrap}
-.conf{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:14px}
-.conf .lbl{font-size:.85rem;color:var(--mut);margin-inline-end:2px}
-.chip{min-height:44px;padding:6px 14px;border-radius:999px;border:1.5px solid var(--border-strong);background:var(--surface);font-size:.88rem;font-weight:600;color:var(--plum)}
+.opt.dim{border-color:var(--border);color:var(--text-secondary)}
+.opt:disabled{cursor:default;-webkit-text-fill-color:currentColor;opacity:1}
+.opt.dim:disabled{color:var(--text-secondary);-webkit-text-fill-color:var(--text-secondary)}
+.opt .tag{margin-inline-start:auto;font:700 .75rem/1.2 var(--font);align-self:center;white-space:nowrap;display:inline-flex;align-items:center;gap:4px}
+.opt .tag svg{width:14px;height:14px}
+.opt.correct .tag{color:var(--success-text)}
+.opt.wrong .tag{color:var(--error-text)}
+.conf{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:18px}
+.conf .lbl{font-size:.8125rem;color:var(--text-secondary);margin-inline-end:2px}
+.chip{min-height:40px;padding:6px 14px;border-radius:999px;border:1px solid var(--border-strong);background:var(--surface);font:600 .84rem/1.2 var(--font);color:var(--text);transition:background-color var(--duration-fast),border-color var(--duration-fast),color var(--duration-fast)}
 .chip[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:var(--on-brand)}
-.toolrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
-.hints{margin-top:12px}
-.hint{background:var(--info-soft);color:var(--text);border-radius:10px;padding:10px 12px;margin-top:8px;font-size:.95rem}
-.fb{margin-top:16px;display:grid;gap:12px}
-.verdict{border-radius:12px;padding:12px 14px;font-weight:700}
-.verdict.ok{background:var(--sage);color:var(--sage-ink)}
-.verdict.no{background:var(--bad-bg);color:var(--bad)}
+.toolrow{display:flex;gap:4px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px solid var(--border)}
+.toolrow .btn-sm{min-height:40px}
+.hints{margin-top:4px}
+.hint{display:flex;gap:8px;background:var(--info-soft);color:var(--text);border-radius:var(--radius-md);padding:10px 14px;margin-top:10px;font-size:.95rem;line-height:1.6}
+.hint strong{color:var(--info-text);flex:none}
+.fb{margin-top:20px;display:grid;gap:12px;animation:mq-rise var(--duration-base) ease-out}
+.verdict{display:flex;gap:12px;align-items:flex-start;border-radius:var(--radius-md);padding:12px 14px;font:700 1rem/1.4 var(--font-display)}
+.verdict .vic{flex:none;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;color:var(--on-accent);margin-top:-1px}
+.verdict .vic svg{width:16px;height:16px}
+.verdict .vbody{min-width:0}
+.verdict.ok{background:var(--success-soft);color:var(--success-text)}
+.verdict.ok .vic{background:var(--success)}
+.verdict.no{background:var(--error-soft);color:var(--error-text)}
+.verdict.no .vic{background:var(--error)}
 .verdict.skip{background:var(--surface-sunken);color:var(--text)}
-.sec{border:1px solid var(--border);border-radius:12px;padding:14px 16px;background:var(--surface)}
-.sec h4{margin:0 0 6px;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary)}
+.verdict.skip .vic{background:var(--text-secondary)}
+.verdict .ansline{display:block;margin-top:3px;font:500 .95rem/1.45 var(--font-sans);color:var(--text)}
+.verdict .ansline strong,.verdict .ansline b{font-weight:700}
+.sec{border:1px solid var(--border);border-radius:var(--radius-md);padding:14px 16px;background:var(--surface)}
+.sec h4{display:flex;align-items:center;gap:6px;margin:0 0 6px;font:700 .75rem/1.3 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary)}
+.sec h4 svg{width:16px;height:16px;flex:none}
+.sec p{margin:0;line-height:1.7}
+.sec p[dir="rtl"],.sec .cx[dir="rtl"],.wwtext[dir="rtl"]{font-family:var(--font-arabic);font-size:1.0625rem;line-height:1.8}
 .sec ul{margin:0;padding-inline-start:18px}
 .sec li{margin:4px 0}
+.sec.expl h4{color:var(--accent)}
 .sec.trick{background:var(--accent-soft);border-color:transparent}
 .sec.trick h4{color:var(--accent)}
-.sec.remember{background:var(--warning-soft);border-color:var(--warning)}
+.sec.trick p{font-weight:500}
+.sec.remember{background:var(--warning-soft);border-color:color-mix(in srgb,var(--warning) 40%,transparent)}
 .sec.remember h4{color:var(--warning-text)}
-.navrow{display:flex;gap:10px;margin-top:18px;align-items:center}
+.sec.key h4{color:var(--info-text)}
+.sec.yourwrong{border-color:transparent;background:var(--error-soft)}
+.sec.yourwrong h4{color:var(--error-text)}
+.yourpick{margin:0 0 6px!important;font-weight:700;color:var(--error-text)}
+.yourpick s{text-decoration-thickness:2px}
+.fb .notice.warn{display:flex;gap:8px}
+.wwothers{padding:0}
+.wwothers summary{cursor:pointer;font:600 .9rem/1.3 var(--font);color:var(--text);min-height:48px;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px}
+.wwothers summary::-webkit-details-marker{display:none}
+.wwothers summary::after{content:"";flex:none;width:8px;height:8px;border-inline-end:2px solid var(--text-secondary);border-bottom:2px solid var(--text-secondary);transform:rotate(45deg);margin-top:-4px;transition:transform var(--duration-fast)}
+.wwothers[open] summary::after{transform:rotate(-135deg);margin-top:4px}
+.wwlist{margin:0;padding:0 16px 14px;list-style:none;display:grid;gap:12px}
+.wwlist li{line-height:1.7;padding-top:12px;border-top:1px solid var(--border)}
+.wwlist .wwtext{display:block;margin-top:2px}
+.navrow{display:flex;gap:10px;margin-top:24px;align-items:center}
 .navrow .btn{flex:1}
-@media (min-width:600px){.navrow .btn{flex:0 0 auto}}
+@media (min-width:600px){.navrow .btn{flex:0 0 auto;min-width:120px}}
+[dir="rtl"] .navrow svg,[dir="rtl"] .mapnav svg,[dir="rtl"] .backlink svg{transform:scaleX(-1)}
 
 /* bubble sheet */
 .sheet{display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:8px}
-.bub{position:relative;min-height:44px;border-radius:10px;border:1.5px solid var(--border-strong);background:var(--surface);font-weight:700;font-variant-numeric:tabular-nums;color:var(--text);font-size:.9rem}
+.bub{position:relative;min-height:44px;border-radius:var(--radius-sm);border:1px solid var(--border-strong);background:var(--surface);font:700 .875rem/1 var(--font);font-variant-numeric:tabular-nums;color:var(--text)}
 .bub.ans{background:var(--brand);border-color:var(--brand);color:var(--on-brand)}
 .bub.ok{background:var(--success-soft);border-color:var(--success);color:var(--success-text)}
 .bub.no{background:var(--error-soft);border-color:var(--error);color:var(--error-text)}
 .bub.cur{box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--accent)}
-.bub .fl{position:absolute;top:-5px;inset-inline-end:-5px;width:14px;height:14px;border-radius:50%;background:var(--warning);border:2px solid var(--surface)}
-.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:.78rem;color:var(--mut);margin-top:12px}
+.bub .fl{position:absolute;top:-4px;inset-inline-end:-4px;width:12px;height:12px;border-radius:50%;background:var(--warning);border:2px solid var(--surface)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:.78rem;color:var(--text-secondary);margin-top:14px}
 .legend span{display:inline-flex;align-items:center;gap:6px}
-.legend i{width:14px;height:14px;border-radius:4px;display:inline-block;border:1.5px solid var(--border-strong);background:var(--surface)}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block;border:1px solid var(--border-strong);background:var(--surface)}
+.legend i.l-ans{background:var(--brand);border-color:var(--brand)}
+.legend i.l-ok{background:var(--success-soft);border-color:var(--success)}
+.legend i.l-no{background:var(--error-soft);border-color:var(--error)}
+.legend i.l-fl{background:var(--warning);border-color:var(--warning);border-radius:50%}
 
 /* annotation */
 .ink-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;touch-action:auto}
 .ink-host.drawing .ink-canvas{pointer-events:auto;touch-action:none;cursor:crosshair}
 .ink-host.drawing{outline:2px dashed var(--accent);outline-offset:6px;border-radius:8px}
-.inkbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;background:var(--lav-2);border-radius:12px;padding:8px;margin-bottom:12px}
-.inkbar .sw{width:44px;height:44px;border-radius:50%;border:5px solid var(--surface);box-shadow:0 0 0 1.5px var(--line);min-width:44px;padding:0}
+html[data-theme="dark"] .ink-canvas,html[data-theme="dark"] .scratch-wrap canvas{filter:invert(1) hue-rotate(180deg)}
+.inkbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;background:var(--surface-sunken);border-radius:var(--radius-md);padding:8px;margin-bottom:12px}
+.inkbar .sw{width:40px;height:40px;border-radius:50%;border:4px solid var(--surface);box-shadow:0 0 0 1px var(--border-strong);min-width:40px;padding:0}
 .inkbar .sw[aria-pressed="true"]{box-shadow:0 0 0 3px var(--accent)}
-.scratch-wrap{position:relative;height:min(60vh,520px);border:1.5px dashed var(--border-strong);border-radius:12px;background:var(--surface);background-image:radial-gradient(var(--border) 1px,transparent 1px);background-size:22px 22px;overflow:hidden}
+.scratch-wrap{position:relative;height:min(60vh,520px);border:1px dashed var(--border-strong);border-radius:var(--radius-md);background:#ffffff;background-image:radial-gradient(#e3e3db 1px,transparent 1px);background-size:22px 22px;overflow:hidden}
+html[data-theme="dark"] .scratch-wrap{background-color:var(--surface);background-image:radial-gradient(var(--border) 1px,transparent 1px)}
 .scratch-wrap canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:crosshair}
 
-/* dialog */
-.dlg-back{position:fixed;inset:0;background:var(--scrim);z-index:60;display:flex;align-items:center;justify-content:center;padding:16px}
-.dlg{background:var(--surface-raised);border-radius:22px;max-width:560px;width:100%;max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);overflow:auto;padding:22px;box-shadow:var(--shadow-3)}
+/* dialog & toast */
+.dlg-back{position:fixed;inset:0;background:var(--scrim);z-index:60;display:flex;align-items:center;justify-content:center;padding:16px;animation:mq-fade var(--duration-base) ease-out}
+.dlg{background:var(--surface-raised);color:var(--text);border-radius:var(--radius-xl);max-width:540px;width:100%;max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);overflow:auto;padding:24px;box-shadow:var(--shadow-3);border:1px solid var(--border);animation:mq-rise var(--duration-slow) ease-out}
 .dlg.wide{max-width:860px}
-.dlg h2{margin-bottom:8px}
-.dlg .actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;margin-top:18px}
-kbd{font:600 .8rem var(--font);background:var(--surface);border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;padding:1px 6px}
+.dlg h2{margin-bottom:10px}
+.dlg .actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;margin-top:20px}
+@media (max-width:480px){.dlg{padding:20px}.dlg .actions .btn{flex:1}}
+kbd{font:600 .8rem var(--font);background:var(--surface);border:1px solid var(--border-strong);border-bottom-width:2px;border-radius:6px;padding:1px 6px}
 .kbdtbl{width:100%;border-collapse:collapse}
-.kbdtbl td{padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+.kbdtbl td{padding:8px 4px;border-bottom:1px solid var(--border);vertical-align:top}
+#toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + var(--safe-b));z-index:80;background:var(--brand);color:var(--on-brand);padding:10px 18px;border-radius:var(--radius-md);max-width:min(92vw,520px);font:600 .9rem/1.45 var(--font);box-shadow:var(--shadow-3);text-align:center;display:none}
 
-/* results */
-.bars{display:grid;gap:10px}
-.bar{display:grid;grid-template-columns:minmax(90px,140px) 1fr 56px;gap:10px;align-items:center;font-size:.92rem}
-.bar .track{height:10px;background:var(--surface-sunken);border-radius:99px;overflow:hidden}
-.bar .track i{display:block;height:100%;background:var(--accent)}
-.ritem{border-top:1px solid var(--line);padding:12px 0}
-.ritem summary{cursor:pointer;list-style:none;display:flex;gap:10px;align-items:flex-start;min-height:44px}
+/* results & history */
+.statgrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,140px),1fr))}
+.bars{display:grid;gap:12px}
+.bar{display:grid;grid-template-columns:minmax(96px,150px) 1fr 76px;gap:12px;align-items:center;font-size:.9rem}
+.bar>span:first-child{display:inline-flex;align-items:center;gap:8px;font-weight:600;min-width:0}
+.bar[data-subject]>span:first-child::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--subj)}
+.bar>span:last-child{text-align:end;font-variant-numeric:tabular-nums}
+.bar .track{height:8px;background:var(--surface-sunken);border-radius:99px;overflow:hidden}
+.bar .track i{display:block;height:100%;background:var(--subj,var(--accent));border-radius:inherit}
+.ritem{border-top:1px solid var(--border);padding:12px 0}
+.ritem:first-child{border-top:none}
+.ritem summary{cursor:pointer;list-style:none;display:flex;gap:12px;align-items:flex-start;min-height:44px}
 .ritem summary::-webkit-details-marker{display:none}
-.ritem .num{flex:none;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;font-weight:700;font-size:.85rem}
+.ritem .num{flex:none;width:30px;height:30px;border-radius:var(--radius-xs);display:grid;place-items:center;font:700 .8125rem/1 var(--font);font-variant-numeric:tabular-nums}
+.num.n-ok{background:var(--success-soft);color:var(--success-text)}
+.num.n-no{background:var(--error-soft);color:var(--error-text)}
+.num.n-un{background:var(--surface-sunken);color:var(--text)}
 .tabs{display:flex;gap:6px;flex-wrap:wrap}
+.histrow{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.histrow .hmode{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:var(--radius-sm);background:var(--accent-soft);color:var(--accent);flex:none}
+.histrow .hmode svg{width:20px;height:20px}
+.histrow .hmode.exam{background:var(--surface-sunken);color:var(--text)}
 
 /* bank */
-.qrow{border-top:1px solid var(--line);padding:14px 0}
-.qrow:first-child{border-top:none}
-.qrow .opts-list{margin:8px 0 0;padding-inline-start:0;list-style:none;display:grid;gap:4px}
-.qrow .opts-list li{padding:6px 10px;border-radius:8px;background:var(--paper);font-size:.95rem}
-.qrow .opts-list li.correct{background:var(--sage);color:var(--sage-ink);font-weight:600}
-mark{background:var(--warning-soft);color:inherit;border-radius:3px;padding:0 1px}
+.qrow{border-top:1px solid var(--border);padding:16px 0}
+.qrow:first-child{border-top:none;padding-top:0}
+.qrow .qmeta{align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.qrow .opts-list{margin:10px 0 0;padding-inline-start:0;list-style:none;display:grid;gap:6px}
+.qrow .opts-list li{padding:8px 12px;border-radius:var(--radius-sm);background:var(--surface-sunken);font-size:.95rem;line-height:1.5}
+.qrow .opts-list li.correct{background:var(--success-soft);color:var(--success-text);font-weight:600}
+.qrow .bstem{margin:0;font-weight:500;line-height:1.55}
+.bk-note{margin-top:8px}
+.bk-trick{margin-top:6px;color:var(--accent);font-weight:500}
+.bk-warn{margin-top:6px;color:var(--warning-text)}
+mark{background:var(--warning-soft);color:inherit;border-radius:3px;padding:0 2px;box-shadow:inset 0 -2px 0 var(--warning)}
+details.card>summary{cursor:pointer;font-weight:600;color:var(--text);min-height:28px}
 
-footer{border-top:1px solid var(--line);padding:18px 0 28px;color:var(--mut);font-size:.84rem}
-body.has-bottomnav footer{padding-bottom:calc(96px + var(--safe-b))}
+footer{border-top:1px solid var(--border);padding:20px 0 28px;color:var(--text-secondary);font-size:.82rem;line-height:1.6}
+footer .footbrand{display:flex;align-items:center;gap:8px;font:800 .95rem/1 var(--font-display);letter-spacing:-.02em;color:var(--text);margin-bottom:8px}
+footer .footbrand .brand-mark{width:22px;height:22px}
+body.has-bottomnav footer{padding-bottom:calc(100px + var(--safe-b))}
 
 @media (max-width:420px){
   .lbl-txt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
   body{font-size:15px}
-  .card{padding:16px}
-  .stem{font-size:1.02rem}
-  .opt{padding:11px 12px;font-size:.97rem}
-  .sess-top .wrap{gap:8px}
+  .stem{font-size:1.125rem;line-height:1.55}
+  .opt{padding:12px 14px;font-size:1rem}
+  .sess-top .wrap{gap:6px}
 }
+@media (max-width:600px){.sess-lbl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}}
 @media (orientation:landscape) and (max-height:520px){
   .apphead .wrap,.sess-top .wrap{min-height:50px}
   main{padding-top:12px}
@@ -286,65 +504,72 @@ body.has-bottomnav footer{padding-bottom:calc(96px + var(--safe-b))}
 
 /* ---------- language / RTL ---------- */
 .ulist{margin:6px 0 0;padding-inline-start:18px}
-.rsub{padding:10px 0 0;padding-inline-start:40px}
+.ulist li{margin:4px 0}
+.rsub{padding:10px 0 0;padding-inline-start:42px}
 .ltr{direction:ltr;unicode-bidi:isolate;text-align:left}
 .content-auto{unicode-bidi:plaintext;text-align:start}
 .savecard{display:flex;flex-wrap:wrap;align-items:center;gap:12px 16px;padding:14px 16px}
 .savecard .savehead{display:flex;align-items:center;gap:12px;flex:1 1 240px;min-width:0}
-.savecard .saveic{font-size:1.5rem;line-height:1}
+.savecard .saveic{display:grid;place-items:center;width:40px;height:40px;border-radius:var(--radius-sm);background:var(--accent-soft);color:var(--accent);flex:none}
+.savecard .saveic svg{width:22px;height:22px}
 .savecard .saveacts{gap:8px;flex-wrap:wrap}
 .savecard.due{border-color:var(--warning);background:var(--warning-soft)}
-.codebox{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.15rem;font-weight:700;letter-spacing:.06em;line-height:1.8;padding:12px 14px;border-radius:12px;background:var(--surface-sunken);color:var(--text);text-align:center;user-select:all;-webkit-user-select:all}
+.savecard.due .saveic{background:var(--surface);color:var(--warning-text)}
+.codebox{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.15rem;font-weight:700;letter-spacing:.06em;line-height:1.8;padding:12px 14px;border-radius:var(--radius-md);background:var(--surface-sunken);color:var(--text);text-align:center;user-select:all;-webkit-user-select:all}
 .codebox .cg{display:inline-block;white-space:nowrap}
-.codein{width:100%;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.05rem;letter-spacing:.05em;padding:10px;border-radius:10px;border:1px solid var(--border-input);background:var(--surface);text-transform:uppercase}
+.codein{width:100%;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.05rem;letter-spacing:.05em;padding:10px;border-radius:var(--radius-sm);border:1px solid var(--border-input);background:var(--surface);color:var(--text);text-transform:uppercase}
+.codein:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
 .credit{margin:2px 0 6px;font-size:.78rem;color:var(--text-secondary);text-align:start}
 html[dir="rtl"] .credit{text-align:right}
-.maplist{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
-.maplink{display:flex;align-items:center;gap:12px;width:100%;min-height:64px;padding:8px;border:1px solid var(--line);border-radius:14px;background:var(--surface);cursor:pointer;text-align:start;font:inherit;color:inherit}
-.maplink:hover,.maplink:focus-visible{border-color:var(--accent);background:var(--accent-soft)}
-.maplink img{width:96px;height:68px;object-fit:cover;border-radius:8px;border:1px solid var(--line);flex:none;background:#ffffff}
+.maplist{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:10px}
+.maplink{display:flex;align-items:center;gap:12px;width:100%;min-height:64px;padding:8px;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--surface);cursor:pointer;text-align:start;font:inherit;color:inherit;transition:border-color var(--duration-fast),box-shadow var(--duration-base)}
+.maplink:focus-visible{border-color:var(--accent)}
+.maplink img{width:96px;height:68px;object-fit:cover;border-radius:var(--radius-xs);border:1px solid var(--border);flex:none;background:#ffffff}
 .maplink .mltext{display:flex;flex-direction:column;gap:2px;min-width:0}
-.maplink .mlno{font-size:.8rem;color:var(--accent);font-weight:700}
+.maplink .mlno{font-size:.78rem;color:var(--accent);font-weight:700}
 .maplink .mltitle{font-weight:700;text-align:start}
 html[dir="rtl"] .maplink .mltitle{text-align:right}
+.mapgroup h2{display:flex;align-items:center;gap:10px}
 .ltrhead{text-align:start}
 html[dir="rtl"] .ltrhead{text-align:right}
-.mapview{overflow:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:14px;background:#ffffff;max-height:78vh;touch-action:pan-x pan-y pinch-zoom}
+.mapview{overflow:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--border);border-radius:var(--radius-lg);background:#ffffff;max-height:78vh;touch-action:pan-x pan-y pinch-zoom}
 .mapview img{display:block;width:100%;height:auto}
 .mapview.zoom img{width:260%;max-width:none}
 @media (min-width:900px){.mapview.zoom img{width:180%}}
 .maptools,.mapnav{flex-wrap:wrap;gap:8px}
-.sec.yourwrong{border-color:transparent;background:var(--error-soft)}
-.sec.yourwrong h4{color:var(--error-text)}
-.yourpick{margin:0 0 6px;font-weight:700;color:var(--bad)}
-.yourpick s{text-decoration-thickness:2px}
-.wwothers summary{cursor:pointer;font-weight:600;color:var(--text);min-height:28px;list-style-position:inside}
-.wwlist{margin:8px 0 0;padding-inline-start:18px;display:grid;gap:8px}
-.wwlist li{line-height:1.7}
-.wwlist .wwtext{display:block}
 .credit.disc{font-size:.74rem;max-width:640px;line-height:1.6}
-.trbox{direction:rtl;text-align:right;unicode-bidi:isolate;background:var(--surface-sunken);border-radius:10px;padding:10px 14px;margin:0 0 10px;font-family:var(--font-arabic);line-height:1.75;color:var(--text)}
+.trbox{direction:rtl;text-align:right;unicode-bidi:isolate;background:var(--surface-sunken);border-radius:var(--radius-md);padding:10px 14px;margin:-6px 0 16px;font-family:var(--font-arabic);font-size:1.02rem;line-height:1.75;color:var(--text)}
 .cx{unicode-bidi:isolate;text-align:start}
-.verdict .ansline{display:block;margin-top:4px}
-.langbtn{margin-inline-start:8px;border:1.5px solid var(--line);background:var(--surface);min-height:44px;padding:6px 12px;border-radius:12px;font-weight:700;color:var(--plum);font-size:.9rem}
 html[dir="rtl"] body{--font:var(--font-arabic);--serif:var(--font-arabic);line-height:1.75}
-html[dir="rtl"] .eyebrow{letter-spacing:0;text-transform:none;font-size:.85rem}
-html[dir="rtl"] .sec h4{letter-spacing:0;text-transform:none;font-size:.85rem}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3{letter-spacing:0;line-height:1.45}
+html[dir="rtl"] .eyebrow,html[dir="rtl"] .sec h4{letter-spacing:0;text-transform:none;font-size:.85rem}
 html[dir="rtl"] .switch input:checked::after{transform:translateX(-18px)}
 html[dir="rtl"] .key-ar{font-family:var(--font)}
-.ltr, .stem, .opt{font-family:var(--font-sans);line-height:1.55}
-.langscreen{position:fixed;inset:0;z-index:100;background:var(--paper);display:flex;align-items:center;justify-content:center;padding:24px max(16px,var(--safe-r)) calc(24px + var(--safe-b)) max(16px,var(--safe-l))}
+html[dir="rtl"] .brand,html[dir="rtl"] .footbrand{font-family:var(--font-display)}
+.ltr,.stem,.opt{font-family:var(--font-sans)}
+.ltr{line-height:1.55}
+.langscreen{position:fixed;inset:0;z-index:100;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px max(16px,var(--safe-r)) calc(24px + var(--safe-b)) max(16px,var(--safe-l))}
 .langcard{max-width:440px;width:100%;text-align:center}
-.langcard .brand-mark{width:56px;height:56px;border-radius:16px;margin:0 auto 16px}
-.langcard .brand-mark svg{width:30px;height:30px}
+.langcard .brand-mark{width:64px;height:64px;margin:0 auto 14px}
+.langcard h1{font:800 2rem/1 var(--font-display);letter-spacing:-.03em;margin-bottom:10px}
 .langopts{display:grid;gap:12px;margin-top:22px}
-.langopts button{min-height:64px;border-radius:16px;border:2px solid var(--line);background:var(--surface);font-size:1.2rem;font-weight:700;color:var(--plum)}
-.langopts button:focus-visible,.langopts button:hover{border-color:var(--accent)}
-.langopts button[lang="ar"]{font-family:var(--font-arabic);font-size:1.3rem}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+.langopts button{min-height:64px;border-radius:var(--radius-lg);border:1px solid var(--border-strong);background:var(--surface);font:700 1.15rem/1 var(--font-sans);color:var(--text);transition:border-color var(--duration-fast),box-shadow var(--duration-fast)}
+.langopts button:focus-visible,.langopts button:hover{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.langopts button[lang="ar"]{font-family:var(--font-arabic);font-size:1.25rem}
+.empty{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:28px 12px}
+.empty .eart{display:grid;place-items:center;width:60px;height:60px;border-radius:50%;background:var(--accent-soft);color:var(--accent);margin-bottom:4px}
+.empty .eart svg{width:28px;height:28px}
+.empty p{max-width:44ch;margin:0}
+.bootspin{width:30px;height:30px;border-radius:50%;border:3px solid var(--surface-sunken);border-top-color:var(--accent);animation:mq-spin .9s linear infinite;margin:0 auto 14px}
+@keyframes mq-rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes mq-fade{from{opacity:0}to{opacity:1}}
+@keyframes mq-spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 @media print{
-  .apphead,.bottomnav,footer,.noprint,.sess-top{display:none!important}
-  body{background:#fff}
+  :root,[data-theme]{--bg:#ffffff;--surface:#ffffff}
+  html[data-theme="dark"]{--text:#14283f;--text-secondary:#4b5866;--border:#cccccc}
+  .apphead,.bottomnav,footer,.noprint,.sess-top,#toast{display:none!important}
+  body{background:#ffffff;color:#14283f}
   .card{box-shadow:none;border-color:#cccccc;break-inside:avoid}
   details{display:block}
   details>*{display:block}
@@ -356,25 +581,22 @@ html[dir="rtl"] .key-ar{font-family:var(--font)}
 
 <header class="apphead" id="apphead">
   <div class="wrap">
-    <a class="brand" href="#home" id="brandlink">
-      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#E9DDF7" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
-      MedQ
-    </a>
+    <a class="brand" href="#home" id="brandlink"><span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path class="mq-ring" d="M21.74 35.8A13 13 0 1 1 35.78 28.49"/><path class="mq-m" d="M17.5 28V17.5l6.5 7 6.5-7V28"/><path class="mq-tail" d="M24 36H37"/></svg></span>MedQore</a>
     <nav class="topnav" id="topnav"></nav>
-    <button class="langbtn" id="langbtn" type="button"></button>
+    <div class="headtools"><button class="icon-btn themebtn" id="themebtn" type="button"></button><button class="langbtn" id="langbtn" type="button"></button></div>
   </div>
 </header>
 
-<main id="app" tabindex="-1"><div id="bootmsg" style="padding:48px 16px;text-align:center;color:#302248"><p style="font-weight:700">Loading… · جاري التحميل…</p></div></main>
+<main id="app" tabindex="-1"><div id="bootmsg" style="padding:56px 16px;text-align:center;color:var(--text-secondary,#637386)"><div class="bootspin"></div><p style="font-weight:600">Loading… · جاري التحميل…</p></div></main>
 <script>
 (function(){
   window.__medqBooted=false;
   function show(msg){
     var app=document.getElementById("app"); if(!app) return;
-    app.innerHTML='<div role="alert" style="max-width:560px;margin:40px auto;padding:18px;border-radius:14px;background:#fbe9ec;color:#7a1f33;font-family:system-ui,sans-serif;line-height:1.6">'
+    app.innerHTML='<div role="alert" style="max-width:560px;margin:40px auto;padding:18px;border-radius:14px;background:#f9e9e8;color:#a23e3f;font-family:system-ui,sans-serif;line-height:1.6">'
       +'<p style="font-weight:700;margin:0 0 6px">The site could not start · الموقع مقدرش يشتغل</p>'
       +'<p style="margin:0 0 10px;font-size:14px;direction:ltr;text-align:left;word-break:break-word">'+String(msg).replace(/[<>&]/g,"")+'</p>'
-      +'<button id="bootreset" style="min-height:44px;padding:8px 14px;border-radius:10px;border:0;background:#302248;color:#fff;font-weight:700">Reset saved data & reload · مسح البيانات المحفوظة وإعادة التحميل</button>'
+      +'<button id="bootreset" style="min-height:44px;padding:8px 14px;border-radius:10px;border:0;background:#14283f;color:#fff;font-weight:700">Reset saved data & reload · مسح البيانات المحفوظة وإعادة التحميل</button>'
       +'</div>';
     var b=document.getElementById("bootreset"); if(b) b.onclick=function(){ try{ for(var i=localStorage.length-1;i>=0;i--){ var k=localStorage.key(i); if(k&&k.indexOf("medq")===0) localStorage.removeItem(k);} }catch(e){} location.reload(); };
   }
@@ -387,6 +609,7 @@ html[dir="rtl"] .key-ar{font-family:var(--font)}
 
 <footer id="footer">
   <div class="wrap">
+    <div class="footbrand"><span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path class="mq-ring" d="M21.74 35.8A13 13 0 1 1 35.78 28.49"/><path class="mq-m" d="M17.5 28V17.5l6.5 7 6.5-7V28"/><path class="mq-tail" d="M24 36H37"/></svg></span>MedQore</div>
     <p id="foot1"></p>
     <p id="foot2"></p>
   </div>
@@ -399,16 +622,22 @@ html[dir="rtl"] .key-ar{font-family:var(--font)}
 <script>
 "use strict";
 /* =========================================================================
-   MedQ — single-page quiz app. No external libraries, no network calls
+   MedQore — single-page quiz app. No external libraries; the only network calls are the bank file and the web fonts
    except loading questions.json from the same folder.
    ========================================================================= */
 
 // ---------- interface language (UI strings only; medical content is never translated) ----------
 const I18N = {
   en: {
-    "app.title": "MedQ — Medical Question Bank", "skip": "Skip to content", "brand.home": "MedQ home",
-    "nav.maps": "Mind maps", "title.maps": "Mind maps — MedQ", "maps.h1": "Mind maps", "maps.sub": "One mind map per lecture. Tap a lecture to open it.", "maps.lec": "Lecture {n}", "maps.all": "All mind maps", "maps.zoomIn": "Zoom in", "maps.zoomOut": "Fit to screen", "maps.open": "Open image", "maps.prev": "Previous lecture", "maps.next": "Next lecture", "maps.hint": "After zooming in, swipe to move around. You can also pinch to zoom.", "maps.none": "This mind map wasn't found.", "nav.main": "Main", "nav.home": "Home", "nav.practice": "Practice", "nav.exam": "Exam", "nav.bank": "Questions", "nav.history": "Progress",
-    "title.practice": "Practice — MedQ", "title.exam": "Exam — MedQ", "title.revise": "Revision — MedQ", "title.bank": "Questions — MedQ", "title.history": "Progress — MedQ", "title.results": "Results — MedQ", "title.session": "In progress — MedQ",
+    "theme.toDark": "Switch to dark mode", "theme.toLight": "Switch to light mode", "title.module": "Module — MedQore",
+    "home.modules": "Modules", "home.progressH": "Your progress", "home.seeAll": "See all", "home.statAccS": "Accuracy", "home.statAnsS": "Answered", "home.statSessS": "Sessions", "home.resume": "Resume",
+    "mod.soon": "Coming soon", "mod.soonSub": "Question bank in preparation.", "mod.open": "Open {name}", "mod.back": "All modules", "mod.eyebrow": "Module", "mod.all": "All subjects", "mod.choose": "Study one subject or the whole module — everything below follows your choice.",
+    "mod.subjMeta": "{q} · {p}% correct", "mod.subjNew": "{q} · not started", "mod.subjSel": "Choose subject", "mod.study": "Study {s}", "mod.browse": "Browse questions", "mod.browseSub": "Search, filter and read with answers", "mod.maps": "Mind maps", "mod.mapsSub": "{n} lecture maps",
+    "mod.revSub": "{q} from wrong, unsure and flagged answers", "mod.revNone": "Nothing to revise here yet",
+    "qx.T": "Quick exam", "qx.sub": "Random questions, timed, no repeats — one tap.", "qx.n": "Questions", "qx.m": "Minutes", "qx.go": "Start quick exam", "qx.scope": "From: {s}", "qx.all": "all available subjects", "qx.less": "Fewer", "qx.more": "More",
+    "app.title": "MedQore — Medical Question Bank", "skip": "Skip to content", "brand.home": "MedQore home",
+    "nav.maps": "Mind maps", "title.maps": "Mind maps — MedQore", "maps.h1": "Mind maps", "maps.sub": "One mind map per lecture. Tap a lecture to open it.", "maps.lec": "Lecture {n}", "maps.all": "All mind maps", "maps.zoomIn": "Zoom in", "maps.zoomOut": "Fit to screen", "maps.open": "Open image", "maps.prev": "Previous lecture", "maps.next": "Next lecture", "maps.hint": "After zooming in, swipe to move around. You can also pinch to zoom.", "maps.none": "This mind map wasn't found.", "nav.main": "Main", "nav.home": "Home", "nav.practice": "Practice", "nav.exam": "Exam", "nav.bank": "Questions", "nav.history": "Progress",
+    "title.practice": "Practice — MedQore", "title.exam": "Exam — MedQore", "title.revise": "Revision — MedQore", "title.bank": "Questions — MedQore", "title.history": "Progress — MedQore", "title.results": "Results — MedQore", "title.session": "In progress — MedQore",
     "lang.switch": "العربية", "lang.switchLabel": "Switch the interface to Arabic", "lang.choose": "Choose your language", "lang.chooseSub": "This only changes the interface. Questions and explanations stay exactly as written. You can change it any time.",
     "foot.privacy": "<strong>Privacy:</strong> no sign-in and no tracking. Your answers, notes, drawings and results are stored only in this browser on this device and are never sent anywhere. Clearing your browser data, or using private browsing, removes them.",
     "foot.disclaimer": "For educational practice. Not a substitute for your lecture notes, clinical guidelines or professional judgement.",
@@ -451,7 +680,7 @@ const I18N = {
     "s.qn": "Question {i}.", "s.conf": "Confidence:", "s.confLabel": "Confidence", "s.sure": "Sure", "s.unsure": "Unsure", "s.guess": "Guess",
     "s.hintN": "Hint {i} of {n}", "s.hintsAll": "All hints shown", "s.hint": "Hint {i}:", "s.check": "Check answer", "s.clear": "Clear answer",
     "s.draw": "Draw", "s.drawing": "Drawing", "s.scratch": "Scratchpad", "s.tr": "Translate", "s.report": "Report an error", "s.reportHint": "Opens a short form in a new tab with this question's number filled in.", "s.trHide": "Hide translation", "s.trLabel": "Arabic translation of the question", "s.notes": "Notes", "s.notesFor": "Your notes for {id}", "s.notesSaved": "(saved automatically in this browser)", "s.notesPh": "Write anything that helps you remember…",
-    "s.prev": "← Previous", "s.next": "Next →", "s.reviewSubmit": "Review & submit",
+    "s.prev": "Previous", "s.next": "Next", "s.reviewSubmit": "Review & submit",
     "s.correctTag": "Correct answer", "s.yourTag": "Your answer",
     "s.announceOk": "Correct", "s.announceNo": "Incorrect. The answer is {a}", "s.flagOn": "Flagged", "s.flagOff": "Flag removed", "s.favOn": "Added to favourites", "s.favOff": "Removed from favourites",
     "s.drawOn": "Drawing on. Options cannot be selected until you press Done.",
@@ -465,11 +694,11 @@ const I18N = {
     "fb.expl": "Explanation", "fb.whyWrong": "Why the other options are wrong", "fb.yours": "Why your answer is wrong", "fb.others": "Why the other options are wrong", "fb.allWrong": "Why each wrong option is wrong", "fb.key": "Key concept", "fb.trick": "Memory trick", "fb.remember": "Remember",
     "fb.noExpl": "No explanation for this question yet. Use <strong>Notes</strong> to write your own reminder.",
     // ink
-    "ink.tools": "Drawing tools", "ink.pen": "Pen", "ink.hl": "Highlighter", "ink.er": "Eraser", "ink.plum": "Plum ink", "ink.red": "Red ink", "ink.blue": "Blue ink",
+    "ink.tools": "Drawing tools", "ink.pen": "Pen", "ink.hl": "Highlighter", "ink.er": "Eraser", "ink.plum": "Navy ink", "ink.red": "Red ink", "ink.blue": "Blue ink",
     "ink.undo": "Undo", "ink.redo": "Redo", "ink.clear": "Clear", "ink.done": "Done", "ink.clearT": "Clear drawing?", "ink.clearB": "This removes all marks here. You can undo straight after.",
     "pad.title": "Scratchpad · {id}", "pad.sub": "Work things out here. Saved for this question in this browser.", "pad.area": "Scratchpad drawing area",
     // results
-    "r.noneT": "No results yet", "r.noneB": "Finish a practice session or an exam to see results here.", "r.all": "← All results",
+    "r.noneT": "No results yet", "r.noneB": "Finish a practice session or an exam to see results here.", "r.all": "All results",
     "r.eyebrow": "{mode} results · {date}", "r.pct": "{p}% correct", "r.subExam": "{c} of {n} questions, unanswered count as incorrect.", "r.subTrain": "{c} of {n} answered questions.", "r.skipped": "{n} skipped (not counted)",
     "r.auto": "Submitted automatically when time ran out", "r.correct": "Correct", "r.incorrect": "Incorrect", "r.unans": "Unanswered", "r.skippedLbl": "Skipped",
     "r.time": "Time spent", "r.limit": "(limit {t})", "r.onQuestions": "on questions", "r.avg": "Average per answered question",
@@ -480,12 +709,12 @@ const I18N = {
     "r.review": "Question review", "r.showAns": "Show answers", "r.fAll": "All", "r.fWrong": "Incorrect", "r.fUnans": "Unanswered", "r.fFlag": "Flagged",
     "r.yourAnswer": "Your answer:", "r.hidden": "Answers hidden. Switch on “Show answers” to see them.", "r.emptyList": "No questions in this list.", "r.hints": "{n} hints", "r.hint1": "1 hint",
     "r.copied": "Results copied to the clipboard.", "r.copyNo": "Copy is not available in this browser.", "r.printNo": "Printing is not available here.",
-    "rt.title": "MedQ results — {mode} — {date}", "rt.scoreExam": "Score: {c}/{n} ({p}%) · Incorrect: {w} · Unanswered: {u}", "rt.scoreTrain": "Correct: {c} of {n} answered ({p}%) · Skipped: {u}",
+    "rt.title": "MedQore results — {mode} — {date}", "rt.scoreExam": "Score: {c}/{n} ({p}%) · Incorrect: {w} · Unanswered: {u}", "rt.scoreTrain": "Correct: {c} of {n} answered ({p}%) · Skipped: {u}",
     "rt.time": "Time spent: {t}", "rt.of": " of {t}", "rt.byTopic": "By topic:", "rt.questions": "Questions:", "rt.answer": "answer", "rt.you": "you",
     // history
     "h.eyebrow": "Your progress (this browser only)", "h.h1": "Progress", "h.allAnswers": "All recorded answers", "h.correctOf": "{c} correct of {n} answers", "h.noAnswers": "No answers recorded yet.",
     "h.weakEmpty": "Concepts appear here once answered at least twice with under 70% accuracy.", "h.sessions": "Completed sessions", "h.pctOf": "{p}% of {n} answered", "h.view": "View", "h.noSessions": "No completed sessions yet.",
-    "sc.T": "Save your progress", "sc.none": "Studied on another device? Restore your progress with your code.", "sc.never": "Your progress is only on this device. Get a short code so you never lose it.", "sc.today": "Last saved: today", "sc.days": "Last saved: {d} days ago", "sc.due": "Last saved {d} days ago — save a new code", "sc.get": "Get my code", "sc.rest": "I have a code", "sc.dlgB": "Write this code down or send it to yourself. Enter it on any device to continue where you stopped.", "sc.inc": "Saves: right/wrong for every question, flags, favourites and language. Exam history, notes and drawings are only in the full backup file (Progress page).", "sc.restB": "Type or paste your code. Spaces, dashes and small letters are fine.", "sc.restOk": "Restore", "sc.restConf": "This will replace the answers, flags and favourites on this device with the ones in the code ({n} answered questions). Exam history and notes on this device are kept.", "sc.old": "This code was made for a different version of the question bank.", "sc.typo": "This code has a typo. Check it and try again.", "sc.len": "{n} characters", "code.btn": "Get backup code", "code.restBtn": "Restore from code", "code.T": "Your backup code", "code.B": "Copy this code and keep it somewhere safe (for example, send it to yourself on WhatsApp). Paste it on any device with “Restore from code” to get your progress back. Pen drawings are not included in the code — use the backup file for those.", "code.copy": "Copy code", "code.share": "Share", "code.copied": "Code copied.", "code.copyFail": "Couldn't copy automatically — select the code and copy it.", "code.restT": "Restore from code", "code.restB": "Paste your backup code below.", "code.ph": "Paste the code here", "code.restGo": "Restore", "code.bad": "This code isn't valid or is incomplete. Make sure you copied all of it.", "code.making": "Preparing…", "rem.T": "Protect your progress", "rem.B": "You haven't saved a backup in a while. If this browser's data is cleared, your progress is lost. It takes a few seconds.", "rem.B0": "Your progress lives only in this browser. Save a backup code so you never lose it.", "rem.go": "Save a backup", "rem.later": "Later", "a2hs.T": "Tip for iPhone", "a2hs.B": "Add MedQ to your Home Screen (Share ⬆️ → Add to Home Screen) so Safari is less likely to clear your progress. The Home Screen icon keeps its own data, so open it once and use “Restore from code” to move your progress there.", "a2hs.ok": "Got it", "h.backT": "Back up or move your progress", "h.backSub": "Your progress is saved automatically on this device. Download a backup file to keep it safe, or to open it on another phone or computer. The file contains only your answers, notes and results, with no name or account.", "h.backBtn": "Download backup file", "h.restBtn": "Restore from backup file", "h.backDone": "Backup file downloaded.", "h.restT": "Restore this backup?", "h.restB": "Your current progress on this device will be replaced by the progress in the file ({n} answered questions, {s} finished sessions).", "h.restOk": "Restore", "h.restDone": "Progress restored.", "h.restBad": "This file is not a MedQ backup, or it is damaged.", "h.backFail": "The download was blocked here. Open the site directly in the browser and try again.",
+    "sc.T": "Save your progress", "sc.none": "Studied on another device? Restore your progress with your code.", "sc.never": "Your progress is only on this device. Get a short code so you never lose it.", "sc.today": "Last saved: today", "sc.days": "Last saved: {d} days ago", "sc.due": "Last saved {d} days ago — save a new code", "sc.get": "Get my code", "sc.rest": "I have a code", "sc.dlgB": "Write this code down or send it to yourself. Enter it on any device to continue where you stopped.", "sc.inc": "Saves: right/wrong for every question, flags, favourites and language. Exam history, notes and drawings are only in the full backup file (Progress page).", "sc.restB": "Type or paste your code. Spaces, dashes and small letters are fine.", "sc.restOk": "Restore", "sc.restConf": "This will replace the answers, flags and favourites on this device with the ones in the code ({n} answered questions). Exam history and notes on this device are kept.", "sc.old": "This code was made for a different version of the question bank.", "sc.typo": "This code has a typo. Check it and try again.", "sc.len": "{n} characters", "code.btn": "Get backup code", "code.restBtn": "Restore from code", "code.T": "Your backup code", "code.B": "Copy this code and keep it somewhere safe (for example, send it to yourself on WhatsApp). Paste it on any device with “Restore from code” to get your progress back. Pen drawings are not included in the code — use the backup file for those.", "code.copy": "Copy code", "code.share": "Share", "code.copied": "Code copied.", "code.copyFail": "Couldn't copy automatically — select the code and copy it.", "code.restT": "Restore from code", "code.restB": "Paste your backup code below.", "code.ph": "Paste the code here", "code.restGo": "Restore", "code.bad": "This code isn't valid or is incomplete. Make sure you copied all of it.", "code.making": "Preparing…", "rem.T": "Protect your progress", "rem.B": "You haven't saved a backup in a while. If this browser's data is cleared, your progress is lost. It takes a few seconds.", "rem.B0": "Your progress lives only in this browser. Save a backup code so you never lose it.", "rem.go": "Save a backup", "rem.later": "Later", "a2hs.T": "Tip for iPhone", "a2hs.B": "Add MedQore to your Home Screen (Share ⬆️ → Add to Home Screen) so Safari is less likely to clear your progress. The Home Screen icon keeps its own data, so open it once and use “Restore from code” to move your progress there.", "a2hs.ok": "Got it", "h.backT": "Back up or move your progress", "h.backSub": "Your progress is saved automatically on this device. Download a backup file to keep it safe, or to open it on another phone or computer. The file contains only your answers, notes and results, with no name or account.", "h.backBtn": "Download backup file", "h.restBtn": "Restore from backup file", "h.backDone": "Backup file downloaded.", "h.restT": "Restore this backup?", "h.restB": "Your current progress on this device will be replaced by the progress in the file ({n} answered questions, {s} finished sessions).", "h.restOk": "Restore", "h.restDone": "Progress restored.", "h.restBad": "This file is not a MedQore backup, or it is damaged.", "h.backFail": "The download was blocked here. Open the site directly in the browser and try again.",
     "h.data": "Your data", "h.dataSub": "Answers, flags, favourites, notes, drawings and results are stored only in this browser. Nothing is uploaded.", "h.wipe": "Delete all my data in this browser",
     "h.wipeT": "Delete all data?", "h.wipeB": "This permanently removes your answers, flags, favourites, notes, drawings, results and any unfinished session from this browser. Your language choice is kept.", "h.wipeBtn": "Delete everything", "h.wiped": "All data deleted.",
     // bank
@@ -505,9 +734,15 @@ const I18N = {
     "k.arrows": "← / →"
   },
   ar: {
-    "app.title": "MedQ — بنك الأسئلة الطبية", "skip": "انتقل إلى المحتوى", "brand.home": "الصفحة الرئيسية لـ MedQ",
-    "nav.maps": "الخرائط", "title.maps": "الخرائط الذهنية — MedQ", "maps.h1": "الخرائط الذهنية", "maps.sub": "خريطة ذهنية لكل محاضرة. اضغط على اسم المحاضرة عشان تفتحها.", "maps.lec": "المحاضرة {n}", "maps.all": "كل الخرائط", "maps.zoomIn": "تكبير", "maps.zoomOut": "عرض كامل", "maps.open": "فتح الصورة", "maps.prev": "المحاضرة اللي قبلها", "maps.next": "المحاضرة اللي بعدها", "maps.hint": "بعد التكبير اسحب بصباعك عشان تتحرك في الخريطة. وتقدر كمان تكبّر بصباعين.", "maps.none": "الخريطة دي مش موجودة.", "nav.main": "القائمة الرئيسية", "nav.home": "الرئيسية", "nav.practice": "تدريب", "nav.exam": "امتحان", "nav.bank": "الأسئلة", "nav.history": "التقدّم",
-    "title.practice": "تدريب — MedQ", "title.exam": "امتحان — MedQ", "title.revise": "مراجعة — MedQ", "title.bank": "الأسئلة — MedQ", "title.history": "التقدّم — MedQ", "title.results": "النتائج — MedQ", "title.session": "جارٍ الحل — MedQ",
+    "theme.toDark": "التحويل للوضع الداكن", "theme.toLight": "التحويل للوضع الفاتح", "title.module": "موديول — MedQore",
+    "home.modules": "الموديولات", "home.progressH": "تقدّمك", "home.seeAll": "عرض الكل", "home.statAccS": "نسبة الصواب", "home.statAnsS": "إجابات", "home.statSessS": "جلسات", "home.resume": "استكمل",
+    "mod.soon": "قريبًا", "mod.soonSub": "بنك الأسئلة قيد التجهيز.", "mod.open": "افتح {name}", "mod.back": "كل الموديولات", "mod.eyebrow": "موديول", "mod.all": "كل المواد", "mod.choose": "ذاكر مادة واحدة أو الموديول كله — كل اللي تحت بيمشي على اختيارك.",
+    "mod.subjMeta": "{q} · {p}% صح", "mod.subjNew": "{q} · لسه ما بدأتش", "mod.subjSel": "اختار المادة", "mod.study": "ذاكر {s}", "mod.browse": "تصفّح الأسئلة", "mod.browseSub": "ابحث وصفّي واقرا الأسئلة بإجاباتها", "mod.maps": "الخرائط الذهنية", "mod.mapsSub": "{n} خريطة للمحاضرات",
+    "mod.revSub": "{q} من الإجابات الغلط وغير المتأكدة والمعلَّمة", "mod.revNone": "مفيش حاجة تراجعها هنا لسه",
+    "qx.T": "امتحان سريع", "qx.sub": "أسئلة عشوائية بوقت محدد ومن غير تكرار — بضغطة واحدة.", "qx.n": "عدد الأسئلة", "qx.m": "الدقائق", "qx.go": "ابدأ الامتحان السريع", "qx.scope": "من: {s}", "qx.all": "كل المواد المتاحة", "qx.less": "أقل", "qx.more": "أكتر",
+    "app.title": "MedQore — بنك الأسئلة الطبية", "skip": "انتقل إلى المحتوى", "brand.home": "الصفحة الرئيسية لـ MedQore",
+    "nav.maps": "الخرائط", "title.maps": "الخرائط الذهنية — MedQore", "maps.h1": "الخرائط الذهنية", "maps.sub": "خريطة ذهنية لكل محاضرة. اضغط على اسم المحاضرة عشان تفتحها.", "maps.lec": "المحاضرة {n}", "maps.all": "كل الخرائط", "maps.zoomIn": "تكبير", "maps.zoomOut": "عرض كامل", "maps.open": "فتح الصورة", "maps.prev": "المحاضرة اللي قبلها", "maps.next": "المحاضرة اللي بعدها", "maps.hint": "بعد التكبير اسحب بصباعك عشان تتحرك في الخريطة. وتقدر كمان تكبّر بصباعين.", "maps.none": "الخريطة دي مش موجودة.", "nav.main": "القائمة الرئيسية", "nav.home": "الرئيسية", "nav.practice": "تدريب", "nav.exam": "امتحان", "nav.bank": "الأسئلة", "nav.history": "التقدّم",
+    "title.practice": "تدريب — MedQore", "title.exam": "امتحان — MedQore", "title.revise": "مراجعة — MedQore", "title.bank": "الأسئلة — MedQore", "title.history": "التقدّم — MedQore", "title.results": "النتائج — MedQore", "title.session": "جارٍ الحل — MedQore",
     "lang.switch": "English", "lang.switchLabel": "تحويل الواجهة إلى الإنجليزية", "lang.choose": "اختر لغة الواجهة", "lang.chooseSub": "هذا يغيّر الواجهة فقط، وتبقى الأسئلة والشروح كما هي تمامًا. يمكنك تغيير اللغة في أي وقت.",
     "foot.privacy": "<strong>الخصوصية:</strong> بدون تسجيل دخول وبدون تتبّع. إجاباتك وملاحظاتك ورسوماتك ونتائجك محفوظة في هذا المتصفح على هذا الجهاز فقط ولا تُرسل إلى أي مكان. مسح بيانات المتصفح أو استخدام التصفح الخاص يحذفها.",
     "foot.disclaimer": "للتدريب التعليمي فقط، ولا يغني عن محاضراتك أو الإرشادات السريرية أو رأي المختصين.",
@@ -547,7 +782,7 @@ const I18N = {
     "s.qn": "السؤال {i}.", "s.conf": "درجة الثقة:", "s.confLabel": "درجة الثقة", "s.sure": "متأكد", "s.unsure": "غير متأكد", "s.guess": "تخمين",
     "s.hintN": "تلميح {i} من {n}", "s.hintsAll": "ظهرت كل التلميحات", "s.hint": "تلميح {i}:", "s.check": "تحقّق من الإجابة", "s.clear": "امسح الإجابة",
     "s.draw": "رسم", "s.drawing": "وضع الرسم", "s.scratch": "مسودة", "s.tr": "ترجمة السؤال", "s.report": "بلّغ عن خطأ", "s.reportHint": "بيفتح فورم قصير في صفحة جديدة ورقم السؤال مكتوب فيه.", "s.trHide": "إخفاء الترجمة", "s.trLabel": "ترجمة السؤال بالعربي", "s.notes": "ملاحظات", "s.notesFor": "ملاحظاتك على {id}", "s.notesSaved": "(تُحفظ تلقائيًا في هذا المتصفح)", "s.notesPh": "اكتب أي شيء يساعدك على التذكر…",
-    "s.prev": "→ السابق", "s.next": "التالي ←", "s.reviewSubmit": "مراجعة وتسليم",
+    "s.prev": "السابق", "s.next": "التالي", "s.reviewSubmit": "مراجعة وتسليم",
     "s.correctTag": "الإجابة الصحيحة", "s.yourTag": "إجابتك",
     "s.announceOk": "صحيح", "s.announceNo": "خطأ. الإجابة الصحيحة هي {a}", "s.flagOn": "تم التعليم", "s.flagOff": "أُزيلت العلامة", "s.favOn": "أُضيف إلى المفضلة", "s.favOff": "حُذف من المفضلة",
     "s.drawOn": "وضع الرسم مفعّل. لا يمكن اختيار إجابة حتى تضغط «تم».",
@@ -559,10 +794,10 @@ const I18N = {
     "fb.none": "لم تتم الإجابة", "fb.ok": "إجابة صحيحة", "fb.no": "إجابة خاطئة", "fb.answerIs": "الإجابة الصحيحة:", "fb.note": "ملاحظة:",
     "fb.expl": "الشرح", "fb.whyWrong": "ليه باقي الاختيارات غلط؟", "fb.yours": "ليه اختيارك غلط؟", "fb.others": "ليه باقي الاختيارات غلط؟", "fb.allWrong": "ليه كل اختيار غلط غلط؟", "fb.key": "الفكرة الأساسية", "fb.trick": "التسكيمة", "fb.remember": "تذكّر",
     "fb.noExpl": "لا يوجد شرح لهذا السؤال بعد. استخدم <strong>الملاحظات</strong> لتكتب تذكيرك الخاص.",
-    "ink.tools": "أدوات الرسم", "ink.pen": "قلم", "ink.hl": "قلم تحديد", "ink.er": "ممحاة", "ink.plum": "حبر بنفسجي", "ink.red": "حبر أحمر", "ink.blue": "حبر أزرق",
+    "ink.tools": "أدوات الرسم", "ink.pen": "قلم", "ink.hl": "قلم تحديد", "ink.er": "ممحاة", "ink.plum": "حبر كحلي", "ink.red": "حبر أحمر", "ink.blue": "حبر أزرق",
     "ink.undo": "تراجع", "ink.redo": "إعادة", "ink.clear": "مسح", "ink.done": "تم", "ink.clearT": "مسح الرسم؟", "ink.clearB": "سيتم حذف كل العلامات هنا. يمكنك التراجع مباشرة بعد ذلك.",
     "pad.title": "مسودة · {id}", "pad.sub": "احسب أو ارسم هنا. تُحفظ لهذا السؤال في هذا المتصفح.", "pad.area": "مساحة الرسم في المسودة",
-    "r.noneT": "لا توجد نتائج بعد", "r.noneB": "أنهِ جلسة تدريب أو امتحانًا لترى النتائج هنا.", "r.all": "→ كل النتائج",
+    "r.noneT": "لا توجد نتائج بعد", "r.noneB": "أنهِ جلسة تدريب أو امتحانًا لترى النتائج هنا.", "r.all": "كل النتائج",
     "r.eyebrow": "نتيجة {mode} · {date}", "r.pct": "{p}% إجابات صحيحة", "r.subExam": "{c} من {n}، والأسئلة بدون إجابة تُحسب خاطئة.", "r.subTrain": "{c} من {n} تمت الإجابة عنها.", "r.skipped": "تم تخطي {n} (لا تُحسب)",
     "r.auto": "سُلِّم تلقائيًا عند انتهاء الوقت", "r.correct": "صحيحة", "r.incorrect": "خاطئة", "r.unans": "بدون إجابة", "r.skippedLbl": "متخطّاة",
     "r.time": "الوقت المستغرق", "r.limit": "(من أصل {t})", "r.onQuestions": "في حل الأسئلة", "r.avg": "المتوسط لكل سؤال تمت إجابته",
@@ -573,11 +808,11 @@ const I18N = {
     "r.review": "مراجعة الأسئلة", "r.showAns": "إظهار الإجابات", "r.fAll": "الكل", "r.fWrong": "الخاطئة", "r.fUnans": "بدون إجابة", "r.fFlag": "المعلَّمة",
     "r.yourAnswer": "إجابتك:", "r.hidden": "الإجابات مخفية. فعّل «إظهار الإجابات» لرؤيتها.", "r.emptyList": "لا توجد أسئلة في هذه القائمة.", "r.hints": "{n} تلميحات", "r.hint1": "تلميح واحد",
     "r.copied": "تم نسخ النتيجة.", "r.copyNo": "النسخ غير متاح في هذا المتصفح.", "r.printNo": "الطباعة غير متاحة هنا.",
-    "rt.title": "نتيجة MedQ — {mode} — {date}", "rt.scoreExam": "الدرجة: {c}/{n} ({p}%) · خاطئة: {w} · بدون إجابة: {u}", "rt.scoreTrain": "صحيحة: {c} من {n} تمت إجابتها ({p}%) · متخطّاة: {u}",
+    "rt.title": "نتيجة MedQore — {mode} — {date}", "rt.scoreExam": "الدرجة: {c}/{n} ({p}%) · خاطئة: {w} · بدون إجابة: {u}", "rt.scoreTrain": "صحيحة: {c} من {n} تمت إجابتها ({p}%) · متخطّاة: {u}",
     "rt.time": "الوقت المستغرق: {t}", "rt.of": " من أصل {t}", "rt.byTopic": "حسب الموضوع:", "rt.questions": "الأسئلة:", "rt.answer": "الإجابة", "rt.you": "إجابتك",
     "h.eyebrow": "تقدّمك (في هذا المتصفح فقط)", "h.h1": "التقدّم", "h.allAnswers": "كل الإجابات المسجّلة", "h.correctOf": "{c} صحيحة من {n} إجابة", "h.noAnswers": "لا توجد إجابات مسجّلة بعد.",
     "h.weakEmpty": "تظهر هنا الأجزاء التي أجبت عنها مرتين على الأقل بنسبة صواب أقل من 70%.", "h.sessions": "الجلسات المكتملة", "h.pctOf": "{p}% من {n} تمت إجابتها", "h.view": "عرض", "h.noSessions": "لا توجد جلسات مكتملة بعد.",
-    "sc.T": "احفظ تقدمك", "sc.none": "ذاكرت قبل كده على جهاز تاني؟ رجّع تقدمك بالكود بتاعك.", "sc.never": "تقدمك محفوظ على الجهاز ده بس. خد كود قصير عشان ما يضيعش.", "sc.today": "آخر حفظ: النهارده", "sc.days": "آخر حفظ: من {d} يوم", "sc.due": "آخر حفظ من {d} يوم — خد كود جديد", "sc.get": "خد الكود", "sc.rest": "عندي كود", "sc.dlgB": "اكتب الكود ده في ورقة أو ابعته لنفسك. دخّله على أي جهاز وكمّل من مكان ما وقفت.", "sc.inc": "بيحفظ: صح ولا غلط في كل سؤال، والعلامات، والمفضلة، واللغة. سجل الامتحانات والملاحظات والرسومات موجودين في ملف النسخة الكاملة بس (صفحة التقدّم).", "sc.restB": "اكتب الكود أو الصقه. المسافات والشرط والحروف الصغيرة مش مشكلة.", "sc.restOk": "استرجع", "sc.restConf": "ده هيستبدل الإجابات والعلامات والمفضلة على الجهاز ده باللي في الكود ({n} سؤال متجاوب). سجل الامتحانات والملاحظات اللي على الجهاز ده هيفضلوا.", "sc.old": "الكود ده معمول لنسخة تانية من بنك الأسئلة.", "sc.typo": "فيه غلطة في كتابة الكود. راجعه وجرب تاني.", "sc.len": "{n} حرف", "code.btn": "خد كود الحفظ", "code.restBtn": "استرجع من كود", "code.T": "كود الحفظ بتاعك", "code.B": "انسخ الكود ده واحتفظ بيه في مكان آمن (مثلًا ابعته لنفسك على واتساب). الصقه على أي جهاز من «استرجع من كود» وهيرجع تقدمك كله. رسومات القلم مش داخلة في الكود، ولو عايزها استخدم ملف النسخة الاحتياطية.", "code.copy": "انسخ الكود", "code.share": "مشاركة", "code.copied": "تم نسخ الكود.", "code.copyFail": "مقدرتش أنسخه تلقائيًا — حدّد الكود وانسخه بنفسك.", "code.restT": "استرجع من كود", "code.restB": "الصق كود الحفظ هنا.", "code.ph": "الصق الكود هنا", "code.restGo": "استرجع", "code.bad": "الكود ده مش صحيح أو ناقص. اتأكد إنك نسخته كله.", "code.making": "بيتجهز…", "rem.T": "احمِ تقدمك", "rem.B": "بقالك فترة ما حفظتش نسخة. لو بيانات المتصفح اتمسحت، تقدمك هيضيع. الحفظ بياخد ثواني.", "rem.B0": "تقدمك محفوظ في المتصفح ده بس. خد كود حفظ عشان ما يضيعش أبدًا.", "rem.go": "احفظ نسخة", "rem.later": "بعدين", "a2hs.T": "نصيحة لمستخدمي iPhone", "a2hs.B": "ضيف MedQ للشاشة الرئيسية (مشاركة ⬆️ ← إضافة إلى الشاشة الرئيسية) عشان Safari ما يمسحش تقدمك. الأيقونة دي ليها بيانات منفصلة، فافتحها مرة واستخدم «استرجع من كود» عشان تنقل تقدمك ليها.", "a2hs.ok": "تمام", "h.backT": "احفظ تقدمك أو انقله لجهاز تاني", "h.backSub": "تقدمك بيتحفظ تلقائيًا على الجهاز ده. نزّل ملف نسخة احتياطية عشان تحافظ عليه، أو تفتحه على موبايل أو كمبيوتر تاني. الملف فيه إجاباتك وملاحظاتك ونتايجك بس، من غير أي اسم أو حساب.", "h.backBtn": "نزّل ملف النسخة الاحتياطية", "h.restBtn": "استرجع من ملف نسخة احتياطية", "h.backDone": "تم تنزيل ملف النسخة الاحتياطية.", "h.restT": "استرجاع النسخة دي؟", "h.restB": "التقدم الحالي على الجهاز ده هيتبدل بالتقدم اللي في الملف ({n} سؤال متجاوب، {s} جلسة مكتملة).", "h.restOk": "استرجع", "h.restDone": "تم استرجاع تقدمك.", "h.restBad": "الملف ده مش نسخة احتياطية من MedQ، أو بايظ.", "h.backFail": "التنزيل اتمنع هنا. افتح الموقع مباشرةً في المتصفح وجرّب تاني.",
+    "sc.T": "احفظ تقدمك", "sc.none": "ذاكرت قبل كده على جهاز تاني؟ رجّع تقدمك بالكود بتاعك.", "sc.never": "تقدمك محفوظ على الجهاز ده بس. خد كود قصير عشان ما يضيعش.", "sc.today": "آخر حفظ: النهارده", "sc.days": "آخر حفظ: من {d} يوم", "sc.due": "آخر حفظ من {d} يوم — خد كود جديد", "sc.get": "خد الكود", "sc.rest": "عندي كود", "sc.dlgB": "اكتب الكود ده في ورقة أو ابعته لنفسك. دخّله على أي جهاز وكمّل من مكان ما وقفت.", "sc.inc": "بيحفظ: صح ولا غلط في كل سؤال، والعلامات، والمفضلة، واللغة. سجل الامتحانات والملاحظات والرسومات موجودين في ملف النسخة الكاملة بس (صفحة التقدّم).", "sc.restB": "اكتب الكود أو الصقه. المسافات والشرط والحروف الصغيرة مش مشكلة.", "sc.restOk": "استرجع", "sc.restConf": "ده هيستبدل الإجابات والعلامات والمفضلة على الجهاز ده باللي في الكود ({n} سؤال متجاوب). سجل الامتحانات والملاحظات اللي على الجهاز ده هيفضلوا.", "sc.old": "الكود ده معمول لنسخة تانية من بنك الأسئلة.", "sc.typo": "فيه غلطة في كتابة الكود. راجعه وجرب تاني.", "sc.len": "{n} حرف", "code.btn": "خد كود الحفظ", "code.restBtn": "استرجع من كود", "code.T": "كود الحفظ بتاعك", "code.B": "انسخ الكود ده واحتفظ بيه في مكان آمن (مثلًا ابعته لنفسك على واتساب). الصقه على أي جهاز من «استرجع من كود» وهيرجع تقدمك كله. رسومات القلم مش داخلة في الكود، ولو عايزها استخدم ملف النسخة الاحتياطية.", "code.copy": "انسخ الكود", "code.share": "مشاركة", "code.copied": "تم نسخ الكود.", "code.copyFail": "مقدرتش أنسخه تلقائيًا — حدّد الكود وانسخه بنفسك.", "code.restT": "استرجع من كود", "code.restB": "الصق كود الحفظ هنا.", "code.ph": "الصق الكود هنا", "code.restGo": "استرجع", "code.bad": "الكود ده مش صحيح أو ناقص. اتأكد إنك نسخته كله.", "code.making": "بيتجهز…", "rem.T": "احمِ تقدمك", "rem.B": "بقالك فترة ما حفظتش نسخة. لو بيانات المتصفح اتمسحت، تقدمك هيضيع. الحفظ بياخد ثواني.", "rem.B0": "تقدمك محفوظ في المتصفح ده بس. خد كود حفظ عشان ما يضيعش أبدًا.", "rem.go": "احفظ نسخة", "rem.later": "بعدين", "a2hs.T": "نصيحة لمستخدمي iPhone", "a2hs.B": "ضيف MedQore للشاشة الرئيسية (مشاركة ⬆️ ← إضافة إلى الشاشة الرئيسية) عشان Safari ما يمسحش تقدمك. الأيقونة دي ليها بيانات منفصلة، فافتحها مرة واستخدم «استرجع من كود» عشان تنقل تقدمك ليها.", "a2hs.ok": "تمام", "h.backT": "احفظ تقدمك أو انقله لجهاز تاني", "h.backSub": "تقدمك بيتحفظ تلقائيًا على الجهاز ده. نزّل ملف نسخة احتياطية عشان تحافظ عليه، أو تفتحه على موبايل أو كمبيوتر تاني. الملف فيه إجاباتك وملاحظاتك ونتايجك بس، من غير أي اسم أو حساب.", "h.backBtn": "نزّل ملف النسخة الاحتياطية", "h.restBtn": "استرجع من ملف نسخة احتياطية", "h.backDone": "تم تنزيل ملف النسخة الاحتياطية.", "h.restT": "استرجاع النسخة دي؟", "h.restB": "التقدم الحالي على الجهاز ده هيتبدل بالتقدم اللي في الملف ({n} سؤال متجاوب، {s} جلسة مكتملة).", "h.restOk": "استرجع", "h.restDone": "تم استرجاع تقدمك.", "h.restBad": "الملف ده مش نسخة احتياطية من MedQore، أو بايظ.", "h.backFail": "التنزيل اتمنع هنا. افتح الموقع مباشرةً في المتصفح وجرّب تاني.",
     "h.data": "بياناتك", "h.dataSub": "الإجابات والعلامات والمفضلة والملاحظات والرسومات والنتائج محفوظة في هذا المتصفح فقط، ولا يُرفع أي شيء.", "h.wipe": "احذف كل بياناتي من هذا المتصفح",
     "h.wipeT": "حذف كل البيانات؟", "h.wipeB": "سيتم الحذف النهائي لإجاباتك وعلاماتك ومفضلتك وملاحظاتك ورسوماتك ونتائجك وأي جلسة لم تكتمل من هذا المتصفح. اختيار اللغة سيبقى.", "h.wipeBtn": "احذف كل شيء", "h.wiped": "تم حذف كل البيانات.",
     "b.fromFile": " · محمّل من ملفك", "b.h1": "الأسئلة", "b.search": "بحث", "b.searchPh": "كلمات من السؤال أو الاختيارات أو الشرح أو الرقم", "b.topic": "الموضوع", "b.allTopics": "كل المواضيع",
@@ -629,23 +864,41 @@ const announce = msg => { const l = $("#live"); l.textContent = ""; setTimeout((
 const IN_FRAME = (() => { try { return window.self !== window.top; } catch(e) { return true; } })();
 const FINE_POINTER = (() => { try { return matchMedia("(hover:hover) and (pointer:fine)").matches; } catch(e) { return false; } })();
 const ICON = {
-  maps:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="5" r="2"/><circle cx="19.5" cy="5" r="2"/><circle cx="4.5" cy="19" r="2"/><circle cx="19.5" cy="19" r="2"/><path d="M6 6.4l3.8 3.7M18 6.4l-3.8 3.7M6 17.6l3.8-3.7M18 17.6l-3.8-3.7"/></svg>',
-  globe:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h8M8 3v2M10 5c-1 4-3 7-6 9M6 9c1 2 3 4 6 5"/><path d="M13 21l4-9 4 9M14.5 18h5"/></svg>',
-  home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>',
-  train:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v16H6.5A2.5 2.5 0 0 0 4 21.5"/><path d="M8 7h8M8 11h6"/></svg>',
-  exam:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg>',
-  bank:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>',
-  hist:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>',
-  flag:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg>',
-  star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>',
-  starOn:'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>',
-  pen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>',
-  note:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg>',
-  pad:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 15c2-3 4 1 6-2s3 0 4-1"/></svg>',
-  bulb:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.8 1 1.5 1 2.5h6c0-1 .2-1.7 1-2.5A6 6 0 0 0 12 3z"/></svg>',
-  grid:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>',
-  kb:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></svg>'
+  maps:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="2.5"/><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="18" r="2"/><path d="M10.2 10.4 6.5 7.3M13.8 10.4l3.7-3.1M10.5 14 7.3 17.5M13.9 13.8l2.7 2.7"/></svg>',
+  globe:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h8M8 3v2M10 5c-1 4-3 7-6 9M6 9c1 2 3 4 6 5"/><path d="M13 21l4-9 4 9M14.5 18h5"/></svg>',
+  home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/></svg>',
+  train:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5h10a4 4 0 0 1 4 4v10H9a4 4 0 0 1-4-4z"/><path d="M9 10h6M9 14h4"/></svg>',
+  exam:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="13" r="7.5"/><path d="M12 9v4l2.5 2M10 2.5h4"/></svg>',
+  bank:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>',
+  hist:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 4v15a1 1 0 0 0 1 1h15"/><path d="m8 15 3.5-4 3 2.5L20 7"/></svg>',
+  flag:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5.5 21V4.5M5.5 4.5h11l-2 4 2 4h-11"/></svg>',
+  pen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg>',
+  note:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3.5h8.5L19 8v12.5H6z"/><path d="M14 3.5V8.5h5M9 13h6M9 16.5h4"/></svg>',
+  pad:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="4" width="16" height="16" rx="2.5"/><path d="M8 15c1.5-3 3-3 4-1.5s2.5 1.5 4-1.5"/></svg>',
+  bulb:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 17.5h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg>',
+  grid:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></svg>',
+  kb:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="6" width="19" height="12" rx="2"/><path d="M6.5 10h.01M10 10h.01M14 10h.01M17.5 10h.01M7.5 14h9"/></svg>',
+  moon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19.5 14.5A7.5 7.5 0 0 1 9.5 4.5a7.5 7.5 0 1 0 10 10z"/></svg>',
+  sun:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg>',
+  bolt:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13 3 5.5 13.5H12L11 21l7.5-10.5H12z"/></svg>',
+  repeat:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 11V9.5A3.5 3.5 0 0 1 7.5 6H19m0 0-3-3m3 3-3 3M20 13v1.5a3.5 3.5 0 0 1-3.5 3.5H5m0 0 3 3m-3-3 3-3"/></svg>',
+  check:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>',
+  x:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>',
+  minus:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 12h12"/></svg>',
+  left:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m14.5 6-6 6 6 6"/></svg>',
+  right:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9.5 6 6 6-6 6"/></svg>',
+  book:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6.5C6.5 5 9.5 5 12 6.5 14.5 5 17.5 5 20 6.5V19c-2.5-1.5-5.5-1.5-8 0-2.5-1.5-5.5-1.5-8 0z"/><path d="M12 6.5V19"/></svg>',
+  brain:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 4.5a2.5 2.5 0 0 0-2.5 2.5v.3A3 3 0 0 0 5 12.5a3 3 0 0 0 1.5 4.7V18a2.5 2.5 0 0 0 5 0V7a2.5 2.5 0 0 0-2.5-2.5zM15 4.5A2.5 2.5 0 0 1 17.5 7v.3a3 3 0 0 1 1.5 5.2 3 3 0 0 1-1.5 4.7V18a2.5 2.5 0 0 1-5 0"/></svg>',
+  pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s6.5-5.6 6.5-11a6.5 6.5 0 0 0-13 0c0 5.4 6.5 11 6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>',
+  alert:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 4 3 19.5h18z"/><path d="M12 10v4.5M12 17.2v.2"/></svg>',
+  key:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.8v.2"/></svg>',
+  save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 18.5h10a4 4 0 0 0 .6-8 6 6 0 0 0-11.4 1.6A3.2 3.2 0 0 0 7 18.5z"/><path d="M12 15.5v-5m0 0-2 2m2-2 2 2"/></svg>',
+  close:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>',
+  layers:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 4 8.5 4.5L12 13 3.5 8.5z"/><path d="m3.5 12.5 8.5 4.5 8.5-4.5M3.5 16.5 12 21l8.5-4.5"/></svg>',
+  star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 4 2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.4l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/></svg>',
+  starOn:'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 4 2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.4l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/></svg>'
 };
+const MQMARK = '<svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path class="mq-ring" d="M21.74 35.8A13 13 0 1 1 35.78 28.49"/><path class="mq-m" d="M17.5 28V17.5l6.5 7 6.5-7V28"/><path class="mq-tail" d="M24 36H37"/></svg>';
 
 // ---------- storage (localStorage with in-memory fallback) ----------
 const Store = (() => {
@@ -765,7 +1018,6 @@ let toastTimer = null;
 function toast(msg) {
   let el = $("#toast");
   if (!el) { el = document.createElement("div"); el.id = "toast"; el.setAttribute("role", "status");
-    el.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom,0px));z-index:80;background:#302248;color:#fff;padding:10px 16px;border-radius:12px;max-width:min(92vw,520px);font-size:.92rem;box-shadow:0 8px 30px rgba(0,0,0,.25);text-align:center";
     document.body.appendChild(el); }
   el.textContent = msg; el.style.display = "block";
   clearTimeout(toastTimer); toastTimer = setTimeout(() => el.style.display = "none", 3800);
@@ -804,7 +1056,7 @@ function confirmDialog(title, html, okLabel, okCls) {
 class InkLayer {
   constructor(canvas, load, save) {
     this.cv = canvas; this.ctx = canvas.getContext("2d"); this.load = load; this.save = save;
-    this.strokes = (load() || []).slice(); this.undoStack = []; this.redoStack = []; this.cur = null; this.tool = "pen"; this.color = "#302248";
+    this.strokes = (load() || []).slice(); this.undoStack = []; this.redoStack = []; this.cur = null; this.tool = "pen"; this.color = "#14283f";
     this.penSeen = false; this.enabled = false; this.w = 0; this.h = 0;
     const on = (ty, f) => canvas.addEventListener(ty, f, {passive: false});
     on("pointerdown", e => this.down(e)); on("pointermove", e => this.move(e));
@@ -873,7 +1125,7 @@ class InkLayer {
 function inkToolbar(layer, onDone) {
   const bar = document.createElement("div"); bar.className = "inkbar"; bar.setAttribute("role", "toolbar"); bar.setAttribute("aria-label", t("ink.tools"));
   const tools = [["pen", t("ink.pen")], ["hl", t("ink.hl")], ["er", t("ink.er")]];
-  const colors = [["#302248", t("ink.plum")], ["#b0303f", t("ink.red")], ["#1f6f8b", t("ink.blue")]];
+  const colors = [["#14283f", t("ink.plum")], ["#b0303f", t("ink.red")], ["#1f6f8b", t("ink.blue")]];
   bar.innerHTML = tools.map(([k,l]) => `<button type="button" class="icon-btn btn-sm" data-tool="${k}" aria-pressed="${layer.tool===k}">${esc(l)}</button>`).join("") +
     `<span style="width:6px"></span>` + colors.map(([c,l]) => `<button type="button" class="sw" data-color="${c}" style="background:${c}" aria-label="${esc(l)}" aria-pressed="${layer.color===c}"></button>`).join("") +
     `<span class="spacer"></span><button type="button" class="icon-btn btn-sm" data-act="undo">${t("ink.undo")}</button><button type="button" class="icon-btn btn-sm" data-act="redo">${t("ink.redo")}</button><button type="button" class="icon-btn btn-sm" data-act="clear">${t("ink.clear")}</button>` +
@@ -999,6 +1251,7 @@ function applyLang() {
   $("#topnav").setAttribute("aria-label", t("nav.main")); $("#bottomnav").setAttribute("aria-label", t("nav.main"));
   const lb = $("#langbtn"); lb.textContent = t("lang.switch"); lb.setAttribute("aria-label", t("lang.switchLabel")); lb.lang = isRTL() ? "en" : "ar";
   $("#foot1").innerHTML = t("foot.privacy"); $("#foot2").textContent = t("foot.disclaimer");
+  applyTheme();
 }
 function setLang(l, rerender) {
   LANG = l === "ar" ? "ar" : "en";
@@ -1012,17 +1265,32 @@ function setLang(l, rerender) {
   }
 }
 function toggleLang() { setLang(isRTL() ? "en" : "ar"); }
+// ---------- theme (light default, follows the system until the student picks one) ----------
+let THEME = "light";
+function storedTheme() { const v = Store.get("theme", null); return v === "dark" || v === "light" ? v : null; }
+function sysDark() { try { return matchMedia("(prefers-color-scheme: dark)").matches; } catch(e) { return false; } }
+function applyTheme() {
+  THEME = storedTheme() || (sysDark() ? "dark" : "light");
+  document.documentElement.setAttribute("data-theme", THEME);
+  const m = $('meta[name="theme-color"]'); if (m) m.setAttribute("content", THEME === "dark" ? "#0c1724" : "#f7f7f3");
+  $$(".themebtn").forEach(b => { b.innerHTML = THEME === "dark" ? ICON.sun : ICON.moon; const l = t(THEME === "dark" ? "theme.toLight" : "theme.toDark"); b.setAttribute("aria-label", l); b.title = l; });
+}
+function toggleTheme() { Store.set("theme", THEME === "dark" ? "light" : "dark"); applyTheme(); }
+try { matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { if (!storedTheme()) applyTheme(); }); } catch(e) {}
+window.addEventListener("beforeprint", () => document.documentElement.setAttribute("data-theme", "light"));
+window.addEventListener("afterprint", () => applyTheme());
+document.addEventListener("click", e => { if (e.target.closest(".themebtn")) toggleTheme(); });
 function langScreen() {
   return new Promise(res => {
     const el = document.createElement("div"); el.className = "langscreen"; el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-labelledby", "langh");
     el.innerHTML = `<div class="langcard">
-      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#E9DDF7" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
-      <h1 id="langh" style="font-size:1.6rem">MedQ</h1>
+      <span class="brand-mark">${MQMARK}</span>
+      <h1 id="langh">MedQore</h1>
       <p class="muted" lang="en" dir="ltr">Choose your language</p>
-      <p class="muted" lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic','Segoe UI',Tahoma,sans-serif">اختر لغة الواجهة</p>
+      <p class="muted" lang="ar" dir="rtl" style="font-family:var(--font-arabic)">اختر لغة الواجهة</p>
       <div class="langopts"><button type="button" lang="en" dir="ltr" data-l="en">English</button><button type="button" lang="ar" dir="rtl" data-l="ar">العربية</button></div>
       <p class="muted small" style="margin-top:16px" lang="en" dir="ltr">You can change this any time. Questions stay in their original language.</p>
-      <p class="muted small" lang="ar" dir="rtl" style="font-family:'Noto Naskh Arabic','Segoe UI',Tahoma,sans-serif">يمكنك تغييرها في أي وقت، وتبقى الأسئلة بلغتها الأصلية.</p>
+      <p class="muted small" lang="ar" dir="rtl" style="font-family:var(--font-arabic)">يمكنك تغييرها في أي وقت، وتبقى الأسئلة بلغتها الأصلية.</p>
     </div>`;
     document.body.appendChild(el);
     $$("[data-l]", el).forEach(b => b.onclick = () => { el.remove(); res(b.dataset.l); });
@@ -1038,7 +1306,7 @@ const cdir = s => /[\u0600-\u06FF]/.test(String(s||"")) ? "rtl" : "ltr";
 const autoDir = s => `<span dir="auto" class="content-auto">${esc(s)}</span>`;
 
 // ---------- views ----------
-const VIEWS = ["home", "practice", "exam", "revise", "bank", "maps", "history", "results", "session"];
+const VIEWS = ["home", "module", "practice", "exam", "revise", "bank", "maps", "history", "results", "session"];
 let viewAttemptId = null;
 function go(v) { if (location.hash !== "#" + v) location.hash = v; else render(); }
 window.addEventListener("hashchange", () => render());
@@ -1051,9 +1319,9 @@ function viewMaps(app) {
     const i = list.findIndex(m => m.id === id), m = list[i];
     if (!m) { app.innerHTML = `<div class="wrap stack"><p class="notice warn">${t("maps.none")}</p><div><button class="btn btn-sec" data-go="maps">${t("maps.all")}</button></div></div>`; return; }
     const prev = list[i - 1], next = list[i + 1];
-    document.title = m.title + " — MedQ";
+    document.title = m.title + " — MedQore";
     app.innerHTML = `<div class="wrap stack">
-      <div><button class="btn btn-ghost btn-sm backlink" data-go="maps">${t("maps.all")}</button></div>
+      <div><button class="btn btn-link btn-sm backlink" data-go="maps">${ICON.left}${t("maps.all")}</button></div>
       <div><p class="eyebrow">${L(m.subject)} · ${t("maps.lec", {n: m.n})}</p><h1>${L(m.title)}</h1></div>
       <div class="row maptools"><button class="btn btn-pri btn-sm" id="mzoom" aria-pressed="false">${t("maps.zoomIn")}</button><a class="btn btn-sec btn-sm" href="${esc(m.src)}" target="_blank" rel="noopener">${t("maps.open")}</a></div>
       <div class="mapview" id="mapview" dir="ltr" tabindex="0" aria-label="${esc(m.title)}"><img src="${esc(m.src)}" alt="${esc(m.subject + " — " + t("maps.lec", {n: m.n}) + ": " + m.title)}" ${m.w ? `width="${m.w}" height="${m.h}"` : ""} decoding="async"></div>
@@ -1065,14 +1333,14 @@ function viewMaps(app) {
     return;
   }
   app.innerHTML = `<div class="wrap stack">
-    <div><p class="eyebrow">${L(Bank.title)}</p><h1>${t("maps.h1")}</h1><p class="muted">${t("maps.sub")}</p></div>
-    ${(Bank.mindmaps || []).map(g => `<section class="card stack"><h2 dir="ltr" class="ltrhead">${esc(g.subject)}</h2><div class="maplist">${g.items.map(it => `<button class="maplink" data-go="maps/${it.id}"><img src="${esc(it.thumb)}" alt="" loading="lazy" decoding="async" width="160" height="113"><span class="mltext"><span class="mlno">${t("maps.lec", {n: it.n})}</span><span class="mltitle" dir="ltr">${esc(it.title)}</span></span></button>`).join("")}</div></section>`).join("")}
+    <div class="pagehead"><p class="eyebrow">${L(Bank.title)}</p><h1>${t("maps.h1")}</h1><p class="muted">${t("maps.sub")}</p></div>
+    ${(Bank.mindmaps || []).map(g => { const tid = (Bank.topics.find(x => x.name.toLowerCase() === String(g.subject).toLowerCase()) || {id: ""}).id; return `<section class="card stack mapgroup"><h2 dir="ltr" class="ltrhead">${tid ? glyphHTML(tid, true) : ""}${esc(g.subject)}</h2><div class="maplist">${g.items.map(it => `<button class="maplink" data-go="maps/${it.id}"><img src="${esc(it.thumb)}" alt="" loading="lazy" decoding="async" width="160" height="113"><span class="mltext"><span class="mlno">${t("maps.lec", {n: it.n})}</span><span class="mltitle" dir="ltr">${esc(it.title)}</span></span></button>`).join("")}</div></section>`; }).join("")}
   </div>`;
 }
 
 function navHTML(cur, bottom) {
   const items = [["home","nav.home",ICON.home],["practice","nav.practice",ICON.train],["exam","nav.exam",ICON.exam],["bank","nav.bank",ICON.bank]].concat(Bank.mindmaps && Bank.mindmaps.length ? [["maps","nav.maps",ICON.maps]] : [], [["history","nav.history",ICON.hist]]);
-  const map = {revise: "practice", results: "history"};
+  const map = {revise: "practice", results: "history", module: "home"};
   const c = map[cur] || cur;
   return items.map(([v,l,ic]) => `<button class="navlink" data-go="${v}" ${c===v ? 'aria-current="page"' : ""}>${bottom ? ic : ""}<span>${t(l)}</span></button>`).join("");
 }
@@ -1093,8 +1361,9 @@ function render(keepScroll) {
   document.body.classList.toggle("has-bottomnav", !inSession);
   $("#topnav").innerHTML = navHTML(v, false); $("#bottomnav").innerHTML = navHTML(v, true);
   const app = $("#app"), y = window.scrollY;
-  ({home: viewHome, practice: viewPractice, exam: viewExamSetup, revise: viewRevise, bank: viewBank, maps: viewMaps, history: viewHistory, results: viewResults, session: viewSession})[v](app);
+  ({home: viewHome, module: viewModule, practice: viewPractice, exam: viewExamSetup, revise: viewRevise, bank: viewBank, maps: viewMaps, history: viewHistory, results: viewResults, session: viewSession})[v](app);
   if (!(v === "maps" && MAPSUB)) document.title = v === "home" ? t("app.title") : t("title." + v);
+  applyTheme();
   if (keepScroll === true) { try { window.scrollTo(0, y); } catch(e) {} } else if (!inSession) scrollTopSafe();
 }
 document.addEventListener("click", e => { const b = e.target.closest("[data-go]"); if (b) { e.preventDefault(); go(b.dataset.go); } });
@@ -1103,7 +1372,7 @@ function storageNotice() { return Store.persistent ? "" : `<p class="notice warn
 function topicPicker(name, selected) {
   return `<fieldset><legend>${t("setup.topics")}</legend><div class="checks">` + Bank.topics.map(tp => {
     const n = Bank.questions.filter(q => q.topic === tp.id).length;
-    return `<label class="check"><input type="checkbox" name="${name}" value="${esc(tp.id)}" ${!selected || selected.indexOf(tp.id) >= 0 ? "checked" : ""}> ${L(tp.name)} <span class="muted small">(${n})</span></label>`; }).join("") + `</div></fieldset>`;
+    return `<label class="check"${subjAttr(tp.id)}><input type="checkbox" name="${name}" value="${esc(tp.id)}" ${!selected || selected.indexOf(tp.id) >= 0 ? "checked" : ""}> ${L(tp.name)} <span class="muted small" dir="ltr">(${n})</span></label>`; }).join("") + `</div></fieldset>`;
 }
 const pickedTopics = (root, name) => $$(`input[name="${name}"]:checked`, root).map(i => i.value);
 function sourceAndRepeatsHTML() {
@@ -1114,51 +1383,160 @@ function sourceFilter(root) {
   const src = $("#src", root) ? $("#src", root).value : "", nr = $("#norep", root);
   return q => (!src || q.source === src) && (src || !nr || !nr.checked || !q.repeatOf);
 }
-function revisionQueue(limit) {
+function revisionQueue(limit, tids) {
   const p = User.progress(), flags = User.flags;
-  const scored = Bank.questions.map(q => { const r = p[q.id]; let s = 0;
+  const scored = Bank.questions.filter(q => !tids || tids.indexOf(q.topic) >= 0).map(q => { const r = p[q.id]; let s = 0;
     if (r && r.last) { if (!r.last.ok) s += 4; if (r.last.conf === "guess") s += 2; else if (r.last.conf === "unsure") s += 1; if (r.n >= 2 && r.c / r.n < 0.5) s += 1; }
     if (flags.has(q.id)) s += 1; return {id: q.id, s}; }).filter(x => x.s > 0);
   scored.sort((a, b) => b.s - a.s || Math.random() - .5);
   return scored.slice(0, limit || 20).map(x => x.id);
 }
 
+// ---------- subjects & module groups ----------
+const SUBJ = {
+  anat: {k: "anatomy", g: "An", n: "Anatomy"}, histo: {k: "histology", g: "Hi", n: "Histology"}, embryo: {k: "embryology", g: "Em", n: "Embryology"},
+  biochem: {k: "biochemistry", g: "Bc", n: "Biochemistry"}, genetics: {k: "genetics", g: "Ge", n: "Genetics"}
+};
+function subjOf(tid) {
+  if (SUBJ[tid]) return SUBJ[tid];
+  const nm = String(Bank.topicName[tid] || tid), low = nm.toLowerCase();
+  for (const k in SUBJ) if (SUBJ[k].k === low || SUBJ[k].n.toLowerCase() === low) return SUBJ[k];
+  return {k: "", g: (nm.replace(/[^A-Za-z]/g, "").slice(0, 2) || "?"), n: nm};
+}
+const subjAttr = tid => ` data-subject="${subjOf(tid).k || "other"}"`;
+const subjName = tid => Bank.topicName[tid] || subjOf(tid).n;
+const glyphHTML = (tid, sm) => `<span class="glyph${sm ? " sm" : ""}"${subjAttr(tid)} aria-hidden="true">${esc(subjOf(tid).g)}</span>`;
+const subjPill = tid => `<span class="pill"${subjAttr(tid)}>${L(subjName(tid))}</span>`;
+const MODULES = [
+  {id: "aeh", name: "Anatomy, Embryology & Histology", topics: ["anat", "embryo", "histo"]},
+  {id: "bg", name: "Biochemistry & Genetics", topics: ["biochem", "genetics"]}
+];
+function moduleList() {
+  const known = new Set();
+  const out = MODULES.map(m => { const tps = m.topics.filter(id => Bank.topicName[id] != null); tps.forEach(x => known.add(x));
+    return {id: m.id, name: m.name, topics: tps.length ? tps : m.topics, available: tps.length > 0}; });
+  const rest = Bank.topics.map(x => x.id).filter(id => !known.has(id));
+  if (rest.length) out.push({id: "other", name: Bank.title || "Other subjects", topics: rest, available: true});
+  return out;
+}
+function topicStats(tids) {
+  const p = User.progress(); let total = 0, seen = 0, n = 0, c = 0;
+  Bank.questions.forEach(q => { if (tids.indexOf(q.topic) < 0) return; total++; const r = p[q.id]; if (r) { seen++; n += r.n; c += r.c; } });
+  return {total, seen, n, c};
+}
+function moduleCardHTML(m) {
+  const subs = m.topics.map(id => `<span class="pill"${subjAttr(id)}>${L(subjName(id))}</span>`).join("");
+  const glyphs = m.topics.map(id => glyphHTML(id)).join("");
+  if (!m.available) return `<div class="module soon" aria-disabled="true"><div class="mtop"><div class="mglyphs">${glyphs}</div><span class="pill soon" style="margin-inline-start:auto">${t("mod.soon")}</span></div>
+    <div><h3 dir="ltr" class="ltrhead">${esc(m.name)}</h3><div class="msubs">${subs}</div></div><p class="muted small" style="margin:0">${t("mod.soonSub")}</p></div>`;
+  const st = topicStats(m.topics);
+  return `<button class="module" data-go="module/${m.id}" aria-label="${esc(t("mod.open", {name: m.name}))}"><div class="mtop"><div class="mglyphs">${glyphs}</div><span class="go">${ICON.right}</span></div>
+    <div><h3 dir="ltr" class="ltrhead">${esc(m.name)}</h3><div class="msubs">${subs}</div></div>
+    <div class="mfoot"><span class="muted small">${qn(st.total)}</span><div class="progress" aria-hidden="true"><i style="width:${pct(st.seen, st.total)}%"></i></div></div></button>`;
+}
+// ---------- quick exam (one tap; count and time are remembered) ----------
+const QX_N = [5, 10, 15, 20, 25, 30, 40, 50, 60, 80, 100], QX_M = [5, 10, 15, 20, 25, 30, 40, 45, 60, 75, 90, 120];
+function quickPool(tids) { return Bank.questions.filter(q => tids.indexOf(q.topic) >= 0 && !q.repeatOf).map(q => q.id); }
+function quickHTML(tids, inline) {
+  const pr = User.prefs(), n = pr.quickN || 20, m = pr.quickM || 20;
+  const scope = tids.length === Bank.topics.length && !inline ? t("qx.all") : tids.map(id => L(subjName(id))).join(isRTL() ? "، " : ", ");
+  return `<div class="card quick${inline ? " inline" : ""}" id="quick">
+    <div class="qhead"><span class="qicon">${ICON.bolt}</span><div><h2 style="font-size:1.15rem">${t("qx.T")}</h2><p class="qsub">${t("qx.sub")}</p></div></div>
+    <div class="qxrow">
+      <div class="qfield"><span id="qxnl">${t("qx.n")}</span><div class="stepper" role="group" aria-labelledby="qxnl"><button type="button" data-qx="n" data-d="-1" aria-label="${t("qx.less")}">−</button><output id="qxn" aria-live="polite">${n}</output><button type="button" data-qx="n" data-d="1" aria-label="${t("qx.more")}">+</button></div></div>
+      <div class="qfield"><span id="qxml">${t("qx.m")}</span><div class="stepper" role="group" aria-labelledby="qxml"><button type="button" data-qx="m" data-d="-1" aria-label="${t("qx.less")}">−</button><output id="qxm" aria-live="polite">${m}</output><button type="button" data-qx="m" data-d="1" aria-label="${t("qx.more")}">+</button></div></div>
+    </div>
+    <p class="qnote">${t("qx.scope", {s: scope})}</p>
+    <button class="btn btn-pri btn-block" id="qxgo">${ICON.bolt.replace("<svg", '<svg width="18" height="18"')}<span>${t("qx.go")}</span></button></div>`;
+}
+function bindQuick(tids) {
+  const box = $("#quick"); if (!box) return;
+  const max = quickPool(tids).length;
+  const val = k => +$("#qx" + k).textContent;
+  const sync = () => { $$("[data-qx]", box).forEach(b => { const list = b.dataset.qx === "n" ? QX_N : QX_M, v = val(b.dataset.qx), d = +b.dataset.d;
+    b.disabled = d < 0 ? v <= list[0] : (v >= list[list.length - 1] || (b.dataset.qx === "n" && v >= max)); }); $("#qxgo").disabled = !max; };
+  $$("[data-qx]", box).forEach(b => b.onclick = () => { const k = b.dataset.qx, list = k === "n" ? QX_N : QX_M, v = val(k), d = +b.dataset.d;
+    let i = list.findIndex(x => x >= v); if (i < 0) i = list.length - 1; if (list[i] !== v && d < 0) i++; i = Math.max(0, Math.min(list.length - 1, i + d));
+    let nv = list[i]; if (k === "n" && nv > max) nv = max; $("#qx" + k).textContent = nv; User.setPref(k === "n" ? "quickN" : "quickM", nv); sync(); });
+  $("#qxgo").onclick = async () => {
+    const pool = quickPool(tids); if (!pool.length) return;
+    if (getActive("active.exam") && !(await confirmDialog(t("ex.replaceT"), `<p>${t("ex.replaceB")}</p>`, t("ex.replaceBtn"), "btn-danger"))) return;
+    const count = Math.max(1, Math.min(pool.length, val("n"))), mins = Math.max(1, Math.min(600, val("m")));
+    startSession("exam", shuffle(pool).slice(0, count), {minutes: mins, shuffleOptions: true, topics: tids.slice()}); };
+  sync();
+}
+function statsHTML(answered, correct, sessions) {
+  return `<div class="stats">
+    <div class="statcard"><div class="stat">${answered ? pct(correct, answered) + "<small>%</small>" : "—"}</div><div class="statlbl" title="${esc(t("home.statAcc"))}">${t("home.statAccS")}</div></div>
+    <div class="statcard"><div class="stat">${answered}</div><div class="statlbl" title="${esc(t("home.statAns"))}">${t("home.statAnsS")}</div></div>
+    <div class="statcard"><div class="stat">${sessions}</div><div class="statlbl" title="${esc(t("home.statSess"))}">${t("home.statSessS")}</div></div></div>`;
+}
 function viewHome(app) {
   const ex = getActive("active.exam"), tr = getActive("active.train"), h = User.history();
   const pv = Object.values(User.progress()), answered = pv.reduce((a, r) => a + r.n, 0), correct = pv.reduce((a, r) => a + r.c, 0);
-  const rq = revisionQueue(50).length;
+  const rq = revisionQueue(50).length, mods = moduleList();
+  const allTopics = Bank.topics.map(x => x.id);
   app.innerHTML = `<div class="wrap stack">
     ${storageNotice()}
     ${a2hsTip(answered)}
     <section class="hero"><p class="eyebrow">${t("home.eyebrow")}</p><h1>${t("home.h1")}</h1>
       <p class="muted" id="herosub">${t("home.sub", {q: qn(Bank.questions.length), t: Bank.topics.length})}</p></section>
-    ${saveCard(answered)}
-    ${ex ? `<div class="card row" style="border-color:#cdb6ea"><div><strong>${t("home.unfinishedExam")}</strong><div class="muted small">${t("home.unfinishedExamSub", {a: Object.keys(ex.answers).length, n: ex.qids.length, left: `<span id="resume-left">${fmtTime(ex.endsAt - now())}</span>`})}</div></div><span class="spacer"></span><button class="btn btn-pri" id="resume-exam">${t("home.resumeExam")}</button></div>` : ""}
-    ${tr ? `<div class="card row"><div><strong>${t(tr.mode === "revise" ? "home.unfinishedRevise" : "home.unfinishedTrain")}</strong><div class="muted small">${t("home.answeredOf", {a: Object.keys(tr.answers).length, n: tr.qids.length})}</div></div><span class="spacer"></span><button class="btn btn-sec" id="resume-train">${t("common.continue")}</button></div>` : ""}
-    <div class="grid g3">
-      <div class="card modecard"><p class="eyebrow">${t("home.trainEyebrow")}</p><h2>${t("mode.train")}</h2><p class="muted">${t("home.trainDesc")}</p><button class="btn btn-pri" data-go="practice">${t("home.trainBtn")}</button></div>
-      <div class="card modecard"><p class="eyebrow">${t("home.examEyebrow")}</p><h2>${t("mode.exam")}</h2><p class="muted">${t("home.examDesc")}</p><button class="btn btn-pri" data-go="exam">${t("home.examBtn")}</button></div>
-      <div class="card modecard"><p class="eyebrow">${t("home.reviseEyebrow")}</p><h2>${t("home.reviseH")}</h2><p class="muted">${rq ? t("home.reviseQueued", {q: qn(rq)}) : t("home.reviseEmpty")}</p><button class="btn btn-sec" data-go="revise" ${rq ? "" : "disabled"}>${t("home.reviseBtn")}</button></div>
+    ${ex ? `<div class="card rowcard"><span class="rc-icon warn">${ICON.exam}</span><span class="rc-body"><span class="rc-title">${t("home.unfinishedExam")}</span><span class="rc-sub">${t("home.unfinishedExamSub", {a: Object.keys(ex.answers).length, n: ex.qids.length, left: `<span id="resume-left" dir="ltr">${fmtTime(ex.endsAt - now())}</span>`})}</span></span><button class="btn btn-pri btn-sm" id="resume-exam">${t("home.resumeExam")}</button></div>` : ""}
+    ${tr ? `<div class="card rowcard"><span class="rc-icon">${ICON.train}</span><span class="rc-body"><span class="rc-title">${t(tr.mode === "revise" ? "home.unfinishedRevise" : "home.unfinishedTrain")}</span><span class="rc-sub">${t("home.answeredOf", {a: Object.keys(tr.answers).length, n: tr.qids.length})}</span></span><button class="btn btn-sec btn-sm" id="resume-train">${t("common.continue")}</button></div>` : ""}
+    <section><div class="sechead"><h2>${t("home.modules")}</h2></div><div class="modules">${mods.map(moduleCardHTML).join("")}</div></section>
+    <div class="homegrid">
+      ${quickHTML(allTopics, false)}
+      <div class="homeside">
+        <button class="card rowcard" data-go="revise" ${rq ? "" : "disabled"}><span class="rc-icon err">${ICON.repeat}</span><span class="rc-body"><span class="rc-title">${t("home.reviseH")}</span><span class="rc-sub">${rq ? t("home.reviseQueued", {q: qn(rq)}) : t("home.reviseEmpty")}</span></span><span class="rc-chev">${ICON.right}</span></button>
+        ${saveCard(answered)}
+      </div>
     </div>
-    <div class="card"><div class="grid g3">
-      <div><div class="stat">${answered ? pct(correct, answered) + "%" : "—"}</div><div class="statlbl">${t("home.statAcc")}</div></div>
-      <div><div class="stat">${answered}</div><div class="statlbl">${t("home.statAns")}</div></div>
-      <div><div class="stat">${h.length}</div><div class="statlbl">${t("home.statSess")}</div></div>
-    </div></div>
+    <section><div class="sechead"><h2>${t("home.progressH")}</h2><button class="btn btn-link btn-sm" data-go="history">${t("home.seeAll")}</button></div>${statsHTML(answered, correct, h.length)}</section>
   </div>`;
   const re = $("#resume-exam"); if (re) re.onclick = () => resumeSession("active.exam");
   const rt = $("#resume-train"); if (rt) rt.onclick = () => resumeSession("active.train");
+  bindQuick(allTopics);
   bindHomeProtect();
 }
-
+const MODSEL = {};
+function viewModule(app) {
+  const m = moduleList().find(x => x.id === MAPSUB && x.available);
+  if (!m) { location.replace("#home"); return; }
+  let sel = MODSEL[m.id] && m.topics.indexOf(MODSEL[m.id]) >= 0 ? MODSEL[m.id] : "all";
+  const tids = sel === "all" ? m.topics : [sel];
+  const st = topicStats(tids), rq = revisionQueue(50, tids).length;
+  const maps = allMaps().filter(x => tids.some(id => subjName(id).toLowerCase() === String(x.subject).toLowerCase()));
+  const scopeName = sel === "all" ? esc(m.name) : esc(subjName(sel));
+  const route = tids.join(",");
+  app.innerHTML = `<div class="wrap stack">
+    <div><button class="btn btn-link btn-sm backlink" data-go="home">${ICON.left.replace("<svg", '<svg class="flipx" width="18" height="18"')}${t("mod.back")}</button></div>
+    <div class="pagehead"><p class="eyebrow">${t("mod.eyebrow")}</p><h1 dir="ltr" class="ltrhead">${esc(m.name)}</h1><p class="muted">${t("mod.choose")}</p></div>
+    <div class="seg" role="group" aria-label="${t("mod.subjSel")}"><button type="button" data-sel="all" aria-pressed="${sel === "all"}">${t("mod.all")}</button>${m.topics.map(id => `<button type="button" data-sel="${esc(id)}"${subjAttr(id)} aria-pressed="${sel === id}" dir="ltr">${esc(subjName(id))}</button>`).join("")}</div>
+    <div class="subjects">${m.topics.map(id => { const s2 = topicStats([id]);
+      return `<button class="subj" data-sel="${esc(id)}"${subjAttr(id)} aria-pressed="${sel === id}">${glyphHTML(id)}<span class="sb"><span class="sn" dir="ltr">${esc(subjName(id))}</span><span class="sm">${s2.n ? t("mod.subjMeta", {q: qn(s2.total), p: pct(s2.c, s2.n)}) : t("mod.subjNew", {q: qn(s2.total)})}</span><span class="progress" aria-hidden="true"${subjAttr(id)}><i style="width:${pct(s2.seen, s2.total)}%"></i></span></span></button>`; }).join("")}</div>
+    <section><div class="sechead"><h2>${t("mod.study", {s: `<bdi dir="ltr">${scopeName}</bdi>`})}</h2><span class="muted small">${qn(st.total)}</span></div>
+    <div class="homegrid">${quickHTML(tids, true)}
+      <div class="homeside">
+        <button class="card rowcard" data-go="practice/${route}"><span class="rc-icon">${ICON.train}</span><span class="rc-body"><span class="rc-title">${t("mode.train")}</span><span class="rc-sub">${t("home.trainDesc")}</span></span><span class="rc-chev">${ICON.right}</span></button>
+        <button class="card rowcard" data-go="exam/${route}"><span class="rc-icon">${ICON.exam}</span><span class="rc-body"><span class="rc-title">${t("ex.h1")}</span><span class="rc-sub">${t("home.examDesc")}</span></span><span class="rc-chev">${ICON.right}</span></button>
+        <button class="card rowcard" id="modrev" ${rq ? "" : "disabled"}><span class="rc-icon err">${ICON.repeat}</span><span class="rc-body"><span class="rc-title">${t("home.reviseH")}</span><span class="rc-sub">${rq ? t("mod.revSub", {q: qn(rq)}) : t("mod.revNone")}</span></span><span class="rc-chev">${ICON.right}</span></button>
+        <button class="card rowcard" data-go="bank${tids.length === 1 ? "/" + route : ""}"><span class="rc-icon">${ICON.bank}</span><span class="rc-body"><span class="rc-title">${t("mod.browse")}</span><span class="rc-sub">${t("mod.browseSub")}</span></span><span class="rc-chev">${ICON.right}</span></button>
+        ${maps.length ? `<button class="card rowcard" data-go="maps"><span class="rc-icon">${ICON.maps}</span><span class="rc-body"><span class="rc-title">${t("mod.maps")}</span><span class="rc-sub">${t("mod.mapsSub", {n: maps.length})}</span></span><span class="rc-chev">${ICON.right}</span></button>` : ""}
+      </div></div></section>
+  </div>`;
+  $$("[data-sel]", app).forEach(b => b.onclick = () => { const v = b.dataset.sel; MODSEL[m.id] = (v === sel && v !== "all") ? "all" : v; viewModule(app); });
+  const mr = $("#modrev"); if (mr) mr.onclick = () => startSession("revise", revisionQueue(20, tids), {feedback: true});
+  bindQuick(tids);
+}
+const routeTopics = () => { const ids = String(MAPSUB || "").split(",").filter(id => Bank.topicName[id] != null); return ids.length ? ids : null; };
 function viewPractice(app) {
   const pr = User.prefs(), tr = getActive("active.train");
   app.innerHTML = `<div class="wrap stack" style="max-width:760px">
     ${storageNotice()}
-    <div><p class="eyebrow">${t("pr.eyebrow")}</p><h1>${t("pr.h1")}</h1></div>
+    <div class="pagehead"><p class="eyebrow">${t("pr.eyebrow")}</p><h1>${t("pr.h1")}</h1><p class="muted">${t("home.trainDesc")}</p></div>
     ${tr ? `<p class="notice">${t("pr.unfinished")} <button class="btn btn-sm btn-sec" id="cont">${t("pr.contInstead")}</button></p>` : ""}
     <form class="card stack" id="f">
-      ${topicPicker("t")}
+      ${topicPicker("t", routeTopics())}
       <fieldset><legend>${t("pr.which")}</legend><div class="checks">
         <label class="check"><input type="radio" name="set" value="all" checked> ${t("pr.all")}</label>
         <label class="check"><input type="radio" name="set" value="new"> ${t("pr.new")}</label>
@@ -1189,10 +1567,10 @@ function viewExamSetup(app) {
   const ex = getActive("active.exam");
   app.innerHTML = `<div class="wrap stack" style="max-width:760px">
     ${storageNotice()}
-    <div><p class="eyebrow">${t("ex.eyebrow")}</p><h1>${t("ex.h1")}</h1><p class="muted">${t("ex.sub")}</p></div>
+    <div class="pagehead"><p class="eyebrow">${t("ex.eyebrow")}</p><h1>${t("ex.h1")}</h1><p class="muted">${t("ex.sub")}</p></div>
     ${ex ? `<p class="notice warn">${t("ex.inProgress", {left: fmtTime(ex.endsAt - now())})} <button class="btn btn-sm btn-pri" id="cont">${t("ex.resumeIt")}</button></p>` : ""}
     <form class="card stack" id="f">
-      ${topicPicker("t")}
+      ${topicPicker("t", routeTopics())}
       <div class="grid g2">
         <div class="field"><label for="n">${t("ex.n")}</label><input class="input" id="n" type="number" inputmode="numeric" min="1" step="1"></div>
         <div class="field"><label for="m">${t("ex.m")}</label><input class="input" id="m" type="number" inputmode="numeric" min="1" max="600" step="1"></div>
@@ -1221,11 +1599,11 @@ function viewExamSetup(app) {
 function viewRevise(app) {
   const ids = revisionQueue(20);
   app.innerHTML = `<div class="wrap stack" style="max-width:760px">
-    <div><p class="eyebrow">${t("rv.eyebrow")}</p><h1>${t("rv.h1")}</h1><p class="muted">${t("rv.sub")}</p></div>
+    <div class="pagehead"><p class="eyebrow">${t("rv.eyebrow")}</p><h1>${t("rv.h1")}</h1><p class="muted">${t("rv.sub")}</p></div>
     <div class="card stack">
-      ${ids.length ? `<p><strong>${t("rv.ready", {q: qn(ids.length)})}</strong></p><ul class="small muted ulist">${ids.slice(0,6).map(id => `<li>${L(id + " · " + Bank.byId[id].concept)}</li>`).join("")}${ids.length>6?`<li>${t("rv.more", {n: ids.length-6})}</li>`:""}</ul>
+      ${ids.length ? `<p><strong>${t("rv.ready", {q: qn(ids.length)})}</strong></p><ul class="small muted ulist">${ids.slice(0,6).map(id => `<li>${glyphHTML(Bank.byId[id].topic, true)} ${L(id + " · " + Bank.byId[id].concept)}</li>`).join("")}${ids.length>6?`<li>${t("rv.more", {n: ids.length-6})}</li>`:""}</ul>
         <div class="row"><button class="btn btn-pri" id="go">${t("rv.start")}</button></div>`
-      : `<p>${t("rv.empty")}</p><div class="row"><button class="btn btn-pri" data-go="practice">${t("rv.goPractice")}</button></div>`}
+      : `<div class="empty"><span class="eart">${ICON.repeat}</span><p>${t("rv.empty")}</p><button class="btn btn-pri" data-go="practice">${t("rv.goPractice")}</button></div>`}
     </div></div>`;
   const g = $("#go"); if (g) g.onclick = () => startSession("revise", ids, {feedback: true});
 }
@@ -1235,16 +1613,17 @@ function viewSession(app) {
   const isExam = S.mode === "exam";
   app.innerHTML = `
   <div class="sess-top"><div class="wrap">
-    <button class="icon-btn" id="exit" aria-label="${t("s.exitLabel")}">${t("s.exit")}</button>
-    <span class="sess-title">${modeName(S.mode)}</span>
-    <span class="muted small" id="pos"></span>
-    <span class="spacer"></span>
-    ${isExam ? `<span class="timer" id="timer" role="timer" aria-label="${t("s.timeLeft")}">${ICON.exam.replace("<svg", '<svg width="16" height="16"')}<b dir="ltr"></b></span>` : `<label class="switch small"><input type="checkbox" id="fbt" ${S.feedback ? "checked" : ""} ${S.mode==="revise"?"disabled":""}> <span>${t("s.instant")}</span></label>`}
-    <button class="icon-btn" id="navbtn" aria-expanded="false" aria-controls="navpane">${ICON.grid}<span id="navcount" dir="ltr"></span></button>
+    <button class="icon-btn" id="exit" aria-label="${t("s.exitLabel")}">${ICON.close}<span class="sess-lbl">${t("s.exit")}</span></button>
+    <div class="sess-titlewrap"><span class="sess-title">${modeName(S.mode)}</span><span id="pos"></span></div>
+    <div class="sess-tools">
+    ${isExam ? `<span class="timer" id="timer" role="timer" aria-label="${t("s.timeLeft")}">${ICON.exam}<b dir="ltr"></b></span>` : `<label class="switch small"><input type="checkbox" id="fbt" aria-label="${t("s.instant")}" ${S.feedback ? "checked" : ""} ${S.mode==="revise"?"disabled":""}> <span class="sess-lbl">${t("s.instant")}</span></label>`}
+    <button class="icon-btn boxed" id="navbtn" aria-expanded="false" aria-controls="navpane" aria-label="${t("s.navigator")}">${ICON.grid}<span id="navcount" dir="ltr"></span></button>
+    <button class="icon-btn boxed themebtn" type="button"></button>
     <button class="langbtn" id="langbtn2" type="button" aria-label="${t("lang.switchLabel")}" lang="${isRTL() ? "en" : "ar"}">${t("lang.switch")}</button>
     <button class="btn btn-pri btn-sm" id="finish">${isExam ? t("s.submit") : t("s.finish")}</button>
+    </div>
   </div><div class="progress" aria-hidden="true"><i id="prog"></i></div></div>
-  <div class="wrap" style="padding-top:18px">
+  <div class="wrap" style="padding-top:20px;padding-bottom:40px">
     <div class="sess-grid">
       <section id="qpane" aria-live="off"></section>
       <aside class="card navpane" id="navpane" aria-label="${t("s.navigator")}"></aside>
@@ -1276,7 +1655,7 @@ function renderNav() {
       if (!isExam && isRevealed(id)) c = S.answers[id] === Bank.byId[id].answer ? "ok" : "no"; else if (S.answers[id] != null) c = "ans";
       const st = isExam || !isRevealed(id) ? (S.answers[id] != null ? t("s.bubAnswered") : t("s.bubNot")) : (c === "ok" ? t("s.bubOk") : t("s.bubNo"));
       return `<button class="bub ${c} ${i === S.idx ? "cur" : ""}" role="listitem" data-i="${i}" aria-label="${t("s.bubLabel", {i: i+1, st: st + (flags.has(id) ? "، " + t("s.bubFlag") : "")})}" ${i===S.idx?'aria-current="true"':""}>${i+1}${flags.has(id) ? '<span class="fl" aria-hidden="true"></span>' : ""}</button>`; }).join("")}</div>
-    <div class="legend"><span><i style="background:var(--plum);border-color:var(--plum)"></i>${t("s.lgAnswered")}</span>${isExam ? "" : `<span><i style="background:var(--sage);border-color:#7fb39c"></i>${t("s.lgCorrect")}</span><span><i style="background:var(--bad-bg);border-color:#d9a1ad"></i>${t("s.lgIncorrect")}</span>`}<span><i></i>${t("s.lgNot")}</span><span><i style="background:#d9a63a;border-radius:50%;border-color:#d9a63a"></i>${t("s.lgFlagged")}</span></div>
+    <div class="legend"><span><i class="l-ans"></i>${t("s.lgAnswered")}</span>${isExam ? "" : `<span><i class="l-ok"></i>${t("s.lgCorrect")}</span><span><i class="l-no"></i>${t("s.lgIncorrect")}</span>`}<span><i></i>${t("s.lgNot")}</span><span><i class="l-fl"></i>${t("s.lgFlagged")}</span></div>
     <div class="row" style="margin-top:14px">
       <button class="btn btn-ghost btn-sm" id="nx-unans">${t("s.nextUnans")}</button>
       <button class="btn btn-ghost btn-sm" id="nx-flag">${t("s.nextFlag")}</button>
@@ -1297,14 +1676,14 @@ function renderQuestion(keepScroll) {
   if (inkQ) { inkQ.destroy(); inkQ = null; }
   const optsHTML = order.map((orig, pos) => {
     let cls = "", tag = "";
-    if (revealed) { if (orig === q.answer) { cls = "correct"; tag = t("s.correctTag"); } else if (orig === ans) { cls = "wrong"; tag = t("s.yourTag"); } }
+    if (revealed) { if (orig === q.answer) { cls = "correct"; tag = ICON.check + t("s.correctTag"); } else if (orig === ans) { cls = "wrong"; tag = ICON.x + t("s.yourTag"); } else cls = "dim"; }
     return `<button type="button" class="opt ${cls}" dir="ltr" role="radio" aria-checked="${ans === orig}" data-o="${orig}" ${revealed ? "disabled" : ""}>
       <span class="key" aria-hidden="true">${LETTERS[pos]}</span><span lang="en">${esc(q.options[orig])}</span>${tag ? `<span class="tag" dir="auto">${tag}</span>` : ""}</button>`; }).join("");
   const conf = S.conf[id];
-  pane.innerHTML = `<article class="card">
-    <div class="qmeta"><span class="pill">${L(Bank.topicName[q.topic] || q.topic)}</span>${isExam ? "" : `<span class="pill sage">${L(q.concept)}</span>`}<span class="qid">${L(q.id + (q.source && Bank.sourceName[q.source] ? " · " + Bank.sourceName[q.source] : ""))}</span><span class="spacer"></span>
+  pane.innerHTML = `<article class="card qcard">
+    <div class="qmeta"><div class="qtags"><span class="qnum" dir="ltr">#${S.idx + 1}</span>${subjPill(q.topic)}${isExam ? "" : `<span class="pill outline">${L(q.concept)}</span>`}</div><div class="qacts">
       <button class="icon-btn" id="flagbtn" aria-pressed="${flag}" title="${t("s.flagTitle")}">${ICON.flag}<span class="lbl-txt">${flag ? t("s.flagged") : t("s.flag")}</span></button>
-      <button class="icon-btn" id="favbtn" aria-pressed="${fav}" aria-label="${fav ? t("s.favRemove") : t("s.favAdd")}" title="${t("s.favTitle")}">${fav ? ICON.starOn : ICON.star}</button></div>
+      <button class="icon-btn" id="favbtn" aria-pressed="${fav}" aria-label="${fav ? t("s.favRemove") : t("s.favAdd")}" title="${t("s.favTitle")}">${fav ? ICON.starOn : ICON.star}</button></div></div>
     <div id="inkbar-slot"></div>
     ${q.stemAr && TRSHOW.has(id) ? `<div class="trbox" id="trbox" dir="rtl" lang="ar" role="note" aria-label="${t("s.trLabel")}">${esc(q.stemAr)}</div>` : ""}
     <div class="ink-host ${drawing ? "drawing" : ""}" id="inkhost" dir="ltr">
@@ -1327,11 +1706,12 @@ function renderQuestion(keepScroll) {
     <div class="field ${note ? "" : "hide"}" id="notewrap" style="margin-top:14px"><label for="notetxt">${t("s.notesFor", {id: L(q.id)})} <span class="muted small">${t("s.notesSaved")}</span></label><textarea class="input" id="notetxt" dir="auto" placeholder="${t("s.notesPh")}">${esc(note)}</textarea></div>
     <div class="fb" id="fbslot">${revealed ? feedbackHTML(q, ans) : ""}</div>
     <div class="navrow">
-      <button class="btn btn-ghost" id="prev" ${S.idx === 0 ? "disabled" : ""}>${t("s.prev")}</button>
+      <button class="btn btn-ghost" id="prev" ${S.idx === 0 ? "disabled" : ""}>${ICON.left}<span>${t("s.prev")}</span></button>
       <span class="spacer"></span>
-      ${S.idx < S.qids.length - 1 ? `<button class="btn btn-pri" id="next">${t("s.next")}</button>` : `<button class="btn btn-pri" id="end">${isExam ? t("s.reviewSubmit") : t("s.finish")}</button>`}
+      ${S.idx < S.qids.length - 1 ? `<button class="btn btn-pri" id="next"><span>${t("s.next")}</span>${ICON.right}</button>` : `<button class="btn btn-pri" id="end">${isExam ? t("s.reviewSubmit") : t("s.finish")}</button>`}
     </div>
-  </article>`;
+  </article>
+  <p class="qid qsrc">${L(q.id + (q.source && Bank.sourceName[q.source] ? " · " + Bank.sourceName[q.source] : ""))}</p>`;
   $$(".opt", pane).forEach(b => b.onclick = () => { if (!drawing) choose(+b.dataset.o); });
   $$("[data-conf]", pane).forEach(b => b.onclick = () => { const k = b.dataset.conf; S.conf[id] = S.conf[id] === k ? undefined : k; if (!S.conf[id]) delete S.conf[id]; saveSession(S);
     $$("[data-conf]", pane).forEach(x => x.setAttribute("aria-pressed", S.conf[id] === x.dataset.conf)); });
@@ -1377,14 +1757,14 @@ function feedbackHTML(q, ans) {
   const optLi = i => `<li dir="${cdir(ww[i])}"><bdi dir="ltr" class="ltr"><strong>${esc(q.options[i])}</strong></bdi><span class="wwtext cx" dir="${cdir(ww[i])}">${esc(ww[i])}</span></li>`;
   const others = q.options.map((o, i) => i !== q.answer && i !== ans && ww[i] ? optLi(i) : "").join("");
   const othersBlock = others ? `<details class="sec wwothers"><summary>${t(mine ? "fb.others" : (ok ? "fb.others" : "fb.allWrong"))}</summary><ul class="wwlist">${others}</ul></details>` : "";
-  return `<div class="verdict ${none ? "skip" : ok ? "ok" : "no"}" role="status">${none ? t("fb.none") : ok ? t("fb.ok") : t("fb.no")} — ${t("fb.answerIs")} <bdi dir="ltr" class="ltr ansline" style="font-weight:800">${esc(q.options[q.answer])}</bdi></div>
+  return `<div class="verdict ${none ? "skip" : ok ? "ok" : "no"}" role="status"><span class="vic">${none ? ICON.minus : ok ? ICON.check : ICON.x}</span><span class="vbody">${none ? t("fb.none") : ok ? t("fb.ok") : t("fb.no")} — ${t("fb.answerIs")} <bdi dir="ltr" class="ltr ansline"><strong>${esc(q.options[q.answer])}</strong></bdi></span></div>
     ${mine ? `<div class="sec yourwrong"><h4>${t("fb.yours")}</h4><p class="yourpick"><bdi dir="ltr" class="ltr"><s>${esc(q.options[ans])}</s></bdi></p><p dir="${cdir(mine)}" class="cx">${esc(mine)}</p></div>` : ""}
-    ${q.note ? `<div class="notice warn small"><strong>${t("fb.note")}</strong> ${autoDir(q.note)}</div>` : ""}
-    ${q.explanation ? `<div class="sec"><h4>${t("fb.expl")}</h4><p dir="${cdir(q.explanation)}" class="cx">${esc(q.explanation)}</p></div>` : (q.keyConcept || q.memoryTrick || q.remember ? "" : `<p class="muted small">${t("fb.noExpl")}</p>`)}
+    ${q.note ? `<div class="notice warn small">${ICON.alert.replace("<svg", '<svg width="18" height="18" style="flex:none"')}<span><strong>${t("fb.note")}</strong> ${autoDir(q.note)}</span></div>` : ""}
+    ${q.explanation ? `<div class="sec expl"><h4>${ICON.book}${t("fb.expl")}</h4><p dir="${cdir(q.explanation)}" class="cx">${esc(q.explanation)}</p></div>` : (q.keyConcept || q.memoryTrick || q.remember ? "" : `<p class="muted small">${t("fb.noExpl")}</p>`)}
     ${othersBlock}
-    ${q.keyConcept ? `<div class="sec"><h4>${t("fb.key")}</h4><p dir="${cdir(q.keyConcept)}" class="cx">${esc(q.keyConcept)}</p></div>` : ""}
-    ${q.memoryTrick ? `<div class="sec trick"><h4>${t("fb.trick")}</h4><p dir="${cdir(q.memoryTrick)}" class="cx">${esc(q.memoryTrick)}</p></div>` : ""}
-    ${q.remember ? `<div class="sec remember"><h4>${t("fb.remember")}</h4><p dir="${cdir(q.remember)}" class="cx"><strong>${esc(q.remember)}</strong></p></div>` : ""}`;
+    ${q.keyConcept ? `<div class="sec key"><h4>${ICON.key}${t("fb.key")}</h4><p dir="${cdir(q.keyConcept)}" class="cx">${esc(q.keyConcept)}</p></div>` : ""}
+    ${q.memoryTrick ? `<div class="sec trick"><h4>${ICON.brain}${t("fb.trick")}</h4><p dir="${cdir(q.memoryTrick)}" class="cx">${esc(q.memoryTrick)}</p></div>` : ""}
+    ${q.remember ? `<div class="sec remember"><h4>${ICON.pin}${t("fb.remember")}</h4><p dir="${cdir(q.remember)}" class="cx"><strong>${esc(q.remember)}</strong></p></div>` : ""}`;
 }
 
 // ---------- results ----------
@@ -1427,9 +1807,9 @@ function viewResults(app) {
   const wrongIds = a.items.filter(x => !x.correct).map(x => x.id).filter(id => Bank.byId[id]);
   const flags = User.flags; const canPrint = !IN_FRAME && typeof window.print === "function";
   app.innerHTML = `<div class="wrap stack">
-    <div class="row noprint"><button class="btn btn-ghost btn-sm" data-go="history">${t("r.all")}</button></div>
+    <div class="row noprint"><button class="btn btn-link btn-sm backlink" data-go="history">${ICON.left}${t("r.all")}</button></div>
     <div><p class="eyebrow">${t("r.eyebrow", {mode: modeName(a.mode), date: esc(fmtDate(a.finishedAt))})}</p><h1>${t("r.pct", {p: acc})}</h1><p class="muted">${isExamA ? t("r.subExam", {c: st.correct, n: st.total}) : t("r.subTrain", {c: st.correct, n: answeredItems.length}) + (st.unans ? " · " + t("r.skipped", {n: st.unans}) : "")}</p>${a.auto === "time" ? `<p class="pill warn">${t("r.auto")}</p>` : ""}</div>
-    <div class="card"><div class="grid g3">
+    <div class="card"><div class="grid statgrid">
       <div><div class="stat">${st.correct}<span class="muted" style="font-size:1rem"> / ${st.total}</span></div><div class="statlbl">${t("r.correct")}</div></div>
       <div><div class="stat">${st.wrong}</div><div class="statlbl">${t("r.incorrect")}</div></div>
       <div><div class="stat">${st.unans}</div><div class="statlbl">${isExamA ? t("r.unans") : t("r.skippedLbl")}</div></div>
@@ -1438,7 +1818,7 @@ function viewResults(app) {
     </div></div>
     <div class="grid g2">
       <div class="card"><h3 style="margin-bottom:12px">${t("r.byTopic")}</h3><div class="bars">${Object.keys(st.byTopic).map(k => { const r = st.byTopic[k];
-        return `<div class="bar"><span>${L(Bank.topicName[k] || k)}</span><span class="track" role="img" aria-label="${t("r.percent", {p: pct(r.c,r.n)})}"><i style="width:${pct(r.c, r.n)}%"></i></span><span class="small"><strong>${pct(r.c, r.n)}%</strong> <span dir="ltr">${r.c}/${r.n}</span></span></div>`; }).join("")}</div></div>
+        return `<div class="bar"${subjAttr(k)}><span>${L(Bank.topicName[k] || k)}</span><span class="track" role="img" aria-label="${t("r.percent", {p: pct(r.c,r.n)})}"><i style="width:${pct(r.c, r.n)}%"></i></span><span class="small"><strong>${pct(r.c, r.n)}%</strong> <span dir="ltr">${r.c}/${r.n}</span></span></div>`; }).join("")}</div></div>
       <div class="card"><h3 style="margin-bottom:8px">${t("r.weak")}</h3>
         ${weakNow.length ? `<p class="muted small">${t(isExamA ? "r.missedNowExam" : "r.missedNow")}</p><ul class="ulist" style="margin-bottom:10px">${weakNow.slice(0,8).map(w => `<li>${L(w.k)} <span class="muted small" dir="ltr">(${w.c}/${w.n})</span></li>`).join("")}${weakNow.length > 8 ? `<li class="muted small">${t("r.andMore", {n: weakNow.length-8})}</li>` : ""}</ul>` : `<p class="muted">${t("r.noMissed")}</p>`}
         ${weakAll.length ? `<p class="muted small">${t("r.below70")}</p><ul class="ulist">${weakAll.slice(0,6).map(w => `<li>${L(w.k)} <span class="muted small" dir="ltr">(${w.c}/${w.n})</span></li>`).join("")}</ul>` : ""}
@@ -1462,9 +1842,9 @@ function viewResults(app) {
   const drawList = () => {
     const show = $("#showans").checked;
     const items = a.items.map((x, i) => ({x, i})).filter(({x}) => Bank.byId[x.id] && (filter === "all" || (filter === "wrong" && !x.correct && x.chosen != null) || (filter === "unans" && x.chosen == null) || (filter === "flag" && flags.has(x.id))));
-    $("#rlist").innerHTML = items.length ? items.map(({x, i}) => { const q = Bank.byId[x.id]; const c = x.correct ? "var(--sage)" : x.chosen == null ? "var(--lav-2)" : "var(--bad-bg)", fc = x.correct ? "var(--sage-ink)" : x.chosen == null ? "var(--plum)" : "var(--bad)";
+    $("#rlist").innerHTML = items.length ? items.map(({x, i}) => { const q = Bank.byId[x.id]; const nc = x.correct ? "n-ok" : x.chosen == null ? "n-un" : "n-no";
       const confL = x.conf ? " · " + t("s." + x.conf) : "", hintL = x.hints ? " · " + (x.hints === 1 ? t("r.hint1") : t("r.hints", {n: x.hints})) : "";
-      return `<details class="ritem"><summary><span class="num" style="background:${c};color:${fc}">${i+1}</span><span style="flex:1"><span class="qid">${L(q.id + " · " + (Bank.topicName[q.topic] || ""))} · ${fmtDur(x.timeMs)}${confL}${hintL}</span><br><span dir="ltr" lang="en" class="ltr" style="display:block">${esc(q.stem)}</span></span></summary>
+      return `<details class="ritem"><summary><span class="num ${nc}">${i+1}</span><span style="flex:1"><span class="qid">${L(q.id + " · " + (Bank.topicName[q.topic] || ""))} · ${fmtDur(x.timeMs)}${confL}${hintL}</span><br><span dir="ltr" lang="en" class="ltr" style="display:block">${esc(q.stem)}</span></span></summary>
         <div class="stack rsub">
           <p><strong>${t("r.yourAnswer")}</strong> ${x.chosen == null ? `<em>${t("common.none")}</em>` : L(q.options[x.chosen])}</p>
           ${show ? feedbackHTML(q, x.chosen) : `<p class="muted small">${t("r.hidden")}</p>`}
@@ -1512,7 +1892,7 @@ async function applyBackup(obj) {
   if (obj.data.customBank == null && keepBank != null) Store.loadRaw({customBank: keepBank});
   Store.set("lastBackup", Date.now());
   const lg = Store.get("lang", LANG); if (lg !== LANG && (lg === "ar" || lg === "en")) setLang(lg, false);
-  await loadBank(); toast(t("h.restDone")); render();
+  applyTheme(); await loadBank(); toast(t("h.restDone")); render();
   return true;
 }
 // ---- short code (hand-copyable) ----
@@ -1576,7 +1956,7 @@ async function showBackupCode() {
     <p class="muted small">${t("sc.inc")}</p>`;
   let code = "";
   const acts = [{label: t("common.close"), cls: "btn-ghost", value: "close"}];
-  if (navigator.share) acts.push({label: t("code.share"), cls: "btn-sec", onClick: () => { if (code) navigator.share({text: "MedQ: " + prettyCode(code)}).then(() => Store.set("lastBackup", Date.now())).catch(() => {}); return false; }});
+  if (navigator.share) acts.push({label: t("code.share"), cls: "btn-sec", onClick: () => { if (code) navigator.share({text: "MedQore: " + prettyCode(code)}).then(() => Store.set("lastBackup", Date.now())).catch(() => {}); return false; }});
   acts.push({label: t("code.copy"), cls: "btn-pri", onClick: () => { if (!code) return false; const v = prettyCode(code);
     const done = () => { Store.set("lastBackup", Date.now()); toast(t("code.copied")); };
     const fallback = () => { try { const r = document.createRange(); r.selectNodeContents($("#bkcode")); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); if (document.execCommand("copy")) { done(); return; } } catch(e) {} toast(t("code.copyFail")); };
@@ -1600,7 +1980,7 @@ function saveCard(answered) {
   const last = Store.get("lastBackup", 0), days = last ? Math.floor((Date.now() - last) / 864e5) : -1;
   const due = answered >= 10 && (!last || days >= 7);
   const sub = !answered && !last ? t("sc.none") : !last ? t("sc.never") : days >= 7 ? t("sc.due", {d: days}) : days === 0 ? t("sc.today") : t("sc.days", {d: days});
-  return `<div class="card savecard${due ? " due" : ""}" id="savecard"><div class="savehead"><span class="saveic" aria-hidden="true">💾</span><div><strong>${t("sc.T")}</strong><div class="muted small">${sub}</div></div></div>
+  return `<div class="card savecard${due ? " due" : ""}" id="savecard"><div class="savehead"><span class="saveic" aria-hidden="true">${ICON.save}</span><div><strong>${t("sc.T")}</strong><div class="muted small">${sub}</div></div></div>
     <div class="row saveacts"><button class="btn ${answered ? "btn-pri" : "btn-sec"} btn-sm" id="hsave" ${answered ? "" : "disabled"}>${t("sc.get")}</button><button class="btn ${answered ? "btn-sec" : "btn-pri"} btn-sm" id="hrest">${t("sc.rest")}</button></div></div>`;
 }
 function isIOSBrowserTab() {
@@ -1624,14 +2004,14 @@ function viewHistory(app) {
   const topicAcc = Bank.topics.map(tp => { let n = 0, c = 0; Object.keys(p).forEach(id => { const q = Bank.byId[id]; if (q && q.topic === tp.id) { n += p[id].n; c += p[id].c; } }); return {tp, n, c}; });
   app.innerHTML = `<div class="wrap stack">
     ${storageNotice()}
-    <div><p class="eyebrow">${t("h.eyebrow")}</p><h1>${t("h.h1")}</h1></div>
+    <div class="pagehead"><p class="eyebrow">${t("h.eyebrow")}</p><h1>${t("h.h1")}</h1></div>
     <div class="grid g2">
       <div class="card"><h3 style="margin-bottom:12px">${t("h.allAnswers")}</h3>${totalN ? `<div class="stat">${pct(totalC, totalN)}%</div><div class="statlbl">${t("h.correctOf", {c: totalC, n: totalN})}</div>
-        <div class="bars" style="margin-top:14px">${topicAcc.map(({tp,n,c}) => `<div class="bar"><span>${L(tp.name)}</span><span class="track"><i style="width:${pct(c,n)}%"></i></span><span class="small">${n ? `<strong>${pct(c,n)}%</strong> <span dir="ltr">${c}/${n}</span>` : "—"}</span></div>`).join("")}</div>` : `<p class="muted">${t("h.noAnswers")}</p>`}</div>
+        <div class="bars" style="margin-top:14px">${topicAcc.map(({tp,n,c}) => `<div class="bar"${subjAttr(tp.id)}><span>${L(tp.name)}</span><span class="track"><i style="width:${pct(c,n)}%"></i></span><span class="small">${n ? `<strong>${pct(c,n)}%</strong> <span dir="ltr">${c}/${n}</span>` : "—"}</span></div>`).join("")}</div>` : `<p class="muted">${t("h.noAnswers")}</p>`}</div>
       <div class="card"><h3 style="margin-bottom:8px">${t("r.weak")}</h3>${(() => { const w = weakConceptsOverall(); return w.length ? `<ul class="ulist" style="margin:0">${w.map(x => `<li>${L(x.k)} <span class="muted small" dir="ltr">(${x.c}/${x.n})</span></li>`).join("")}</ul>` : `<p class="muted">${t("h.weakEmpty")}</p>`; })()}</div>
     </div>
     <div class="card"><h3 style="margin-bottom:8px">${t("h.sessions")}</h3>
-      ${h.length ? h.map(a => { const st = computeStats(a); return `<div class="row ritem"><div><strong>${modeName(a.mode)}</strong> · ${a.mode === "exam" ? `${pct(st.correct, st.total)}% <span dir="ltr">(${st.correct}/${st.total})</span>` : t("h.pctOf", {p: pct(st.correct, st.total - st.unans), n: st.total - st.unans})}<div class="muted small">${esc(fmtDate(a.finishedAt))} · ${fmtDur(a.elapsedMs)}</div></div><span class="spacer"></span><button class="btn btn-sec btn-sm" data-open="${esc(a.id)}">${t("h.view")}</button></div>`; }).join("") : `<p class="muted">${t("h.noSessions")}</p>`}
+      ${h.length ? h.map(a => { const st = computeStats(a); return `<div class="histrow ritem"><span class="hmode${a.mode === "exam" ? " exam" : ""}">${a.mode === "exam" ? ICON.exam : a.mode === "revise" ? ICON.repeat : ICON.train}</span><div style="flex:1;min-width:0"><strong>${modeName(a.mode)}</strong> · ${a.mode === "exam" ? `${pct(st.correct, st.total)}% <span dir="ltr">(${st.correct}/${st.total})</span>` : t("h.pctOf", {p: pct(st.correct, st.total - st.unans), n: st.total - st.unans})}<div class="muted small">${esc(fmtDate(a.finishedAt))} · ${fmtDur(a.elapsedMs)}</div></div><button class="btn btn-sec btn-sm" data-open="${esc(a.id)}">${t("h.view")}</button></div>`; }).join("") : `<p class="muted">${t("h.noSessions")}</p>`}
     </div>
     <div class="card stack"><h3>${t("h.backT")}</h3><p class="muted small">${t("h.backSub")}</p>
       <div class="row" style="flex-wrap:wrap"><button class="btn btn-pri" id="bkcodebtn">${t("code.btn")}</button><button class="btn btn-sec" id="rscodebtn">${t("code.restBtn")}</button></div>
@@ -1645,7 +2025,7 @@ function viewHistory(app) {
       const payload = {app: "MedQ", format: 1, exportedAt: new Date().toISOString(), data: Store.dump()};
       const blob = new Blob([JSON.stringify(payload)], {type: "application/json"});
       const url = URL.createObjectURL(blob), a = document.createElement("a");
-      a.href = url; a.download = "medq-progress-" + new Date().toISOString().slice(0, 10) + ".json";
+      a.href = url; a.download = "medqore-progress-" + new Date().toISOString().slice(0, 10) + ".json";
       document.body.appendChild(a); a.click(); a.remove();
       setTimeout(() => URL.revokeObjectURL(url), 4000);
       Store.set("lastBackup", Date.now()); toast(t("h.backDone"));
@@ -1662,7 +2042,7 @@ function viewHistory(app) {
     if (!validBackup(obj) || f.size > 20e6) { toast(t("h.restBad")); return; }
     await applyBackup(obj);
   };
-  $("#wipe").onclick = async () => { if (await confirmDialog(t("h.wipeT"), `<p>${t("h.wipeB")}</p>`, t("h.wipeBtn"), "btn-danger")) { const keep = LANG; Store.clearAll(); Store.set("lang", keep); await loadBank(); toast(t("h.wiped")); render(); } };
+  $("#wipe").onclick = async () => { if (await confirmDialog(t("h.wipeT"), `<p>${t("h.wipeB")}</p>`, t("h.wipeBtn"), "btn-danger")) { const keep = LANG, keepTheme = storedTheme(); Store.clearAll(); Store.set("lang", keep); if (keepTheme) Store.set("theme", keepTheme); await loadBank(); toast(t("h.wiped")); render(); } };
 }
 
 function viewBank(app) {
@@ -1671,14 +2051,14 @@ function viewBank(app) {
     <div class="card stack">
       <div class="grid g2">
         <div class="field"><label for="q">${t("b.search")}</label><input class="input" id="q" type="search" dir="auto" placeholder="${t("b.searchPh")}" autocomplete="off" enterkeyhint="search"></div>
-        <div class="field"><label for="tp">${t("b.topic")}</label><select class="input" id="tp"><option value="">${t("b.allTopics")}</option>${Bank.topics.map(tp => `<option value="${esc(tp.id)}" dir="ltr">${esc(tp.name)}</option>`).join("")}</select></div>
+        <div class="field"><label for="tp">${t("b.topic")}</label><select class="input" id="tp"><option value="">${t("b.allTopics")}</option>${Bank.topics.map(tp => `<option value="${esc(tp.id)}" dir="ltr" ${routeTopics() && routeTopics().length === 1 && routeTopics()[0] === tp.id ? "selected" : ""}>${esc(tp.name)}</option>`).join("")}</select></div>
         ${Bank.sources.length ? `<div class="field"><label for="srcb">${t("setup.source")}</label><select class="input" id="srcb"><option value="">${t("setup.allSources")}</option>${Bank.sources.map(x => `<option value="${esc(x.id)}" dir="ltr">${esc(x.name)}</option>`).join("")}</select></div>` : ""}
       </div>
       <div class="tabs" role="group" aria-label="${t("b.filter")}">${[["all","b.fAll"],["fav","b.fFav"],["flag","b.fFlag"],["wrong","b.fWrong"],["notes","b.fNotes"]].map(([k,l],i) => `<button class="chip" data-f="${k}" aria-pressed="${i===0}">${t(l)}</button>`).join("")}</div>
       <div class="row"><label class="switch small"><input type="checkbox" id="showans"> <span>${t("b.showAns")}</span></label><span class="spacer"></span><span class="muted small" id="cnt"></span><button class="btn btn-pri btn-sm" id="practise">${t("b.practise")}</button></div>
     </div>
     <div class="card" id="list" aria-live="polite"></div>
-    <details class="card"><summary style="cursor:pointer;font-weight:600;color:var(--plum);min-height:28px">${t("b.adv")}</summary>
+    <details class="card"><summary>${t("b.adv")}</summary>
       <div class="stack" style="margin-top:12px">
         <p class="muted small">${t("b.advSub")}</p>
         <input type="file" id="bankfile" accept="application/json,.json" class="input">
@@ -1697,13 +2077,13 @@ function viewBank(app) {
     $("#cnt").textContent = qn(list.length); $("#cnt").dataset.n = list.length; $("#practise").disabled = !list.length;
     const shown = list.slice(0, 200);
     $("#list").innerHTML = list.length ? shown.map(q => { const r = p[q.id];
-      return `<div class="qrow"><div class="qmeta"><span class="pill">${L(Bank.topicName[q.topic])}</span><span class="qid"><bdi dir="ltr" class="ltr">${hl(q.id)} · ${esc(q.concept)}${q.source ? " · " + esc(Bank.sourceName[q.source] || q.source) : ""}</bdi></span>${q.repeatOf ? `<span class="pill" title="${esc(t("b.repeatOf", {id: q.repeatOf}))}">${t("b.repeat")}</span>` : ""}${r ? `<span class="pill ${r.last && r.last.ok ? "sage" : "bad"}">${t("b.correctN", {c: r.c, n: r.n})}</span>` : ""}<span class="spacer"></span>
+      return `<div class="qrow"><div class="qmeta">${subjPill(q.topic)}<span class="qid"><bdi dir="ltr" class="ltr">${hl(q.id)} · ${esc(q.concept)}${q.source ? " · " + esc(Bank.sourceName[q.source] || q.source) : ""}</bdi></span>${q.repeatOf ? `<span class="pill" title="${esc(t("b.repeatOf", {id: q.repeatOf}))}">${t("b.repeat")}</span>` : ""}${r ? `<span class="pill ${r.last && r.last.ok ? "sage" : "bad"}">${t("b.correctN", {c: r.c, n: r.n})}</span>` : ""}<span class="spacer"></span>
         <button class="icon-btn" data-flag="${esc(q.id)}" aria-pressed="${flags.has(q.id)}" aria-label="${esc(t("b.flagQ", {id: q.id}))}">${ICON.flag}</button>
         <button class="icon-btn" data-fav="${esc(q.id)}" aria-pressed="${favs.has(q.id)}" aria-label="${esc(t("b.favQ", {id: q.id}))}">${favs.has(q.id) ? ICON.starOn : ICON.star}</button></div>
-        <div dir="ltr" lang="en" class="ltr"><p style="margin:0">${hl(q.stem)}</p>
+        <div dir="ltr" lang="en" class="ltr"><p class="bstem">${hl(q.stem)}</p>
         <ul class="opts-list">${q.options.map((o, i) => `<li class="${show && i === q.answer ? "correct" : ""}">${LETTERS[i]}. ${hl(o)}${show && i === q.answer ? " ✓" : ""}</li>`).join("")}</ul></div>
-        ${notes[q.id] ? `<p class="small" style="margin-top:8px"><strong>${t("b.yourNote")}</strong> <span dir="auto">${hl(notes[q.id])}</span></p>` : ""}
-        ${show && q.explanation ? `<p class="small muted cx" dir="${cdir(q.explanation)}" style="margin-top:6px">${hl(q.explanation)}</p>` : ""}${show && q.memoryTrick ? `<p class="small cx" dir="${cdir(q.memoryTrick)}" style="margin-top:4px;color:var(--plum-2)">💡 ${hl(q.memoryTrick)}</p>` : ""}${show && q.note ? `<p class="small cx" dir="${cdir(q.note)}" style="margin-top:6px;color:var(--warn)">${esc(q.note)}</p>` : ""}</div>`; }).join("") + (list.length > shown.length ? `<p class="muted small" style="padding-top:12px">${t("r.andMore", {n: list.length - shown.length})}</p>` : "") : `<p class="muted">${t("b.noMatch")}</p>`;
+        ${notes[q.id] ? `<p class="small bk-note"><strong>${t("b.yourNote")}</strong> <span dir="auto">${hl(notes[q.id])}</span></p>` : ""}
+        ${show && q.explanation ? `<p class="small muted cx" dir="${cdir(q.explanation)}" style="margin-top:6px">${hl(q.explanation)}</p>` : ""}${show && q.memoryTrick ? `<p class="small cx bk-trick" dir="${cdir(q.memoryTrick)}">${hl(q.memoryTrick)}</p>` : ""}${show && q.note ? `<p class="small cx bk-warn" dir="${cdir(q.note)}">${esc(q.note)}</p>` : ""}</div>`; }).join("") + (list.length > shown.length ? `<p class="muted small" style="padding-top:12px">${t("r.andMore", {n: list.length - shown.length})}</p>` : "") : `<p class="muted">${t("b.noMatch")}</p>`;
     $$("[data-flag]").forEach(b => b.onclick = () => { User.toggleSet("flags", b.dataset.flag); draw(); });
     $$("[data-fav]").forEach(b => b.onclick = () => { User.toggleSet("favs", b.dataset.fav); draw(); });
     $("#practise").onclick = () => startSession("train", list.map(q => q.id), {feedback: User.prefs().feedback});
