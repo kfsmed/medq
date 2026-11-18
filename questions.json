@@ -22085,6 +22085,31 @@
    }
   },
   {
+   "id": "BG-571",
+   "topic": "genetics",
+   "concept": "Replication elongation",
+   "source": "FIGHTER",
+   "banks": [
+    "FIGHTER"
+   ],
+   "stem": "Deoxyribonucleotides are added to RNA primer by which of the following?",
+   "options": [
+    "DNA polymerase I",
+    "DNA polymerase II",
+    "DNA polymerase III holoenzyme"
+   ],
+   "answer": 2,
+   "where": [
+    "End Semester 2018 (Second Round)"
+   ],
+   "decks": {
+    "FIGHTER": [
+     "P-02"
+    ]
+   },
+   "note": "مفتاح الكتيب الأصلي كان A (DNA polymerase I)، وFighter صححه في رسالة التعديلات. السبب: الكتاب صفحة 92 بيقول إن DNA polymerase III بيضيف deoxyribonucleotides على الـ free 3' OH بتاع الـ RNA primer. أما DNA polymerase I فدوره يشيل الـ primer ويحط DNA مكانه."
+  },
+  {
    "id": "BG-376",
    "topic": "genetics",
    "concept": "DNA replication overview",
@@ -22360,7 +22385,7 @@
      "P-03"
     ]
    },
-   "note": "الكتيب مدّي الإجابة B (AP endonuclease). بس الـ depurinated site أصلًا مفيهوش القاعدة، فمش محتاج DNA glycosylase، لكن بيحتاج AP endonuclease وDNA polymerase I وligase. الإجابة الصح A."
+   "note": "مفتاح الكتيب الأصلي كان B (AP endonuclease)، وFighter صححه في رسالة التعديلات. السبب: الـ depurinated site أصلًا مفيهوش القاعدة، فمش محتاج DNA glycosylase، لكن بيحتاج AP endonuclease وDNA polymerase I وligase. الإجابة الصح A."
   },
   {
    "id": "BG-387",
@@ -22412,7 +22437,7 @@
      "P-03"
     ]
    },
-   "note": "الكتيب مدّي الإجابة D (3'→5' exonuclease). بس إزالة الـ RNA primer بتتم بالـ 5'→3' exonuclease activity بتاعة DNA polymerase I. الـ 3'→5' exonuclease وظيفتها proofreading. الإجابة الصح A."
+   "note": "مفتاح الكتيب الأصلي كان D (3'→5' exonuclease)، وFighter صححه في رسالة التعديلات. السبب: إزالة الـ RNA primer بتتم بالـ 5'→3' exonuclease activity بتاعة DNA polymerase I. الـ 3'→5' exonuclease وظيفتها proofreading. الإجابة الصح A."
   },
   {
    "id": "BG-389",
@@ -23040,7 +23065,7 @@
      "P-05"
     ]
    },
-   "note": "الكتيب مدّي الإجابة B (Km is increased). بس في الـ non-competitive inhibition الـ Km بتفضل ثابتة والـ Vmax بتقل، لأن تركيز الإنزيم الشغال بيقل. الإجابة الصح D."
+   "note": "مفتاح الكتيب الأصلي كان B (Km is increased)، وFighter صححه في رسالة التعديلات. السبب: في الـ non-competitive inhibition الـ Km بتفضل ثابتة والـ Vmax بتقل، لأن تركيز الإنزيم الشغال بيقل. الإجابة الصح D."
   },
   {
    "id": "BG-414",
@@ -23091,7 +23116,7 @@
      "P-05"
     ]
    },
-   "note": "الكتيب مدّي الإجابة A (proofreading). بس الـ proofreading وظيفة الـ 3'→5' exonuclease. أما الـ 5'→3' exonuclease لـ DNA polymerase I فوظيفتها إزالة الـ RNA primers. الإجابة الصح C."
+   "note": "مفتاح الكتيب الأصلي كان A (proofreading)، وFighter صححه في رسالة التعديلات. السبب: الـ proofreading وظيفة الـ 3'→5' exonuclease. أما الـ 5'→3' exonuclease لـ DNA polymerase I فوظيفتها إزالة الـ RNA primers. الإجابة الصح C."
   },
   {
    "id": "BG-416",
