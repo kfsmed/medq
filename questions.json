@@ -22395,14 +22395,14 @@
    "banks": [
     "FIGHTER"
    ],
-   "stem": "Which of the following statements is NOT true about synthesis of lagging strand?",
+   "stem": "Which of the following statements is true about synthesis of lagging strand?",
    "options": [
     "It needs single primer",
     "It is synthesized continuously",
     "Its template runs from 3'-5'",
     "DNA polymerase synthesizes it in 5'-3' direction"
    ],
-   "answer": 0,
+   "answer": 3,
    "where": [
     "End Module 2019"
    ],
@@ -22411,7 +22411,7 @@
      "P-03"
     ]
    },
-   "note": "ملحوظة: السؤال فيه اختيارين غلط مش واحد. الـ lagging strand محتاج primers كتير (A غلط)، وبيتعمل discontinuously (B غلط برضه). مفتاح الامتحان A."
+   "note": "السؤال ده اتعدل في رسالة تصحيحات Fighter: كان \"NOT true\" وفيه اختيارين غلط (A وB)، فبقى \"true\" والإجابة D. الـ lagging strand بيتعمل discontinuously وبيحتاج primers كتير، والـ DNA polymerase دايمًا بيصنّعه 5'→3'."
   },
   {
    "id": "BG-388",
@@ -23647,7 +23647,7 @@
    "banks": [
     "FIGHTER"
    ],
-   "stem": "Which of the following amino acids would more possibly be on the surface of a membrane protein?",
+   "stem": "Which of the following amino acids would more possibly be on the surface of a membrane protein EXCEPT?",
    "options": [
     "Aspartate",
     "Lysine",
@@ -23665,7 +23665,7 @@
      "P-09"
     ]
    },
-   "note": "الكتيب مدّي الإجابة A (Aspartate). بس الـ membrane protein سطحه الملامس للـ lipid bilayer لازم يبقى hydrophobic، والـ valine هو الـ hydrophobic الوحيد بين الاختيارات. الـ Aspartate والـ lysine والـ serine قطبية، وبتوجد على سطح البروتينات اللي بتذوب في الماء. الإجابة الصح C."
+   "note": "السؤال ده كان ناقص كلمة EXCEPT، وFighter صححه في رسالة التعديلات. المقصود بالـ surface هنا الجزء المعرّض للمية، وده بيبقى فيه الـ polar amino acids (Aspartate وLysine وSerine). أما الـ Valine فهو hydrophobic، فبيستخبى جوه البروتين أو جوه الـ lipid bilayer. الإجابة C."
   },
   {
    "id": "BG-438",
@@ -24247,13 +24247,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24274,13 +24272,11 @@
    ],
    "answer": 0,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24301,13 +24297,11 @@
    ],
    "answer": 3,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24328,13 +24322,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24380,13 +24372,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24407,13 +24397,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24434,13 +24422,11 @@
    ],
    "answer": 0,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24461,13 +24447,11 @@
    ],
    "answer": 0,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    },
    "explanation": "الـ leucine حمضه الأميني hydrophobic، وبيبقى جوه قلب البروتين (hydrophobic core) بعيد عن الماء. لو اتبدل بـ glutamate (negatively charged) جوه الـ core، الشحنة هتتنافر مع البيئة الـ hydrophobic.\nالنتيجة إن الـ tertiary structure مش هتثبت، فيحصل misfolding ويضيع الـ function (الكتاب ص 48–49). الـ salt bridges بتتكون على السطح مش جوه الـ core.",
@@ -24490,13 +24474,11 @@
    ],
    "answer": 0,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    },
    "explanation": "الـ pI هو الـ pH اللي البروتين عنده يبقى net charge = 0. لو الـ pH أقل من الـ pI، البروتين بيكتسب H⁺ فيبقى net charge موجب (positive)، ولو الـ pH أعلى من الـ pI يبقى سالب.\nهنا pI = 8.5 و pH = 7.4 (أقل من الـ pI) يبقى positive.",
@@ -24519,13 +24501,11 @@
    ],
    "answer": 3,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24546,13 +24526,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24573,13 +24551,11 @@
    ],
    "answer": 3,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24600,13 +24576,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24627,13 +24601,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    },
    "explanation": "الـ Chargaff: T = 20% يبقى A = 20%، المجموع 40%، والـ 60% الباقية G + C، يعني كل واحدة 30%. فالـ guanine = 30%.\nانتبهي: 60% دي مجموع G و C مع بعض، مش G لوحدها.",
@@ -24657,13 +24629,11 @@
    "answer": 1,
    "where": [
     "End Module 2026 (First Round)",
-    "End Module 2026",
     "Final 2026 (Second Round)"
    ],
    "decks": {
     "FIGHTER": [
      "P-10",
-     "P-11",
      "P-14"
     ]
    }
@@ -24685,13 +24655,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24712,13 +24680,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24740,13 +24706,11 @@
    "answer": 0,
    "where": [
     "End Module 2026 (First Round)",
-    "End Module 2026",
     "Final 2026 (Second Round)"
    ],
    "decks": {
     "FIGHTER": [
      "P-10",
-     "P-11",
      "P-14"
     ]
    }
@@ -24769,13 +24733,11 @@
    "answer": 2,
    "where": [
     "End Module 2026 (First Round)",
-    "End Module 2026",
     "Final 2026 (Second Round)"
    ],
    "decks": {
     "FIGHTER": [
      "P-10",
-     "P-11",
      "P-14"
     ]
    },
@@ -24799,13 +24761,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24851,13 +24811,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24878,13 +24836,11 @@
    ],
    "answer": 3,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24905,13 +24861,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24932,13 +24886,11 @@
    ],
    "answer": 3,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24959,13 +24911,11 @@
    ],
    "answer": 3,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -24986,13 +24936,11 @@
    ],
    "answer": 3,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -25013,13 +24961,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    },
    "explanation": "الحساسية الشديدة للـ ionizing radiation معناها إن عند المريض مشكلة في إصلاح الـ double-strand breaks (DSB)، وإصلاحها بيتم بـ Homologous Recombination أو Non-homologous end joining.\nالـ Nucleotide excision repair بيصلح الـ thymine dimers (UV)، والـ Base excision repair بيصلح قاعدة واحدة تالفة، والـ Direct repair بيصلح تغيير كيميائي بسيط. وأي واحد من التلاتة دول مش بيصلح الـ DSB.",
@@ -25042,13 +24988,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -25069,13 +25013,11 @@
    ],
    "answer": 2,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -25096,13 +25038,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -25124,13 +25064,11 @@
    "answer": 1,
    "where": [
     "End Module 2026 (First Round)",
-    "End Module 2026",
     "Final 2026 (Second Round)"
    ],
    "decks": {
     "FIGHTER": [
      "P-10",
-     "P-11",
      "P-14"
     ]
    }
@@ -25152,13 +25090,11 @@
    ],
    "answer": 0,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -25179,13 +25115,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -25206,13 +25140,11 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    }
   },
@@ -25258,91 +25190,14 @@
    ],
    "answer": 1,
    "where": [
-    "End Module 2026 (First Round)",
-    "End Module 2026"
+    "End Module 2026 (First Round)"
    ],
    "decks": {
     "FIGHTER": [
-     "P-10",
-     "P-11"
+     "P-10"
     ]
    },
-   "note": "الكتيب مدّي الإجابة C (G to A)، بس ده مش deamination. الـ deamination الشهير هو C → U، وإنه لو ما اتصلحش الـ U بيتزاوج مع A في الـ replication فيتحول الـ G-C لـ A-T (mutation). الإجابة الصح B."
-  },
-  {
-   "id": "BG-497",
-   "topic": "biochem",
-   "concept": "Amino acids: structure & classification",
-   "source": "FIGHTER",
-   "banks": [
-    "FIGHTER"
-   ],
-   "stem": "Which amino acids contains imino group?",
-   "options": [
-    "Serine",
-    "Valine",
-    "Proline",
-    "Alanine"
-   ],
-   "answer": 2,
-   "where": [
-    "End Module 2026"
-   ],
-   "decks": {
-    "FIGHTER": [
-     "P-11"
-    ]
-   }
-  },
-  {
-   "id": "BG-498",
-   "topic": "genetics",
-   "concept": "DNA denaturation",
-   "source": "FIGHTER",
-   "banks": [
-    "FIGHTER"
-   ],
-   "stem": "Which of the following events does NOT occur When DNA temperature raised into 90°C?",
-   "options": [
-    "Increased UV absorbance at 260 nm.",
-    "Breaking phosphodiester linkage.",
-    "Disruption of hydrogen bonds.",
-    "DNA double strand unfolding."
-   ],
-   "answer": 1,
-   "where": [
-    "End Module 2026"
-   ],
-   "decks": {
-    "FIGHTER": [
-     "P-11"
-    ]
-   }
-  },
-  {
-   "id": "BG-499",
-   "topic": "genetics",
-   "concept": "Histones",
-   "source": "FIGHTER",
-   "banks": [
-    "FIGHTER"
-   ],
-   "stem": "What is the amino acid commonly entering in the structure of histones?",
-   "options": [
-    "Arginine",
-    "Aspartate",
-    "Glutamate",
-    "Alanine"
-   ],
-   "answer": 0,
-   "where": [
-    "End Module 2026"
-   ],
-   "decks": {
-    "FIGHTER": [
-     "P-11"
-    ]
-   }
+   "note": "مفتاح الكتيب الأصلي كان C (G to A)، وFighter صححه في رسالة التعديلات. السبب: G → A مش deamination أصلًا. الـ deamination الشهير هو C → U، وإنه لو ما اتصلحش الـ U بيتزاوج مع A في الـ replication فيتحول الـ G-C لـ A-T (mutation). الإجابة الصح B."
   },
   {
    "id": "BG-500",
