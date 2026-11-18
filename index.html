@@ -1499,11 +1499,11 @@ function deckPanelHTML(m, tids) {
   const pool = Bank.questions.filter(q => tids.indexOf(q.topic) >= 0 && inSrc(q, st.src));
   const cnt = d => pool.filter(q => inDeck(q, d, st.src)).length;
   const srcs = sourcesFor(tids);
-  const g = DECKS.find(x => x.id === st.doc) || DECKS[0];
+  const g = st.doc ? DECKS.find(x => x.id === st.doc) : null;
   const pillBtn = (attr, v, on, label, n) => `<button type="button" class="dk-pill" ${attr}="${esc(v)}" aria-pressed="${on}" dir="ltr">${esc(label)}${n != null ? ` <span class="dk-n">${n}</span>` : ""}</button>`;
-  const total = cnt(g.id);
+  const total = cnt(st.doc);
   let chooser = "";
-  if (g.chapters.length && total) {
+  if (g && g.chapters.length && total) {
     const avail = g.chapters.filter(([id]) => cnt(id));
     const picked = st.ch.filter(id => avail.some(x => x[0] === id));
     const sumLabel = picked.length ? picked.map(id => g.chapters.find(x => x[0] === id)[1]).join(", ") : t("dk.all");
@@ -1517,7 +1517,7 @@ function deckPanelHTML(m, tids) {
   return `<section class="card stack deckpanel">
     <div class="sechead"><h2>${t("dk.h")}</h2></div>
     <div><p class="dk-lbl">${t("dk.src")}</p><div class="dk-pills">${pillBtn("data-dsrc", "", !st.src, srcs.length === 2 ? srcs[0].name + " + " + srcs[1].name : t("setup.allSources"))}${srcs.map(x => pillBtn("data-dsrc", x.id, st.src === x.id, x.name)).join("")}</div></div>
-    <div><p class="dk-lbl">${t("dk.doc")}</p><div class="dk-pills">${DECKS.map(x => { const n = cnt(x.id); return n ? pillBtn("data-ddoc", x.id, st.doc === x.id, x.name, n) : ""; }).join("")}</div></div>
+    <div><p class="dk-lbl">${t("dk.doc")}</p><div class="dk-pills">${pillBtn("data-ddoc", "", !st.doc, "All banks", cnt(""))}${DECKS.map(x => { const n = cnt(x.id); return n ? pillBtn("data-ddoc", x.id, st.doc === x.id, x.name, n) : ""; }).join("")}</div></div>
     ${chooser}
     ${total ? "" : `<p class="muted small">${t("dk.empty")}</p>`}
   </section>`;
@@ -1611,8 +1611,8 @@ function viewModule(app) {
   const maps = allMaps().filter(x => tids.some(id => subjName(id).toLowerCase() === String(x.subject).toLowerCase()));
   const scopeName = sel === "all" ? esc(m.name) : esc(subjName(sel));
   const decks = hasDecks(tids);
-  const ds = decks ? (MODDECK[m.id] || (MODDECK[m.id] = {src: "", doc: "A", ch: [], open: false})) : null;
-  if (ds && !Bank.questions.some(q => tids.indexOf(q.topic) >= 0 && inSrc(q, ds.src) && inDeck(q, ds.doc, ds.src))) {
+  const ds = decks ? (MODDECK[m.id] || (MODDECK[m.id] = {src: "", doc: "", ch: [], open: false})) : null;
+  if (ds && ds.doc && !Bank.questions.some(q => tids.indexOf(q.topic) >= 0 && inSrc(q, ds.src) && inDeck(q, ds.doc, ds.src))) {
     const first = DECKS.find(x => Bank.questions.some(q => tids.indexOf(q.topic) >= 0 && inSrc(q, ds.src) && inDeck(q, x.id, ds.src)));
     if (first) { ds.doc = first.id; ds.ch = []; ds.open = false; }
   }
