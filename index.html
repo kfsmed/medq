@@ -1413,6 +1413,7 @@ function sourceOptionsHTML(tids, selected) {
 function sourceAndRepeatsHTML(tids, sel) {
   const hasRep = Bank.questions.some(q => q.repeatOf && (!tids || tids.indexOf(q.topic) >= 0));
   return (sourcesFor(tids).length ? `<div class="field"><label for="src">${t("setup.source")}</label><select class="input" id="src">${sourceOptionsHTML(tids, sel || "")}</select></div>` : "") +
+    `<div class="field hide" id="deckw"><label for="deck">${t("dk.doc")}</label><select class="input" id="deck" data-init="${esc(routeDeck())}"></select></div><fieldset class="hide" id="dkchw"><legend>${t("dk.ch")}</legend><div class="checks" id="dkch"></div></fieldset>` +
     (hasRep ? `<label class="switch" id="norepw"><input type="checkbox" id="norep" checked> <span><strong>${t("setup.norep")}</strong><br><span class="muted small">${t("setup.norepSub")}</span></span></label>` : "");
 }
 // keep the source list in step with the ticked topics
@@ -1422,9 +1423,35 @@ function syncSources(root, tids) {
   s.innerHTML = sourceOptionsHTML(tids, list.some(x => x.id === cur) ? cur : "");
   s.closest(".field").classList.toggle("hide", !list.length);
   const w = $("#norepw", root); if (w) w.classList.toggle("hide", !Bank.questions.some(q => q.repeatOf && tids.indexOf(q.topic) >= 0));
+  syncDecks(root, tids);
+}
+// doctor's bank + chapters inside the practice / exam form
+function syncDecks(root, tids) {
+  const sel = $("#deck", root); if (!sel) return;
+  const src = $("#src", root) ? $("#src", root).value : "";
+  const pool = Bank.questions.filter(q => tids.indexOf(q.topic) >= 0 && inSrc(q, src));
+  const cnt = d => pool.filter(q => inDeck(q, d, src)).length;
+  let cur = sel.value, chk = $$("input[name=dch]:checked", root).map(x => x.value);
+  if (sel.dataset.init != null) { const d0 = sel.dataset.init; delete sel.dataset.init;
+    const ids = d0.split("+").filter(Boolean), g0 = DECKS.find(g => ids.length === 1 && g.id === ids[0]) || DECKS.find(g => ids.length && ids.every(id => g.chapters.some(x => x[0] === id)));
+    cur = g0 ? g0.id : ""; chk = g0 && g0.id !== ids[0] ? ids : []; }
+  const avail = DECKS.filter(g => cnt(g.id));
+  $("#deckw", root).classList.toggle("hide", !avail.length);
+  if (!avail.some(g => g.id === cur)) { cur = ""; chk = []; }
+  sel.innerHTML = `<option value="">All banks (${cnt("")})</option>` + avail.map(g => `<option value="${esc(g.id)}" dir="ltr" ${g.id === cur ? "selected" : ""}>${esc(g.name)} (${cnt(g.id)})</option>`).join("");
+  sel.value = cur;
+  const g = DECKS.find(x => x.id === cur), chs = g ? g.chapters.filter(([id]) => cnt(id)) : [];
+  $("#dkchw", root).classList.toggle("hide", !chs.length);
+  $("#dkch", root).innerHTML = chs.map(([id, name]) => `<label class="check"><input type="checkbox" name="dch" value="${esc(id)}" ${chk.indexOf(id) >= 0 ? "checked" : ""}> <span dir="ltr">${esc(name)}</span> <span class="muted small">(${cnt(id)})</span></label>`).join("");
+}
+function deckValue(root) {
+  const sel = $("#deck", root); if (!sel) return routeDeck();
+  if ($("#deckw", root).classList.contains("hide")) return "";
+  const chk = $$("input[name=dch]:checked", root).map(x => x.value);
+  return chk.length ? chk.join("+") : sel.value;
 }
 function sourceFilter(root) {
-  const src = $("#src", root) ? $("#src", root).value : "", nr = $("#norep", root), d = routeDeck();
+  const src = $("#src", root) ? $("#src", root).value : "", nr = $("#norep", root), d = deckValue(root);
   return q => inSrc(q, src) && inDeck(q, d, src) && (src || !nr || !nr.checked || !q.repeatOf);
 }
 // faint line under a question: where it appears and which bank (only for questions found in one bank)
@@ -1659,7 +1686,7 @@ function viewPractice(app) {
   const pr = User.prefs(), tr = getActive("active.train");
   app.innerHTML = `<div class="wrap stack" style="max-width:760px">
     ${storageNotice()}
-    <div class="pagehead"><p class="eyebrow">${t("pr.eyebrow")}</p><h1>${t("pr.h1")}</h1><p class="muted">${t("home.trainDesc")}</p>${deckChipHTML("practice")}</div>
+    <div class="pagehead"><p class="eyebrow">${t("pr.eyebrow")}</p><h1>${t("pr.h1")}</h1><p class="muted">${t("home.trainDesc")}</p></div>
     ${tr ? `<p class="notice">${t("pr.unfinished")} <button class="btn btn-sm btn-sec" id="cont">${t("pr.contInstead")}</button></p>` : ""}
     <form class="card stack" id="f">
       ${topicPicker("t", routeTopics())}
@@ -1682,7 +1709,7 @@ function viewPractice(app) {
     const sf = sourceFilter(f);
     return Bank.questions.filter(q => ts.indexOf(q.topic) >= 0 && sf(q) && (set === "all" || (set === "new" && !p[q.id]) || (set === "wrong" && p[q.id] && p[q.id].last && !p[q.id].last.ok) || (set === "flag" && fl.has(q.id)) || (set === "fav" && fv.has(q.id)))).map(q => q.id); };
   const upd = () => { const n = pick().length; $("#count").textContent = t("pr.selected", {q: qn(n)}); $("#count").dataset.n = n; $("#go").disabled = !n; };
-  f.addEventListener("change", e => { if (e.target.name === "t") syncSources(f, pickedTopics(f, "t")); upd(); }); syncSources(f, pickedTopics(f, "t")); upd();
+  f.addEventListener("change", e => { if (e.target.name === "t" || e.target.id === "src" || e.target.id === "deck") syncSources(f, pickedTopics(f, "t")); upd(); }); syncSources(f, pickedTopics(f, "t")); upd();
   f.addEventListener("submit", e => { e.preventDefault(); const fb = $("#fb").checked; User.setPref("feedback", fb);
     let ids = pick(); if ($("#shuf").checked) ids = shuffle(ids);
     startSession("train", ids, {feedback: fb, topics: pickedTopics(f, "t")}); });
@@ -1693,7 +1720,7 @@ function viewExamSetup(app) {
   const ex = getActive("active.exam");
   app.innerHTML = `<div class="wrap stack" style="max-width:760px">
     ${storageNotice()}
-    <div class="pagehead"><p class="eyebrow">${t("ex.eyebrow")}</p><h1>${t("ex.h1")}</h1><p class="muted">${t("ex.sub")}</p>${deckChipHTML("exam")}</div>
+    <div class="pagehead"><p class="eyebrow">${t("ex.eyebrow")}</p><h1>${t("ex.h1")}</h1><p class="muted">${t("ex.sub")}</p></div>
     ${ex ? `<p class="notice warn">${t("ex.inProgress", {left: fmtTime(ex.endsAt - now())})} <button class="btn btn-sm btn-pri" id="cont">${t("ex.resumeIt")}</button></p>` : ""}
     <form class="card stack" id="f">
       ${topicPicker("t", routeTopics())}
@@ -1714,7 +1741,7 @@ function viewExamSetup(app) {
     if (!touchedM) m.value = Math.max(1, Math.round(+n.value * 1.5));
     $("#info").textContent = max ? t("ex.info", {max, sec: Math.round(+m.value*60/Math.max(1,+n.value))}) : t("ex.chooseTopic");
     $("#go").disabled = !max || +n.value < 1 || +m.value < 1; };
-  m.addEventListener("input", () => { touchedM = true; upd(); }); f.addEventListener("change", e => { if (e.target.name === "t") syncSources(f, pickedTopics(f, "t")); upd(true); }); n.addEventListener("input", () => upd()); syncSources(f, pickedTopics(f, "t")); upd(true);
+  m.addEventListener("input", () => { touchedM = true; upd(); }); f.addEventListener("change", e => { if (e.target.name === "t" || e.target.id === "src" || e.target.id === "deck") syncSources(f, pickedTopics(f, "t")); upd(true); }); n.addEventListener("input", () => upd()); syncSources(f, pickedTopics(f, "t")); upd(true);
   f.addEventListener("submit", async e => { e.preventDefault();
     if (getActive("active.exam") && !(await confirmDialog(t("ex.replaceT"), `<p>${t("ex.replaceB")}</p>`, t("ex.replaceBtn"), "btn-danger"))) return;
     const count = Math.max(1, Math.min(pool().length, parseInt(n.value, 10) || 1)), mins = Math.max(1, Math.min(600, parseInt(m.value, 10) || 1));
